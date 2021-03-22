@@ -57,6 +57,10 @@ Research, 2020. [paper](https://arxiv.org/abs/1811.06128)
 
    *Mazyavkina, Nina and Sviridov, Sergey and Ivanov, Sergei and Burnaev, Evgeny.*
 
+3. **Learning Graph Matching and Related Combinatorial Optimization Problems.** IJCAI 2020. [paper](https://www.ijcai.org/proceedings/2020/0694.pdf)
+
+    *Yan, Junchi and Yang, Shuang, and Hancock, Edwin R.*
+
 ## [Problems](#content)
 
 ### [Graph Matching](#content)
@@ -64,6 +68,42 @@ Research, 2020. [paper](https://arxiv.org/abs/1811.06128)
 1. **Deep Learning of Graph Matching.** CVPR 2018. [paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Zanfir_Deep_Learning_of_CVPR_2018_paper.html)
 
     *Zanfir, Andrei and Sminchisescu, Cristian*
+    
+2. **Learning Combinatorial Embedding Networks for Deep Graph Matching.** ICCV 2019. [paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Wang_Learning_Combinatorial_Embedding_Networks_for_Deep_Graph_Matching_ICCV_2019_paper.pdf)
+
+    *Wang, Runzhong and Yan, Junchi and Yang, Xiaokang*
+
+3. **Deep Graphical Feature Learning for the Feature Matching Problem.** ICCV 2019. [paper](https://openaccess.thecvf.com/content_ICCV_2019/papers/Zhang_Deep_Graphical_Feature_Learning_for_the_Feature_Matching_Problem_ICCV_2019_paper.pdf)
+
+    *Zhang, Zhen and Lee, Wee Sun*
+
+4. **GLMNet: Graph Learning-Matching Networks for Feature Matching.** Arxiv 2019. [paper](https://arxiv.org/abs/1911.07681)
+
+    *Jiang, Bo and Sun, Pengfei and Tang, Jin and Luo, Bin*
+    
+5. **Neural Graph Matching Network: Learning Lawler's Quadratic Assignment Problem with Extension to Hypergraph and Multiple-graph Matching.** Arxiv 2019. [paper](https://arxiv.org/abs/1911.11308)
+
+    *Wang, Runzhong and Yan, Junchi and Yang, Xiaokang*
+
+6. **Learning deep graph matching with channel-independent embedding and Hungarian attention.** ICLR 2020. [paper](https://openreview.net/forum?id=rJgBd2NYPH)
+
+    *Yu, Tianshu and Wang, Runzhong and Yan, Junchi and Li, Baoxin*
+    
+7. **Deep Graph Matching Consensus.** ICLR 2020 [paper](http://arxiv.org/abs/2001.09621)
+ 
+    *Fey, Matthias and Lenssen, Jan E. and Morris, Christopher and Masci, Jonathan and Kriege, Nils M. *
+
+8. **Graduated Assignment for Joint Multi-Graph Matching and Clustering with Application to Unsupervised Graph Matching Network Learning.** NeurIPS 2020 [paper](https://papers.nips.cc/paper/2020/file/e6384711491713d29bc63fc5eeb5ba4f-Paper.pdf)
+
+    *Wang, Runzhong and Yan, Junchi and Yang, Xiaokang*
+    
+9. **Combinatorial Learning of Robust Deep Graph Matching: An Embedding Based Approach.” IEEE Transactions on Pattern Analysis and Machine Intelligence.** TPAMI 2020 [paper](https://doi.org/10.1109/TPAMI.2020.3005590)
+
+    *Wang, Runzhong and Yan, Junchi and Yang, Xiaokang*
+
+10. **Deep Graph Matching via Blackbox Differentiation of Combinatorial Solvers** ECCV 2020 [paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123730409.pdf)
+
+    *Rolínek, Michal and Swoboda, Paul and Zietlow, Dominik and Paulus, Anselm and Musil, Vít and Martius, Georg*
 
 ### [Travelling Salesman Problem](#content)
 
@@ -111,7 +151,7 @@ on Hot Topics in Networks 2016. [paper](https://dl.acm.org/doi/abs/10.1145/30057
 
 ### [Graph Edit Distance](#content)
 
-1. **Combinatorial Learning of Graph Edit Distance via Dynamic Embedding.** Arxiv 2020. [paper](https://arxiv.org/abs/2011.15039)
+1. **Combinatorial Learning of Graph Edit Distance via Dynamic Embedding.** CVPR 2021. [paper](https://arxiv.org/abs/2011.15039)
 
     *Wang, Runzhong and Zhang, Tianqi and Yu, Tianshu and Yan, Junchi and Yang, Xiaokang.*
 
