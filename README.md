@@ -115,13 +115,13 @@ Research, 2020. [paper](https://arxiv.org/abs/1811.06128)
 
     *Dai, Hanjun and Khalil, Elias B and Zhang, Yuyu and Dilkina, Bistra and Song, Le*
 
-2. **Learning to Solve NP-Complete Problems: A Graph Neural Network for Decision TSP.** AAAI 2019. [paper](https://ojs.aaai.org/index.php/AAAI/article/view/4399)
-
-    *Prates, Marcelo and Avelar, Pedro HC and Lemos, Henrique and Lamb, Luis C and Vardi, Moshe Y.*
-
-3. **POMO: Policy Optimization with Multiple Optima for Reinforcement Learning.** NIPS 2018. [paper](https://arxiv.org/abs/2010.16011)
+2. **POMO: Policy Optimization with Multiple Optima for Reinforcement Learning.** NIPS 2018. [paper](https://arxiv.org/abs/2010.16011)
 
     *Kwon, Yeong-Dae and Choo, Jinho and Kim, Byoungjip and Yoon, Iljoo and Min, Seungjai and Gwon, Youngjune.*
+
+3. **Learning to Solve NP-Complete Problems: A Graph Neural Network for Decision TSP.** AAAI 2019. [paper](https://ojs.aaai.org/index.php/AAAI/article/view/4399)
+
+    *Prates, Marcelo and Avelar, Pedro HC and Lemos, Henrique and Lamb, Luis C and Vardi, Moshe Y.*
 
 4. **Generalize a Small Pre-trained Model to Arbitrarily Large TSP Instances Zhang-Hua.** Arxiv 2020. [paper](https://arxiv.org/abs/2012.10658)
 
