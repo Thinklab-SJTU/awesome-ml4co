@@ -89,19 +89,19 @@ Research, 2020. [paper](https://arxiv.org/abs/1811.06128)
 
     *Yu, Tianshu and Wang, Runzhong and Yan, Junchi and Li, Baoxin*
     
-7. **Deep Graph Matching Consensus.** ICLR 2020 [paper](http://arxiv.org/abs/2001.09621)
+7. **Deep Graph Matching Consensus.** ICLR 2020. [paper](http://arxiv.org/abs/2001.09621)
  
     *Fey, Matthias and Lenssen, Jan E. and Morris, Christopher and Masci, Jonathan and Kriege, Nils M. *
 
-8. **Graduated Assignment for Joint Multi-Graph Matching and Clustering with Application to Unsupervised Graph Matching Network Learning.** NeurIPS 2020 [paper](https://papers.nips.cc/paper/2020/file/e6384711491713d29bc63fc5eeb5ba4f-Paper.pdf)
+8. **Graduated Assignment for Joint Multi-Graph Matching and Clustering with Application to Unsupervised Graph Matching Network Learning.** NeurIPS 2020. [paper](https://papers.nips.cc/paper/2020/file/e6384711491713d29bc63fc5eeb5ba4f-Paper.pdf)
 
     *Wang, Runzhong and Yan, Junchi and Yang, Xiaokang*
     
-9. **Combinatorial Learning of Robust Deep Graph Matching: An Embedding Based Approach.” IEEE Transactions on Pattern Analysis and Machine Intelligence.** TPAMI 2020 [paper](https://doi.org/10.1109/TPAMI.2020.3005590)
+9. **Combinatorial Learning of Robust Deep Graph Matching: An Embedding Based Approach.” IEEE Transactions on Pattern Analysis and Machine Intelligence.** TPAMI 2020. [paper](https://doi.org/10.1109/TPAMI.2020.3005590)
 
     *Wang, Runzhong and Yan, Junchi and Yang, Xiaokang*
 
-10. **Deep Graph Matching via Blackbox Differentiation of Combinatorial Solvers** ECCV 2020 [paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123730409.pdf)
+10. **Deep Graph Matching via Blackbox Differentiation of Combinatorial Solvers** ECCV 2020. [paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123730409.pdf)
 
     *Rolínek, Michal and Swoboda, Paul and Zietlow, Dominik and Paulus, Anselm and Musil, Vít and Martius, Georg*
 
