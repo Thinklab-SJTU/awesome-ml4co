@@ -1,5 +1,5 @@
-# Awesome Combinatorial Optimization Papers
-We would like to maintain a list of papers that utilize machine learning technologies to solve the combinatorial optimization problems.
+# Awesome Machine Learning for Combinatorial Optimization Papers
+We would like to maintain a list of papers that utilize machine learning technologies to solve combinatorial optimization problems.
 
 ## [Content](#content)
 
@@ -147,9 +147,9 @@ on Hot Topics in Networks 2016. [paper](https://dl.acm.org/doi/abs/10.1145/30057
 
 ### [Mixed Integer Programming](#content)
 
-1. **Improving Learning to Branch via Reinforcement Learning.** NIPS 2020. [paper](https://openreview.net/forum?id=z4D7-PTxTb)
+1. **Improving Learning to Branch via Reinforcement Learning.** NIPS 2020 Workshop. [paper](https://openreview.net/forum?id=z4D7-PTxTb)
 
-    *Sun, Haoran and Chen, Wenbo and Li, Hui and Financial, Ant and Song, Le.*
+    *Sun, Haoran and Chen, Wenbo and Li, Hui and Song, Le.*
 
 ### [Causal Discovery](#content)
 
