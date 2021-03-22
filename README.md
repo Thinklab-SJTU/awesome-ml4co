@@ -104,6 +104,10 @@ Research, 2020. [paper](https://arxiv.org/abs/1811.06128)
 10. **Deep Graph Matching via Blackbox Differentiation of Combinatorial Solvers** ECCV 2020. [paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123730409.pdf)
 
     *Rolínek, Michal and Swoboda, Paul and Zietlow, Dominik and Paulus, Anselm and Musil, Vít and Martius, Georg*
+    
+11. **Deep Reinforcement Learning of Graph Matching.** Arxiv 2020. [paper](https://arxiv.org/abs/2012.08950)
+
+    *Liu, Chang and Wang, Runzhong and Jiang, Zetian and Yan, Junchi*
 
 ### [Travelling Salesman Problem](#content)
 
