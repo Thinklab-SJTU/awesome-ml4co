@@ -91,7 +91,7 @@ Research, 2020. [paper](https://arxiv.org/abs/1811.06128)
     
 7. **Deep Graph Matching Consensus.** ICLR 2020. [paper](http://arxiv.org/abs/2001.09621)
  
-    *Fey, Matthias and Lenssen, Jan E. and Morris, Christopher and Masci, Jonathan and Kriege, Nils M. *
+    *Fey, Matthias and Lenssen, Jan E. and Morris, Christopher and Masci, Jonathan and Kriege, Nils M.*
 
 8. **Graduated Assignment for Joint Multi-Graph Matching and Clustering with Application to Unsupervised Graph Matching Network Learning.** NeurIPS 2020. [paper](https://papers.nips.cc/paper/2020/file/e6384711491713d29bc63fc5eeb5ba4f-Paper.pdf)
 
