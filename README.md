@@ -169,10 +169,6 @@ on Hot Topics in Networks 2016. [paper](https://dl.acm.org/doi/abs/10.1145/30057
 
     *Hu, Ruizhen and Xu, Juzhan and Chen, Bin and Gong, Minglun and Zhang, Hao and Huang, Hui.*
  
-
-
-
-
 ### [Graph Edit Distance](#content)
 
 1. **Combinatorial Learning of Graph Edit Distance via Dynamic Embedding.** CVPR 2021. [paper](https://arxiv.org/abs/2011.15039)
