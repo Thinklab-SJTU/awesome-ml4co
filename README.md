@@ -50,7 +50,7 @@ We would like to maintain a list of papers that utilize machine learning technol
 ## [Survey papers](#content)
 1. **Machine Learning for Combinatorial Optimization: a Methodological Tour d’horizon.** European Journal of Operational
 Research, 2020. [paper](https://arxiv.org/abs/1811.06128)
-    
+   
     *Bengio, Yoshua and Lodi, Andrea and Prouvost, Antoine.*
 
 2. **Reinforcement Learning for Combinatorial Optimization: A Survey.** Arxiv 2020. [paper](https://arxiv.org/abs/2003.03600)
@@ -90,7 +90,7 @@ Research, 2020. [paper](https://arxiv.org/abs/1811.06128)
     *Yu, Tianshu and Wang, Runzhong and Yan, Junchi and Li, Baoxin*
     
 7. **Deep Graph Matching Consensus.** ICLR 2020. [paper](http://arxiv.org/abs/2001.09621)
- 
+
     *Fey, Matthias and Lenssen, Jan E. and Morris, Christopher and Masci, Jonathan and Kriege, Nils M.*
 
 8. **Graduated Assignment for Joint Multi-Graph Matching and Clustering with Application to Unsupervised Graph Matching Network Learning.** NeurIPS 2020. [paper](https://papers.nips.cc/paper/2020/file/e6384711491713d29bc63fc5eeb5ba4f-Paper.pdf)
@@ -140,7 +140,7 @@ Research, 2020. [paper](https://arxiv.org/abs/1811.06128)
 
 1. **Resource Management with Deep Reinforcement Learning.** In Proceedings of the 15th ACM Workshop
 on Hot Topics in Networks 2016. [paper](https://dl.acm.org/doi/abs/10.1145/3005745.3005750)
-    
+   
     *Mao, Hongzi and Alizadeh, Mohammad and Menache, Ishai and Kandula, Srikanth.*
 
 2. **Learning to Dispatch for Job Shop Scheduling via Deep Reinforcement Learning.** NIPS 2020. [paper](https://arxiv.org/abs/2010.12367)
@@ -149,9 +149,29 @@ on Hot Topics in Networks 2016. [paper](https://dl.acm.org/doi/abs/10.1145/30057
 
 ### [Bin Packing Problem](#content)
 
-1. **Online 3D Bin Packing with Constrained Deep Reinforcement Learning.** Arxiv 2020. [paper](https://arxiv.org/abs/2006.14978)
+1. **A Multi-task Selected Learning Approach for Solving 3D Bin Packing Problem.** Arxiv 2018. [paper](https://arxiv.org/abs/1804.06896)
+
+    *Duan, Lu and Hu, Haoyuan and Qian, Yu and Gong, Yu and Zhang, Xiaodong and Xu, Yinghui and Wei, Jiangwen.*
+
+2. **Online 3D Bin Packing with Constrained Deep Reinforcement Learning.** Arxiv 2020. [paper](https://arxiv.org/abs/2006.14978)
 
     *Zhao, Hang and She, Qijin and Zhu, Chenyang and Yang, Yin and Xu, Kai.*
+
+3. **A Generalized Reinforcement Learning Algorithm for Online 3D Bin-Packing.** Arxiv 2020. [paper](https://arxiv.org/abs/2007.00463)
+
+    *Verma, Richa and Singhal, Aniruddha and Khadilkar, Harshad and Basumatary, Ansuma and Nayak, Siddharth and Singh, Harsh Vardhan and Kumar, Swagat and Sinha, Rajesh.*
+
+4. **Robot Packing with Known Items and Nondeterministic Arrival Order.** TASAE 2020. [paper](https://ieeexplore.ieee.org/abstract/document/9205914/)
+
+    *Wang, Fan and Hauser, Kris.*
+    
+5. **TAP-Net: Transport-and-Pack using Reinforcement Learning.** TOG 2020. [paper](https://dl.acm.org/doi/abs/10.1145/3414685.3417796)
+
+    *Hu, Ruizhen and Xu, Juzhan and Chen, Bin and Gong, Minglun and Zhang, Hao and Huang, Hui.*
+ 
+
+
+
 
 ### [Graph Edit Distance](#content)
 
