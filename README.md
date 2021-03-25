@@ -97,7 +97,7 @@ We would like to maintain a list of papers that utilize machine learning technol
 
     *Wang, Runzhong and Yan, Junchi and Yang, Xiaokang*
 
-9. **Combinatorial Learning of Robust Deep Graph Matching: An Embedding Based Approach.?IEEE Transactions on Pattern Analysis and Machine Intelligence.** TPAMI, 2020. [paper](https://doi.org/10.1109/TPAMI.2020.3005590)
+9. **Combinatorial Learning of Robust Deep Graph Matching: An Embedding Based Approach.** TPAMI, 2020. [paper](https://doi.org/10.1109/TPAMI.2020.3005590)
 
     *Wang, Runzhong and Yan, Junchi and Yang, Xiaokang*
 
