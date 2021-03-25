@@ -97,7 +97,7 @@ We would like to maintain a list of papers that utilize machine learning technol
 
     *Wang, Runzhong and Yan, Junchi and Yang, Xiaokang*
 
-9. **Combinatorial Learning of Robust Deep Graph Matching: An Embedding Based Approach.” IEEE Transactions on Pattern Analysis and Machine Intelligence.** TPAMI, 2020. [paper](https://doi.org/10.1109/TPAMI.2020.3005590)
+9. **Combinatorial Learning of Robust Deep Graph Matching: An Embedding Based Approach.?IEEE Transactions on Pattern Analysis and Machine Intelligence.** TPAMI, 2020. [paper](https://doi.org/10.1109/TPAMI.2020.3005590)
 
     *Wang, Runzhong and Yan, Junchi and Yang, Xiaokang*
 
@@ -119,11 +119,15 @@ We would like to maintain a list of papers that utilize machine learning technol
 
     *Kwon, Yeong-Dae and Choo, Jinho and Kim, Byoungjip and Yoon, Iljoo and Min, Seungjai and Gwon, Youngjune.*
 
-3. **Learning to Solve NP-Complete Problems: A Graph Neural Network for Decision TSP.** AAAI, 2019. [paper](https://ojs.aaai.org/index.php/AAAI/article/view/4399)
+3. **Attention, Learn to Solve Routing Problems!** ICLR, 2019. [paper](https://arxiv.org/abs/1803.08475)
+
+    *Kool, Wouter and Van Hoof, Herke and Welling, Max.*
+
+4. **Learning to Solve NP-Complete Problems: A Graph Neural Network for Decision TSP.** AAAI, 2019. [paper](https://ojs.aaai.org/index.php/AAAI/article/view/4399)
 
     *Prates, Marcelo and Avelar, Pedro HC and Lemos, Henrique and Lamb, Luis C and Vardi, Moshe Y.*
 
-4. **Generalize a Small Pre-trained Model to Arbitrarily Large TSP Instances Zhang-Hua.** Arxiv, 2020. [paper](https://arxiv.org/abs/2012.10658)
+5. **Generalize a Small Pre-trained Model to Arbitrarily Large TSP Instances Zhang-Hua.** Arxiv, 2020. [paper](https://arxiv.org/abs/2012.10658)
 
     *Fu, Zhang-Hua and Qiu, Kai-Bin and Zha, Hongyuan.*
 

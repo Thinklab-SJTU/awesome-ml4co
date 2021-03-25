@@ -59,7 +59,7 @@ def md2csv(mdFile, csvFile):  # From the md file to generate a csv file that con
 
 
 def csv2md(csvFile, mdFile, header):
-    csvFile = open(csvFile, "r")
+    csvFile = open(csvFile, "r", encoding='utf-8', errors='ignore')
     reader = csv.reader(csvFile)
     papers = []
     for item in reader:
