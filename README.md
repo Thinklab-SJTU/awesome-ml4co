@@ -175,7 +175,15 @@ We would like to maintain a list of papers that utilize machine learning technol
 
 ### [Graph Edit Distance](#content)
 
-1. **Combinatorial Learning of Graph Edit Distance via Dynamic Embedding.** CVPR, 2021. [paper](https://arxiv.org/abs/2011.15039)
+1. **SimGNN - A Neural Network Approach to Fast Graph Similarity Computation** WSDM, 2019. [paper](https://arxiv.org/abs/1808.05689)
+
+    *Bai, Yunsheng and Ding, Hao and Bian, Song and Chen, Ting and Sun, Yizhou and Wang, Wei*
+
+2. **Graph Matching Networks for Learning the Similarity of Graph Structured Objects** ICML, 2019. [paper](https://arxiv.org/abs/1904.12787)
+
+    *Li, Yujia and Gu, Chenjie and Dullien, Thomas and Vinyals, Oriol and Kohli, Pushmeet*
+
+3. **Combinatorial Learning of Graph Edit Distance via Dynamic Embedding.** CVPR, 2021. [paper](https://arxiv.org/abs/2011.15039)
 
     *Wang, Runzhong and Zhang, Tianqi and Yu, Tianshu and Yan, Junchi and Yang, Xiaokang.*
 
