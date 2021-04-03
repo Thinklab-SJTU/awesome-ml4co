@@ -91,7 +91,12 @@ def csv2md(csvFile, mdFile, header):
                 file.write('\n')
                 num = 0
             num += 1
-            file.writelines("{}. **{}** {}, {}. [{}]({})".format(num, paper[1], paper[2], paper[3], paper[4], paper[5]))
+            # "category", "title", "publisher", "year", "type", "link", "authors, *code"
+            if paper[7] == "":
+                file.writelines("{}. **{}** {}, {}. [{}]({})".format(num, paper[1], paper[2], paper[3], paper[4], paper[5]))
+            else:
+                file.writelines(
+                    "{}. **{}** {}, {}. [{}]({}), [code]({})".format(num, paper[1], paper[2], paper[3], paper[4], paper[5], paper[7]))
             file.write('\n')
             file.write('\n')
             file.writelines("    *{}*".format(paper[6]))
