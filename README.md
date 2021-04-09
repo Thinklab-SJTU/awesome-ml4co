@@ -1,3 +1,5 @@
+
+
 # Awesome Machine Learning for Combinatorial Optimization Papers
 We would like to maintain a list of papers that utilize machine learning technologies to solve combinatorial optimization problems.
 
@@ -41,15 +43,19 @@ We would like to maintain a list of papers that utilize machine learning technol
     </tr>
     <tr>
     <td>&emsp;<a href="#boolean-satisfiability">2.15 Boolean Satisfiability (SAT) </a></td>
-	<td>&ensp;<a href="#"></a></td> 
+   <td>&ensp;<a href="#differentiable-optimization">2.16 Differentiable Optimization</a></td> 
 </tr>
 </table>
 
 
 
+
+
+
+
 ### [Survey Papers](#content)
 
-1. **Machine Learning for Combinatorial Optimization: a Methodological Tour d’horizon.** EJOR, 2020. [paper](https://arxiv.org/abs/1811.06128)
+1. **Machine Learning for Combinatorial Optimization: a Methodological Tour d‚Äôhorizon.** EJOR, 2020. [paper](https://arxiv.org/abs/1811.06128)
 
     *Bengio, Yoshua and Lodi, Andrea and Prouvost, Antoine.*
 
@@ -103,7 +109,7 @@ We would like to maintain a list of papers that utilize machine learning technol
 
 10. **Deep Graph Matching via Blackbox Differentiation of Combinatorial Solvers.** ECCV, 2020. [paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123730409.pdf)
 
-    *Rolínek, Michal and Swoboda, Paul and Zietlow, Dominik and Paulus, Anselm and Musil, Vít and Martius, Georg*
+    *Rol√≠nek, Michal and Swoboda, Paul and Zietlow, Dominik and Paulus, Anselm and Musil, V√≠t and Martius, Georg*
 
 11. **Deep Reinforcement Learning of Graph Matching.** Arxiv, 2020. [paper](https://arxiv.org/abs/2012.08950)
 
@@ -153,15 +159,15 @@ We would like to maintain a list of papers that utilize machine learning technol
 
 3. **Dynamic pickup and delivery problems** EJOR, 2010. [paper](https://www.sciencedirect.com/science/article/pii/S0377221709002999)
 
-    *Gerardo Berbeglia a, Jean-François Cordeau b, Gilbert Laporte *
+    *Gerardo Berbeglia a, Jean-Fran, √ßois Cordeau b, Gilbert Laporte*
 
 4. **The Complexity Landscape of Resource-Constrained Scheduling** IJCAI, 2020. [paper](https://www.ijcai.org/Proceedings/2020/241#:~:text=The%20Complexity%20Landscape%20of%20Resource%2DConstrained%20Scheduling,-Robert%20Ganian%2C%20Thekla&text=The%20Resource%2DConstrained%20Project%20Scheduling,settings%20related%20to%20artificial%20intelligence.)
 
     *Robert Ganian, Thekla Hamm, Guillaume Mescoff*
 
-5. **Smart Resource Allocation for Mobile Edge Computing: A Deep Reinforcement Learning Approach** IEEE Transactions on Emerging Topics in Computing , 2019. [Paper](https://ieeexplore.ieee.org/abstract/document/8657791)
+5. **Smart Resource Allocation for Mobile Edge Computing: A Deep Reinforcement Learning Approach** IEEE Transactions on Emerging Topics in Computing, 2019. [Paper](https://ieeexplore.ieee.org/abstract/document/8657791)
 
-    *Jiadai; Lei Zhao; Jiajia Liu; Nei Kato*
+    *Jiadai; Lei Zhao; Jiajia Liu; Nei Kato*
 
 ### [Bin Packing Problem](#content)
 
@@ -252,4 +258,30 @@ We would like to maintain a list of papers that utilize machine learning technol
 1. **Learning Local Search Heuristics for Boolean Satisfiability.** NIPS, 2019. [paper](https://www.cs.cmu.edu/~eyolcu/papers/learning-local-search-heuristics-sat.pdf)
 
     *Yolcu, Emre and Poczos, Barnabas*
+
+### [Differentiable Optimization](#content)
+
+1. **Melding the Data-Decisions Pipeline: Decision-Focused Learning for Combinatorial Optimization** AAAI, 2019. [paper](https://ojs.aaai.org//index.php/AAAI/article/view/3982)
+
+    *Bryan Wilder, Bistra Dilkina, Milind Tambe*
+
+2. **MIPaaL: Mixed Integer Program as a Layer** AAAI, 2020. [paper](https://ojs.aaai.org//index.php/AAAI/article/view/5509), [code](https://github.com/amf272/MIPaaL/)
+
+    *Aaron Ferber, Bryan Wilder, Bistra Dilkina, Milind Tambe*
+
+3. **Smart Predict-and-Optimize for Hard Combinatorial Optimization Problems** AAAI, 2020. [paper](https://arxiv.org/abs/1911.10092), [code](https://github.com/JayMan91/aaai_predit_then_optimize)
+
+    *Jaynta Mandi, Emir Demirovi?, Peter. J Stuckey, Tias Guns*
+
+4. **Differentiation of blackbox combinatorial solvers** ICLR, 2020. [paper](https://openreview.net/forum?id=BkevoJSYPB), [code](https://github.com/martius-lab/blackbox-backprop)
+
+    *Marin Vlastelica Pogan?i?, Anselm Paulus, Vit Musil, Georg Martius, Michal Rolinek*
+
+5. **Interior Point Solving for LP-based prediction+optimization** NIPS, 2020. [paper](https://proceedings.neurips.cc//paper/2020/hash/51311013e51adebc3c34d2cc591fefee-Abstract.html), [code](https://github.com/JayMan91/NeurIPSIntopt)
+
+    *Jayanta Mandi, Tias Guns*
+
+6. **Differentiable Learning of Submodular Models** NIPS, 2017. [paper](https://papers.nips.cc/paper/2017/hash/192fc044e74dffea144f9ac5dc9f3395-Abstract.html), [code](https://github.com/josipd/torch-submod)
+
+    *Josip Djolonga, Andreas Krause*
 
