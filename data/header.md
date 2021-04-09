@@ -41,6 +41,7 @@ We would like to maintain a list of papers that utilize machine learning technol
     </tr>
     <tr>
     <td>&emsp;<a href="#boolean-satisfiability">2.15 Boolean Satisfiability (SAT) </a></td>
+   <td>&ensp;<a href="#differentialable-optimization">2.16 Differentialable Optimization</a></td> 
 	<td>&ensp;<a href="#"></a></td> 
 </tr>
 </table>

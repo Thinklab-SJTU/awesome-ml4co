@@ -41,6 +41,7 @@ We would like to maintain a list of papers that utilize machine learning technol
     </tr>
     <tr>
     <td>&emsp;<a href="#boolean-satisfiability">2.15 Boolean Satisfiability (SAT) </a></td>
+   <td>&ensp;<a href="#differentialable-optimization">2.16 Differentialable Optimization</a></td> 
 	<td>&ensp;<a href="#"></a></td> 
 </tr>
 </table>
@@ -240,4 +241,35 @@ We would like to maintain a list of papers that utilize machine learning technol
 1. **Learning Local Search Heuristics for Boolean Satisfiability.** NIPS, 2019. [paper](https://www.cs.cmu.edu/~eyolcu/papers/learning-local-search-heuristics-sat.pdf)
 
     *Yolcu, Emre and Poczos, Barnabas*
+
+2. **SATNet: Bridging deep learning and logical reasoning using a differentiable
+satisfiability solver** ICML, 2019. [paper](https://dblp.org/rec/conf/icml/WangDWK19.html), [code](https://github.com/locuslab/SATNet)
+
+    *Po-Wei Wang, Priya L. Donti, Bryan Wilder, J. Zico Kolter*
+
+### [Differentiable Optimization](#content)
+
+1. **Melding the Data-Decisions Pipeline: Decision-Focused Learning for Combinatorial Optimization** AAAI, 2019. [paper](https://ojs.aaai.org//index.php/AAAI/article/view/3982)
+
+    *Bryan Wilder, Bistra Dilkina, Milind Tambe *
+
+2. **MIPaaL: Mixed Integer Program as a Layer** AAAI, 2020. [paper](https://ojs.aaai.org//index.php/AAAI/article/view/5509), [code](https://github.com/amf272/MIPaaL/)
+
+    *Aaron Ferber, Bryan Wilder, Bistra Dilkina, Milind Tambe *
+
+3. **Smart Predict-and-Optimize for Hard Combinatorial Optimization Problems** AAAI, 2020. [paper](https://arxiv.org/abs/1911.10092), [code](https://github.com/JayMan91/aaai_predit_then_optimize)
+
+    *Jaynta Mandi, Emir Demirovi?, Peter. J Stuckey, Tias Guns*
+
+4. **Differentiation of blackbox combinatorial solvers** ICLR, 2020. [paper](https://openreview.net/forum?id=BkevoJSYPB), [code](https://github.com/martius-lab/blackbox-backprop)
+
+    *Marin Vlastelica Pogan?i?, Anselm Paulus, Vit Musil, Georg Martius, Michal Rolinek*
+
+5. **Interior Point Solving for LP-based prediction+optimization** NIPS, 2020. [paper](https://proceedings.neurips.cc//paper/2020/hash/51311013e51adebc3c34d2cc591fefee-Abstract.html), [code](https://github.com/JayMan91/NeurIPSIntopt)
+
+    *Jayanta Mandi, Tias Guns*
+
+6. **Differentiable Learning of Submodular Models** NIPS, 2017. [paper](https://papers.nips.cc/paper/2017/hash/192fc044e74dffea144f9ac5dc9f3395-Abstract.html), [code](https://github.com/josipd/torch-submod)
+
+    *Josip Djolonga, Andreas Krause*
 
