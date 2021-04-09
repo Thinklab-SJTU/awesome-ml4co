@@ -12,7 +12,7 @@ We would like to maintain a list of papers that utilize machine learning technol
 </tr> 
 <tr>
     <td>&emsp;<a href="#vehicle-routing-problem">2.3 Vehicle Routing Problem (VRP) </a></td>
-    <td>&ensp;<a href="#job-scheduling-problem">2.4 Job Scheduling Problem (JSP) </a></td>
+    <td>&ensp;<a href="#dynamic-resource-dispatch">2.4 Dynamic Resource Dispatch (JSP) </a></td>
 </tr>
 <tr>
     <td>&emsp;<a href="#bin-packing-problem">2.5 Bin Packing Problem </a></td>

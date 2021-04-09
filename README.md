@@ -12,7 +12,7 @@ We would like to maintain a list of papers that utilize machine learning technol
 </tr> 
 <tr>
     <td>&emsp;<a href="#vehicle-routing-problem">2.3 Vehicle Routing Problem (VRP) </a></td>
-    <td>&ensp;<a href="#job-scheduling-problem">2.4 Job Scheduling Problem (JSP) </a></td>
+    <td>&ensp;<a href="#dynamic-resource-dispatch">2.4 Dynamic Resource Dispatch (JSP) </a></td>
 </tr>
 <tr>
     <td>&emsp;<a href="#bin-packing-problem">2.5 Bin Packing Problem </a></td>
@@ -141,15 +141,27 @@ We would like to maintain a list of papers that utilize machine learning technol
 
     *Lin, Bo and Ghaddar, Bissan and Nathwani, Jatin.*
 
-### [Job Scheduling Problem](#content)
+### [Dynamic Resource Dispatch](#content)
 
 1. **Resource Management with Deep Reinforcement Learning.** HotNets, 2016. [paper](https://dl.acm.org/doi/abs/10.1145/3005745.3005750)
 
     *Mao, Hongzi and Alizadeh, Mohammad and Menache, Ishai and Kandula, Srikanth.*
 
-2. **Learning to Dispatch for Job Shop Scheduling via Deep Reinforcement Learning.** NIPS, 2020. [paper](https://arxiv.org/abs/2010.12367)
+2. **Learning to Dispatch for Job Shop Scheduling via Deep Reinforcement Learning.** NIPS, 2020. [paper](https://arxiv.org/abs/2010.12367), [code](https://github.com/zcajiayin/L2D)
 
     *Zhang, Cong and Song, Wen and Cao, Zhiguang and Zhang, Jie and Tan, Puay Siew and Xu, Chi.*
+
+3. **Dynamic pickup and delivery problems** EJOR, 2010. [paper](https://www.sciencedirect.com/science/article/pii/S0377221709002999)
+
+    *Gerardo Berbeglia a, Jean-François Cordeau b, Gilbert Laporte *
+
+4. **The Complexity Landscape of Resource-Constrained Scheduling** IJCAI, 2020. [paper](https://www.ijcai.org/Proceedings/2020/241#:~:text=The%20Complexity%20Landscape%20of%20Resource%2DConstrained%20Scheduling,-Robert%20Ganian%2C%20Thekla&text=The%20Resource%2DConstrained%20Project%20Scheduling,settings%20related%20to%20artificial%20intelligence.)
+
+    *Robert Ganian, Thekla Hamm, Guillaume Mescoff*
+
+5. **Smart Resource Allocation for Mobile Edge Computing: A Deep Reinforcement Learning Approach** IEEE Transactions on Emerging Topics in Computing , 2019. [Paper](https://ieeexplore.ieee.org/abstract/document/8657791)
+
+    *Jiadai; Lei Zhao; Jiajia Liu; Nei Kato*
 
 ### [Bin Packing Problem](#content)
 
