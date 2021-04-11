@@ -71,47 +71,51 @@ We would like to maintain a list of papers that utilize machine learning technol
 
 ### [Graph Matching](#content)
 
-1. **Deep Learning of Graph Matching.** CVPR, 2018. [paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Zanfir_Deep_Learning_of_CVPR_2018_paper.html)
+1. **Revised Note on Learning Algorithms for Quadratic Assignment with Graph Neural Networks** Arxiv, 2017. [paper](https://arxiv.org/pdf/1706.07450.pdf), [code](https://github.com/alexnowakvila/QAP_pt)
+
+    *Nowak, Alex and Villar, Soledad and Bandeira, S. Afonso and Bruna, Joan*
+
+2. **Deep Learning of Graph Matching.** CVPR, 2018. [paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Zanfir_Deep_Learning_of_CVPR_2018_paper.html)
 
     *Zanfir, Andrei and Sminchisescu, Cristian*
 
-2. **Learning Combinatorial Embedding Networks for Deep Graph Matching.** ICCV, 2019. [paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Wang_Learning_Combinatorial_Embedding_Networks_for_Deep_Graph_Matching_ICCV_2019_paper.pdf), [code](https://github.com/Thinklab-SJTU/PCA-GM)
+3. **Learning Combinatorial Embedding Networks for Deep Graph Matching.** ICCV, 2019. [paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Wang_Learning_Combinatorial_Embedding_Networks_for_Deep_Graph_Matching_ICCV_2019_paper.pdf), [code](https://github.com/Thinklab-SJTU/PCA-GM)
 
     *Wang, Runzhong and Yan, Junchi and Yang, Xiaokang*
 
-3. **Deep Graphical Feature Learning for the Feature Matching Problem.** ICCV, 2019. [paper](https://openaccess.thecvf.com/content_ICCV_2019/papers/Zhang_Deep_Graphical_Feature_Learning_for_the_Feature_Matching_Problem_ICCV_2019_paper.pdf)
+4. **Deep Graphical Feature Learning for the Feature Matching Problem.** ICCV, 2019. [paper](https://openaccess.thecvf.com/content_ICCV_2019/papers/Zhang_Deep_Graphical_Feature_Learning_for_the_Feature_Matching_Problem_ICCV_2019_paper.pdf)
 
     *Zhang, Zhen and Lee, Wee Sun*
 
-4. **GLMNet: Graph Learning-Matching Networks for Feature Matching.** Arxiv, 2019. [paper](https://arxiv.org/abs/1911.07681)
+5. **GLMNet: Graph Learning-Matching Networks for Feature Matching.** Arxiv, 2019. [paper](https://arxiv.org/abs/1911.07681)
 
     *Jiang, Bo and Sun, Pengfei and Tang, Jin and Luo, Bin*
 
-5. **Neural Graph Matching Network: Learning Lawler's Quadratic Assignment Problem with Extension to Hypergraph and Multiple-graph Matching.** Arxiv, 2019. [paper](https://arxiv.org/abs/1911.11308)
+6. **Neural Graph Matching Network: Learning Lawler's Quadratic Assignment Problem with Extension to Hypergraph and Multiple-graph Matching.** Arxiv, 2019. [paper](https://arxiv.org/abs/1911.11308)
 
     *Wang, Runzhong and Yan, Junchi and Yang, Xiaokang*
 
-6. **Learning deep graph matching with channel-independent embedding and Hungarian attention.** ICLR, 2020. [paper](https://openreview.net/forum?id=rJgBd2NYPH)
+7. **Learning deep graph matching with channel-independent embedding and Hungarian attention.** ICLR, 2020. [paper](https://openreview.net/forum?id=rJgBd2NYPH)
 
     *Yu, Tianshu and Wang, Runzhong and Yan, Junchi and Li, Baoxin*
 
-7. **Deep Graph Matching Consensus.** ICLR, 2020. [paper](http://arxiv.org/abs/2001.09621)
+8. **Deep Graph Matching Consensus.** ICLR, 2020. [paper](http://arxiv.org/abs/2001.09621)
 
     *Fey, Matthias and Lenssen, Jan E. and Morris, Christopher and Masci, Jonathan and Kriege, Nils M.*
 
-8. **Graduated Assignment for Joint Multi-Graph Matching and Clustering with Application to Unsupervised Graph Matching Network Learning.** NeurIPS, 2020. [paper](https://papers.nips.cc/paper/2020/file/e6384711491713d29bc63fc5eeb5ba4f-Paper.pdf)
+9. **Graduated Assignment for Joint Multi-Graph Matching and Clustering with Application to Unsupervised Graph Matching Network Learning.** NeurIPS, 2020. [paper](https://papers.nips.cc/paper/2020/file/e6384711491713d29bc63fc5eeb5ba4f-Paper.pdf)
 
     *Wang, Runzhong and Yan, Junchi and Yang, Xiaokang*
 
-9. **Combinatorial Learning of Robust Deep Graph Matching: An Embedding Based Approach.** TPAMI, 2020. [paper](https://doi.org/10.1109/TPAMI.2020.3005590)
+10. **Combinatorial Learning of Robust Deep Graph Matching: An Embedding Based Approach.** TPAMI, 2020. [paper](https://doi.org/10.1109/TPAMI.2020.3005590)
 
     *Wang, Runzhong and Yan, Junchi and Yang, Xiaokang*
 
-10. **Deep Graph Matching via Blackbox Differentiation of Combinatorial Solvers.** ECCV, 2020. [paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123730409.pdf)
+11. **Deep Graph Matching via Blackbox Differentiation of Combinatorial Solvers.** ECCV, 2020. [paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123730409.pdf), [code](https://github.com/martius-lab/blackbox-deep-graph-matching)
 
-    *Rol√≠nek, Michal and Swoboda, Paul and Zietlow, Dominik and Paulus, Anselm and Musil, V√≠t and Martius, Georg*
+    *Rolinek, Michal and Swoboda, Paul and Zietlow, Dominik and Paulus, Anselm and Musil, Vit and Martius, Georg*
 
-11. **Deep Reinforcement Learning of Graph Matching.** Arxiv, 2020. [paper](https://arxiv.org/abs/2012.08950)
+12. **Deep Reinforcement Learning of Graph Matching.** Arxiv, 2020. [paper](https://arxiv.org/abs/2012.08950)
 
     *Liu, Chang and Wang, Runzhong and Jiang, Zetian and Yan, Junchi*
 
@@ -137,9 +141,25 @@ We would like to maintain a list of papers that utilize machine learning technol
 
     *Fu, Zhang-Hua and Qiu, Kai-Bin and Zha, Hongyuan.*
 
+6. **The Transformer Network for the Traveling Salesman Problem** IPAM, 2021. [paper](http://helper.ipam.ucla.edu/publications/dlc2021/dlc2021_16703.pdf)
+
+    *Xavier Bresson，Thomas Laurent	*
+
+7. **Learning Heuristics for the TSP by Policy Gradient** CPAIOR, 2018. [paper](https://link.springer.com/chapter/10.1007/978-3-319-93031-2_12), [code](https://github.com/MichelDeudon/encode-attend-navigate)
+
+    *Michel DeudonPierre CournutAlexandre Lacoste*
+
+8. **Differentiation of Blackbox Combinatorial Solvers** ICLR, 2020. [paper](https://arxiv.org/pdf/1912.02175v2.pdf), [code](https://github.com/martius-lab/blackbox-backprop)
+
+    *Marin Vlastelica, Anselm Paulus, Vít Musil, Georg Martius, Michal Rolínek*
+
+9. **An Efficient Graph Convolutional Network Technique for the Travelling Salesman Problem** Arxiv, 2019. [paper](https://arxiv.org/abs/1906.01227), [code](https://github.com/chaitjo/graph-convnet-tsp)
+
+    *Chaitanya K. Joshi, Thomas Laurent, Xavier Bresson*
+
 ### [Vehicle Routing Problem](#content)
 
-1. **Learning to Perform Local Rewriting for Combinatorial Optimization.** NIPS, 2019. [paper](https://arxiv.org/abs/1810.00337)
+1. **Learning to Perform Local Rewriting for Combinatorial Optimization.** NIPS, 2019. [paper](https://arxiv.org/abs/1810.00337), [code](https://github.com/facebookresearch/neural-rewriter)
 
     *Chen, Xinyun and Tian, Yuandong.*
 
@@ -147,25 +167,33 @@ We would like to maintain a list of papers that utilize machine learning technol
 
     *Lin, Bo and Ghaddar, Bissan and Nathwani, Jatin.*
 
+3. **A Learning-based Iterative Method for Solving Vehicle Routing Problems** ICLR, 2020. [paper](https://static.aminer.cn/upload/pdf/program/5e5e18dd93d709897ce3720b_0.pdf)
+
+    *Lu, Hao and Zhang, Xingwen and Yang, Shuang*
+
 ### [Dynamic Resource Dispatch](#content)
 
 1. **Resource Management with Deep Reinforcement Learning.** HotNets, 2016. [paper](https://dl.acm.org/doi/abs/10.1145/3005745.3005750)
 
     *Mao, Hongzi and Alizadeh, Mohammad and Menache, Ishai and Kandula, Srikanth.*
 
-2. **Learning to Dispatch for Job Shop Scheduling via Deep Reinforcement Learning.** NIPS, 2020. [paper](https://arxiv.org/abs/2010.12367), [code](https://github.com/zcajiayin/L2D)
+2. **Learning Scheduling Algorithms for Data Processing Clusters** SIGCOMM, 2019. [paper](https://static.aminer.cn/storage/pdf/arxiv/18/1810/1810.01963.pdf), [code](https://github.com/hongzimao/decima-sim)
+
+    *Mao, Hongzi and Schwarzkopf, Malte and Venkatakrishnan, Bojja Shaileshh and Meng, Zili and Alizadeh, Mohammad.*
+
+3. **Learning to Dispatch for Job Shop Scheduling via Deep Reinforcement Learning.** NIPS, 2020. [paper](https://arxiv.org/abs/2010.12367), [code](https://github.com/zcajiayin/L2D)
 
     *Zhang, Cong and Song, Wen and Cao, Zhiguang and Zhang, Jie and Tan, Puay Siew and Xu, Chi.*
 
-3. **Dynamic pickup and delivery problems** EJOR, 2010. [paper](https://www.sciencedirect.com/science/article/pii/S0377221709002999)
+4. **Dynamic pickup and delivery problems** EJOR, 2010. [paper](https://www.sciencedirect.com/science/article/pii/S0377221709002999)
 
     *Gerardo Berbeglia a, Jean-Fran, √ßois Cordeau b, Gilbert Laporte*
 
-4. **The Complexity Landscape of Resource-Constrained Scheduling** IJCAI, 2020. [paper](https://www.ijcai.org/Proceedings/2020/241#:~:text=The%20Complexity%20Landscape%20of%20Resource%2DConstrained%20Scheduling,-Robert%20Ganian%2C%20Thekla&text=The%20Resource%2DConstrained%20Project%20Scheduling,settings%20related%20to%20artificial%20intelligence.)
+5. **The Complexity Landscape of Resource-Constrained Scheduling** IJCAI, 2020. [paper](https://www.ijcai.org/Proceedings/2020/241#:~:text=The%20Complexity%20Landscape%20of%20Resource%2DConstrained%20Scheduling,-Robert%20Ganian%2C%20Thekla&text=The%20Resource%2DConstrained%20Project%20Scheduling,settings%20related%20to%20artificial%20intelligence.)
 
     *Robert Ganian, Thekla Hamm, Guillaume Mescoff*
 
-5. **Smart Resource Allocation for Mobile Edge Computing: A Deep Reinforcement Learning Approach** IEEE Transactions on Emerging Topics in Computing, 2019. [Paper](https://ieeexplore.ieee.org/abstract/document/8657791)
+6. **Smart Resource Allocation for Mobile Edge Computing: A Deep Reinforcement Learning Approach** IEEE Transactions on Emerging Topics in Computing, 2019. [Paper](https://ieeexplore.ieee.org/abstract/document/8657791)
 
     *Jiadai; Lei Zhao; Jiajia Liu; Nei Kato*
 
@@ -193,7 +221,7 @@ We would like to maintain a list of papers that utilize machine learning technol
 
 ### [Graph Edit Distance](#content)
 
-1. **SimGNN - A Neural Network Approach to Fast Graph Similarity Computation** WSDM, 2019. [paper](https://arxiv.org/abs/1808.05689)
+1. **SimGNN - A Neural Network Approach to Fast Graph Similarity Computation** WSDM, 2019. [paper](https://arxiv.org/abs/1808.05689), [code](https://github.com/yunshengb/SimGNN)
 
     *Bai, Yunsheng and Ding, Hao and Bian, Song and Chen, Ting and Sun, Yizhou and Wang, Wei*
 
