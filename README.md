@@ -103,7 +103,7 @@ We would like to maintain a list of papers that utilize machine learning technol
 
     *Fey, Matthias and Lenssen, Jan E. and Morris, Christopher and Masci, Jonathan and Kriege, Nils M.*
 
-9. **Graduated Assignment for Joint Multi-Graph Matching and Clustering with Application to Unsupervised Graph Matching Network Learning.** NeurIPS, 2020. [paper](https://papers.nips.cc/paper/2020/file/e6384711491713d29bc63fc5eeb5ba4f-Paper.pdf)
+9. **Graduated Assignment for Joint Multi-Graph Matching and Clustering with Application to Unsupervised Graph Matching Network Learning.** NeurIPS, 2020. [paper](https://papers.NeurIPS.cc/paper/2020/file/e6384711491713d29bc63fc5eeb5ba4f-Paper.pdf)
 
     *Wang, Runzhong and Yan, Junchi and Yang, Xiaokang*
 
@@ -121,11 +121,11 @@ We would like to maintain a list of papers that utilize machine learning technol
 
 ### [Travelling Salesman Problem](#content)
 
-1. **Learning Combinatorial Optimization Algorithms over Graphs.** NIPS, 2017. [paper](https://arxiv.org/abs/1704.01665)
+1. **Learning Combinatorial Optimization Algorithms over Graphs.** NeurIPS, 2017. [paper](https://arxiv.org/abs/1704.01665)
 
     *Dai, Hanjun and Khalil, Elias B and Zhang, Yuyu and Dilkina, Bistra and Song, Le*
 
-2. **POMO: Policy Optimization with Multiple Optima for Reinforcement Learning.** NIPS, 2018. [paper](https://arxiv.org/abs/2010.16011)
+2. **POMO: Policy Optimization with Multiple Optima for Reinforcement Learning.** NeurIPS, 2018. [paper](https://arxiv.org/abs/2010.16011)
 
     *Kwon, Yeong-Dae and Choo, Jinho and Kim, Byoungjip and Yoon, Iljoo and Min, Seungjai and Gwon, Youngjune.*
 
@@ -159,7 +159,7 @@ We would like to maintain a list of papers that utilize machine learning technol
 
 ### [Vehicle Routing Problem](#content)
 
-1. **Learning to Perform Local Rewriting for Combinatorial Optimization.** NIPS, 2019. [paper](https://arxiv.org/abs/1810.00337), [code](https://github.com/facebookresearch/neural-rewriter)
+1. **Learning to Perform Local Rewriting for Combinatorial Optimization.** NeurIPS, 2019. [paper](https://arxiv.org/abs/1810.00337), [code](https://github.com/facebookresearch/neural-rewriter)
 
     *Chen, Xinyun and Tian, Yuandong.*
 
@@ -189,7 +189,7 @@ We would like to maintain a list of papers that utilize machine learning technol
 
     *Jiadai; Lei Zhao; Jiajia Liu; Nei Kato*
 
-5. **Learning to Dispatch for Job Shop Scheduling via Deep Reinforcement Learning.** NIPS, 2020. [paper](https://arxiv.org/abs/2010.12367), [code](https://github.com/zcajiayin/L2D)
+5. **Learning to Dispatch for Job Shop Scheduling via Deep Reinforcement Learning.** NeurIPS, 2020. [paper](https://arxiv.org/abs/2010.12367), [code](https://github.com/zcajiayin/L2D)
 
     *Zhang, Cong and Song, Wen and Cao, Zhiguang and Zhang, Jie and Tan, Puay Siew and Xu, Chi.*
 
@@ -283,13 +283,13 @@ We would like to maintain a list of papers that utilize machine learning technol
 
 ### [Influence Maximization](#content)
 
-1. **Learning Heuristics over Large Graphs via Deep Reinforcement Learning.** NIPS, 2020. [paper](https://arxiv.org/abs/1903.03332)
+1. **Learning Heuristics over Large Graphs via Deep Reinforcement Learning.** NeurIPS, 2020. [paper](https://arxiv.org/abs/1903.03332)
 
     *Mittal, Akash and Dhawan, Anuj and Manchanda, Sahil and Medya, Sourav and Ranu, Sayan and Singh, Ambuj.*
 
 ### [Maximal Independent Set](#content)
 
-1. **Combinatorial Optimization with Graph Convolutional Networks and Guided Tree Search.** NIPS, 2018. [paper](https://arxiv.org/abs/1810.10659)
+1. **Combinatorial Optimization with Graph Convolutional Networks and Guided Tree Search.** NeurIPS, 2018. [paper](https://arxiv.org/abs/1810.10659)
 
     *Li, Zhuwen and Chen, Qifeng and Koltun, Vladlen.*
 
@@ -299,9 +299,13 @@ We would like to maintain a list of papers that utilize machine learning technol
 
     *LBarrett, Thomas and Clements, William and Foerster, Jakob and Lvovsky, Alex.*
 
+2. **Erdos Goes Neural: an Unsupervised Learning Framework for Combinatorial Optimization on Graphs.** NeurIPS, 2020. [paper](https://static.aminer.cn/upload/pdf/575/1127/1864/5eede0b791e0116a23aafe7b_1.pdf)
+
+    *Karalias, Nikolaos and Loukas, Andreas*
+
 ### [Mixed Integer Programming](#content)
 
-1. **Improving Learning to Branch via Reinforcement Learning.** NIPS Workshop, 2020. [paper](https://openreview.net/forum?id=z4D7-PTxTb)
+1. **Improving Learning to Branch via Reinforcement Learning.** NeurIPS Workshop, 2020. [paper](https://openreview.net/forum?id=z4D7-PTxTb)
 
     *Sun, Haoran and Chen, Wenbo and Li, Hui and Song, Le.*
 
@@ -319,13 +323,13 @@ We would like to maintain a list of papers that utilize machine learning technol
 
 ### [Boolean Satisfiability](#content)
 
-1. **Learning Local Search Heuristics for Boolean Satisfiability.** NIPS, 2019. [paper](https://www.cs.cmu.edu/~eyolcu/papers/learning-local-search-heuristics-sat.pdf)
+1. **Learning Local Search Heuristics for Boolean Satisfiability.** NeurIPS, 2019. [paper](https://www.cs.cmu.edu/~eyolcu/papers/learning-local-search-heuristics-sat.pdf)
 
     *Yolcu, Emre and Poczos, Barnabas*
 
 ### [Differentiable Optimization](#content)
 
-1. **Differentiable Learning of Submodular Models** NIPS, 2017. [paper](https://papers.nips.cc/paper/2017/hash/192fc044e74dffea144f9ac5dc9f3395-Abstract.html), [code](https://github.com/josipd/torch-submod)
+1. **Differentiable Learning of Submodular Models** NeurIPS, 2017. [paper](https://papers.NeurIPS.cc/paper/2017/hash/192fc044e74dffea144f9ac5dc9f3395-Abstract.html), [code](https://github.com/josipd/torch-submod)
 
     *Josip Djolonga, Andreas Krause*
 
@@ -345,7 +349,7 @@ We would like to maintain a list of papers that utilize machine learning technol
 
     *Marin Vlastelica Pogani, Anselm Paulus, Vit Musil, Georg Martius, Michal Rolinek*
 
-6. **Interior Point Solving for LP-based prediction+optimization** NIPS, 2020. [paper](https://proceedings.neurips.cc//paper/2020/hash/51311013e51adebc3c34d2cc591fefee-Abstract.html), [code](https://github.com/JayMan91/NeurIPSIntopt)
+6. **Interior Point Solving for LP-based prediction+optimization** NeurIPS, 2020. [paper](https://proceedings.neurips.cc//paper/2020/hash/51311013e51adebc3c34d2cc591fefee-Abstract.html), [code](https://github.com/JayMan91/NeurIPSIntopt)
 
     *Jayanta Mandi, Tias Guns*
 
