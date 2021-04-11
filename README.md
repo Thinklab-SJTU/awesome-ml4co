@@ -55,7 +55,7 @@ We would like to maintain a list of papers that utilize machine learning technol
 
 ### [Survey Papers](#content)
 
-1. **Machine Learning for Combinatorial Optimization: a Methodological Tour d‚Äôhorizon.** EJOR, 2020. [paper](https://arxiv.org/abs/1811.06128)
+1. **Machine Learning for Combinatorial Optimization: a Methodological Tour d'horizon.** EJOR, 2020. [paper](https://arxiv.org/abs/1811.06128)
 
     *Bengio, Yoshua and Lodi, Andrea and Prouvost, Antoine.*
 
@@ -129,33 +129,33 @@ We would like to maintain a list of papers that utilize machine learning technol
 
     *Kwon, Yeong-Dae and Choo, Jinho and Kim, Byoungjip and Yoon, Iljoo and Min, Seungjai and Gwon, Youngjune.*
 
-3. **Attention, Learn to Solve Routing Problems!** ICLR, 2019. [paper](https://arxiv.org/abs/1803.08475)
+3. **Learning Heuristics for the TSP by Policy Gradient** CPAIOR, 2018. [paper](https://link.springer.com/chapter/10.1007/978-3-319-93031-2_12), [code](https://github.com/MichelDeudon/encode-attend-navigate)
+
+    *Michel DeudonPierre CournutAlexandre Lacoste*
+
+4. **Attention, Learn to Solve Routing Problems!** ICLR, 2019. [paper](https://arxiv.org/abs/1803.08475)
 
     *Kool, Wouter and Van Hoof, Herke and Welling, Max.*
 
-4. **Learning to Solve NP-Complete Problems: A Graph Neural Network for Decision TSP.** AAAI, 2019. [paper](https://ojs.aaai.org/index.php/AAAI/article/view/4399)
+5. **Learning to Solve NP-Complete Problems: A Graph Neural Network for Decision TSP.** AAAI, 2019. [paper](https://ojs.aaai.org/index.php/AAAI/article/view/4399)
 
     *Prates, Marcelo and Avelar, Pedro HC and Lemos, Henrique and Lamb, Luis C and Vardi, Moshe Y.*
 
-5. **Generalize a Small Pre-trained Model to Arbitrarily Large TSP Instances Zhang-Hua.** Arxiv, 2020. [paper](https://arxiv.org/abs/2012.10658)
+6. **An Efficient Graph Convolutional Network Technique for the Travelling Salesman Problem** Arxiv, 2019. [paper](https://arxiv.org/abs/1906.01227), [code](https://github.com/chaitjo/graph-convnet-tsp)
+
+    *Chaitanya K. Joshi, Thomas Laurent, Xavier Bresson*
+
+7. **Generalize a Small Pre-trained Model to Arbitrarily Large TSP Instances Zhang-Hua.** Arxiv, 2020. [paper](https://arxiv.org/abs/2012.10658)
 
     *Fu, Zhang-Hua and Qiu, Kai-Bin and Zha, Hongyuan.*
-
-6. **The Transformer Network for the Traveling Salesman Problem** IPAM, 2021. [paper](http://helper.ipam.ucla.edu/publications/dlc2021/dlc2021_16703.pdf)
-
-    *Xavier Bresson，Thomas Laurent	*
-
-7. **Learning Heuristics for the TSP by Policy Gradient** CPAIOR, 2018. [paper](https://link.springer.com/chapter/10.1007/978-3-319-93031-2_12), [code](https://github.com/MichelDeudon/encode-attend-navigate)
-
-    *Michel DeudonPierre CournutAlexandre Lacoste*
 
 8. **Differentiation of Blackbox Combinatorial Solvers** ICLR, 2020. [paper](https://arxiv.org/pdf/1912.02175v2.pdf), [code](https://github.com/martius-lab/blackbox-backprop)
 
     *Marin Vlastelica, Anselm Paulus, Vít Musil, Georg Martius, Michal Rolínek*
 
-9. **An Efficient Graph Convolutional Network Technique for the Travelling Salesman Problem** Arxiv, 2019. [paper](https://arxiv.org/abs/1906.01227), [code](https://github.com/chaitjo/graph-convnet-tsp)
+9. **The Transformer Network for the Traveling Salesman Problem** IPAM, 2021. [paper](http://helper.ipam.ucla.edu/publications/dlc2021/dlc2021_16703.pdf)
 
-    *Chaitanya K. Joshi, Thomas Laurent, Xavier Bresson*
+    *Xavier Bresson，Thomas Laurent*
 
 ### [Vehicle Routing Problem](#content)
 
@@ -173,51 +173,87 @@ We would like to maintain a list of papers that utilize machine learning technol
 
 ### [Dynamic Resource Dispatch](#content)
 
-1. **Resource Management with Deep Reinforcement Learning.** HotNets, 2016. [paper](https://dl.acm.org/doi/abs/10.1145/3005745.3005750)
+1. **Dynamic pickup and delivery problems** EJOR, 2010. [paper](https://www.sciencedirect.com/science/article/pii/S0377221709002999)
+
+    *Berbeglia, Gerardo and Cordeau, Jean-FranCois and Laporte, Gilbert*
+
+2. **Resource Management with Deep Reinforcement Learning.** HotNets, 2016. [paper](https://dl.acm.org/doi/abs/10.1145/3005745.3005750)
 
     *Mao, Hongzi and Alizadeh, Mohammad and Menache, Ishai and Kandula, Srikanth.*
 
-2. **Learning Scheduling Algorithms for Data Processing Clusters** SIGCOMM, 2019. [paper](https://static.aminer.cn/storage/pdf/arxiv/18/1810/1810.01963.pdf), [code](https://github.com/hongzimao/decima-sim)
+3. **Learning Scheduling Algorithms for Data Processing Clusters** SIGCOMM, 2019. [paper](https://static.aminer.cn/storage/pdf/arxiv/18/1810/1810.01963.pdf), [code](https://github.com/hongzimao/decima-sim)
 
     *Mao, Hongzi and Schwarzkopf, Malte and Venkatakrishnan, Bojja Shaileshh and Meng, Zili and Alizadeh, Mohammad.*
 
-3. **Learning to Dispatch for Job Shop Scheduling via Deep Reinforcement Learning.** NIPS, 2020. [paper](https://arxiv.org/abs/2010.12367), [code](https://github.com/zcajiayin/L2D)
-
-    *Zhang, Cong and Song, Wen and Cao, Zhiguang and Zhang, Jie and Tan, Puay Siew and Xu, Chi.*
-
-4. **Dynamic pickup and delivery problems** EJOR, 2010. [paper](https://www.sciencedirect.com/science/article/pii/S0377221709002999)
-
-    *Gerardo Berbeglia a, Jean-Fran, √ßois Cordeau b, Gilbert Laporte*
-
-5. **The Complexity Landscape of Resource-Constrained Scheduling** IJCAI, 2020. [paper](https://www.ijcai.org/Proceedings/2020/241#:~:text=The%20Complexity%20Landscape%20of%20Resource%2DConstrained%20Scheduling,-Robert%20Ganian%2C%20Thekla&text=The%20Resource%2DConstrained%20Project%20Scheduling,settings%20related%20to%20artificial%20intelligence.)
-
-    *Robert Ganian, Thekla Hamm, Guillaume Mescoff*
-
-6. **Smart Resource Allocation for Mobile Edge Computing: A Deep Reinforcement Learning Approach** IEEE Transactions on Emerging Topics in Computing, 2019. [Paper](https://ieeexplore.ieee.org/abstract/document/8657791)
+4. **Smart Resource Allocation for Mobile Edge Computing: A Deep Reinforcement Learning Approach** IEEE Transactions on Emerging Topics in Computing, 2019. [Paper](https://ieeexplore.ieee.org/abstract/document/8657791)
 
     *Jiadai; Lei Zhao; Jiajia Liu; Nei Kato*
 
+5. **Learning to Dispatch for Job Shop Scheduling via Deep Reinforcement Learning.** NIPS, 2020. [paper](https://arxiv.org/abs/2010.12367), [code](https://github.com/zcajiayin/L2D)
+
+    *Zhang, Cong and Song, Wen and Cao, Zhiguang and Zhang, Jie and Tan, Puay Siew and Xu, Chi.*
+
+6. **The Complexity Landscape of Resource-Constrained Scheduling** IJCAI, 2020. [paper](https://www.ijcai.org/Proceedings/2020/241#:~:text=The%20Complexity%20Landscape%20of%20Resource%2DConstrained%20Scheduling,-Robert%20Ganian%2C%20Thekla&text=The%20Resource%2DConstrained%20Project%20Scheduling,settings%20related%20to%20artificial%20intelligence.)
+
+    *Robert Ganian, Thekla Hamm, Guillaume Mescoff*
+
 ### [Bin Packing Problem](#content)
 
-1. **A Multi-task Selected Learning Approach for Solving 3D Bin Packing Problem.** Arxiv, 2018. [paper](https://arxiv.org/abs/1804.06896)
+1. **Small Boxes Big Data: A Deep Learning Approach to Optimize Variable Sized Bin Packing** BigDataService, 2017. [paper](https://ieeexplore.ieee.org/abstract/document/7944923/?casa_token=mRzI_XBy3ycAAAAA:yD9Le2KBNq1TMpW_1etb0RF-oFVcLJj9Up0Z2qI6XJmA-UffxxSZRIx7RklaQED-yXwuwBC4M_w)
+
+    *Mao, Feng and Blanco, Edgar and Fu, Mingang and Jain, Rohit and Gupta, Anurag and Mancel, Sebastien and Yuan, Rong and Guo, Stephen and Kumar, Sai and Tian, Yayang*
+
+2. **Solving a New 3D Bin Packing Problem with Deep Reinforcement Learning Method** Arxiv, 2017. [paper](https://arxiv.org/abs/1708.05930)
+
+    *Hu, Haoyuan and Zhang, Xiaodong and Yan, Xiaowei and Wang, Longfei and Xu, Yinghui*
+
+3. **A Multi-task Selected Learning Approach for Solving 3D Bin Packing Problem.** Arxiv, 2018. [paper](https://arxiv.org/abs/1804.06896)
 
     *Duan, Lu and Hu, Haoyuan and Qian, Yu and Gong, Yu and Zhang, Xiaodong and Xu, Yinghui and Wei, Jiangwen.*
 
-2. **Online 3D Bin Packing with Constrained Deep Reinforcement Learning.** Arxiv, 2020. [paper](https://arxiv.org/abs/2006.14978)
+4. **Ranked Reward: Enabling Self-Play Reinforcement Learning for Combinatorial Optimization Alexandre** Arxov, 2018. [paper](https://arxiv.org/abs/1807.01672)
+
+    *Laterre, Alexandre and Fu, Yunguan and Jabri, Mohamed Khalil and Cohen, Alain-Sam and Kas, David and Hajjar, Karl and Dahl, Torbjorn S and Kerkeni, Amine and Beguir, Karim*
+
+5. **A Data-Driven Approach for Multi-level Packing Problems in Manufacturing Industry** KDD, 2019. [paper](https://dl.acm.org/doi/abs/10.1145/3292500.3330708)
+
+    *Chen, Lei and Tong, Xialiang and Yuan, Mingxuan and Zeng, Jia and Chen, Lei*
+
+6. **Solving Packing Problems by Conditional Query Learning** OpenReview, 2019. [paper](https://openreview.net/forum?id=BkgTwRNtPB)
+
+    *Li, Dongda and Ren, Changwei and Gu, Zhaoquan and Wang, Yuexuan and Lau, Francis*
+
+7. **RePack: Dense Object Packing Using Deep CNN with Reinforcement Learning** CACS, 2019. [paper](https://ieeexplore.ieee.org/abstract/document/9024360/?casa_token=ScXezdDDiwMAAAAA:fglP_vbiQUJgLZcM7YZyqnDh_qA8jOjIh-zbH7ru0XSVBghh8OAxpThOU3BqhBeet4NlSrdHPcU)
+
+    *Chu, Yu-Cheng and Lin, Horng-Horng*
+
+8. **Online 3D Bin Packing with Constrained Deep Reinforcement Learning.** Arxiv, 2020. [paper](https://arxiv.org/abs/2006.14978)
 
     *Zhao, Hang and She, Qijin and Zhu, Chenyang and Yang, Yin and Xu, Kai.*
 
-3. **A Generalized Reinforcement Learning Algorithm for Online 3D Bin-Packing.** Arxiv, 2020. [paper](https://arxiv.org/abs/2007.00463)
+9. **A Generalized Reinforcement Learning Algorithm for Online 3D Bin-Packing.** Arxiv, 2020. [paper](https://arxiv.org/abs/2007.00463)
 
     *Verma, Richa and Singhal, Aniruddha and Khadilkar, Harshad and Basumatary, Ansuma and Nayak, Siddharth and Singh, Harsh Vardhan and Kumar, Swagat and Sinha, Rajesh.*
 
-4. **Robot Packing with Known Items and Nondeterministic Arrival Order.** TASAE, 2020. [paper](https://ieeexplore.ieee.org/abstract/document/9205914/)
+10. **Robot Packing with Known Items and Nondeterministic Arrival Order.** TASAE, 2020. [paper](https://ieeexplore.ieee.org/abstract/document/9205914/)
 
     *Wang, Fan and Hauser, Kris.*
 
-5. **TAP-Net: Transport-and-Pack using Reinforcement Learning.** TOG, 2020. [paper](https://dl.acm.org/doi/abs/10.1145/3414685.3417796), [code](https://github.com/Juzhan/TAP-Net)
+11. **TAP-Net: Transport-and-Pack using Reinforcement Learning.** TOG, 2020. [paper](https://dl.acm.org/doi/abs/10.1145/3414685.3417796), [code](https://github.com/Juzhan/TAP-Net)
 
     *Hu, Ruizhen and Xu, Juzhan and Chen, Bin and Gong, Minglun and Zhang, Hao and Huang, Hui.*
+
+12. **Simultaneous Planning for Item Picking and Placing by Deep Reinforcement Learning** IROS, 2020. [paper](http://ras.papercept.net/images/temp/IROS/files/0330.pdf)
+
+    *Tanaka, Tatsuya and Kaneko, Toshimitsu and Sekine, Masahiro and Tangkaratt, Voot and Sugiyama, Masashi*
+
+13. **Monte Carlo Tree Search on Perfect Rectangle Packing Problem Instances** GECCO, 2020. [paper](https://dl.acm.org/doi/abs/10.1145/3377929.3398115)
+
+    *Pejic, Igor and van den Berg, Daan*
+
+14. **PackIt: A Virtual Environment for Geometric Planning** ICML, 2020. [paper](http://proceedings.mlr.press/v119/goyal20b.html)
+
+    *Goyal, Ankit and Deng, Jia*
 
 ### [Graph Edit Distance](#content)
 
@@ -289,27 +325,27 @@ We would like to maintain a list of papers that utilize machine learning technol
 
 ### [Differentiable Optimization](#content)
 
-1. **Melding the Data-Decisions Pipeline: Decision-Focused Learning for Combinatorial Optimization** AAAI, 2019. [paper](https://ojs.aaai.org//index.php/AAAI/article/view/3982)
+1. **Differentiable Learning of Submodular Models** NIPS, 2017. [paper](https://papers.nips.cc/paper/2017/hash/192fc044e74dffea144f9ac5dc9f3395-Abstract.html), [code](https://github.com/josipd/torch-submod)
+
+    *Josip Djolonga, Andreas Krause*
+
+2. **Melding the Data-Decisions Pipeline: Decision-Focused Learning for Combinatorial Optimization** AAAI, 2019. [paper](https://ojs.aaai.org//index.php/AAAI/article/view/3982)
 
     *Bryan Wilder, Bistra Dilkina, Milind Tambe*
 
-2. **MIPaaL: Mixed Integer Program as a Layer** AAAI, 2020. [paper](https://ojs.aaai.org//index.php/AAAI/article/view/5509), [code](https://github.com/amf272/MIPaaL/)
+3. **MIPaaL: Mixed Integer Program as a Layer** AAAI, 2020. [paper](https://ojs.aaai.org//index.php/AAAI/article/view/5509), [code](https://github.com/amf272/MIPaaL/)
 
     *Aaron Ferber, Bryan Wilder, Bistra Dilkina, Milind Tambe*
 
-3. **Smart Predict-and-Optimize for Hard Combinatorial Optimization Problems** AAAI, 2020. [paper](https://arxiv.org/abs/1911.10092), [code](https://github.com/JayMan91/aaai_predit_then_optimize)
+4. **Smart Predict-and-Optimize for Hard Combinatorial Optimization Problems** AAAI, 2020. [paper](https://arxiv.org/abs/1911.10092), [code](https://github.com/JayMan91/aaai_predit_then_optimize)
 
-    *Jaynta Mandi, Emir Demirovi?, Peter. J Stuckey, Tias Guns*
+    *Jaynta Mandi, Emir Demirovi, Peter. J Stuckey, Tias Guns*
 
-4. **Differentiation of blackbox combinatorial solvers** ICLR, 2020. [paper](https://openreview.net/forum?id=BkevoJSYPB), [code](https://github.com/martius-lab/blackbox-backprop)
+5. **Differentiation of blackbox combinatorial solvers** ICLR, 2020. [paper](https://openreview.net/forum?id=BkevoJSYPB), [code](https://github.com/martius-lab/blackbox-backprop)
 
-    *Marin Vlastelica Pogan?i?, Anselm Paulus, Vit Musil, Georg Martius, Michal Rolinek*
+    *Marin Vlastelica Pogani, Anselm Paulus, Vit Musil, Georg Martius, Michal Rolinek*
 
-5. **Interior Point Solving for LP-based prediction+optimization** NIPS, 2020. [paper](https://proceedings.neurips.cc//paper/2020/hash/51311013e51adebc3c34d2cc591fefee-Abstract.html), [code](https://github.com/JayMan91/NeurIPSIntopt)
+6. **Interior Point Solving for LP-based prediction+optimization** NIPS, 2020. [paper](https://proceedings.neurips.cc//paper/2020/hash/51311013e51adebc3c34d2cc591fefee-Abstract.html), [code](https://github.com/JayMan91/NeurIPSIntopt)
 
     *Jayanta Mandi, Tias Guns*
-
-6. **Differentiable Learning of Submodular Models** NIPS, 2017. [paper](https://papers.nips.cc/paper/2017/hash/192fc044e74dffea144f9ac5dc9f3395-Abstract.html), [code](https://github.com/josipd/torch-submod)
-
-    *Josip Djolonga, Andreas Krause*
 
