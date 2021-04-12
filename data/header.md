@@ -47,7 +47,7 @@ We mark papers contributed by [Thinklab](https://thinklab.sjtu.edu.cn) by ✨.
    <td>&ensp;<a href="#car-dispatch">2.18 Car Dispatch</a></td> 
 </tr>
 <tr>
-    <td>&emsp;<a href="#quadratic-assignment-problem">2.18 Quadratic Assignment Problem (QAP) </a></td>
+    <td>&emsp;<a href="#quadratic-assignment-problem">2.19 Quadratic Assignment Problem (QAP) </a></td>
     <td>&ensp;</td>
 </tr>
 </table>
