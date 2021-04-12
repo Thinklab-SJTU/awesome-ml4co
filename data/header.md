@@ -3,7 +3,7 @@
 # Awesome Machine Learning for Combinatorial Optimization Papers
 We would like to maintain a list of papers that utilize machine learning technologies to solve combinatorial optimization problems. 
 
-We mark papers contributed by [Thinklab](https://thinklab.sjtu.edu.cn) by ✨.
+We mark papers contributed by [Thinklab](http://thinklab.sjtu.edu.cn) by ✨.
 
 ## [Content](#content)
 
