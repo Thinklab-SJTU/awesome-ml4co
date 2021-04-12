@@ -1,7 +1,9 @@
 
 
 # Awesome Machine Learning for Combinatorial Optimization Papers
-We would like to maintain a list of papers that utilize machine learning technologies to solve combinatorial optimization problems.
+We would like to maintain a list of papers that utilize machine learning technologies to solve combinatorial optimization problems. 
+
+We mark papers contributed by [Thinklab](thinklab.sjtu.edu.cn) by ✨.
 
 ## [Content](#content)
 
@@ -44,7 +46,8 @@ We would like to maintain a list of papers that utilize machine learning technol
     <td>&emsp;<a href="#computing-resource-allocation">2.17 Computing Resource Allocation </a></td>
    <td>&ensp;<a href="#car-dispatch">2.18 Car Dispatch</a></td> 
 </tr>
+<tr>
+    <td>&emsp;<a href="#quadratic-assignment-problem">2.18 Quadratic Assignment Problem (QAP) </a></td>
+    <td>&ensp;</td>
+</tr>
 </table>
-
-
-

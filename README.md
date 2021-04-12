@@ -44,11 +44,11 @@ We would like to maintain a list of papers that utilize machine learning technol
     <td>&emsp;<a href="#computing-resource-allocation">2.17 Computing Resource Allocation </a></td>
    <td>&ensp;<a href="#car-dispatch">2.18 Car Dispatch</a></td> 
 </tr>
+<tr>
+    <td>&emsp;<a href="#quadratic-assignment-problem">2.18 Quadratic Assignment Problem (QAP) </a></td>
+    <td>&ensp;</td>
+</tr>
 </table>
-
-
-
-
 
 
 
@@ -62,7 +62,7 @@ We would like to maintain a list of papers that utilize machine learning technol
 
     *Mazyavkina, Nina and Sviridov, Sergey and Ivanov, Sergei and Burnaev, Evgeny.*
 
-3. **Learning Graph Matching and Related Combinatorial Optimization Problems.** IJCAI, 2020. [paper](https://www.ijcai.org/proceedings/2020/0694.pdf)
+3. **✨Learning Graph Matching and Related Combinatorial Optimization Problems.** IJCAI, 2020. [paper](https://www.ijcai.org/proceedings/2020/0694.pdf)
 
     *Yan, Junchi and Yang, Shuang, and Hancock, Edwin R.*
 
@@ -78,7 +78,7 @@ We would like to maintain a list of papers that utilize machine learning technol
 
     *Zanfir, Andrei and Sminchisescu, Cristian*
 
-3. **Learning Combinatorial Embedding Networks for Deep Graph Matching.** ICCV, 2019. [paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Wang_Learning_Combinatorial_Embedding_Networks_for_Deep_Graph_Matching_ICCV_2019_paper.pdf), [code](https://github.com/Thinklab-SJTU/PCA-GM)
+3. **✨Learning Combinatorial Embedding Networks for Deep Graph Matching.** ICCV, 2019. [paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Wang_Learning_Combinatorial_Embedding_Networks_for_Deep_Graph_Matching_ICCV_2019_paper.pdf), [code](https://github.com/Thinklab-SJTU/PCA-GM)
 
     *Wang, Runzhong and Yan, Junchi and Yang, Xiaokang*
 
@@ -90,11 +90,11 @@ We would like to maintain a list of papers that utilize machine learning technol
 
     *Jiang, Bo and Sun, Pengfei and Tang, Jin and Luo, Bin*
 
-6. **Neural Graph Matching Network: Learning Lawler's Quadratic Assignment Problem with Extension to Hypergraph and Multiple-graph Matching.** Arxiv, 2019. [paper](https://arxiv.org/abs/1911.11308)
+6. **✨Neural Graph Matching Network: Learning Lawler's Quadratic Assignment Problem with Extension to Hypergraph and Multiple-graph Matching.** Arxiv, 2019. [paper](https://arxiv.org/abs/1911.11308)
 
     *Wang, Runzhong and Yan, Junchi and Yang, Xiaokang*
 
-7. **Learning deep graph matching with channel-independent embedding and Hungarian attention.** ICLR, 2020. [paper](https://openreview.net/forum?id=rJgBd2NYPH)
+7. **✨Learning deep graph matching with channel-independent embedding and Hungarian attention.** ICLR, 2020. [paper](https://openreview.net/forum?id=rJgBd2NYPH)
 
     *Yu, Tianshu and Wang, Runzhong and Yan, Junchi and Li, Baoxin*
 
@@ -102,11 +102,11 @@ We would like to maintain a list of papers that utilize machine learning technol
 
     *Fey, Matthias and Lenssen, Jan E. and Morris, Christopher and Masci, Jonathan and Kriege, Nils M.*
 
-9. **Graduated Assignment for Joint Multi-Graph Matching and Clustering with Application to Unsupervised Graph Matching Network Learning.** NeurIPS, 2020. [paper](https://papers.NeurIPS.cc/paper/2020/file/e6384711491713d29bc63fc5eeb5ba4f-Paper.pdf)
+9. **✨Graduated Assignment for Joint Multi-Graph Matching and Clustering with Application to Unsupervised Graph Matching Network Learning.** NeurIPS, 2020. [paper](https://papers.NeurIPS.cc/paper/2020/file/e6384711491713d29bc63fc5eeb5ba4f-Paper.pdf)
 
     *Wang, Runzhong and Yan, Junchi and Yang, Xiaokang*
 
-10. **Combinatorial Learning of Robust Deep Graph Matching: An Embedding Based Approach.** TPAMI, 2020. [paper](https://doi.org/10.1109/TPAMI.2020.3005590)
+10. **✨Combinatorial Learning of Robust Deep Graph Matching: An Embedding Based Approach.** TPAMI, 2020. [paper](https://doi.org/10.1109/TPAMI.2020.3005590)
 
     *Wang, Runzhong and Yan, Junchi and Yang, Xiaokang*
 
@@ -114,7 +114,21 @@ We would like to maintain a list of papers that utilize machine learning technol
 
     *Rolinek, Michal and Swoboda, Paul and Zietlow, Dominik and Paulus, Anselm and Musil, Vit and Martius, Georg*
 
-12. **Deep Reinforcement Learning of Graph Matching.** Arxiv, 2020. [paper](https://arxiv.org/abs/2012.08950)
+12. **✨Deep Reinforcement Learning of Graph Matching.** Arxiv, 2020. [paper](https://arxiv.org/abs/2012.08950)
+
+    *Liu, Chang and Wang, Runzhong and Jiang, Zetian and Yan, Junchi*
+
+### [Quadratic Assignment Problem](#content)
+
+1. **Revised Note on Learning Algorithms for Quadratic Assignment with Graph Neural Networks** Arxiv, 2017. [paper](https://arxiv.org/pdf/1706.07450.pdf), [code](https://github.com/alexnowakvila/QAP_pt)
+
+    *Nowak, Alex and Villar, Soledad and Bandeira, S. Afonso and Bruna, Joan*
+
+2. **✨Neural Graph Matching Network: Learning Lawler's Quadratic Assignment Problem with Extension to Hypergraph and Multiple-graph Matching.** Arxiv, 2019. [paper](https://arxiv.org/abs/1911.11308)
+
+    *Wang, Runzhong and Yan, Junchi and Yang, Xiaokang*
+
+3. **✨Deep Reinforcement Learning of Graph Matching.** Arxiv, 2020. [paper](https://arxiv.org/abs/2012.08950)
 
     *Liu, Chang and Wang, Runzhong and Jiang, Zetian and Yan, Junchi*
 
@@ -156,6 +170,20 @@ We would like to maintain a list of papers that utilize machine learning technol
 
     *Xavier Bresson，Thomas Laurent*
 
+### [Maximal Cut](#content)
+
+1. **Learning Combinatorial Optimization Algorithms over Graphs.** NeurIPS, 2017. [paper](https://arxiv.org/abs/1704.01665)
+
+    *Dai, Hanjun and Khalil, Elias B and Zhang, Yuyu and Dilkina, Bistra and Song, Le*
+
+2. **Exploratory Combinatorial Optimization with Reinforcement Learning.** AAAI, 2020. [paper](https://ojs.aaai.org/index.php/AAAI/article/view/5723)
+
+    *LBarrett, Thomas and Clements, William and Foerster, Jakob and Lvovsky, Alex.*
+
+3. **Erdos Goes Neural: an Unsupervised Learning Framework for Combinatorial Optimization on Graphs.** NeurIPS, 2020. [paper](https://static.aminer.cn/upload/pdf/575/1127/1864/5eede0b791e0116a23aafe7b_1.pdf)
+
+    *Karalias, Nikolaos and Loukas, Andreas*
+
 ### [Vehicle Routing Problem](#content)
 
 1. **Learning to Perform Local Rewriting for Combinatorial Optimization.** NeurIPS, 2019. [paper](https://arxiv.org/abs/1810.00337), [code](https://github.com/facebookresearch/neural-rewriter)
@@ -176,15 +204,19 @@ We would like to maintain a list of papers that utilize machine learning technol
 
     *Mao, Hongzi and Alizadeh, Mohammad and Menache, Ishai and Kandula, Srikanth.*
 
-2. **Learning Scheduling Algorithms for Data Processing Clusters** SIGCOMM, 2019. [paper](https://static.aminer.cn/storage/pdf/arxiv/18/1810/1810.01963.pdf), [code](https://github.com/hongzimao/decima-sim)
+2. **Learning to Perform Local Rewriting for Combinatorial Optimization.** NeurIPS, 2019. [paper](https://arxiv.org/abs/1810.00337), [code](https://github.com/facebookresearch/neural-rewriter)
+
+    *Chen, Xinyun and Tian, Yuandong.*
+
+3. **Learning Scheduling Algorithms for Data Processing Clusters** SIGCOMM, 2019. [paper](https://static.aminer.cn/storage/pdf/arxiv/18/1810/1810.01963.pdf), [code](https://github.com/hongzimao/decima-sim)
 
     *Mao, Hongzi and Schwarzkopf, Malte and Venkatakrishnan, Bojja Shaileshh and Meng, Zili and Alizadeh, Mohammad.*
 
-3. **Smart Resource Allocation for Mobile Edge Computing: A Deep Reinforcement Learning Approach** IEEE Transactions on Emerging Topics in Computing, 2019. [Paper](https://ieeexplore.ieee.org/abstract/document/8657791)
+4. **Smart Resource Allocation for Mobile Edge Computing: A Deep Reinforcement Learning Approach** IEEE Transactions on Emerging Topics in Computing, 2019. [Paper](https://ieeexplore.ieee.org/abstract/document/8657791)
 
     *Jiadai; Lei Zhao; Jiajia Liu; Nei Kato*
 
-### [Job Shop Scheduling (JSP)](#content)
+### [Job Shop Scheduling](#content)
 
 1. **Learning to Dispatch for Job Shop Scheduling via Deep Reinforcement Learning.** NeurIPS, 2020. [paper](https://arxiv.org/abs/2010.12367), [code](https://github.com/zcajiayin/L2D)
 
@@ -258,7 +290,7 @@ We would like to maintain a list of papers that utilize machine learning technol
 
     *Li, Yujia and Gu, Chenjie and Dullien, Thomas and Vinyals, Oriol and Kohli, Pushmeet*
 
-3. **Combinatorial Learning of Graph Edit Distance via Dynamic Embedding.** CVPR, 2021. [paper](https://arxiv.org/abs/2011.15039)
+3. **✨Combinatorial Learning of Graph Edit Distance via Dynamic Embedding.** CVPR, 2021. [paper](https://arxiv.org/abs/2011.15039)
 
     *Wang, Runzhong and Zhang, Tianqi and Yu, Tianshu and Yan, Junchi and Yang, Xiaokang.*
 
@@ -285,20 +317,6 @@ We would like to maintain a list of papers that utilize machine learning technol
 1. **Combinatorial Optimization with Graph Convolutional Networks and Guided Tree Search.** NeurIPS, 2018. [paper](https://arxiv.org/abs/1810.10659)
 
     *Li, Zhuwen and Chen, Qifeng and Koltun, Vladlen.*
-
-### [Maximal Cut](#content)
-
-1. **Learning Combinatorial Optimization Algorithms over Graphs.** NeurIPS, 2017. [paper](https://arxiv.org/abs/1704.01665)
-
-    *Dai, Hanjun and Khalil, Elias B and Zhang, Yuyu and Dilkina, Bistra and Song, Le*
-
-2. **Exploratory Combinatorial Optimization with Reinforcement Learning.** AAAI, 2020. [paper](https://ojs.aaai.org/index.php/AAAI/article/view/5723)
-
-    *LBarrett, Thomas and Clements, William and Foerster, Jakob and Lvovsky, Alex.*
-
-3. **Erdos Goes Neural: an Unsupervised Learning Framework for Combinatorial Optimization on Graphs.** NeurIPS, 2020. [paper](https://static.aminer.cn/upload/pdf/575/1127/1864/5eede0b791e0116a23aafe7b_1.pdf)
-
-    *Karalias, Nikolaos and Loukas, Andreas*
 
 ### [Mixed Integer Programming](#content)
 
@@ -334,7 +352,7 @@ We would like to maintain a list of papers that utilize machine learning technol
 
 4. **Learning to solve circuit-SAT: An unsupervised differentiable approach** ICLR, 2019. [paper](https://openreview.net/pdf?id=BJxgz2R9t7), [code](https://github.com/lee-man/circuit-sat)
 
-    *Amizadeh, Saeed, Sergiy Matusevych, and Markus Weimer. *
+    *Amizadeh, Saeed, Sergiy Matusevych, and Markus Weimer.*
 
 5. **Learning Local Search Heuristics for Boolean Satisfiability.** NeurIPS, 2019. [paper](https://www.cs.cmu.edu/~eyolcu/papers/learning-local-search-heuristics-sat.pdf), [code](https://github.com/emreyolcu/sat)
 
@@ -378,7 +396,7 @@ We would like to maintain a list of papers that utilize machine learning technol
 
 15. **Classification of SAT problem instances by machine learning methods.** CEUR, 2020. [paper](http://ceur-ws.org/Vol-2650/paper11.pdf)
 
-    *Danisovszky, Márk, Zijian Győző Yang, and Gábor Kusper. *
+    *Danisovszky, Márk, Zijian Győző Yang, and Gábor Kusper.*
 
 16. **Predicting Propositional Satisfiability via End-to-End Learning.** AAAI, 2020. [paper](https://ojs.aaai.org/index.php/AAAI/article/download/5733/5589)
 
@@ -390,7 +408,7 @@ We would like to maintain a list of papers that utilize machine learning technol
 
 18. **NLocalSAT: Boosting Local Search with Solution Prediction** Arxiv, 2020. [paper](https://arxiv.org/pdf/2001.09398), [code](https://github.com/myxxxsquared/NLocalSAT)
 
-    *Zhang, Wenjie, Zeyu Sun, Qihao Zhu, Ge Li, Shaowei Cai, Yingfei Xiong, and Lu Zhang. *
+    *Zhang, Wenjie, Zeyu Sun, Qihao Zhu, Ge Li, Shaowei Cai, Yingfei Xiong, and Lu Zhang.*
 
 ### [Differentiable Optimization](#content)
 
@@ -420,7 +438,7 @@ We would like to maintain a list of papers that utilize machine learning technol
 
 ### [Car Dispatch](#content)
 
-1. **Dispatch of autonomous vehicles for taxi services: A deep reinforcement learning approach ** Transportation Research, 2020. [paper](https://www.sciencedirect.com/science/article/pii/S0968090X19312227)
+1. **Dispatch of autonomous vehicles for taxi services: A deep reinforcement learning approach** Transportation Research, 2020. [paper](https://www.sciencedirect.com/science/article/pii/S0968090X19312227)
 
     *ChaoMao, Yulin Liu, Zuo-Jun (Max) Shen*
 

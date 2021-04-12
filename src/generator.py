@@ -76,8 +76,14 @@ def csv2md(csvFile, mdFile, header):
 
     classes = []
     for paper in raw_papers:
-        if ";" not in paper[0] and paper[0] not in classes:
-            classes.append(paper[0])
+        if ";" in paper[0]:
+            paper_classes = paper[0].split(";")
+            paper_classes = [cls.strip() for cls in paper_classes]
+        else:
+            paper_classes = [paper[0].strip()]
+        for cls in paper_classes:
+            if cls not in classes:
+                classes.append(cls)
 
     for c in classes:
         p = []
