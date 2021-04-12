@@ -181,19 +181,23 @@ We would like to maintain a list of papers that utilize machine learning technol
 
     *Mao, Hongzi and Alizadeh, Mohammad and Menache, Ishai and Kandula, Srikanth.*
 
-3. **Learning Scheduling Algorithms for Data Processing Clusters** SIGCOMM, 2019. [paper](https://static.aminer.cn/storage/pdf/arxiv/18/1810/1810.01963.pdf), [code](https://github.com/hongzimao/decima-sim)
+3. **Learning to Perform Local Rewriting for Combinatorial Optimization.** NeurIPS, 2019. [paper](https://arxiv.org/abs/1810.00337), [code](https://github.com/facebookresearch/neural-rewriter)
+
+    *Chen, Xinyun and Tian, Yuandong.*
+
+4. **Learning Scheduling Algorithms for Data Processing Clusters** SIGCOMM, 2019. [paper](https://static.aminer.cn/storage/pdf/arxiv/18/1810/1810.01963.pdf), [code](https://github.com/hongzimao/decima-sim)
 
     *Mao, Hongzi and Schwarzkopf, Malte and Venkatakrishnan, Bojja Shaileshh and Meng, Zili and Alizadeh, Mohammad.*
 
-4. **Smart Resource Allocation for Mobile Edge Computing: A Deep Reinforcement Learning Approach** IEEE Transactions on Emerging Topics in Computing, 2019. [Paper](https://ieeexplore.ieee.org/abstract/document/8657791)
+5. **Smart Resource Allocation for Mobile Edge Computing: A Deep Reinforcement Learning Approach** IEEE Transactions on Emerging Topics in Computing, 2019. [Paper](https://ieeexplore.ieee.org/abstract/document/8657791)
 
     *Jiadai; Lei Zhao; Jiajia Liu; Nei Kato*
 
-5. **Learning to Dispatch for Job Shop Scheduling via Deep Reinforcement Learning.** NeurIPS, 2020. [paper](https://arxiv.org/abs/2010.12367), [code](https://github.com/zcajiayin/L2D)
+6. **Learning to Dispatch for Job Shop Scheduling via Deep Reinforcement Learning.** NeurIPS, 2020. [paper](https://arxiv.org/abs/2010.12367), [code](https://github.com/zcajiayin/L2D)
 
     *Zhang, Cong and Song, Wen and Cao, Zhiguang and Zhang, Jie and Tan, Puay Siew and Xu, Chi.*
 
-6. **The Complexity Landscape of Resource-Constrained Scheduling** IJCAI, 2020. [paper](https://www.ijcai.org/Proceedings/2020/241#:~:text=The%20Complexity%20Landscape%20of%20Resource%2DConstrained%20Scheduling,-Robert%20Ganian%2C%20Thekla&text=The%20Resource%2DConstrained%20Project%20Scheduling,settings%20related%20to%20artificial%20intelligence.)
+7. **The Complexity Landscape of Resource-Constrained Scheduling** IJCAI, 2020. [paper](https://www.ijcai.org/Proceedings/2020/241#:~:text=The%20Complexity%20Landscape%20of%20Resource%2DConstrained%20Scheduling,-Robert%20Ganian%2C%20Thekla&text=The%20Resource%2DConstrained%20Project%20Scheduling,settings%20related%20to%20artificial%20intelligence.)
 
     *Robert Ganian, Thekla Hamm, Guillaume Mescoff*
 
@@ -295,11 +299,15 @@ We would like to maintain a list of papers that utilize machine learning technol
 
 ### [Maximal Cut](#content)
 
-1. **Exploratory Combinatorial Optimization with Reinforcement Learning.** AAAI, 2020. [paper](https://ojs.aaai.org/index.php/AAAI/article/view/5723)
+1. **Learning Combinatorial Optimization Algorithms over Graphs.** NeurIPS, 2017. [paper](https://arxiv.org/abs/1704.01665)
+
+    *Dai, Hanjun and Khalil, Elias B and Zhang, Yuyu and Dilkina, Bistra and Song, Le*
+
+2. **Exploratory Combinatorial Optimization with Reinforcement Learning.** AAAI, 2020. [paper](https://ojs.aaai.org/index.php/AAAI/article/view/5723)
 
     *LBarrett, Thomas and Clements, William and Foerster, Jakob and Lvovsky, Alex.*
 
-2. **Erdos Goes Neural: an Unsupervised Learning Framework for Combinatorial Optimization on Graphs.** NeurIPS, 2020. [paper](https://static.aminer.cn/upload/pdf/575/1127/1864/5eede0b791e0116a23aafe7b_1.pdf)
+3. **Erdos Goes Neural: an Unsupervised Learning Framework for Combinatorial Optimization on Graphs.** NeurIPS, 2020. [paper](https://static.aminer.cn/upload/pdf/575/1127/1864/5eede0b791e0116a23aafe7b_1.pdf)
 
     *Karalias, Nikolaos and Loukas, Andreas*
 

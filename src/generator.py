@@ -1,5 +1,6 @@
 import csv
 import os
+import copy
 
 
 def md2csv(mdFile, csvFile):  # From the md file to generate a csv file that contains the paper list.
@@ -58,15 +59,36 @@ def md2csv(mdFile, csvFile):  # From the md file to generate a csv file that con
             writer.writerow(paper)
 
 
+def sort_by_time(elem):
+    return elem[3]
+
+
 def csv2md(csvFile, mdFile, header):
     csvFile = open(csvFile, "r", encoding='utf-8')
     reader = csv.reader(csvFile)
+    raw_papers = []
     papers = []
     for item in reader:
         if reader.line_num == 1:
             continue
-        papers.append(item)
+        raw_papers.append(item)
     csvFile.close()
+
+    classes = []
+    for paper in raw_papers:
+        if ";" not in paper[0] and paper[0] not in classes:
+            classes.append(paper[0])
+
+    for c in classes:
+        p = []
+        for paper in raw_papers:
+            if c in paper[0]:
+                new_paper = copy.deepcopy(paper)
+                new_paper[0] = c
+                p.append(new_paper)
+        p.sort(key=sort_by_time)
+        papers = papers + p
+
     command = "cp " + header + " " + mdFile
     os.system(command)
     with open(mdFile, "a") as file:
@@ -93,10 +115,12 @@ def csv2md(csvFile, mdFile, header):
             num += 1
             # "category", "title", "publisher", "year", "type", "link", "authors, *code"
             if paper[7] == "":
-                file.writelines("{}. **{}** {}, {}. [{}]({})".format(num, paper[1], paper[2], paper[3], paper[4], paper[5]))
+                file.writelines(
+                    "{}. **{}** {}, {}. [{}]({})".format(num, paper[1], paper[2], paper[3], paper[4], paper[5]))
             else:
                 file.writelines(
-                    "{}. **{}** {}, {}. [{}]({}), [code]({})".format(num, paper[1], paper[2], paper[3], paper[4], paper[5], paper[7]))
+                    "{}. **{}** {}, {}. [{}]({}), [code]({})".format(num, paper[1], paper[2], paper[3], paper[4],
+                                                                     paper[5], paper[7]))
             file.write('\n')
             file.write('\n')
             file.writelines("    *{}*".format(paper[6]))
