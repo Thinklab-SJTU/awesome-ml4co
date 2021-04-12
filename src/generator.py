@@ -102,6 +102,7 @@ def csv2md(csvFile, mdFile, header):
         file.write('\n')
         file.write('\n')
         for paper in papers:
+            paper = [p.strip() for p in paper]
             if paper[0] != category:
                 if category == "Survey Papers":
                     file.writelines("## [Problems](#content)")
