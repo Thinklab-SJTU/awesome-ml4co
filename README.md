@@ -14,7 +14,7 @@ We would like to maintain a list of papers that utilize machine learning technol
 </tr> 
 <tr>
     <td>&emsp;<a href="#vehicle-routing-problem">2.3 Vehicle Routing Problem (VRP) </a></td>
-    <td>&ensp;<a href="#dynamic-resource-dispatch">2.4 Dynamic Resource Dispatch (JSP) </a></td>
+    <td>&ensp;<a href="#job-shop-scheduling">2.4 Job Shop Scheduling (JSP) </a></td>
 </tr>
 <tr>
     <td>&emsp;<a href="#bin-packing-problem">2.5 Bin Packing Problem </a></td>
@@ -24,26 +24,25 @@ We would like to maintain a list of papers that utilize machine learning technol
     <td>&emsp;<a href="#graph-coloring">2.7 Graph Coloring </a></td>
     <td>&ensp;<a href="#maximal-common-subgraph">2.8 Maximal Common Subgraph (MCS) </a></td>
 </tr>
-    <tr>
+<tr>
     <td>&emsp;<a href="#influence-maximization">2.9 Influence Maximization </a></td>
     <td>&ensp;<a href="#maximal-independent-set">2.10 Maximal Independent Set (MIS) </a></td>
 </tr>
-    </tr>
-    <tr>
-    <td>&emsp;<a href="#maximal-cut">2.11 Maximal Cut </a></td>
+<tr>
+  <td>&emsp;<a href="#maximal-cut">2.11 Maximal Cut </a></td>
 	<td>&ensp;<a href="#mixed-integer-programming">2.12 Mixed Integer Programming </a></td> 
 </tr>
+<tr>
+<td>&emsp;<a href="#causal-discovery">2.13 Causal Discovery </a></td>
+<td>&ensp;<a href="#game-theoretic-semantics">2.14 Game Theoretic Semantics</a></td> 
 </tr>
-    </tr>
-    <tr>
-    <td>&emsp;<a href="#causal-discovery">2.13 Causal Discovery </a></td>
-	<td>&ensp;<a href="#game-theoretic-semantics">2.14 Game Theoretic Semantics</a></td> 
-</tr>
-</tr>
-    </tr>
-    <tr>
+<tr>
     <td>&emsp;<a href="#boolean-satisfiability">2.15 Boolean Satisfiability (SAT) </a></td>
    <td>&ensp;<a href="#differentiable-optimization">2.16 Differentiable Optimization</a></td> 
+</tr>
+<tr>
+    <td>&emsp;<a href="#computing-resource-allocation">2.17 Computing Resource Allocation </a></td>
+   <td>&ensp;<a href="#car-dispatch">2.18 Car Dispatch</a></td> 
 </tr>
 </table>
 
@@ -171,35 +170,25 @@ We would like to maintain a list of papers that utilize machine learning technol
 
     *Lu, Hao and Zhang, Xingwen and Yang, Shuang*
 
-### [Dynamic Resource Dispatch](#content)
+### [Computing Resource Allocation](#content)
 
-1. **Dynamic pickup and delivery problems** EJOR, 2010. [paper](https://www.sciencedirect.com/science/article/pii/S0377221709002999)
-
-    *Berbeglia, Gerardo and Cordeau, Jean-FranCois and Laporte, Gilbert*
-
-2. **Resource Management with Deep Reinforcement Learning.** HotNets, 2016. [paper](https://dl.acm.org/doi/abs/10.1145/3005745.3005750)
+1. **Resource Management with Deep Reinforcement Learning.** HotNets, 2016. [paper](https://dl.acm.org/doi/abs/10.1145/3005745.3005750)
 
     *Mao, Hongzi and Alizadeh, Mohammad and Menache, Ishai and Kandula, Srikanth.*
 
-3. **Learning to Perform Local Rewriting for Combinatorial Optimization.** NeurIPS, 2019. [paper](https://arxiv.org/abs/1810.00337), [code](https://github.com/facebookresearch/neural-rewriter)
-
-    *Chen, Xinyun and Tian, Yuandong.*
-
-4. **Learning Scheduling Algorithms for Data Processing Clusters** SIGCOMM, 2019. [paper](https://static.aminer.cn/storage/pdf/arxiv/18/1810/1810.01963.pdf), [code](https://github.com/hongzimao/decima-sim)
+2. **Learning Scheduling Algorithms for Data Processing Clusters** SIGCOMM, 2019. [paper](https://static.aminer.cn/storage/pdf/arxiv/18/1810/1810.01963.pdf), [code](https://github.com/hongzimao/decima-sim)
 
     *Mao, Hongzi and Schwarzkopf, Malte and Venkatakrishnan, Bojja Shaileshh and Meng, Zili and Alizadeh, Mohammad.*
 
-5. **Smart Resource Allocation for Mobile Edge Computing: A Deep Reinforcement Learning Approach** IEEE Transactions on Emerging Topics in Computing, 2019. [Paper](https://ieeexplore.ieee.org/abstract/document/8657791)
+3. **Smart Resource Allocation for Mobile Edge Computing: A Deep Reinforcement Learning Approach** IEEE Transactions on Emerging Topics in Computing, 2019. [Paper](https://ieeexplore.ieee.org/abstract/document/8657791)
 
     *Jiadai; Lei Zhao; Jiajia Liu; Nei Kato*
 
-6. **Learning to Dispatch for Job Shop Scheduling via Deep Reinforcement Learning.** NeurIPS, 2020. [paper](https://arxiv.org/abs/2010.12367), [code](https://github.com/zcajiayin/L2D)
+### [Job Shop Scheduling (JSP)](#content)
+
+1. **Learning to Dispatch for Job Shop Scheduling via Deep Reinforcement Learning.** NeurIPS, 2020. [paper](https://arxiv.org/abs/2010.12367), [code](https://github.com/zcajiayin/L2D)
 
     *Zhang, Cong and Song, Wen and Cao, Zhiguang and Zhang, Jie and Tan, Puay Siew and Xu, Chi.*
-
-7. **The Complexity Landscape of Resource-Constrained Scheduling** IJCAI, 2020. [paper](https://www.ijcai.org/Proceedings/2020/241#:~:text=The%20Complexity%20Landscape%20of%20Resource%2DConstrained%20Scheduling,-Robert%20Ganian%2C%20Thekla&text=The%20Resource%2DConstrained%20Project%20Scheduling,settings%20related%20to%20artificial%20intelligence.)
-
-    *Robert Ganian, Thekla Hamm, Guillaume Mescoff*
 
 ### [Bin Packing Problem](#content)
 
@@ -428,4 +417,10 @@ We would like to maintain a list of papers that utilize machine learning technol
 6. **Interior Point Solving for LP-based prediction+optimization** NeurIPS, 2020. [paper](https://proceedings.neurips.cc//paper/2020/hash/51311013e51adebc3c34d2cc591fefee-Abstract.html), [code](https://github.com/JayMan91/NeurIPSIntopt)
 
     *Jayanta Mandi, Tias Guns*
+
+### [Car Dispatch](#content)
+
+1. **Dispatch of autonomous vehicles for taxi services: A deep reinforcement learning approach ** Transportation Research, 2020. [paper](https://www.sciencedirect.com/science/article/pii/S0968090X19312227)
+
+    *ChaoMao, Yulin Liu, Zuo-Jun (Max) Shen*
 
