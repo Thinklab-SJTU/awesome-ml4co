@@ -109,19 +109,19 @@ def csv2md(csvFile, mdFile, header):
             name_index1 = classes[2 * i + 1].replace(" ", "-").lower()
             file.writelines('<tr>\n')
             if name1 in abbr:
-                file.writelines('\t<td>&emsp;<a href=#{}">2.{} {} ({})</a></td>\n'.format(name_index1, 2 * i + 1, name1,
+                file.writelines('\t<td>&emsp;<a href=#{}>2.{} {} ({})</a></td>\n'.format(name_index1, 2 * i + 1, name1,
                                                                                           abbr[name1]))
             else:
-                file.writelines('\t<td>&emsp;<a href=#{}">2.{} {}</a></td>\n'.format(name_index1, 2 * i + 1, name1))
+                file.writelines('\t<td>&emsp;<a href=#{}>2.{} {}</a></td>\n'.format(name_index1, 2 * i + 1, name1))
             if 2 * i + 1 < len(classes) - 1:
                 name2 = classes[2 * i + 2]
                 name_index2 = classes[2 * i + 2].replace(" ", "-").lower()
                 if name2 in abbr:
                     file.writelines(
-                        '\t<td>&emsp;<a href=#{}">2.{} {} ({})</a></td>\n'.format(name_index2, 2 * i + 2, name2,
+                        '\t<td>&emsp;<a href=#{}>2.{} {} ({})</a></td>\n'.format(name_index2, 2 * i + 2, name2,
                                                                                   abbr[name2]))
                 else:
-                    file.writelines('\t<td>&emsp;<a href=#{}">2.{} {}</a></td>\n'.format(name_index2, 2 * i + 2, name2))
+                    file.writelines('\t<td>&emsp;<a href=#{}>2.{} {}</a></td>\n'.format(name_index2, 2 * i + 2, name2))
             else:
                 file.writelines('<td>&ensp;</td>\n')
             file.writelines('</tr>\n')
