@@ -259,7 +259,7 @@ We mark papers contributed by [Thinklab](http://thinklab.sjtu.edu.cn) by ✨.
 
     *Zhao, Hang and She, Qijin and Zhu, Chenyang and Yang, Yin and Xu, Kai.*
 
-9. **A Generalized Reinforcement Learning Algorithm for Online 3D Bin-Packing.** Arxiv, 2020. [paper](https://arxiv.org/abs/2007.00463)
+9. **A Generalized Reinforcement Learning Algorithm for Online 3D Bin-Packing.** AAAI Workshop, 2020. [paper](https://arxiv.org/abs/2007.00463)
 
     *Verma, Richa and Singhal, Aniruddha and Khadilkar, Harshad and Basumatary, Ansuma and Nayak, Siddharth and Singh, Harsh Vardhan and Kumar, Swagat and Sinha, Rajesh.*
 
