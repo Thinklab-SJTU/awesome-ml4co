@@ -323,9 +323,77 @@ We would like to maintain a list of papers that utilize machine learning technol
 
 ### [Boolean Satisfiability](#content)
 
-1. **Learning Local Search Heuristics for Boolean Satisfiability.** NeurIPS, 2019. [paper](https://www.cs.cmu.edu/~eyolcu/papers/learning-local-search-heuristics-sat.pdf)
+1. **Graph neural networks and boolean satisfiability.** Arxiv, 2017. [paper](https://arxiv.org/pdf/1702.03592)
+
+    *Bünz, Benedikt, and Matthew Lamm.*
+
+2. **Learning a SAT solver from single-bit supervision.** Arxiv, 2018. [paper](https://arxiv.org/pdf/1903.04671), [code](https://github.com/dselsam/neurosat)
+
+    *Selsam, Daniel, Matthew Lamm, Benedikt Bünz, Percy Liang, Leonardo de Moura, and David L. Dill.*
+
+3. **Machine learning-based restart policy for CDCL SAT solvers.** SAT, 2018. [paper](http://www.t-news.cn/Floc2018/FLoC2018-pages/proceedings_paper_477.pdf)
+
+    *Liang, Jia Hui, Chanseok Oh, Minu Mathew, Ciza Thomas, Chunxiao Li, and Vijay Ganesh.*
+
+4. **Learning to solve circuit-SAT: An unsupervised differentiable approach** ICLR, 2019. [paper](https://openreview.net/pdf?id=BJxgz2R9t7), [code](https://github.com/lee-man/circuit-sat)
+
+    *Amizadeh, Saeed, Sergiy Matusevych, and Markus Weimer. *
+
+5. **Learning Local Search Heuristics for Boolean Satisfiability.** NeurIPS, 2019. [paper](https://www.cs.cmu.edu/~eyolcu/papers/learning-local-search-heuristics-sat.pdf), [code](https://github.com/emreyolcu/sat)
 
     *Yolcu, Emre and Poczos, Barnabas*
+
+6. **Improving SAT solver heuristics with graph networks and reinforcement learning.** Arxiv, 2019. [paper](https://arxiv.org/pdf/1909.11830)
+
+    *Kurin, Vitaly, Saad Godil, Shimon Whiteson, and Bryan Catanzaro.*
+
+7. **Graph neural reasoning may fail in certifying boolean unsatisfiability** Arxiv, 2019. [paper](https://arxiv.org/pdf/1909.11588)
+
+    *Chen, Ziliang, and Zhanfu Yang.*
+
+8. **Guiding high-performance SAT solvers with unsat-core predictions** SAT, 2019. [paper](https://arxiv.org/pdf/1903.04671)
+
+    *Selsam, Daniel, and Nikolaj Bjørner.*
+
+9. **G2SAT: Learning to Generate SAT Formulas** NeurIPS, 2019. [paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7138247/), [code](https://github.com/JiaxuanYou/G2SAT)
+
+    *You, Jiaxuan, Haoze Wu, Clark Barrett, Raghuram Ramanujan, and Jure Leskovec.*
+
+10. **Learning Heuristics for Quantified Boolean Formulas through Reinforcement Learning** Arxiv, 2019. [paper](https://arxiv.org/pdf/1807.08058), [code](https://github.com/lederg/learningqbf)
+
+    *Lederman, Gil, Markus N. Rabe, Edward A. Lee, and Sanjit A. Seshia.*
+
+11. **Enhancing SAT solvers with glue variable predictions.** Arxiv, 2020. [paper](https://arxiv.org/pdf/2007.02559)
+
+    *Han, Jesse Michael.*
+
+12. **Can Q-Learning with Graph Networks Learn a Generalizable Branching Heuristic for a SAT Solver?** NeurIPS, 2020. [paper](http://www.cs.ox.ac.uk/people/shimon.whiteson/pubs/kurinnips20.pdf)
+
+    *Whiteson, Shimon.*
+
+13. **Online Bayesian Moment Matching based SAT Solver Heuristics.** ICML, 2020. [paper](http://proceedings.mlr.press/v119/duan20c/duan20c.pdf), [code](https://github.com/saeednj/BMMSAT)
+
+    *Duan, Haonan, Saeed Nejati, George Trimponias, Pascal Poupart, and Vijay Ganesh.*
+
+14. **Learning Clause Deletion Heuristics with Reinforcement Learning.** AITP, 2020. [paper](http://aitp-conference.org/2020/abstract/paper_25.pdf)
+
+    *Vaezipoor, Pashootan, Gil Lederman, Yuhuai Wu, Roger Grosse, and Fahiem Bacchus.*
+
+15. **Classification of SAT problem instances by machine learning methods.** CEUR, 2020. [paper](http://ceur-ws.org/Vol-2650/paper11.pdf)
+
+    *Danisovszky, Márk, Zijian Győző Yang, and Gábor Kusper. *
+
+16. **Predicting Propositional Satisfiability via End-to-End Learning.** AAAI, 2020. [paper](https://ojs.aaai.org/index.php/AAAI/article/download/5733/5589)
+
+    *Cameron, Chris, Rex Chen, Jason Hartford, and Kevin Leyton-Brown.*
+
+17. **Neural heuristics for SAT solving.** Arxiv, 2020. [paper](https://arxiv.org/pdf/2005.13406)
+
+    *Jaszczur, Sebastian, Michał Łuszczyk, and Henryk Michalewski.*
+
+18. **NLocalSAT: Boosting Local Search with Solution Prediction** Arxiv, 2020. [paper](https://arxiv.org/pdf/2001.09398), [code](https://github.com/myxxxsquared/NLocalSAT)
+
+    *Zhang, Wenjie, Zeyu Sun, Qihao Zhu, Ge Li, Shaowei Cai, Yingfei Xiong, and Lu Zhang. *
 
 ### [Differentiable Optimization](#content)
 
