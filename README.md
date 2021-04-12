@@ -13,43 +13,43 @@ We mark papers contributed by [Thinklab](http://thinklab.sjtu.edu.cn) by ✨.
 <tr>
 	<td>&emsp;<a href=#Graph-Matching">2.1 Graph Matching</a></td>
 	<td>&emsp;<a href=#Quadratic-Assignment-Problem">2.2 Quadratic Assignment Problem</a></td>
-<tr>
+</tr>
 <tr>
 	<td>&emsp;<a href=#Travelling-Salesman-Problem">2.3 Travelling Salesman Problem</a></td>
 	<td>&emsp;<a href=#Maximal-Cut">2.4 Maximal Cut</a></td>
-<tr>
+</tr>
 <tr>
 	<td>&emsp;<a href=#Vehicle-Routing-Problem">2.5 Vehicle Routing Problem</a></td>
 	<td>&emsp;<a href=#Computing-Resource-Allocation">2.6 Computing Resource Allocation</a></td>
-<tr>
+</tr>
 <tr>
 	<td>&emsp;<a href=#Job-Shop-Scheduling">2.7 Job Shop Scheduling</a></td>
 	<td>&emsp;<a href=#Bin-Packing-Problem">2.8 Bin Packing Problem</a></td>
-<tr>
+</tr>
 <tr>
 	<td>&emsp;<a href=#Graph-Edit-Distance">2.9 Graph Edit Distance</a></td>
 	<td>&emsp;<a href=#Graph-Coloring">2.10 Graph Coloring</a></td>
-<tr>
+</tr>
 <tr>
 	<td>&emsp;<a href=#Maximal-Common-Subgraph">2.11 Maximal Common Subgraph</a></td>
 	<td>&emsp;<a href=#Influence-Maximization">2.12 Influence Maximization</a></td>
-<tr>
+</tr>
 <tr>
 	<td>&emsp;<a href=#Maximal-Independent-Set">2.13 Maximal Independent Set</a></td>
 	<td>&emsp;<a href=#Mixed-Integer-Programming">2.14 Mixed Integer Programming</a></td>
-<tr>
+</tr>
 <tr>
 	<td>&emsp;<a href=#Causal-Discovery">2.15 Causal Discovery</a></td>
 	<td>&emsp;<a href=#Game-Theoretic-Semantics">2.16 Game Theoretic Semantics</a></td>
-<tr>
+</tr>
 <tr>
 	<td>&emsp;<a href=#Boolean-Satisfiability">2.17 Boolean Satisfiability</a></td>
 	<td>&emsp;<a href=#Differentiable-Optimization">2.18 Differentiable Optimization</a></td>
-<tr>
+</tr>
 <tr>
 	<td>&emsp;<a href=#Car-Dispatch">2.19 Car Dispatch</a></td>
 <td>&ensp;</td>
-<tr>
+</tr>
 </table>
 
 
