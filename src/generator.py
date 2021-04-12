@@ -106,7 +106,7 @@ def csv2md(csvFile, mdFile, header):
         # write category
         for i in range(len(classes) // 2):
             name1 = classes[2 * i + 1]
-            name_index1 = classes[2 * i + 1].replace(" ", "-")
+            name_index1 = classes[2 * i + 1].replace(" ", "-").lower()
             file.writelines('<tr>\n')
             if name1 in abbr:
                 file.writelines('\t<td>&emsp;<a href=#{}">2.{} {} ({})</a></td>\n'.format(name_index1, 2 * i + 1, name1,
@@ -115,7 +115,7 @@ def csv2md(csvFile, mdFile, header):
                 file.writelines('\t<td>&emsp;<a href=#{}">2.{} {}</a></td>\n'.format(name_index1, 2 * i + 1, name1))
             if 2 * i + 1 < len(classes) - 1:
                 name2 = classes[2 * i + 2]
-                name_index2 = classes[2 * i + 2].replace(" ", "-")
+                name_index2 = classes[2 * i + 2].replace(" ", "-").lower()
                 if name2 in abbr:
                     file.writelines(
                         '\t<td>&emsp;<a href=#{}">2.{} {} ({})</a></td>\n'.format(name_index2, 2 * i + 2, name2,

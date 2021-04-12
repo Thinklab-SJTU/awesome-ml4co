@@ -11,43 +11,43 @@ We mark papers contributed by [Thinklab](http://thinklab.sjtu.edu.cn) by ✨.
 <tr><td colspan="2"><a href="#survey-papers">1. Survey</a></td></tr> 
 <tr><td colspan="2"><a href="#problems">2. Problems</a></td></tr> 
 <tr>
-	<td>&emsp;<a href=#Graph-Matching">2.1 Graph Matching (GM)</a></td>
-	<td>&emsp;<a href=#Quadratic-Assignment-Problem">2.2 Quadratic Assignment Problem (QAP)</a></td>
+	<td>&emsp;<a href=#graph-matching">2.1 Graph Matching (GM)</a></td>
+	<td>&emsp;<a href=#quadratic-assignment-problem">2.2 Quadratic Assignment Problem (QAP)</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#Travelling-Salesman-Problem">2.3 Travelling Salesman Problem (TSP)</a></td>
-	<td>&emsp;<a href=#Maximal-Cut">2.4 Maximal Cut</a></td>
+	<td>&emsp;<a href=#travelling-salesman-problem">2.3 Travelling Salesman Problem (TSP)</a></td>
+	<td>&emsp;<a href=#maximal-cut">2.4 Maximal Cut</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#Vehicle-Routing-Problem">2.5 Vehicle Routing Problem (VRP)</a></td>
-	<td>&emsp;<a href=#Computing-Resource-Allocation">2.6 Computing Resource Allocation</a></td>
+	<td>&emsp;<a href=#vehicle-routing-problem">2.5 Vehicle Routing Problem (VRP)</a></td>
+	<td>&emsp;<a href=#computing-resource-allocation">2.6 Computing Resource Allocation</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#Job-Shop-Scheduling">2.7 Job Shop Scheduling (JSP)</a></td>
-	<td>&emsp;<a href=#Bin-Packing-Problem">2.8 Bin Packing Problem (BPP)</a></td>
+	<td>&emsp;<a href=#job-shop-scheduling">2.7 Job Shop Scheduling (JSP)</a></td>
+	<td>&emsp;<a href=#bin-packing-problem">2.8 Bin Packing Problem (BPP)</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#Graph-Edit-Distance">2.9 Graph Edit Distance (GED)</a></td>
-	<td>&emsp;<a href=#Graph-Coloring">2.10 Graph Coloring</a></td>
+	<td>&emsp;<a href=#graph-edit-distance">2.9 Graph Edit Distance (GED)</a></td>
+	<td>&emsp;<a href=#graph-coloring">2.10 Graph Coloring</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#Maximal-Common-Subgraph">2.11 Maximal Common Subgraph (MCS)</a></td>
-	<td>&emsp;<a href=#Influence-Maximization">2.12 Influence Maximization</a></td>
+	<td>&emsp;<a href=#maximal-common-subgraph">2.11 Maximal Common Subgraph (MCS)</a></td>
+	<td>&emsp;<a href=#influence-maximization">2.12 Influence Maximization</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#Maximal-Independent-Set">2.13 Maximal Independent Set (MIS)</a></td>
-	<td>&emsp;<a href=#Mixed-Integer-Programming">2.14 Mixed Integer Programming</a></td>
+	<td>&emsp;<a href=#maximal-independent-set">2.13 Maximal Independent Set (MIS)</a></td>
+	<td>&emsp;<a href=#mixed-integer-programming">2.14 Mixed Integer Programming</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#Causal-Discovery">2.15 Causal Discovery</a></td>
-	<td>&emsp;<a href=#Game-Theoretic-Semantics">2.16 Game Theoretic Semantics</a></td>
+	<td>&emsp;<a href=#causal-discovery">2.15 Causal Discovery</a></td>
+	<td>&emsp;<a href=#game-theoretic-semantics">2.16 Game Theoretic Semantics</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#Boolean-Satisfiability">2.17 Boolean Satisfiability (SAT)</a></td>
-	<td>&emsp;<a href=#Differentiable-Optimization">2.18 Differentiable Optimization</a></td>
+	<td>&emsp;<a href=#boolean-satisfiability">2.17 Boolean Satisfiability (SAT)</a></td>
+	<td>&emsp;<a href=#differentiable-optimization">2.18 Differentiable Optimization</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#Car-Dispatch">2.19 Car Dispatch</a></td>
+	<td>&emsp;<a href=#car-dispatch">2.19 Car Dispatch</a></td>
 <td>&ensp;</td>
 </tr>
 </table>
