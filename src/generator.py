@@ -108,6 +108,8 @@ def csv2md(csvFile, mdFile, header):
                 name2 = classes[2 * i + 2]
                 name_index2 = classes[2 * i + 2].replace(" ", "-")
                 file.writelines('\t<td>&emsp;<a href=#{}">2.{} {}</a></td>\n'.format(name_index2, 2 * i + 2, name2))
+            else:
+                file.writelines('<td>&ensp;</td>\n')
             file.writelines('<tr>\n')
         file.writelines('</table>\n')
 

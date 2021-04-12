@@ -48,6 +48,7 @@ We mark papers contributed by [Thinklab](http://thinklab.sjtu.edu.cn) by ✨.
 <tr>
 <tr>
 	<td>&emsp;<a href=#Car-Dispatch">2.19 Car Dispatch</a></td>
+<td>&ensp;</td>
 <tr>
 </table>
 
