@@ -443,5 +443,5 @@ We mark papers contributed by [Thinklab](http://thinklab.sjtu.edu.cn) by ✨.
 
 1. **Dispatch of autonomous vehicles for taxi services: A deep reinforcement learning approach** Transportation Research, 2020. [paper](https://www.sciencedirect.com/science/article/pii/S0968090X19312227)
 
-    *ChaoMao, Yulin Liu, Zuo-Jun (Max) Shen*
+    *Chao Mao, Yulin Liu, Zuo-Jun (Max) Shen*
 
