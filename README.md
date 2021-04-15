@@ -116,13 +116,21 @@ We mark papers contributed by [Thinklab](http://thinklab.sjtu.edu.cn) by ✨.
 
     *Wang, Runzhong and Yan, Junchi and Yang, Xiaokang*
 
-11. **Deep Graph Matching via Blackbox Differentiation of Combinatorial Solvers.** ECCV, 2020. [paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123730409.pdf), [code](https://github.com/martius-lab/blackbox-deep-graph-matching)
+11. **✨Clustering-aware Multiple Graph Matching via Decayed Pairwise Matching Composition.** AAAI, 2020. [paper](https://aaai.org/ojs/index.php/AAAI/article/view/5528/5384)
+
+    *Wang, Tianzhe and Jiang, Zetian and Yan, Junchi*
+
+12. **Deep Graph Matching via Blackbox Differentiation of Combinatorial Solvers.** ECCV, 2020. [paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123730409.pdf), [code](https://github.com/martius-lab/blackbox-deep-graph-matching)
 
     *Rolinek, Michal and Swoboda, Paul and Zietlow, Dominik and Paulus, Anselm and Musil, Vit and Martius, Georg*
 
-12. **✨Deep Reinforcement Learning of Graph Matching.** Arxiv, 2020. [paper](https://arxiv.org/abs/2012.08950)
+13. **✨Deep Reinforcement Learning of Graph Matching.** Arxiv, 2020. [paper](https://arxiv.org/abs/2012.08950)
 
     *Liu, Chang and Wang, Runzhong and Jiang, Zetian and Yan, Junchi*
+
+14. **✨Unifying Offline and Online Multi-graph Matching via Finding Shortest Paths on Supergraph.** TPAMI, 2020. [paper](https://ieeexplore.ieee.org/document/9076840)
+
+    *Jiang, Zetian and Wang, Tianzhe and Yan, Junchi*
 
 ### [Quadratic Assignment Problem](#content)
 
