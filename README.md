@@ -5,6 +5,8 @@ We would like to maintain a list of resources that utilize machine learning tech
 
 We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
+*Maintained by members in SJTU-Thinklab: Chang Liu, Runzhong Wang, Jiayi Zhang, Zelin Zhao, Haoyu Geng, Tianzhe Wang, Wenxuan Guo, and Junchi Yan.*
+
 *We are looking for post-docs interested in machine learning especially for learning combinatorial solvers, dynamic graphs, and reinforcement learning. Please send your up-to-date resume via yanjunchi AT sjtu.edu.cn.* 
 
 ## [Content](#content)
