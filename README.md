@@ -62,55 +62,50 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
 ### [Survey Papers](#content)
 
-1. **Machine Learning for Combinatorial Optimization: a Methodological Tour d'horizon.** EJOR, 2020. [paper](https://arxiv.org/abs/1811.06128)
+1. **A Survey of Reinforcement Learning and Agent-Based Approaches to Combinatorial Optimization.** INFORMS Journal on Computing, 1999. [journal](https://pubsonline.informs.org/doi/abs/10.1287/ijoc.11.1.15)
+
+    *Smith, Kate A.*
+
+2. **Model-Based Search for Combinatorial Optimization: A Critical Survey.** Annals of Operations Research, 2004. [journal](https://link.springer.com/article/10.1023/B:ANOR.0000039526.52305.af)
+
+    *Zlochin, Mark and Birattari, Mauro and Meuleau, Nicolas and Dorigo, Marco.*
+
+3. **Machine Learning Approaches to Learning Heuristics for Combinatorial Optimization Problems.** Procedia Manufacturing, 2018. [journal](https://www.sciencedirect.com/science/article/pii/S2351978918311351)
+
+    *Mirshekarian, Sadegh and Sormaz, Dusan.*
+
+4. **Boosting combinatorial problem modeling with machine learning.** IJCAI, 2018. [paper](https://www.ijcai.org/Proceedings/2018/0772.pdf)
+
+    *Lombardi, Michele and Milano, Michela.*
+
+5. **A Review of combinatorial optimization with graph neural networks.** BigDIA, 2019. [paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8802843)
+
+    *Huang, Tingfei and Ma, Yang and Zhou, Yuzhen and Huang, Honglan Huang and Chen, Dongmei and Gong, Zidan and Liu, Yao.*
+
+6. **Machine Learning for Combinatorial Optimization: a Methodological Tour d'horizon.** EJOR, 2020. [journal](https://arxiv.org/abs/1811.06128)
 
     *Bengio, Yoshua and Lodi, Andrea and Prouvost, Antoine.*
 
-2. **Reinforcement Learning for Combinatorial Optimization: A Survey.** Arxiv, 2020. [paper](https://arxiv.org/abs/2003.03600)
+7. **Reinforcement Learning for Combinatorial Optimization: A Survey.** Arxiv, 2020. [paper](https://arxiv.org/abs/2003.03600)
 
     *Mazyavkina, Nina and Sviridov, Sergey and Ivanov, Sergei and Burnaev, Evgeny.*
 
-3. **✨Learning Graph Matching and Related Combinatorial Optimization Problems.** IJCAI, 2020. [paper](https://www.ijcai.org/proceedings/2020/0694.pdf)
+8. **✨Learning Graph Matching and Related Combinatorial Optimization Problems.** IJCAI, 2020. [paper](https://www.ijcai.org/proceedings/2020/0694.pdf)
 
     *Yan, Junchi and Yang, Shuang, and Hancock, Edwin R.*
-    
-4. **Learning Combinatorial Optimization on Graphs: A Survey with Applications to Networking.** IEEE ACCESS, 2020. [paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9125934)
+
+9. **Learning Combinatorial Optimization on Graphs: A Survey with Applications to Networking.** IEEE ACCESS, 2020. [journal](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9125934)
 
     *Vesselinova, Natalia and Steinert, Rebecca and Perez-Ramirez, Daniel F. and Boman, Magnus.*
-    
-5. **A Review of combinatorial optimization with graph neural networks.** BigDIA, 2019. [paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8802843)
 
-    *Huang, Tingfei and Ma, Yang and Zhou, Yuzhen and Huang, Honglan Huang and Chen, Dongmei and Gong, Zidan and Liu, Yao*
-
-6. **From Shallow to Deep Interactions Between Knowledge Representation, Reasoning and Machine Learning.** Arxiv, 2020. [paper](https://arxiv.org/abs/1912.06612)
+10. **From Shallow to Deep Interactions Between Knowledge Representation, Reasoning and Machine Learning.** Arxiv, 2020. [paper](https://arxiv.org/abs/1912.06612)
 
     *Bouraoui, Zied and Cornuéjols, Antoine and Denœux, Thierry and Destercke, Sébastien and Dubois, Didier and Guillaume, Romain and Marques-Silva, João and Mengin, Jérôme and Prade, Henri and Schockaert, Steven and Serrurier, Mathieu and Vrain, Christel.*
-    
-7. **Machine Learning Approaches to Learning Heuristics for Combinatorial Optimization Problems.** Procedia Manufacturing, 2018. [paper](https://www.sciencedirect.com/science/article/pii/S2351978918311351)
 
-    *Mirshekarian, Sadegh and Sormaz, Dusan.*
-    
-8. **Boosting combinatorial problem modeling with machine learning.** IJCAI, 2018. [paper](https://www.ijcai.org/Proceedings/2018/0772.pdf)
-
-    *Lombardi, Michele and Milano, Michela.*
-    
-9. **A Survey on Reinforcement Learning for Combinatorial Optimization.** Arxiv, 2000. [paper](https://arxiv.org/abs/2008.12248v2)
+11. **A Survey on Reinforcement Learning for Combinatorial Optimization.** Arxiv, 2020. [paper](https://arxiv.org/abs/2008.12248v2)
 
     *Yang, Yunhao and Whinston, Andrew.*
 
-10. **Model-Based Search for Combinatorial Optimization: A Critical Survey.** Annals of Operations Research, 2004. [paper](https://link.springer.com/article/10.1023/B:ANOR.0000039526.52305.af)
-
-    *Zlochin, Mark and Birattari, Mauro and Meuleau, Nicolas and Dorigo, Marco.*
-    
-11. **Neural Networks for Combinatorial Optimization: A Review of More Than a Decade of Research.** INFORMS Journal on Computing, 1999. [paper](https://pubsonline.informs.org/doi/abs/10.1287/ijoc.11.1.15)
-
-    *Smith, Kate A.*
-    
-12. **A Survey of Reinforcement Learning and Agent-Based Approaches to Combinatorial Optimization.** 2012. [paper](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.468.5208)
-
-    *Miagkikh, Victor*
-    
-    
 ## [Problems](#content)
 
 ### [Graph Matching](#content)
