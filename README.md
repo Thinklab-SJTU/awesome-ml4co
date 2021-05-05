@@ -105,6 +105,10 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 11. **A Survey on Reinforcement Learning for Combinatorial Optimization.** Arxiv, 2020. [paper](https://arxiv.org/abs/2008.12248v2)
 
     *Yang, Yunhao and Whinston, Andrew.*
+    
+12. **Graph Learning for Combinatorial Optimization: A Survey of State-of-the-Art.** Data Science and Engineering, 2021. [paper](https://link.springer.com/article/10.1007/s41019-021-00155-3)
+
+    *Peng, Yue, Choi, Byron, and Xu, Jianliang.*
 
 ## [Problems](#content)
 
@@ -130,7 +134,7 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
     *Jiang, Bo and Sun, Pengfei and Tang, Jin and Luo, Bin*
 
-6. **✨Neural Graph Matching Network: Learning Lawler's Quadratic Assignment Problem with Extension to Hypergraph and Multiple-graph Matching.** Arxiv, 2019. [paper](https://arxiv.org/abs/1911.11308)
+6. **✨Neural Graph Matching Network: Learning Lawler's Quadratic Assignment Problem with Extension to Hypergraph and Multiple-graph Matching.** TPAMI, 2021. [paper](https://arxiv.org/abs/1911.11308)
 
     *Wang, Runzhong and Yan, Junchi and Yang, Xiaokang*
 
