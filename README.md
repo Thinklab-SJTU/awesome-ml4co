@@ -105,8 +105,8 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 11. **A Survey on Reinforcement Learning for Combinatorial Optimization.** Arxiv, 2020. [paper](https://arxiv.org/abs/2008.12248v2)
 
     *Yang, Yunhao and Whinston, Andrew.*
-    
-12. **Graph Learning for Combinatorial Optimization: A Survey of State-of-the-Art.** Data Science and Engineering, 2021. [paper](https://link.springer.com/article/10.1007/s41019-021-00155-3)
+
+12. **Graph Learning for Combinatorial Optimization: A Survey of State-of-the-Art.** Data Science and Engineering, 2021. [journal](https://link.springer.com/article/10.1007/s41019-021-00155-3)
 
     *Peng, Yue, Choi, Byron, and Xu, Jianliang.*
 
@@ -134,33 +134,33 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
     *Jiang, Bo and Sun, Pengfei and Tang, Jin and Luo, Bin*
 
-6. **✨Neural Graph Matching Network: Learning Lawler's Quadratic Assignment Problem with Extension to Hypergraph and Multiple-graph Matching.** TPAMI, 2021. [paper](https://arxiv.org/abs/1911.11308)
-
-    *Wang, Runzhong and Yan, Junchi and Yang, Xiaokang*
-
-7. **✨Learning deep graph matching with channel-independent embedding and Hungarian attention.** ICLR, 2020. [paper](https://openreview.net/forum?id=rJgBd2NYPH)
+6. **✨Learning deep graph matching with channel-independent embedding and Hungarian attention.** ICLR, 2020. [paper](https://openreview.net/forum?id=rJgBd2NYPH)
 
     *Yu, Tianshu and Wang, Runzhong and Yan, Junchi and Li, Baoxin*
 
-8. **Deep Graph Matching Consensus.** ICLR, 2020. [paper](http://arxiv.org/abs/2001.09621)
+7. **Deep Graph Matching Consensus.** ICLR, 2020. [paper](http://arxiv.org/abs/2001.09621)
 
     *Fey, Matthias and Lenssen, Jan E. and Morris, Christopher and Masci, Jonathan and Kriege, Nils M.*
 
-9. **✨Graduated Assignment for Joint Multi-Graph Matching and Clustering with Application to Unsupervised Graph Matching Network Learning.** NeurIPS, 2020. [paper](https://papers.NeurIPS.cc/paper/2020/file/e6384711491713d29bc63fc5eeb5ba4f-Paper.pdf)
+8. **✨Graduated Assignment for Joint Multi-Graph Matching and Clustering with Application to Unsupervised Graph Matching Network Learning.** NeurIPS, 2020. [paper](https://papers.NeurIPS.cc/paper/2020/file/e6384711491713d29bc63fc5eeb5ba4f-Paper.pdf)
 
     *Wang, Runzhong and Yan, Junchi and Yang, Xiaokang*
 
-10. **✨Combinatorial Learning of Robust Deep Graph Matching: An Embedding Based Approach.** TPAMI, 2020. [paper](https://doi.org/10.1109/TPAMI.2020.3005590)
+9. **✨Combinatorial Learning of Robust Deep Graph Matching: An Embedding Based Approach.** TPAMI, 2020. [paper](https://doi.org/10.1109/TPAMI.2020.3005590)
 
     *Wang, Runzhong and Yan, Junchi and Yang, Xiaokang*
 
-11. **Deep Graph Matching via Blackbox Differentiation of Combinatorial Solvers.** ECCV, 2020. [paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123730409.pdf), [code](https://github.com/martius-lab/blackbox-deep-graph-matching)
+10. **Deep Graph Matching via Blackbox Differentiation of Combinatorial Solvers.** ECCV, 2020. [paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123730409.pdf), [code](https://github.com/martius-lab/blackbox-deep-graph-matching)
 
     *Rolinek, Michal and Swoboda, Paul and Zietlow, Dominik and Paulus, Anselm and Musil, Vit and Martius, Georg*
 
-12. **✨Deep Reinforcement Learning of Graph Matching.** Arxiv, 2020. [paper](https://arxiv.org/abs/2012.08950)
+11. **✨Deep Reinforcement Learning of Graph Matching.** Arxiv, 2020. [paper](https://arxiv.org/abs/2012.08950)
 
     *Liu, Chang and Wang, Runzhong and Jiang, Zetian and Yan, Junchi*
+
+12. **✨Neural Graph Matching Network: Learning Lawler's Quadratic Assignment Problem with Extension to Hypergraph and Multiple-graph Matching.** TPAMI, 2021. [paper](https://arxiv.org/abs/1911.11308)
+
+    *Wang, Runzhong and Yan, Junchi and Yang, Xiaokang*
 
 ### [Quadratic Assignment Problem](#content)
 
@@ -168,13 +168,13 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
     *Nowak, Alex and Villar, Soledad and Bandeira, S. Afonso and Bruna, Joan*
 
-2. **✨Neural Graph Matching Network: Learning Lawler's Quadratic Assignment Problem with Extension to Hypergraph and Multiple-graph Matching.** Arxiv, 2019. [paper](https://arxiv.org/abs/1911.11308)
-
-    *Wang, Runzhong and Yan, Junchi and Yang, Xiaokang*
-
-3. **✨Deep Reinforcement Learning of Graph Matching.** Arxiv, 2020. [paper](https://arxiv.org/abs/2012.08950)
+2. **✨Deep Reinforcement Learning of Graph Matching.** Arxiv, 2020. [paper](https://arxiv.org/abs/2012.08950)
 
     *Liu, Chang and Wang, Runzhong and Jiang, Zetian and Yan, Junchi*
+
+3. **✨Neural Graph Matching Network: Learning Lawler's Quadratic Assignment Problem with Extension to Hypergraph and Multiple-graph Matching.** TPAMI, 2021. [paper](https://arxiv.org/abs/1911.11308)
+
+    *Wang, Runzhong and Yan, Junchi and Yang, Xiaokang*
 
 ### [Travelling Salesman Problem](#content)
 
@@ -202,7 +202,7 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
     *Chaitanya K. Joshi, Thomas Laurent, Xavier Bresson*
 
-7. **Generalize a Small Pre-trained Model to Arbitrarily Large TSP Instances Zhang-Hua.** Arxiv, 2020. [paper](https://arxiv.org/abs/2012.10658)
+7. **Generalize a Small Pre-trained Model to Arbitrarily Large TSP Instances.** Arxiv, 2020. [paper](https://arxiv.org/abs/2012.10658)
 
     *Fu, Zhang-Hua and Qiu, Kai-Bin and Zha, Hongyuan.*
 
