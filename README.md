@@ -180,10 +180,6 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
     *Wang, Runzhong and Yan, Junchi and Yang, Xiaokang*
 
-4. **✨Deep Latent Graph Matching** ICML, 2021. [paper]()
-
-    *Yu, Tianshu and Wang, Runzhong and Yan, Junchi and Li, Baoxin.*
-
 ### [Travelling Salesman Problem](#content)
 
 1. **Learning Combinatorial Optimization Algorithms over Graphs.** NeurIPS, 2017. [paper](https://arxiv.org/abs/1704.01665)
