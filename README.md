@@ -162,6 +162,10 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
     *Wang, Runzhong and Yan, Junchi and Yang, Xiaokang*
 
+13. **✨Deep Latent Graph Matching** ICML, 2021. [paper]()
+
+    *Yu, Tianshu and Wang, Runzhong and Yan, Junchi and Li, Baoxin.*
+
 ### [Quadratic Assignment Problem](#content)
 
 1. **Revised Note on Learning Algorithms for Quadratic Assignment with Graph Neural Networks** Arxiv, 2017. [paper](https://arxiv.org/pdf/1706.07450.pdf), [code](https://github.com/alexnowakvila/QAP_pt)
@@ -175,6 +179,10 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 3. **✨Neural Graph Matching Network: Learning Lawler's Quadratic Assignment Problem with Extension to Hypergraph and Multiple-graph Matching.** TPAMI, 2021. [paper](https://arxiv.org/abs/1911.11308)
 
     *Wang, Runzhong and Yan, Junchi and Yang, Xiaokang*
+
+4. **✨Deep Latent Graph Matching** ICML, 2021. [paper]()
+
+    *Yu, Tianshu and Wang, Runzhong and Yan, Junchi and Li, Baoxin.*
 
 ### [Travelling Salesman Problem](#content)
 
