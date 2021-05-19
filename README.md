@@ -98,21 +98,21 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
     *Vesselinova, Natalia and Steinert, Rebecca and Perez-Ramirez, Daniel F. and Boman, Magnus.*
 
-10. **A Survey on Reinforcement Learning for Combinatorial Optimization.** Arxiv, 2020. [paper](https://arxiv.org/abs/2008.12248v2)
+10. **From Shallow to Deep Interactions Between Knowledge Representation, Reasoning and Machine Learning.** Arxiv, 2020. [paper](https://arxiv.org/abs/1912.06612)
+
+    *Bouraoui, Zied and Cornuéjols, Antoine and Denœux, Thierry and Destercke, Sébastien and Dubois, Didier and Guillaume, Romain and Marques-Silva, João and Mengin, Jérôme and Prade, Henri and Schockaert, Steven and Serrurier, Mathieu and Vrain, Christel.*
+
+11. **A Survey on Reinforcement Learning for Combinatorial Optimization.** Arxiv, 2020. [paper](https://arxiv.org/abs/2008.12248v2)
 
     *Yang, Yunhao and Whinston, Andrew.*
 
-11. **Research Reviews of Combinatorial Optimization Methods Based on Deep Reinforcement Learning. (in chinese)** 自动化学报, 2020. [journal](http://www.aas.net.cn/article/doi/10.16383/j.aas.c200551)
+12. **Research Reviews of Combinatorial Optimization Methods Based on Deep Reinforcement Learning. (in chinese)** 自动化学报, 2020. [journal](http://www.aas.net.cn/article/doi/10.16383/j.aas.c200551)
 
     *Li, Kai-Wen and Zhang,  Tao and Wang, Rui and Qin, Wei-Jian and He, Hui-Hui and Huang, Hong.*
 
-12. **Graph Learning for Combinatorial Optimization: A Survey of State-of-the-Art.** Data Science and Engineering, 2021. [journal](https://link.springer.com/article/10.1007/s41019-021-00155-3)
+13. **Graph Learning for Combinatorial Optimization: A Survey of State-of-the-Art.** Data Science and Engineering, 2021. [journal](https://link.springer.com/article/10.1007/s41019-021-00155-3)
 
     *Peng, Yue, Choi, Byron, and Xu, Jianliang.*
-
-13. **From Shallow to Deep Interactions Between Knowledge Representation** Reasoning and Machine Learning., Arxiv. [2020](paper), [code](Bouraoui, Zied and Cornuéjols, Antoine and Denœux, Thierry and Destercke, Sébastien and Dubois, Didier and Guillaume, Romain and Marques-Silva, João and Mengin, Jérôme and Prade, Henri and Schockaert, Steven and Serrurier, Mathieu and Vrain, Christel.)
-
-    *https://arxiv.org/abs/1912.06612*
 
 ## [Problems](#content)
 
