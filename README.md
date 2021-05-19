@@ -106,7 +106,7 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
     *Yang, Yunhao and Whinston, Andrew.*
 
-12. **Research Reviews of Combinatorial Optimization Methods Based on Deep Reinforcement Learning** 自动化学报, 2020. [journal](http://www.aas.net.cn/article/doi/10.16383/j.aas.c200551)
+12. **Research Reviews of Combinatorial Optimization Methods Based on Deep Reinforcement Learning.** 自动化学报, 2020. [journal](http://www.aas.net.cn/article/doi/10.16383/j.aas.c200551)
 
     *Li, Kai-Wen and Zhang,  Tao and Wang, Rui and Qin, Wei-Jian and He, Hui-Hui and Huang, Hong.*
 
