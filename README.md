@@ -106,7 +106,11 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
     *Yang, Yunhao and Whinston, Andrew.*
 
-12. **Graph Learning for Combinatorial Optimization: A Survey of State-of-the-Art.** Data Science and Engineering, 2021. [journal](https://link.springer.com/article/10.1007/s41019-021-00155-3)
+12. **Research Reviews of Combinatorial Optimization Methods Based on Deep Reinforcement Learning** 自动化学报, 2020. [journal](http://www.aas.net.cn/article/doi/10.16383/j.aas.c200551)
+
+    *Li, Kai-Wen and Zhang,  Tao and Wang, Rui and Qin, Wei-Jian and He, Hui-Hui and Huang, Hong.*
+
+13. **Graph Learning for Combinatorial Optimization: A Survey of State-of-the-Art.** Data Science and Engineering, 2021. [journal](https://link.springer.com/article/10.1007/s41019-021-00155-3)
 
     *Peng, Yue, Choi, Byron, and Xu, Jianliang.*
 
