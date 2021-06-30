@@ -28,7 +28,7 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 	<td>&emsp;<a href=#computing-resource-allocation>2.6 Computing Resource Allocation</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#job-shop-scheduling>2.7 Job Shop Scheduling (JSP)</a></td>
+	<td>&emsp;<a href=#job-shop-scheduling-problem>2.7 Job Shop Scheduling Problem (JSSP)</a></td>
 	<td>&emsp;<a href=#bin-packing-problem>2.8 Bin Packing Problem (BPP)</a></td>
 </tr>
 <tr>
@@ -304,11 +304,27 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
     *He, Yongming and Wu, Guohua and Chen, Yingwu and Pedrycz, Witold*
 
-### [Job Shop Scheduling](#content)
+### [Job Shop Scheduling Problem](#content)
 
-1. **Learning to Dispatch for Job Shop Scheduling via Deep Reinforcement Learning.** NeurIPS, 2020. [paper](https://arxiv.org/abs/2010.12367), [code](https://github.com/zcajiayin/L2D)
+1. **Smart Manufacturing Scheduling With Edge Computing Using Multiclass Deep Q Network** Transactions on Industrial Informatics, 2019. [journal](https://ieeexplore.ieee.org/document/8676376)
+
+    *Chun-Cheng Lin, Der-Jiunn Deng, Yen-Ling Chih, Hsin-Ting Chiu*
+
+2. **Multi-Agent Reinforcement Learning for Job Shop Scheduling in Flexible Manufacturing Systems** International Conference on Artificial Intelligence for Industries (AI4I), 2019. [paper](https://ieeexplore.ieee.org/document/9027776)
+
+    *Schirin Baer, Jupiter Bakakeu, Richard Meyes, Tobias Meisen*
+
+3. **Learning to Dispatch for Job Shop Scheduling via Deep Reinforcement Learning.** NeurIPS, 2020. [paper](https://arxiv.org/abs/2010.12367), [code](https://github.com/zcajiayin/L2D)
 
     *Zhang, Cong and Song, Wen and Cao, Zhiguang and Zhang, Jie and Tan, Puay Siew and Xu, Chi.*
+
+4. **Deep Reinforcement Learning as a Job Shop Scheduling Solver: A Literature Review** Hybrid Intelligent Systems, 2020. [journal](http://link.springer.com/10.1007/978-3-030-14347-3_34)
+
+    *Bruno Cunha, Ana M. Madureira, Benjamim Fonseca, Duarte Coelho*
+
+5. **Dynamic job-shop scheduling in smart manufacturing using deep reinforcement learning** Computer Networks, 2021. [journal](https://www.sciencedirect.com/science/article/pii/S1389128621001031)
+
+    *Libing Wang, Xin Hu, Yin Wang, Sujie Xu, Shijun Ma, Kexin Yang, Zhijun Liu, Weidong Wang*
 
 ### [Bin Packing Problem](#content)
 
@@ -538,7 +554,7 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
 ### [Car Dispatch](#content)
 
-1. **Dispatch of autonomous vehicles for taxi services: A deep reinforcement learning approach** Transportation Research, 2020. [paper](https://www.sciencedirect.com/science/article/pii/S0968090X19312227)
+1. **Dispatch of autonomous vehicles for taxi services: A deep reinforcement learning approach** Transportation Research, 2020. [journal](https://www.sciencedirect.com/science/article/pii/S0968090X19312227)
 
     *Chao Mao, Yulin Liu, Zuo-Jun (Max) Shen*
 

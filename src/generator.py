@@ -3,7 +3,7 @@ import os
 import copy
 
 abbr = {'Graph Matching': 'GM', 'Travelling Salesman Problem': 'TSP', 'Vehicle Routing Problem': 'VRP',
-        'Job Shop Scheduling': 'JSP', 'Bin Packing Problem': 'BPP', 'Graph Edit Distance': 'GED',
+        'Job Shop Scheduling Problem': 'JSSP', 'Bin Packing Problem': 'BPP', 'Graph Edit Distance': 'GED',
         'Maximal Common Subgraph': 'MCS', 'Maximal Independent Set': 'MIS', 'Boolean Satisfiability': 'SAT',
         'Quadratic Assignment Problem': 'QAP'}
 
