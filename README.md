@@ -7,8 +7,6 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
 *Maintained by members in SJTU-Thinklab: Chang Liu, Runzhong Wang, Jiayi Zhang, Zelin Zhao, Haoyu Geng, Tianzhe Wang, Wenxuan Guo, and Junchi Yan.*
 
-*Everyone is welcome to maintain this repository.*
-
 *We are looking for post-docs interested in machine learning especially for learning combinatorial solvers, dynamic graphs, and reinforcement learning. Please send your up-to-date resume via yanjunchi AT sjtu.edu.cn.* 
 
 ## [Content](#content)
@@ -172,15 +170,15 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
     *Rolinek, Michal and Swoboda, Paul and Zietlow, Dominik and Paulus, Anselm and Musil, Vit and Martius, Georg*
 
-11. **✨Deep Reinforcement Learning of Graph Matching.** Arxiv, 2020. [paper](https://arxiv.org/abs/2012.08950)
+11. **✨Revocable Deep Reinforcement Learning with Affinity Regularization for Outlier-Robust Graph Matching.** Arxiv, 2020. [paper](https://arxiv.org/abs/2012.08950)
 
-    *Liu, Chang and Wang, Runzhong and Jiang, Zetian and Yan, Junchi*
+    *Liu, Chang and Jiang, Zetian and Wang, Runzhong and Yan, Junchi and Huang, Lingxiao and Lu, Pinyan*
 
 12. **✨Neural Graph Matching Network: Learning Lawler's Quadratic Assignment Problem with Extension to Hypergraph and Multiple-graph Matching.** TPAMI, 2021. [paper](https://arxiv.org/abs/1911.11308), [code](https://github.com/Thinklab-SJTU/ThinkMatch)
 
     *Wang, Runzhong and Yan, Junchi and Yang, Xiaokang*
 
-13. **✨Deep Latent Graph Matching** ICML, 2021. [paper]()
+13. **✨Deep Latent Graph Matching** ICML, 2021. [paper](http://proceedings.mlr.press/v139/yu21d/yu21d.pdf)
 
     *Yu, Tianshu and Wang, Runzhong and Yan, Junchi and Li, Baoxin.*
 
@@ -190,9 +188,9 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
     *Nowak, Alex and Villar, Soledad and Bandeira, S. Afonso and Bruna, Joan*
 
-2. **✨Deep Reinforcement Learning of Graph Matching.** Arxiv, 2020. [paper](https://arxiv.org/abs/2012.08950)
+2. **✨Revocable Deep Reinforcement Learning with Affinity Regularization for Outlier-Robust Graph Matching.** Arxiv, 2020. [paper](https://arxiv.org/abs/2012.08950)
 
-    *Liu, Chang and Wang, Runzhong and Jiang, Zetian and Yan, Junchi*
+    *Liu, Chang and Jiang, Zetian and Wang, Runzhong and Yan, Junchi and Huang, Lingxiao and Lu, Pinyan*
 
 3. **✨Neural Graph Matching Network: Learning Lawler's Quadratic Assignment Problem with Extension to Hypergraph and Multiple-graph Matching.** TPAMI, 2021. [paper](https://arxiv.org/abs/1911.11308), [code](https://github.com/Thinklab-SJTU/ThinkMatch)
 
@@ -396,11 +394,23 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
     *Bai, Yunsheng and Ding, Hao and Bian, Song and Chen, Ting and Sun, Yizhou and Wang, Wei*
 
-2. **Graph Matching Networks for Learning the Similarity of Graph Structured Objects** ICML, 2019. [paper](https://arxiv.org/abs/1904.12787)
+2. **Graph Matching Networks for Learning the Similarity of Graph Structured Objects** ICML, 2019. [paper](https://arxiv.org/abs/1904.12787), [code](https://github.com/Lin-Yijie/Graph-Matching-Networks)
 
     *Li, Yujia and Gu, Chenjie and Dullien, Thomas and Vinyals, Oriol and Kohli, Pushmeet*
 
-3. **✨Combinatorial Learning of Graph Edit Distance via Dynamic Embedding.** CVPR, 2021. [paper](https://arxiv.org/abs/2011.15039)
+3. **Convolutional Embedding for Edit Distance** SIGIR, 2020. [paper](https://dl.acm.org/doi/abs/10.1145/3397271.3401045), [code](https://github.com/xinyandai/string-embed)
+
+    *Dai, Xinyan and Yan, Xiao and Zhou, Kaiwen and Wang, Yuxuan and Yang, Han and Cheng, James*
+
+4. **Learning-Based Efficient Graph Similarity Computation via Multi-Scale Convolutional Set Matching** AAAI, 2020. [paper](https://ojs.aaai.org/index.php/AAAI/article/view/5720), [code](https://github.com/yunshengb/GraphSim)
+
+    *Bai, Yunsheng and Ding, Hao and Gu, Ken and Sun, Yizhou and Wang, Wei*
+
+5. **A Bi-Level Framework for Learning to Solve Combinatorial Optimization on Graphs** Arxiv, 2021. [paper](https://arxiv.org/abs/2106.04927)
+
+    *Wang, Runzhong and Hua, Zhigang and Liu, Gan and Zhang, Jiayi and Yan, Junchi and Qi, Feng and Yang, Shuang and Zhou, Jun and Yang, Xiaokang*
+
+6. **✨Combinatorial Learning of Graph Edit Distance via Dynamic Embedding.** CVPR, 2021. [paper](https://arxiv.org/abs/2011.15039), [code](https://github.com/Thinklab-SJTU/GENN-Astar)
 
     *Wang, Runzhong and Zhang, Tianqi and Yu, Tianshu and Yan, Junchi and Yang, Xiaokang.*
 
