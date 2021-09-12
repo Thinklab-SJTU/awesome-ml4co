@@ -444,17 +444,57 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
 ### [Mixed Integer Programming](#content)
 
-1. **Improving Learning to Branch via Reinforcement Learning.** NeurIPS Workshop, 2020. [paper](https://openreview.net/forum?id=z4D7-PTxTb)
+1. **Learning to Search in Branch-and-Bound Algorithms** NeurlPS, 2014. [paper](http://papers.nips.cc/paper/5495-learning-to-search-in-branch-and-bound-algorithms)
+
+    *He, He and Daume III, Hal and Eisner, Jason M*
+
+2. **Exact Combinatorial Optimization with Graph Convolutional Neural Networks** NeurlPS, 2019. [paper](https://arxiv.org/abs/1906.01629), [code](https://github.com/ds4dm/learn2branch)
+
+    *Gasse, Maxime and Chetelat, Didier and Ferroni, Nicola and Charlin, Laurent and Lodi, Andrea*
+
+3. **Improving Learning to Branch via Reinforcement Learning.** NeurIPS Workshop, 2020. [paper](https://openreview.net/forum?id=z4D7-PTxTb)
 
     *Sun, Haoran and Chen, Wenbo and Li, Hui and Song, Le.*
 
-2. **CombOptNet: Fit the Right NP-Hard Problem by Learning Integer Programming Constraints** Arxiv, 2021. [paper](https://openreview.net/forum?id=z4D7-PTxTb)
+4. **Hybrid Models for Learning to Branch** NeurlPS, 2020. [paper](https://arxiv.org/abs/2006.15212), [code](https://github.com/pg2455/Hybrid-learn2branch)
+
+    *Gupta, Prateek and Gasse, Maxime and Khalil, Elias B and Kumar, M Pawan and Lodi, Andrea and Bengio, Yoshua*
+
+5. **Reinforcement Learning for Integer Programming: Learning to Cut** ICML, 2020. [paper](http://proceedings.mlr.press/v119/tang20a.html)
+
+    *Tang, Yunhao and Agrawal, Shipra and Faenza, Yuri*
+
+6. **Solving Mixed Integer Programs Using Neural Networks** Arxiv, 2020. [paper](https://arxiv.org/abs/2012.13349)
+
+    *Nair, Vinod and Bartunov, Sergey and Gimeno, Felix and von Glehn, Ingrid and Lichocki, Pawel and Lobov, Ivan and O'Donoghue, Brendan and Sonnerat, Nicolas and Tjandraatmadja, Christian and Wang, Pengming and others*
+
+7. **Learning Efficient Search Approximation in Mixed Integer Branch and Bound** Arxiv, 2020. [paper](https://arxiv.org/abs/2007.03948)
+
+    *Yilmaz, Kaan and Yorke-Smith, Neil*
+
+8. **Learning a Large Neighborhood Search Algorithm for Mixed Integer Programs** Arxiv, 2020. [paper](https://arxiv.org/abs/2107.10201)
+
+    *Sonnerat, Nicolas and Wang, Pengming and Ktena, Ira and Bartunov, Sergey and Nair, Vinod*
+
+9. **A General Large Neighborhood Search Framework for Solving Integer Linear Programs** NeurlPS, 2020. [paper](https://arxiv.org/abs/2004.00422)
+
+    *Song, Jialin and Lanka, Ravi and Yue, Yisong and Dilkina, Bistra*
+
+10. **CombOptNet: Fit the Right NP-Hard Problem by Learning Integer Programming Constraints** Arxiv, 2021. [paper](https://openreview.net/forum?id=z4D7-PTxTb), [code](https://github.com/martius-lab/CombOptNet)
 
     *Paulus, Anselm and Rolinek, Michal and Musil, Vit and Amos, Brandon and Martius, Georg*
 
-3. **Smart Feasibility Pump: Reinforcement Learning for (Mixed) Integer Programming** Arxiv, 2021. [paper](https://arxiv.org/abs/2102.09663)
+11. **Reinforcement Learning for (Mixed) Integer Programming: Smart Feasibility Pump** ICML Workshop, 2021. [paper](https://arxiv.org/abs/2102.09663)
 
     *Qi, Meng and Wang, Mengxin and Shen, Zuo-Jun*
+
+12. **Parameterizing Branch-and-Bound Search Trees to Learn Branching Policies** AAAI, 2021. [paper](https://www.aaai.org/AAAI21Papers/AAAI-9826.ZarpellonG.pdf), [code](https://github.com/ds4dm/branch-search-trees)
+
+    *Zarpellon, Giulia and Jo, Jason and Lodi, Andrea and Bengio, Yoshua*
+
+13. **Learning to Select Cuts for Efficient Mixed-Integer Programming** Arxiv, 2021. [journal](https://arxiv.org/abs/2105.13645)
+
+    *Huang, Zeren and Wang, Kerong and Liu, Furui and Zhen, Hui-ling and Zhang, Weinan and Yuan, Mingxuan and Hao, Jianye and Yu, Yong and Wang, Jun*
 
 ### [Causal Discovery](#content)
 
