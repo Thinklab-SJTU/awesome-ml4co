@@ -33,27 +33,27 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 </tr>
 <tr>
 	<td>&emsp;<a href=#graph-edit-distance>2.9 Graph Edit Distance (GED)</a></td>
-	<td>&emsp;<a href=#graph-coloring>2.10 Graph Coloring</a></td>
+	<td>&emsp;<a href=#hamiltonian-cycle-problem>2.10 Hamiltonian Cycle Problem (HCP)</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#maximal-common-subgraph>2.11 Maximal Common Subgraph (MCS)</a></td>
-	<td>&emsp;<a href=#influence-maximization>2.12 Influence Maximization</a></td>
+	<td>&emsp;<a href=#graph-coloring>2.11 Graph Coloring</a></td>
+	<td>&emsp;<a href=#maximal-common-subgraph>2.12 Maximal Common Subgraph (MCS)</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#maximal-independent-set>2.13 Maximal Independent Set (MIS)</a></td>
-	<td>&emsp;<a href=#mixed-integer-programming>2.14 Mixed Integer Programming</a></td>
+	<td>&emsp;<a href=#influence-maximization>2.13 Influence Maximization</a></td>
+	<td>&emsp;<a href=#maximal-independent-set>2.14 Maximal Independent Set (MIS)</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#causal-discovery>2.15 Causal Discovery</a></td>
-	<td>&emsp;<a href=#game-theoretic-semantics>2.16 Game Theoretic Semantics</a></td>
+	<td>&emsp;<a href=#mixed-integer-programming>2.15 Mixed Integer Programming</a></td>
+	<td>&emsp;<a href=#causal-discovery>2.16 Causal Discovery</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#boolean-satisfiability>2.17 Boolean Satisfiability (SAT)</a></td>
-	<td>&emsp;<a href=#differentiable-optimization>2.18 Differentiable Optimization</a></td>
+	<td>&emsp;<a href=#game-theoretic-semantics>2.17 Game Theoretic Semantics</a></td>
+	<td>&emsp;<a href=#boolean-satisfiability>2.18 Boolean Satisfiability (SAT)</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#car-dispatch>2.19 Car Dispatch</a></td>
-<td>&ensp;</td>
+	<td>&emsp;<a href=#differentiable-optimization>2.19 Differentiable Optimization</a></td>
+	<td>&emsp;<a href=#car-dispatch>2.20 Car Dispatch</a></td>
 </tr>
 </table>
 
@@ -308,6 +308,10 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
     *He, Yongming and Wu, Guohua and Chen, Yingwu and Pedrycz, Witold*
 
+6. **✨A Bi-Level Framework for Learning to Solve Combinatorial Optimization on Graphs** Arxiv, 2021. [paper](https://arxiv.org/abs/2106.04927)
+
+    *Wang, Runzhong and Hua, Zhigang and Liu, Gan and Zhang, Jiayi and Yan, Junchi and Qi, Feng and Yang, Shuang and Zhou, Jun and Yang, Xiaokang*
+
 ### [Job Shop Scheduling Problem](#content)
 
 1. **Deep Reinforcement Learning as a Job Shop Scheduling Solver: A Literature Review** Hybrid Intelligent Systems, 2018. [journal](http://link.springer.com/10.1007/978-3-030-14347-3_34)
@@ -406,13 +410,19 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
     *Bai, Yunsheng and Ding, Hao and Gu, Ken and Sun, Yizhou and Wang, Wei*
 
-5. **A Bi-Level Framework for Learning to Solve Combinatorial Optimization on Graphs** Arxiv, 2021. [paper](https://arxiv.org/abs/2106.04927)
+5. **✨A Bi-Level Framework for Learning to Solve Combinatorial Optimization on Graphs** Arxiv, 2021. [paper](https://arxiv.org/abs/2106.04927)
 
     *Wang, Runzhong and Hua, Zhigang and Liu, Gan and Zhang, Jiayi and Yan, Junchi and Qi, Feng and Yang, Shuang and Zhou, Jun and Yang, Xiaokang*
 
 6. **✨Combinatorial Learning of Graph Edit Distance via Dynamic Embedding.** CVPR, 2021. [paper](https://arxiv.org/abs/2011.15039), [code](https://github.com/Thinklab-SJTU/GENN-Astar)
 
     *Wang, Runzhong and Zhang, Tianqi and Yu, Tianshu and Yan, Junchi and Yang, Xiaokang.*
+
+### [Hamiltonian Cycle Problem](#content)
+
+1. **✨A Bi-Level Framework for Learning to Solve Combinatorial Optimization on Graphs** Arxiv, 2021. [paper](https://arxiv.org/abs/2106.04927)
+
+    *Wang, Runzhong and Hua, Zhigang and Liu, Gan and Zhang, Jiayi and Yan, Junchi and Qi, Feng and Yang, Shuang and Zhou, Jun and Yang, Xiaokang*
 
 ### [Graph Coloring](#content)
 

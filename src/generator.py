@@ -5,7 +5,7 @@ import copy
 abbr = {'Graph Matching': 'GM', 'Travelling Salesman Problem': 'TSP', 'Vehicle Routing Problem': 'VRP',
         'Job Shop Scheduling Problem': 'JSSP', 'Bin Packing Problem': 'BPP', 'Graph Edit Distance': 'GED',
         'Maximal Common Subgraph': 'MCS', 'Maximal Independent Set': 'MIS', 'Boolean Satisfiability': 'SAT',
-        'Quadratic Assignment Problem': 'QAP'}
+        'Quadratic Assignment Problem': 'QAP', 'Hamiltonian Cycle Problem': 'HCP'}
 
 
 def md2csv(mdFile, csvFile):  # From the md file to generate a csv file that contains the paper list.
