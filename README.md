@@ -508,7 +508,11 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
 ### [Causal Discovery](#content)
 
-1. **Causal Discovery with Reinforcement Learning.** ICLR, 2020. [paper](https://arxiv.org/abs/1906.04477)
+1. **DAGs with NO TEARS: Continuous Optimization for Structure Learning.** NeurIPS, 2018. [paper](https://arxiv.org/pdf/1803.01422.pdf)
+
+    *Zheng, Xun and Aragam, Bryon and Ravikumar, Pradeep and Xing, Eric.*
+
+2. **Causal Discovery with Reinforcement Learning.** ICLR, 2020. [paper](https://arxiv.org/abs/1906.04477)
 
     *Zhu, Shengyu and Ng, Ignavier and Chen, Zhitang.*
 
