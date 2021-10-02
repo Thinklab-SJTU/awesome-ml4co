@@ -89,6 +89,7 @@ Mixed Integer Programming,Learning to Search in Branch-and-Bound Algorithms,Neur
 Mixed Integer Programming,Learning Efficient Search Approximation in Mixed Integer Branch and Bound,Arxiv,2020,paper,https://arxiv.org/abs/2007.03948,"Yilmaz, Kaan and Yorke-Smith, Neil",
 Mixed Integer Programming,Learning a Large Neighborhood Search Algorithm for Mixed Integer Programs,Arxiv,2020,paper,https://arxiv.org/abs/2107.10201,"Sonnerat, Nicolas and Wang, Pengming and Ktena, Ira and Bartunov, Sergey and Nair, Vinod",
 Mixed Integer Programming,A General Large Neighborhood Search Framework for Solving Integer Linear Programs,NeurlPS,2020,paper,https://arxiv.org/abs/2004.00422,"Song, Jialin and Lanka, Ravi and Yue, Yisong and Dilkina, Bistra",
+Causal Discovery,DAGs with NO TEARS: Continuous Optimization for Structure Learning.,NeurIPS,2018,paper,https://arxiv.org/pdf/1803.01422.pdf,"Zheng, Xun and Aragam, Bryon and Ravikumar, Pradeep and Xing, Eric.",
 Causal Discovery,Causal Discovery with Reinforcement Learning.,ICLR,2020,paper,https://arxiv.org/abs/1906.04477,"Zhu, Shengyu and Ng, Ignavier and Chen, Zhitang.",
 Game Theoretic Semantics,First-Order Problem Solving through Neural MCTS based Reinforcement Learning.,Arxiv,2021,paper,https://arxiv.org/abs/2101.04167,"Xu, Ruiyang and Kadam, Prashank and Lieberherr, Karl.",
 Boolean Satisfiability,Graph neural networks and boolean satisfiability.,Arxiv,2017,paper,https://arxiv.org/pdf/1702.03592,"Bünz, Benedikt, and Matthew Lamm.",
