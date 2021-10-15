@@ -6,7 +6,8 @@ abbr = {'Graph Matching': 'GM', 'Travelling Salesman Problem': 'TSP', 'Vehicle R
         'Job Shop Scheduling Problem': 'JSSP', 'Bin Packing Problem': 'BPP', 'Graph Edit Distance': 'GED',
         'Maximal Common Subgraph': 'MCS', 'Maximal Independent Set': 'MIS', 'Boolean Satisfiability': 'SAT',
         'Quadratic Assignment Problem': 'QAP',
-        'Hamiltonian Cycle Problem': 'HCP', 'Multiple Travelling Salesman Problem': 'mTSP'}
+        'Hamiltonian Cycle Problem': 'HCP',
+        'Multiple Travelling Salesman Problem': 'mTSP'}
 
 
 def md2csv(mdFile, csvFile):  # From the md file to generate a csv file that contains the paper list.

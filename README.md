@@ -55,6 +55,10 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 	<td>&emsp;<a href=#differentiable-optimization>2.19 Differentiable Optimization</a></td>
 	<td>&emsp;<a href=#car-dispatch>2.20 Car Dispatch</a></td>
 </tr>
+<tr>
+	<td>&emsp;<a href=#multiple-travelling-salesman-problem>2.21 Multiple Travelling Salesman Problem (mTSP)</a></td>
+<td>&ensp;</td>
+</tr>
 </table>
 
 
@@ -242,6 +246,10 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
     *Yao, Fan and Cai, Renqin and Wang, Hongning*
 
+12. **ScheduleNet: Learn to solve multi-agent scheduling problems with reinforcement learning** Arxiv, 2021. [paper](https://arxiv.org/abs/2106.03051)
+
+    *Junyoung Park, Sanjar Bakhtiyar, Jinkyoo Park*
+
 ### [Maximal Cut](#content)
 
 1. **Learning Combinatorial Optimization Algorithms over Graphs.** NeurIPS, 2017. [paper](https://arxiv.org/abs/1704.01665)
@@ -333,6 +341,18 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 5. **Dynamic job-shop scheduling in smart manufacturing using deep reinforcement learning** Computer Networks, 2021. [journal](https://www.sciencedirect.com/science/article/pii/S1389128621001031)
 
     *Libing Wang, Xin Hu, Yin Wang, Sujie Xu, Shijun Ma, Kexin Yang, Zhijun Liu, Weidong Wang*
+
+6. **Learning to schedule job-shop problems: representation and policy learning using graph neural network and reinforcement learning** International Journal of Production Research, 2021. [journal](https://www.tandfonline.com/doi/full/10.1080/00207543.2020.1870013)
+
+    *Junyoung Park, Jaehyeong Chun, Sang Hun Kim, Youngkook Kim, Jinkyoo Park*
+
+7. **Learning to schedule job-shop problems: representation and policy learning using graph neural network and reinforcement learning** International Journal of Production Research, 2021. [journal](https://www.tandfonline.com/doi/full/10.1080/00207543.2020.1870013)
+
+    *Junyoung Park, Jaehyeong Chun, Sang Hun Kim, Youngkook Kim, Jinkyoo Park*
+
+8. **ScheduleNet: Learn to solve multi-agent scheduling problems with reinforcement learning** Arxiv, 2021. [paper](https://arxiv.org/abs/2106.03051)
+
+    *Junyoung Park, Sanjar Bakhtiyar, Jinkyoo Park*
 
 ### [Bin Packing Problem](#content)
 
@@ -627,4 +647,10 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 1. **Dispatch of autonomous vehicles for taxi services: A deep reinforcement learning approach** Transportation Research, 2020. [journal](https://www.sciencedirect.com/science/article/pii/S0968090X19312227)
 
     *Chao Mao, Yulin Liu, Zuo-Jun (Max) Shen*
+
+### [Multiple Travelling Salesman Problem](#content)
+
+1. **ScheduleNet: Learn to solve multi-agent scheduling problems with reinforcement learning** Arxiv, 2021. [paper](https://arxiv.org/abs/2106.03051)
+
+    *Junyoung Park, Sanjar Bakhtiyar, Jinkyoo Park*
 
