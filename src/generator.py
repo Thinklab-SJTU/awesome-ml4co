@@ -5,7 +5,9 @@ import copy
 abbr = {'Graph Matching': 'GM', 'Travelling Salesman Problem': 'TSP', 'Vehicle Routing Problem': 'VRP',
         'Job Shop Scheduling Problem': 'JSSP', 'Bin Packing Problem': 'BPP', 'Graph Edit Distance': 'GED',
         'Maximal Common Subgraph': 'MCS', 'Maximal Independent Set': 'MIS', 'Boolean Satisfiability': 'SAT',
-        'Quadratic Assignment Problem': 'QAP', 'Hamiltonian Cycle Problem': 'HCP'}
+        'Quadratic Assignment Problem': 'QAP',
+        'Hamiltonian Cycle Problem': 'HCP',
+        'Multiple Travelling Salesman Problem': 'mTSP'}
 
 
 def md2csv(mdFile, csvFile):  # From the md file to generate a csv file that contains the paper list.
@@ -110,7 +112,7 @@ def csv2md(csvFile, mdFile, header):
             file.writelines('<tr>\n')
             if name1 in abbr:
                 file.writelines('\t<td>&emsp;<a href=#{}>2.{} {} ({})</a></td>\n'.format(name_index1, 2 * i + 1, name1,
-                                                                                          abbr[name1]))
+                                                                                         abbr[name1]))
             else:
                 file.writelines('\t<td>&emsp;<a href=#{}>2.{} {}</a></td>\n'.format(name_index1, 2 * i + 1, name1))
             if 2 * i + 1 < len(classes) - 1:
@@ -119,7 +121,7 @@ def csv2md(csvFile, mdFile, header):
                 if name2 in abbr:
                     file.writelines(
                         '\t<td>&emsp;<a href=#{}>2.{} {} ({})</a></td>\n'.format(name_index2, 2 * i + 2, name2,
-                                                                                  abbr[name2]))
+                                                                                 abbr[name2]))
                 else:
                     file.writelines('\t<td>&emsp;<a href=#{}>2.{} {}</a></td>\n'.format(name_index2, 2 * i + 2, name2))
             else:

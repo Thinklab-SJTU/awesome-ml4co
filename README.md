@@ -54,6 +54,10 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 	<td>&emsp;<a href=#car-dispatch>2.19 Car Dispatch</a></td>
 	<td>&emsp;<a href=#job-shop-scheduling-problem>2.20 Job Shop Scheduling Problem (JSSP)</a></td>
 </tr>
+<tr>
+	<td>&emsp;<a href=#multiple-travelling-salesman-problem>2.21 Multiple Travelling Salesman Problem (mTSP)</a></td>
+<td>&ensp;</td>
+</tr>
 </table>
 
 
@@ -245,7 +249,11 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
     *Yao, Fan and Cai, Renqin and Wang, Hongning*
 
-13. **Solving Dynamic Traveling Salesman Problems with Deep Reinforcement Learning.** TNNLS, 2021. [journal](https://ieeexplore.ieee.org/document/9537638)
+13. **ScheduleNet: Learn to solve multi-agent scheduling problems with reinforcement learning** Arxiv, 2021. [paper](https://arxiv.org/abs/2106.03051)
+
+    *Junyoung Park, Sanjar Bakhtiyar, Jinkyoo Park*
+
+14. **Solving Dynamic Traveling Salesman Problems with Deep Reinforcement Learning.** TNNLS, 2021. [journal](https://ieeexplore.ieee.org/document/9537638)
 
     *Zizhen Zhang, Hong Liu, Meng Chu Zhou, Jiahai Wang*
 
@@ -330,6 +338,7 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 6. **✨A Bi-Level Framework for Learning to Solve Combinatorial Optimization on Graphs** Arxiv, 2021. [paper](https://arxiv.org/abs/2106.04927)
 
     *Wang, Runzhong and Hua, Zhigang and Liu, Gan and Zhang, Jiayi and Yan, Junchi and Qi, Feng and Yang, Shuang and Zhou, Jun and Yang, Xiaokang*
+
 
 ### [Bin Packing Problem](#content)
 
@@ -633,6 +642,12 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
     *Chao Mao, Yulin Liu, Zuo-Jun (Max) Shen*
 
+### [Multiple Travelling Salesman Problem](#content)
+
+1. **ScheduleNet: Learn to solve multi-agent scheduling problems with reinforcement learning** Arxiv, 2021. [paper](https://arxiv.org/abs/2106.03051)
+
+    *Junyoung Park, Sanjar Bakhtiyar, Jinkyoo Park*
+
 ### [Job Shop Scheduling Problem](#content)
 
 1. **Deep Reinforcement Learning as a Job Shop Scheduling Solver: A Literature Review** Hybrid Intelligent Systems, 2018. [journal](http://link.springer.com/10.1007/978-3-030-14347-3_34)
@@ -662,4 +677,9 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 7. **Explainable reinforcement learning in production control of job shop manufacturing system.** International Journal of Production Research, 2021. [journal](https://www.tandfonline.com/doi/abs/10.1080/00207543.2021.1972179?journalCode=tprs20)
 
     *Andreas Kuhnle,Marvin Carl May,Louis Sch?fer & Gisela Lanza*
+    
+8. **ScheduleNet: Learn to solve multi-agent scheduling problems with reinforcement learning** Arxiv, 2021. [paper](https://arxiv.org/abs/2106.03051)
+
+    *Junyoung Park, Sanjar Bakhtiyar, Jinkyoo Park*
+
 
