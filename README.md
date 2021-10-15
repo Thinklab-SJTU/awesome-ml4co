@@ -346,11 +346,7 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
     *Junyoung Park, Jaehyeong Chun, Sang Hun Kim, Youngkook Kim, Jinkyoo Park*
 
-7. **Learning to schedule job-shop problems: representation and policy learning using graph neural network and reinforcement learning** International Journal of Production Research, 2021. [journal](https://www.tandfonline.com/doi/full/10.1080/00207543.2020.1870013)
-
-    *Junyoung Park, Jaehyeong Chun, Sang Hun Kim, Youngkook Kim, Jinkyoo Park*
-
-8. **ScheduleNet: Learn to solve multi-agent scheduling problems with reinforcement learning** Arxiv, 2021. [paper](https://arxiv.org/abs/2106.03051)
+7. **ScheduleNet: Learn to solve multi-agent scheduling problems with reinforcement learning** Arxiv, 2021. [paper](https://arxiv.org/abs/2106.03051)
 
     *Junyoung Park, Sanjar Bakhtiyar, Jinkyoo Park*
 
