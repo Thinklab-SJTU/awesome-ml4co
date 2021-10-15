@@ -14,7 +14,6 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 <table>
 <tr><td colspan="2"><a href="#survey-papers">1. Survey</a></td></tr> 
 <tr><td colspan="2"><a href="#problems">2. Problems</a></td></tr> 
-
 <tr>
 	<td>&emsp;<a href=#graph-matching>2.1 Graph Matching (GM)</a></td>
 	<td>&emsp;<a href=#quadratic-assignment-problem>2.2 Quadratic Assignment Problem (QAP)</a></td>
@@ -28,32 +27,32 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 	<td>&emsp;<a href=#computing-resource-allocation>2.6 Computing Resource Allocation</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#job-shop-scheduling-problem>2.7 Job Shop Scheduling Problem (JSSP)</a></td>
-	<td>&emsp;<a href=#bin-packing-problem>2.8 Bin Packing Problem (BPP)</a></td>
+	<td>&emsp;<a href=#bin-packing-problem>2.7 Bin Packing Problem (BPP)</a></td>
+	<td>&emsp;<a href=#graph-edit-distance>2.8 Graph Edit Distance (GED)</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#graph-edit-distance>2.9 Graph Edit Distance (GED)</a></td>
-	<td>&emsp;<a href=#hamiltonian-cycle-problem>2.10 Hamiltonian Cycle Problem (HCP)</a></td>
+	<td>&emsp;<a href=#hamiltonian-cycle-problem>2.9 Hamiltonian Cycle Problem (HCP)</a></td>
+	<td>&emsp;<a href=#graph-coloring>2.10 Graph Coloring</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#graph-coloring>2.11 Graph Coloring</a></td>
-	<td>&emsp;<a href=#maximal-common-subgraph>2.12 Maximal Common Subgraph (MCS)</a></td>
+	<td>&emsp;<a href=#maximal-common-subgraph>2.11 Maximal Common Subgraph (MCS)</a></td>
+	<td>&emsp;<a href=#influence-maximization>2.12 Influence Maximization</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#influence-maximization>2.13 Influence Maximization</a></td>
-	<td>&emsp;<a href=#maximal-independent-set>2.14 Maximal Independent Set (MIS)</a></td>
+	<td>&emsp;<a href=#maximal-independent-set>2.13 Maximal Independent Set (MIS)</a></td>
+	<td>&emsp;<a href=#mixed-integer-programming>2.14 Mixed Integer Programming</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#mixed-integer-programming>2.15 Mixed Integer Programming</a></td>
-	<td>&emsp;<a href=#causal-discovery>2.16 Causal Discovery</a></td>
+	<td>&emsp;<a href=#causal-discovery>2.15 Causal Discovery</a></td>
+	<td>&emsp;<a href=#game-theoretic-semantics>2.16 Game Theoretic Semantics</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#game-theoretic-semantics>2.17 Game Theoretic Semantics</a></td>
-	<td>&emsp;<a href=#boolean-satisfiability>2.18 Boolean Satisfiability (SAT)</a></td>
+	<td>&emsp;<a href=#boolean-satisfiability>2.17 Boolean Satisfiability (SAT)</a></td>
+	<td>&emsp;<a href=#differentiable-optimization>2.18 Differentiable Optimization</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#differentiable-optimization>2.19 Differentiable Optimization</a></td>
-	<td>&emsp;<a href=#car-dispatch>2.20 Car Dispatch</a></td>
+	<td>&emsp;<a href=#car-dispatch>2.19 Car Dispatch</a></td>
+	<td>&emsp;<a href=#job-shop-scheduling-problem>2.20 Job Shop Scheduling Problem (JSSP)</a></td>
 </tr>
 <tr>
 	<td>&emsp;<a href=#multiple-travelling-salesman-problem>2.21 Multiple Travelling Salesman Problem (mTSP)</a></td>
@@ -234,21 +233,29 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
     *Marin Vlastelica, Anselm Paulus, Vít Musil, Georg Martius, Michal Rolínek*
 
-9. **The Transformer Network for the Traveling Salesman Problem** IPAM, 2021. [paper](http://helper.ipam.ucla.edu/publications/dlc2021/dlc2021_16703.pdf)
+9. **Deep Reinforcement Learning for Combinatorial Optimization: Covering Salesman Problems.** IEEE Trans Cybern, 2021. [journal](https://arxiv.org/abs/2102.05875)
+
+    *Kaiwen Li, Tao Zhang, Rui Wang Yuheng Wang, and Yi Han*
+
+10. **The Transformer Network for the Traveling Salesman Problem** IPAM, 2021. [paper](http://helper.ipam.ucla.edu/publications/dlc2021/dlc2021_16703.pdf)
 
     *Xavier Bresson，Thomas Laurent*
 
-10. **Learning Improvement Heuristics for Solving Routing Problems** TNNLS, 2021. [journal](https://ieeexplore.ieee.org/abstract/document/9393606?casa_token=mFeyLmrOGfIAAAAA:nmAkjUaTSooYurWHuWGYNoguV453anw9Enyv45xG5jb2oCps6QE4A1CFe1EmFmTzbON6cL5maw)
+11. **Learning Improvement Heuristics for Solving Routing Problems** TNNLS, 2021. [journal](https://ieeexplore.ieee.org/abstract/document/9393606?casa_token=mFeyLmrOGfIAAAAA:nmAkjUaTSooYurWHuWGYNoguV453anw9Enyv45xG5jb2oCps6QE4A1CFe1EmFmTzbON6cL5maw)
 
     *Wu, Yaoxin and Song, Wen and Cao, Zhiguang and Zhang, Jie and Lim, Andrew*
 
-11. **Reversible Action Design for Combinatorial Optimization with Reinforcement Learning** Arxiv, 2021. [paper](https://arxiv.org/abs/2102.07210)
+12. **Reversible Action Design for Combinatorial Optimization with Reinforcement Learning** Arxiv, 2021. [paper](https://arxiv.org/abs/2102.07210)
 
     *Yao, Fan and Cai, Renqin and Wang, Hongning*
 
-12. **ScheduleNet: Learn to solve multi-agent scheduling problems with reinforcement learning** Arxiv, 2021. [paper](https://arxiv.org/abs/2106.03051)
+13. **ScheduleNet: Learn to solve multi-agent scheduling problems with reinforcement learning** Arxiv, 2021. [paper](https://arxiv.org/abs/2106.03051)
 
     *Junyoung Park, Sanjar Bakhtiyar, Jinkyoo Park*
+
+14. **Solving Dynamic Traveling Salesman Problems with Deep Reinforcement Learning.** TNNLS, 2021. [journal](https://ieeexplore.ieee.org/document/9537638)
+
+    *Zizhen Zhang, Hong Liu, Meng Chu Zhou, Jiahai Wang*
 
 ### [Maximal Cut](#content)
 
@@ -278,19 +285,31 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
     *Lin, Bo and Ghaddar, Bissan and Nathwani, Jatin.*
 
-3. **A Learning-based Iterative Method for Solving Vehicle Routing Problems** ICLR, 2020. [paper](https://static.aminer.cn/upload/pdf/program/5e5e18dd93d709897ce3720b_0.pdf)
+3. **Efficiently Solving the Practical,Vehicle Routing Problem: A Novel Joint Learning Approach.** KDD, 2020. [paper](https://www.kdd.org/kdd2020/accepted-papers/view/efficiently-solving-the-practical-vehicle-routing-problem-a-novel-joint-lea)
+
+    *Lu Duan, Yang Zhan, Haoyuan Hu, Yu Gong, Jiangwen Wei, Xiaodong Zhang, Yinghui Xu*
+
+4. **Reinforcement Learning with Combinatorial Actions: An Application to Vehicle Routing** NeurIPS, 2020. [paper](https://papers.nips.cc/paper/2020/file/06a9d51e04213572ef0720dd27a84792-Paper.pdf), [code](https://github.com/google-research/tf-opt)
+
+    *Arthur Delarue, Ross Anderson, Christian Tjandraatmadja*
+
+5. **A Learning-based Iterative Method for Solving Vehicle Routing Problems** ICLR, 2020. [paper](https://static.aminer.cn/upload/pdf/program/5e5e18dd93d709897ce3720b_0.pdf)
 
     *Lu, Hao and Zhang, Xingwen and Yang, Shuang*
 
-4. **Learning Improvement Heuristics for Solving Routing Problems** TNNLS, 2021. [journal](https://ieeexplore.ieee.org/abstract/document/9393606?casa_token=mFeyLmrOGfIAAAAA:nmAkjUaTSooYurWHuWGYNoguV453anw9Enyv45xG5jb2oCps6QE4A1CFe1EmFmTzbON6cL5maw)
+6. **Learning Improvement Heuristics for Solving Routing Problems** TNNLS, 2021. [journal](https://ieeexplore.ieee.org/abstract/document/9393606?casa_token=mFeyLmrOGfIAAAAA:nmAkjUaTSooYurWHuWGYNoguV453anw9Enyv45xG5jb2oCps6QE4A1CFe1EmFmTzbON6cL5maw)
 
     *Wu, Yaoxin and Song, Wen and Cao, Zhiguang and Zhang, Jie and Lim, Andrew*
 
-5. **Analytics and Machine Learning in Vehicle Routing Research** Arxiv, 2021. [paper](https://arxiv.org/abs/2102.10012)
+7. **Multi-Decoder Attention Model with Embedding Glimpse for Solving Vehicle Routing Problems.** AAAI, 2021. [paper](https://arxiv.org/abs/2012.10638), [code](https://github.com/liangxinedu/MDAM)
+
+    *Liang Xin, Wen Song, Zhiguang Cao, Jie Zhang*
+
+8. **Analytics and Machine Learning in Vehicle Routing Research** Arxiv, 2021. [paper](https://arxiv.org/abs/2102.10012)
 
     *Bai, Ruibin and Chen, Xinan and Chen, Zhi-Long and Cui, Tianxiang and Gong, Shuhui and He, Wentao and Jiang, Xiaoping and Jin, Huan and Jin, Jiahuan and Kendall, Graham and others*
 
-6. **RP-DQN: An application of Q-Learning to Vehicle Routing Problems** Arxiv, 2021. [paper](https://arxiv.org/abs/2104.12226)
+9. **RP-DQN: An application of Q-Learning to Vehicle Routing Problems** Arxiv, 2021. [paper](https://arxiv.org/abs/2104.12226)
 
     *Bdeir, Ahmad and Boeder, Simon and Dernedde, Tim and Tkachuk, Kirill and Falkner, Jonas K and Schmidt-Thieme, Lars*
 
@@ -320,35 +339,6 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
     *Wang, Runzhong and Hua, Zhigang and Liu, Gan and Zhang, Jiayi and Yan, Junchi and Qi, Feng and Yang, Shuang and Zhou, Jun and Yang, Xiaokang*
 
-### [Job Shop Scheduling Problem](#content)
-
-1. **Deep Reinforcement Learning as a Job Shop Scheduling Solver: A Literature Review** Hybrid Intelligent Systems, 2018. [journal](http://link.springer.com/10.1007/978-3-030-14347-3_34)
-
-    *Bruno Cunha, Ana M. Madureira, Benjamim Fonseca, Duarte Coelho*
-
-2. **Smart Manufacturing Scheduling With Edge Computing Using Multiclass Deep Q Network** Transactions on Industrial Informatics, 2019. [journal](https://ieeexplore.ieee.org/document/8676376)
-
-    *Chun-Cheng Lin, Der-Jiunn Deng, Yen-Ling Chih, Hsin-Ting Chiu*
-
-3. **Multi-Agent Reinforcement Learning for Job Shop Scheduling in Flexible Manufacturing Systems** International Conference on Artificial Intelligence for Industries (AI4I), 2019. [paper](https://ieeexplore.ieee.org/document/9027776)
-
-    *Schirin Baer, Jupiter Bakakeu, Richard Meyes, Tobias Meisen*
-
-4. **Learning to Dispatch for Job Shop Scheduling via Deep Reinforcement Learning.** NeurIPS, 2020. [paper](https://arxiv.org/abs/2010.12367), [code](https://github.com/zcajiayin/L2D)
-
-    *Zhang, Cong and Song, Wen and Cao, Zhiguang and Zhang, Jie and Tan, Puay Siew and Xu, Chi.*
-
-5. **Dynamic job-shop scheduling in smart manufacturing using deep reinforcement learning** Computer Networks, 2021. [journal](https://www.sciencedirect.com/science/article/pii/S1389128621001031)
-
-    *Libing Wang, Xin Hu, Yin Wang, Sujie Xu, Shijun Ma, Kexin Yang, Zhijun Liu, Weidong Wang*
-
-6. **Learning to schedule job-shop problems: representation and policy learning using graph neural network and reinforcement learning** International Journal of Production Research, 2021. [journal](https://www.tandfonline.com/doi/full/10.1080/00207543.2020.1870013)
-
-    *Junyoung Park, Jaehyeong Chun, Sang Hun Kim, Youngkook Kim, Jinkyoo Park*
-
-7. **ScheduleNet: Learn to solve multi-agent scheduling problems with reinforcement learning** Arxiv, 2021. [paper](https://arxiv.org/abs/2106.03051)
-
-    *Junyoung Park, Sanjar Bakhtiyar, Jinkyoo Park*
 
 ### [Bin Packing Problem](#content)
 
@@ -458,6 +448,10 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
     *Mittal, Akash and Dhawan, Anuj and Manchanda, Sahil and Medya, Sourav and Ranu, Sayan and Singh, Ambuj.*
 
+2. **Controlling Graph Dynamics with Reinforcement Learning and Graph Neural Networks.** ICML, 2021. [paper](https://arxiv.org/abs/2010.05313)
+
+    *Eli A. Meirom, Haggai Maron, Shie Mannor, Gal Chechik*
+
 ### [Maximal Independent Set](#content)
 
 1. **Combinatorial Optimization with Graph Convolutional Networks and Guided Tree Search.** NeurIPS, 2018. [paper](https://arxiv.org/abs/1810.10659)
@@ -486,39 +480,43 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
     *Gupta, Prateek and Gasse, Maxime and Khalil, Elias B and Kumar, M Pawan and Lodi, Andrea and Bengio, Yoshua*
 
-5. **Reinforcement Learning for Integer Programming: Learning to Cut** ICML, 2020. [paper](http://proceedings.mlr.press/v119/tang20a.html)
+5. **Accelerating Primal Solution Findings for Mixed Integer Programs Based on Solution Prediction.** AAAI, 2020. [paper](https://arxiv.org/abs/1906.09575)
+
+    *Jian-Ya Ding, Chao Zhang, Lei Shen, Shengyin Li, Bing Wang, Yinghui Xu, Le Song*
+
+6. **Reinforcement Learning for Integer Programming: Learning to Cut** ICML, 2020. [paper](http://proceedings.mlr.press/v119/tang20a.html)
 
     *Tang, Yunhao and Agrawal, Shipra and Faenza, Yuri*
 
-6. **Solving Mixed Integer Programs Using Neural Networks** Arxiv, 2020. [paper](https://arxiv.org/abs/2012.13349)
+7. **Solving Mixed Integer Programs Using Neural Networks** Arxiv, 2020. [paper](https://arxiv.org/abs/2012.13349)
 
     *Nair, Vinod and Bartunov, Sergey and Gimeno, Felix and von Glehn, Ingrid and Lichocki, Pawel and Lobov, Ivan and O'Donoghue, Brendan and Sonnerat, Nicolas and Tjandraatmadja, Christian and Wang, Pengming and others*
 
-7. **Learning Efficient Search Approximation in Mixed Integer Branch and Bound** Arxiv, 2020. [paper](https://arxiv.org/abs/2007.03948)
+8. **Learning Efficient Search Approximation in Mixed Integer Branch and Bound** Arxiv, 2020. [paper](https://arxiv.org/abs/2007.03948)
 
     *Yilmaz, Kaan and Yorke-Smith, Neil*
 
-8. **Learning a Large Neighborhood Search Algorithm for Mixed Integer Programs** Arxiv, 2020. [paper](https://arxiv.org/abs/2107.10201)
+9. **Learning a Large Neighborhood Search Algorithm for Mixed Integer Programs** Arxiv, 2020. [paper](https://arxiv.org/abs/2107.10201)
 
     *Sonnerat, Nicolas and Wang, Pengming and Ktena, Ira and Bartunov, Sergey and Nair, Vinod*
 
-9. **A General Large Neighborhood Search Framework for Solving Integer Linear Programs** NeurlPS, 2020. [paper](https://arxiv.org/abs/2004.00422)
+10. **A General Large Neighborhood Search Framework for Solving Integer Linear Programs** NeurlPS, 2020. [paper](https://arxiv.org/abs/2004.00422)
 
     *Song, Jialin and Lanka, Ravi and Yue, Yisong and Dilkina, Bistra*
 
-10. **CombOptNet: Fit the Right NP-Hard Problem by Learning Integer Programming Constraints** Arxiv, 2021. [paper](https://openreview.net/forum?id=z4D7-PTxTb), [code](https://github.com/martius-lab/CombOptNet)
+11. **CombOptNet: Fit the Right NP-Hard Problem by Learning Integer Programming Constraints** Arxiv, 2021. [paper](https://openreview.net/forum?id=z4D7-PTxTb), [code](https://github.com/martius-lab/CombOptNet)
 
     *Paulus, Anselm and Rolinek, Michal and Musil, Vit and Amos, Brandon and Martius, Georg*
 
-11. **Reinforcement Learning for (Mixed) Integer Programming: Smart Feasibility Pump** ICML Workshop, 2021. [paper](https://arxiv.org/abs/2102.09663)
+12. **Reinforcement Learning for (Mixed) Integer Programming: Smart Feasibility Pump** ICML Workshop, 2021. [paper](https://arxiv.org/abs/2102.09663)
 
     *Qi, Meng and Wang, Mengxin and Shen, Zuo-Jun*
 
-12. **Parameterizing Branch-and-Bound Search Trees to Learn Branching Policies** AAAI, 2021. [paper](https://www.aaai.org/AAAI21Papers/AAAI-9826.ZarpellonG.pdf), [code](https://github.com/ds4dm/branch-search-trees)
+13. **Parameterizing Branch-and-Bound Search Trees to Learn Branching Policies** AAAI, 2021. [paper](https://www.aaai.org/AAAI21Papers/AAAI-9826.ZarpellonG.pdf), [code](https://github.com/ds4dm/branch-search-trees)
 
     *Zarpellon, Giulia and Jo, Jason and Lodi, Andrea and Bengio, Yoshua*
 
-13. **Learning to Select Cuts for Efficient Mixed-Integer Programming** Arxiv, 2021. [journal](https://arxiv.org/abs/2105.13645)
+14. **Learning to Select Cuts for Efficient Mixed-Integer Programming** Arxiv, 2021. [journal](https://arxiv.org/abs/2105.13645)
 
     *Huang, Zeren and Wang, Kerong and Liu, Furui and Zhen, Hui-ling and Zhang, Weinan and Yuan, Mingxuan and Hao, Jianye and Yu, Yong and Wang, Jun*
 
@@ -649,4 +647,39 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 1. **ScheduleNet: Learn to solve multi-agent scheduling problems with reinforcement learning** Arxiv, 2021. [paper](https://arxiv.org/abs/2106.03051)
 
     *Junyoung Park, Sanjar Bakhtiyar, Jinkyoo Park*
+
+### [Job Shop Scheduling Problem](#content)
+
+1. **Deep Reinforcement Learning as a Job Shop Scheduling Solver: A Literature Review** Hybrid Intelligent Systems, 2018. [journal](http://link.springer.com/10.1007/978-3-030-14347-3_34)
+
+    *Bruno Cunha, Ana M. Madureira, Benjamim Fonseca, Duarte Coelho*
+
+2. **Smart Manufacturing Scheduling With Edge Computing Using Multiclass Deep Q Network** Transactions on Industrial Informatics, 2019. [journal](https://ieeexplore.ieee.org/document/8676376)
+
+    *Chun-Cheng Lin, Der-Jiunn Deng, Yen-Ling Chih, Hsin-Ting Chiu*
+
+3. **Multi-Agent Reinforcement Learning for Job Shop Scheduling in Flexible Manufacturing Systems** International Conference on Artificial Intelligence for Industries (AI4I), 2019. [paper](https://ieeexplore.ieee.org/document/9027776)
+
+    *Schirin Baer, Jupiter Bakakeu, Richard Meyes, Tobias Meisen*
+
+4. **Learning to Dispatch for Job Shop Scheduling via Deep Reinforcement Learning.** NeurIPS, 2020. [paper](https://arxiv.org/abs/2010.12367), [code](https://github.com/zcajiayin/L2D)
+
+    *Zhang, Cong and Song, Wen and Cao, Zhiguang and Zhang, Jie and Tan, Puay Siew and Xu, Chi.*
+
+5. **Dynamic job-shop scheduling in smart manufacturing using deep reinforcement learning** Computer Networks, 2021. [journal](https://www.sciencedirect.com/science/article/pii/S1389128621001031)
+
+    *Libing Wang, Xin Hu, Yin Wang, Sujie Xu, Shijun Ma, Kexin Yang, Zhijun Liu, Weidong Wang*
+
+6. **Learning to schedule job-shop problems: Representation and policy learning using graph neural network and reinforcement learning.** International Journal of Production Research, 2021. [journal](https://arxiv.org/abs/2106.01086)
+
+    *Junyoung Park, Jaehyeong Chun, Sang Hun Kim, Youngkook Kim, Jinkyoo Park*
+
+7. **Explainable reinforcement learning in production control of job shop manufacturing system.** International Journal of Production Research, 2021. [journal](https://www.tandfonline.com/doi/abs/10.1080/00207543.2021.1972179?journalCode=tprs20)
+
+    *Andreas Kuhnle,Marvin Carl May,Louis Sch?fer & Gisela Lanza*
+    
+8. **ScheduleNet: Learn to solve multi-agent scheduling problems with reinforcement learning** Arxiv, 2021. [paper](https://arxiv.org/abs/2106.03051)
+
+    *Junyoung Park, Sanjar Bakhtiyar, Jinkyoo Park*
+
 

@@ -104,7 +104,7 @@ def csv2md(csvFile, mdFile, header):
 
     command = "cp " + header + " " + mdFile
     os.system(command)
-    with open(mdFile, "a") as file:
+    with open(mdFile, "a", encoding='utf-8') as file:
         # write category
         for i in range(len(classes) // 2):
             name1 = classes[2 * i + 1]
