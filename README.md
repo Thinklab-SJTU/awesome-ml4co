@@ -14,6 +14,7 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 <table>
 <tr><td colspan="2"><a href="#survey-papers">1. Survey</a></td></tr> 
 <tr><td colspan="2"><a href="#problems">2. Problems</a></td></tr> 
+
 <tr>
 	<td>&emsp;<a href=#graph-matching>2.1 Graph Matching (GM)</a></td>
 	<td>&emsp;<a href=#quadratic-assignment-problem>2.2 Quadratic Assignment Problem (QAP)</a></td>
@@ -249,13 +250,13 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
     *Yao, Fan and Cai, Renqin and Wang, Hongning*
 
-13. **ScheduleNet: Learn to solve multi-agent scheduling problems with reinforcement learning** Arxiv, 2021. [paper](https://arxiv.org/abs/2106.03051)
-
-    *Junyoung Park, Sanjar Bakhtiyar, Jinkyoo Park*
-
-14. **Solving Dynamic Traveling Salesman Problems with Deep Reinforcement Learning.** TNNLS, 2021. [journal](https://ieeexplore.ieee.org/document/9537638)
+13. **Solving Dynamic Traveling Salesman Problems with Deep Reinforcement Learning.** TNNLS, 2021. [journal](https://ieeexplore.ieee.org/document/9537638)
 
     *Zizhen Zhang, Hong Liu, Meng Chu Zhou, Jiahai Wang*
+
+14. **ScheduleNet: Learn to solve multi-agent scheduling problems with reinforcement learning** Arxiv, 2021. [paper](https://arxiv.org/abs/2106.03051)
+
+    *Junyoung Park, Sanjar Bakhtiyar, Jinkyoo Park*
 
 ### [Maximal Cut](#content)
 
@@ -335,10 +336,9 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
     *He, Yongming and Wu, Guohua and Chen, Yingwu and Pedrycz, Witold*
 
-6. **✨A Bi-Level Framework for Learning to Solve Combinatorial Optimization on Graphs** Arxiv, 2021. [paper](https://arxiv.org/abs/2106.04927)
+6. **✨A Bi-Level Framework for Learning to Solve Combinatorial Optimization on Graphs** NeurIPS, 2021. [paper](https://arxiv.org/abs/2106.04927), [code](https://github.com/Thinklab-SJTU/PPO-BiHyb)
 
     *Wang, Runzhong and Hua, Zhigang and Liu, Gan and Zhang, Jiayi and Yan, Junchi and Qi, Feng and Yang, Shuang and Zhou, Jun and Yang, Xiaokang*
-
 
 ### [Bin Packing Problem](#content)
 
@@ -416,7 +416,7 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
     *Bai, Yunsheng and Ding, Hao and Gu, Ken and Sun, Yizhou and Wang, Wei*
 
-5. **✨A Bi-Level Framework for Learning to Solve Combinatorial Optimization on Graphs** Arxiv, 2021. [paper](https://arxiv.org/abs/2106.04927)
+5. **✨A Bi-Level Framework for Learning to Solve Combinatorial Optimization on Graphs** NeurIPS, 2021. [paper](https://arxiv.org/abs/2106.04927), [code](https://github.com/Thinklab-SJTU/PPO-BiHyb)
 
     *Wang, Runzhong and Hua, Zhigang and Liu, Gan and Zhang, Jiayi and Yan, Junchi and Qi, Feng and Yang, Shuang and Zhou, Jun and Yang, Xiaokang*
 
@@ -426,7 +426,7 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
 ### [Hamiltonian Cycle Problem](#content)
 
-1. **✨A Bi-Level Framework for Learning to Solve Combinatorial Optimization on Graphs** Arxiv, 2021. [paper](https://arxiv.org/abs/2106.04927)
+1. **✨A Bi-Level Framework for Learning to Solve Combinatorial Optimization on Graphs** NeurIPS, 2021. [paper](https://arxiv.org/abs/2106.04927), [code](https://github.com/Thinklab-SJTU/PPO-BiHyb)
 
     *Wang, Runzhong and Hua, Zhigang and Liu, Gan and Zhang, Jiayi and Yan, Junchi and Qi, Feng and Yang, Shuang and Zhou, Jun and Yang, Xiaokang*
 
@@ -642,12 +642,6 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
     *Chao Mao, Yulin Liu, Zuo-Jun (Max) Shen*
 
-### [Multiple Travelling Salesman Problem](#content)
-
-1. **ScheduleNet: Learn to solve multi-agent scheduling problems with reinforcement learning** Arxiv, 2021. [paper](https://arxiv.org/abs/2106.03051)
-
-    *Junyoung Park, Sanjar Bakhtiyar, Jinkyoo Park*
-
 ### [Job Shop Scheduling Problem](#content)
 
 1. **Deep Reinforcement Learning as a Job Shop Scheduling Solver: A Literature Review** Hybrid Intelligent Systems, 2018. [journal](http://link.springer.com/10.1007/978-3-030-14347-3_34)
@@ -670,16 +664,21 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
     *Libing Wang, Xin Hu, Yin Wang, Sujie Xu, Shijun Ma, Kexin Yang, Zhijun Liu, Weidong Wang*
 
-6. **Learning to schedule job-shop problems: Representation and policy learning using graph neural network and reinforcement learning.** International Journal of Production Research, 2021. [journal](https://arxiv.org/abs/2106.01086)
-
-    *Junyoung Park, Jaehyeong Chun, Sang Hun Kim, Youngkook Kim, Jinkyoo Park*
-
-7. **Explainable reinforcement learning in production control of job shop manufacturing system.** International Journal of Production Research, 2021. [journal](https://www.tandfonline.com/doi/abs/10.1080/00207543.2021.1972179?journalCode=tprs20)
-
-    *Andreas Kuhnle,Marvin Carl May,Louis Sch?fer & Gisela Lanza*
-    
-8. **ScheduleNet: Learn to solve multi-agent scheduling problems with reinforcement learning** Arxiv, 2021. [paper](https://arxiv.org/abs/2106.03051)
+6. **ScheduleNet: Learn to solve multi-agent scheduling problems with reinforcement learning** Arxiv, 2021. [paper](https://arxiv.org/abs/2106.03051)
 
     *Junyoung Park, Sanjar Bakhtiyar, Jinkyoo Park*
 
+7. **Learning to schedule job-shop problems: Representation and policy learning using graph neural network and reinforcement learning.** International Journal of Production Research, 2021. [journal](https://arxiv.org/abs/2106.01086)
+
+    *Junyoung Park, Jaehyeong Chun, Sang Hun Kim, Youngkook Kim, Jinkyoo Park*
+
+8. **Explainable reinforcement learning in production control of job shop manufacturing system.** International Journal of Production Research, 2021. [journal](https://www.tandfonline.com/doi/abs/10.1080/00207543.2021.1972179?journalCode=tprs20)
+
+    *Andreas Kuhnle,Marvin Carl May,Louis Sch?fer & Gisela Lanza*
+
+### [Multiple Travelling Salesman Problem](#content)
+
+1. **ScheduleNet: Learn to solve multi-agent scheduling problems with reinforcement learning** Arxiv, 2021. [paper](https://arxiv.org/abs/2106.03051)
+
+    *Junyoung Park, Sanjar Bakhtiyar, Jinkyoo Park*
 
