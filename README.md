@@ -57,7 +57,7 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 </tr>
 <tr>
 	<td>&emsp;<a href=#multiple-travelling-salesman-problem>2.21 Multiple Travelling Salesman Problem (mTSP)</a></td>
-<td>&ensp;</td>
+	<td>&emsp;<a href=#electronic-design-automation>2.22 Electronic Design Automation (EDA)</a></td>
 </tr>
 </table>
 
@@ -681,4 +681,10 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 1. **ScheduleNet: Learn to solve multi-agent scheduling problems with reinforcement learning** Arxiv, 2021. [paper](https://arxiv.org/abs/2106.03051)
 
     *Junyoung Park, Sanjar Bakhtiyar, Jinkyoo Park*
+
+### [Electronic Design Automation](#content)
+
+1. **✨On Joint Learning for Solving Placement and Routing in Chip Design** NeurIPS, 2021. [paper](), [code](https://github.com/Thinklab-SJTU/EDA-AI)
+
+    *Cheng, Ruoyu and Yan, Junchi*
 
