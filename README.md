@@ -684,7 +684,7 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
 ### [Electronic Design Automation](#content)
 
-1. **✨On Joint Learning for Solving Placement and Routing in Chip Design** NeurIPS, 2021. [paper](), [code](https://github.com/Thinklab-SJTU/EDA-AI)
+1. **✨On Joint Learning for Solving Placement and Routing in Chip Design** NeurIPS, 2021. [paper](https://arxiv.org/abs/2111.00234), [code](https://github.com/Thinklab-SJTU/EDA-AI)
 
     *Cheng, Ruoyu and Yan, Junchi*
 
