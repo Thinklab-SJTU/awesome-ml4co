@@ -16,51 +16,51 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 <tr><td colspan="2"><a href="#problems">2. Problems</a></td></tr> 
 
 <tr>
-	<td>&emsp;<a href=#generalization>2.1 Generalization</a></td>
-	<td>&emsp;<a href=#graph-matching>2.2 Graph Matching (GM)</a></td>
+	<td>&emsp;<a href=#graph-matching>2.1 Graph Matching (GM)</a></td>
+	<td>&emsp;<a href=#quadratic-assignment-problem>2.2 Quadratic Assignment Problem (QAP)</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#quadratic-assignment-problem>2.3 Quadratic Assignment Problem (QAP)</a></td>
-	<td>&emsp;<a href=#travelling-salesman-problem>2.4 Travelling Salesman Problem (TSP)</a></td>
+	<td>&emsp;<a href=#travelling-salesman-problem>2.3 Travelling Salesman Problem (TSP)</a></td>
+	<td>&emsp;<a href=#maximal-cut>2.4 Maximal Cut</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#maximal-cut>2.5 Maximal Cut</a></td>
-	<td>&emsp;<a href=#vehicle-routing-problem>2.6 Vehicle Routing Problem (VRP)</a></td>
+	<td>&emsp;<a href=#vehicle-routing-problem>2.5 Vehicle Routing Problem (VRP)</a></td>
+	<td>&emsp;<a href=#computing-resource-allocation>2.6 Computing Resource Allocation</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#computing-resource-allocation>2.7 Computing Resource Allocation</a></td>
-	<td>&emsp;<a href=#bin-packing-problem>2.8 Bin Packing Problem (BPP)</a></td>
+	<td>&emsp;<a href=#bin-packing-problem>2.7 Bin Packing Problem (BPP)</a></td>
+	<td>&emsp;<a href=#graph-edit-distance>2.8 Graph Edit Distance (GED)</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#graph-edit-distance>2.9 Graph Edit Distance (GED)</a></td>
-	<td>&emsp;<a href=#hamiltonian-cycle-problem>2.10 Hamiltonian Cycle Problem (HCP)</a></td>
+	<td>&emsp;<a href=#hamiltonian-cycle-problem>2.9 Hamiltonian Cycle Problem (HCP)</a></td>
+	<td>&emsp;<a href=#graph-coloring>2.10 Graph Coloring</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#graph-coloring>2.11 Graph Coloring</a></td>
-	<td>&emsp;<a href=#maximal-common-subgraph>2.12 Maximal Common Subgraph (MCS)</a></td>
+	<td>&emsp;<a href=#maximal-common-subgraph>2.11 Maximal Common Subgraph (MCS)</a></td>
+	<td>&emsp;<a href=#influence-maximization>2.12 Influence Maximization</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#influence-maximization>2.13 Influence Maximization</a></td>
-	<td>&emsp;<a href=#maximal-independent-set>2.14 Maximal Independent Set (MIS)</a></td>
+	<td>&emsp;<a href=#maximal-independent-set>2.13 Maximal Independent Set (MIS)</a></td>
+	<td>&emsp;<a href=#mixed-integer-programming>2.14 Mixed Integer Programming</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#mixed-integer-programming>2.15 Mixed Integer Programming</a></td>
-	<td>&emsp;<a href=#causal-discovery>2.16 Causal Discovery</a></td>
+	<td>&emsp;<a href=#causal-discovery>2.15 Causal Discovery</a></td>
+	<td>&emsp;<a href=#game-theoretic-semantics>2.16 Game Theoretic Semantics</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#game-theoretic-semantics>2.17 Game Theoretic Semantics</a></td>
-	<td>&emsp;<a href=#boolean-satisfiability>2.18 Boolean Satisfiability (SAT)</a></td>
+	<td>&emsp;<a href=#boolean-satisfiability>2.17 Boolean Satisfiability (SAT)</a></td>
+	<td>&emsp;<a href=#differentiable-optimization>2.18 Differentiable Optimization</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#differentiable-optimization>2.19 Differentiable Optimization</a></td>
-	<td>&emsp;<a href=#car-dispatch>2.20 Car Dispatch</a></td>
+	<td>&emsp;<a href=#car-dispatch>2.19 Car Dispatch</a></td>
+	<td>&emsp;<a href=#job-shop-scheduling-problem>2.20 Job Shop Scheduling Problem (JSSP)</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#job-shop-scheduling-problem>2.21 Job Shop Scheduling Problem (JSSP)</a></td>
-	<td>&emsp;<a href=#multiple-travelling-salesman-problem>2.22 Multiple Travelling Salesman Problem (mTSP)</a></td>
+	<td>&emsp;<a href=#multiple-travelling-salesman-problem>2.21 Multiple Travelling Salesman Problem (mTSP)</a></td>
+	<td>&emsp;<a href=#electronic-design-automation>2.22 Electronic Design Automation (EDA)</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#electronic-design-automation>2.23 Electronic Design Automation (EDA)</a></td>
+	<td>&emsp;<a href=#generalization>2.23 Generalization</a></td>
 <td>&ensp;</td>
 </tr>
 </table>
@@ -135,17 +135,6 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
     *Huang, Guyue and Hu, Jingbo and He, Yifan and Liu, Jialong and Ma, Mingyuan and Shen, Zhaoyang and Wu, Juejian and Xu, Yuanfan and Zhang, Hengrui and Zhong, Kai and others*
 
 ## [Problems](#content)
-
-### [Generalization](#content)
-
-1. **It’s Not What Machines Can Learn It’s What We Cannot Teach** ICML, 2020. [paper](http://proceedings.mlr.press/v119/yehuda20a/yehuda20a.pdf)
-
-    *Gal Yehuda, Moshe Gabel and Assaf Schuster*
-
-2. **Learning TSP Requires Rethinking Generalization** CP, 2021. [paper](https://arxiv.org/pdf/2006.07054.pdf), [code](https://github.com/chaitjo/learning-tsp
-Generalization,Generalization of Neural Combinatorial Solvers Through the Lens of Adversarial Robustness,Arxiv,2021,paper,https://arxiv.org/pdf/2110.10942.pdf,Simon Geisler)
-
-    *Chaitanya K. Joshi, Quentin Cappart, Louis-Martin Rousseau and Thomas Laurent*
 
 ### [Graph Matching](#content)
 
@@ -706,4 +695,18 @@ Generalization,Generalization of Neural Combinatorial Solvers Through the Lens o
 2. **A graph placement methodology for fast chip design** Nature, 2021. [journal](https://www.nature.com/articles/s41586-021-03544-w.pdf)
 
     *Azalia Mirhoseini, Anna Goldie, Mustafa Yazgan, Joe Wenjie Jiang, Ebrahim Songhori, Shen Wang, Young-Joon Lee, Eric Johnson, Omkar Pathak, Azade Nazi, Jiwoo Pak, Andy Tong, Kavya Srinivasa, William Hang, Emre Tuncer, Quoc V. Le, James Laudon, Richard Ho, Roger Carpenter & Jeff Dean*
+
+### [Generalization](#content)
+
+1. **It’s Not What Machines Can Learn It’s What We Cannot Teach** ICML, 2020. [paper](http://proceedings.mlr.press/v119/yehuda20a/yehuda20a.pdf)
+
+    *Gal Yehuda, Moshe Gabel and Assaf Schuster*
+
+2. **Learning TSP Requires Rethinking Generalization** CP, 2021. [paper](https://arxiv.org/pdf/2006.07054.pdf), [code](https://github.com/chaitjo/learning-tsp)
+
+    *Chaitanya K. Joshi, Quentin Cappart, Louis-Martin Rousseau and Thomas Laurent*
+
+3. **Generalization of Neural Combinatorial Solvers Through the Lens of Adversarial Robustness** Arxiv, 2021. [paper](https://arxiv.org/pdf/2110.10942.pdf)
+
+    *Simon Geisler, Johanna Sommer, Jan Schuchardt, Aleksandar Bojchevski and Stephan Günnemann*
 
