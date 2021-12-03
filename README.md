@@ -60,7 +60,7 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 	<td>&emsp;<a href=#electronic-design-automation>2.22 Electronic Design Automation (EDA)</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#orienteering-problem>2.23 Orienteering Problem</a></td>
+	<td>&emsp;<a href=#orienteering-problem>2.23 Orienteering Problem (OP)</a></td>
 <td>&ensp;</td>
 </tr>
 </table>
