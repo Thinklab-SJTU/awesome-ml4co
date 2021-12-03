@@ -68,7 +68,6 @@ Bin Packing Problem,Simultaneous Planning for Item Picking and Placing by Deep R
 Bin Packing Problem,Monte Carlo Tree Search on Perfect Rectangle Packing Problem Instances,GECCO,2020,paper,https://dl.acm.org/doi/abs/10.1145/3377929.3398115,"Pejic, Igor and van den Berg, Daan",
 Bin Packing Problem,PackIt: A Virtual Environment for Geometric Planning,ICML,2020,paper,http://proceedings.mlr.press/v119/goyal20b.html,"Goyal, Ankit and Deng, Jia",
 Bin Packing Problem,Learning Practically Feasible Policies for Online 3D Bin Packing,Arxiv,2021,paper,https://arxiv.org/abs/2108.13680,"Hang Zhao and Chenyang Zhu and Xin Xu and Hui Huang and Kai Xu",
-Bin Packing Problem,LEARNING EFFICIENT ONLINE 3D BIN PACKING ON PACKING CONFIGURATION TREES,ICLR,2022,paper,https://openreview.net/forum?id=bfuGjlCwAq,"Anonymous",
 Bin Packing Problem,Attend2Pack: Bin Packing through Deep Reinforcement Learning with Attention,ICML Workshop,2021,paper,https://arxiv.org/abs/2107.04333,"Jingwei Zhang and Bin Zi and Xiaoyu Ge",
 Bin Packing Problem,Solving 3D bin packing problem via multimodal deep reinforcement learning,AAMAS,2021,paper,https://www.ifaamas.org/Proceedings/aamas2021/pdfs/p1548.pdf,"Jiang, Yuan, Zhiguang Cao, and Jie Zhang",
 Graph Edit Distance,SimGNN - A Neural Network Approach to Fast Graph Similarity Computation,WSDM,2019,paper,https://arxiv.org/abs/1808.05689,"Bai, Yunsheng and Ding, Hao and Bian, Song and Chen, Ting and Sun, Yizhou and Wang, Wei",https://github.com/yunshengb/SimGNN
