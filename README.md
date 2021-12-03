@@ -519,6 +519,14 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 14. **Learning to Select Cuts for Efficient Mixed-Integer Programming** Arxiv, 2021. [journal](https://arxiv.org/abs/2105.13645)
 
     *Huang, Zeren and Wang, Kerong and Liu, Furui and Zhen, Hui-ling and Zhang, Weinan and Yuan, Mingxuan and Hao, Jianye and Yu, Yong and Wang, Jun*
+    
+15. **Generative deep learning for decision making in gas networks** Arxiv, 2021. [paper](https://arxiv.org/abs/2102.02125),
+
+    *Lovis Anderson and Mark Turner and Thorsten Koch*
+
+16. **Offline constraint screening for online mixed-integer optimization** Arxiv, 2021. [paper](https://arxiv.org/abs/2103.13074),
+
+    *Asunción Jiménez-Cordero and Juan Miguel Morales and Salvador Pineda*
 
 ### [Causal Discovery](#content)
 
