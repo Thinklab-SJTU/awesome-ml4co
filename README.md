@@ -5,7 +5,7 @@ We would like to maintain a list of resources that utilize machine learning tech
 
 We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
-*Maintained by members in SJTU-Thinklab: Chang Liu, Runzhong Wang, Jiayi Zhang, Zelin Zhao, Haoyu Geng, Tianzhe Wang, Wenxuan Guo, and Junchi Yan.*
+*Maintained by members in SJTU-Thinklab: Chang Liu, Runzhong Wang, Jiayi Zhang, Zelin Zhao, Haoyu Geng, Tianzhe Wang, Wenxuan Guo, Wenjie Wu and Junchi Yan.*
 
 *We are looking for post-docs interested in machine learning especially for learning combinatorial solvers, dynamic graphs, and reinforcement learning. Please send your up-to-date resume via yanjunchi AT sjtu.edu.cn.* 
 
@@ -394,9 +394,25 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
     *Goyal, Ankit and Deng, Jia*
 
-14. **Online 3D Bin Packing with Constrained Deep Reinforcement Learning.** AAAI, 2021. [paper](https://arxiv.org/abs/2006.14978)
+14. **Online 3D Bin Packing with Constrained Deep Reinforcement Learning.** AAAI, 2021. [paper](https://arxiv.org/abs/2006.14978), [code](https://github.com/alexfrom0815/Online-3D-BPP-DRL)
 
     *Zhao, Hang and She, Qijin and Zhu, Chenyang and Yang, Yin and Xu, Kai.*
+
+15. **Learning Practically Feasible Policies for Online 3D Bin Packing** Arxiv, 2021. [paper](https://arxiv.org/abs/2108.13680)
+
+    *Hang Zhao and Chenyang Zhu and Xin Xu and Hui Huang and Kai Xu*
+
+16. **Attend2Pack: Bin Packing through Deep Reinforcement Learning with Attention** ICML Workshop, 2021. [paper](https://arxiv.org/abs/2107.04333)
+
+    *Jingwei Zhang and Bin Zi and Xiaoyu Ge*
+
+17. **Solving 3D bin packing problem via multimodal deep reinforcement learning** AAMAS, 2021. [paper](https://www.ifaamas.org/Proceedings/aamas2021/pdfs/p1548.pdf)
+
+    *Jiang, Yuan, Zhiguang Cao, and Jie Zhang*
+
+18. **LEARNING EFFICIENT ONLINE 3D BIN PACKING ON PACKING CONFIGURATION TREES** ICLR, 2022. [paper](https://openreview.net/forum?id=bfuGjlCwAq)
+
+    *Anonymous*
 
 ### [Graph Edit Distance](#content)
 
@@ -519,12 +535,12 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 14. **Learning to Select Cuts for Efficient Mixed-Integer Programming** Arxiv, 2021. [journal](https://arxiv.org/abs/2105.13645)
 
     *Huang, Zeren and Wang, Kerong and Liu, Furui and Zhen, Hui-ling and Zhang, Weinan and Yuan, Mingxuan and Hao, Jianye and Yu, Yong and Wang, Jun*
-    
-15. **Generative deep learning for decision making in gas networks** Arxiv, 2021. [paper](https://arxiv.org/abs/2102.02125),
+
+15. **Generative deep learning for decision making in gas networks** Arxiv, 2021. [paper](https://arxiv.org/abs/2102.02125)
 
     *Lovis Anderson and Mark Turner and Thorsten Koch*
 
-16. **Offline constraint screening for online mixed-integer optimization** Arxiv, 2021. [paper](https://arxiv.org/abs/2103.13074),
+16. **Offline constraint screening for online mixed-integer optimization** Arxiv, 2021. [paper](https://arxiv.org/abs/2103.13074)
 
     *Asunción Jiménez-Cordero and Juan Miguel Morales and Salvador Pineda*
 
