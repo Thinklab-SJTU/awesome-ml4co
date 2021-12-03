@@ -59,6 +59,10 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 	<td>&emsp;<a href=#multiple-travelling-salesman-problem>2.21 Multiple Travelling Salesman Problem (mTSP)</a></td>
 	<td>&emsp;<a href=#electronic-design-automation>2.22 Electronic Design Automation (EDA)</a></td>
 </tr>
+<tr>
+	<td>&emsp;<a href=#orienteering-problem>2.23 Orienteering Problem</a></td>
+<td>&ensp;</td>
+</tr>
 </table>
 
 
@@ -711,4 +715,10 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 2. **A graph placement methodology for fast chip design** Nature, 2021. [journal](https://www.nature.com/articles/s41586-021-03544-w.pdf)
 
     *Azalia Mirhoseini, Anna Goldie, Mustafa Yazgan, Joe Wenjie Jiang, Ebrahim Songhori, Shen Wang, Young-Joon Lee, Eric Johnson, Omkar Pathak, Azade Nazi, Jiwoo Pak, Andy Tong, Kavya Srinivasa, William Hang, Emre Tuncer, Quoc V. Le, James Laudon, Richard Ho, Roger Carpenter & Jeff Dean*
+
+### [Orienteering Problem](#content)
+
+1. **A reinforcement learning approach to the orienteering problem with time windows** Computers & Operations Research, 2021. [paper](https://arxiv.org/abs/2011.03647v2), [code](https://github.com/mustelideos/optw_rl)
+
+    *Ricardo Gama, Hugo L. Fernandes*
 
