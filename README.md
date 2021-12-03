@@ -410,10 +410,6 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
     *Jiang, Yuan, Zhiguang Cao, and Jie Zhang*
 
-18. **LEARNING EFFICIENT ONLINE 3D BIN PACKING ON PACKING CONFIGURATION TREES** ICLR, 2022. [paper](https://openreview.net/forum?id=bfuGjlCwAq)
-
-    *Anonymous*
-
 ### [Graph Edit Distance](#content)
 
 1. **SimGNN - A Neural Network Approach to Fast Graph Similarity Computation** WSDM, 2019. [paper](https://arxiv.org/abs/1808.05689), [code](https://github.com/yunshengb/SimGNN)
