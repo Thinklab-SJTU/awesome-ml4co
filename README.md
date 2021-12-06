@@ -61,7 +61,7 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 </tr>
 <tr>
 	<td>&emsp;<a href=#generalization>2.23 Generalization</a></td>
-<td>&ensp;</td>
+	<td>&emsp;<a href=#conjunctive-query-containment>2.24 Conjunctive Query Containment</a></td>
 </tr>
 </table>
 
@@ -261,6 +261,14 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 14. **ScheduleNet: Learn to solve multi-agent scheduling problems with reinforcement learning** Arxiv, 2021. [paper](https://arxiv.org/abs/2106.03051)
 
     *Junyoung Park, Sanjar Bakhtiyar, Jinkyoo Park*
+
+15. **Learning TSP Requires Rethinking Generalization** CP, 2021. [paper](https://arxiv.org/pdf/2006.07054.pdf), [code](https://github.com/chaitjo/learning-tsp)
+
+    *Chaitanya K. Joshi, Quentin Cappart, Louis-Martin Rousseau and Thomas Laurent*
+
+16. **Generalization of Neural Combinatorial Solvers Through the Lens of Adversarial Robustness** Arxiv, 2021. [paper](https://arxiv.org/pdf/2110.10942.pdf)
+
+    *Simon Geisler, Johanna Sommer, Jan Schuchardt, Aleksandar Bojchevski and Stephan Günnemann*
 
 ### [Maximal Cut](#content)
 
@@ -614,6 +622,10 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
     *Zhang, Wenjie, Zeyu Sun, Qihao Zhu, Ge Li, Shaowei Cai, Yingfei Xiong, and Lu Zhang.*
 
+19. **Generalization of Neural Combinatorial Solvers Through the Lens of Adversarial Robustness** Arxiv, 2021. [paper](https://arxiv.org/pdf/2110.10942.pdf)
+
+    *Simon Geisler, Johanna Sommer, Jan Schuchardt, Aleksandar Bojchevski and Stephan Günnemann*
+
 ### [Differentiable Optimization](#content)
 
 1. **Differentiable Learning of Submodular Models** NeurIPS, 2017. [paper](https://papers.NeurIPS.cc/paper/2017/hash/192fc044e74dffea144f9ac5dc9f3395-Abstract.html), [code](https://github.com/josipd/torch-submod)
@@ -709,4 +721,10 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 3. **Generalization of Neural Combinatorial Solvers Through the Lens of Adversarial Robustness** Arxiv, 2021. [paper](https://arxiv.org/pdf/2110.10942.pdf)
 
     *Simon Geisler, Johanna Sommer, Jan Schuchardt, Aleksandar Bojchevski and Stephan Günnemann*
+
+### [Conjunctive Query Containment](#content)
+
+1. **It’s Not What Machines Can Learn It’s What We Cannot Teach** ICML, 2020. [paper](http://proceedings.mlr.press/v119/yehuda20a/yehuda20a.pdf)
+
+    *Gal Yehuda, Moshe Gabel and Assaf Schuster*
 
