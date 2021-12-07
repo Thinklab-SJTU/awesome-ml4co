@@ -63,6 +63,10 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 	<td>&emsp;<a href=#generalization>2.23 Generalization</a></td>
 	<td>&emsp;<a href=#conjunctive-query-containment>2.24 Conjunctive Query Containment</a></td>
 </tr>
+<tr>
+	<td>&emsp;<a href=#orienteering-problem>2.25 Orienteering Problem (OP)</a></td>
+<td>&ensp;</td>
+</tr>
 </table>
 
 
@@ -747,4 +751,10 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 1. **It’s Not What Machines Can Learn It’s What We Cannot Teach** ICML, 2020. [paper](http://proceedings.mlr.press/v119/yehuda20a/yehuda20a.pdf)
 
     *Gal Yehuda, Moshe Gabel and Assaf Schuster*
+
+### [Orienteering Problem](#content)
+
+1. **A reinforcement learning approach to the orienteering problem with time windows** Computers & Operations Research, 2021. [paper](https://arxiv.org/abs/2011.03647v2), [code](https://github.com/mustelideos/optw_rl)
+
+    *Ricardo Gama, Hugo L. Fernandes*
 

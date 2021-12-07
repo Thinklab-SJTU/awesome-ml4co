@@ -8,7 +8,8 @@ abbr = {'Graph Matching': 'GM', 'Travelling Salesman Problem': 'TSP', 'Vehicle R
         'Quadratic Assignment Problem': 'QAP',
         'Hamiltonian Cycle Problem': 'HCP',
         'Multiple Travelling Salesman Problem': 'mTSP',
-        'Electronic Design Automation': 'EDA'}
+        'Electronic Design Automation': 'EDA',
+        'Orienteering Problem': 'OP'}
 
 
 def md2csv(mdFile, csvFile):  # From the md file to generate a csv file that contains the paper list.
