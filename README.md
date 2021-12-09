@@ -40,7 +40,7 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 	<td>&emsp;<a href=#influence-maximization>2.12 Influence Maximization</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#maximal-independent-set>2.13 Maximal Independent Set (MIS)</a></td>
+	<td>&emsp;<a href=#maximal/maximum-independent-set>2.13 Maximal/Maximum Independent Set</a></td>
 	<td>&emsp;<a href=#mixed-integer-programming>2.14 Mixed Integer Programming</a></td>
 </tr>
 <tr>
@@ -480,7 +480,7 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
     *Eli A. Meirom, Haggai Maron, Shie Mannor, Gal Chechik*
 
-### [Maximal Independent Set](#content)
+### [Maximal/Maximum Independent Set](#content)
 
 1. **Combinatorial Optimization with Graph Convolutional Networks and Guided Tree Search.** NeurIPS, 2018. [paper](https://arxiv.org/abs/1810.10659)
 
