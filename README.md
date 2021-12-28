@@ -610,41 +610,41 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
     *Song, Jialin and Lanka, Ravi and Yue, Yisong and Dilkina, Bistra*
 
-11. **CombOptNet: Fit the Right NP-Hard Problem by Learning Integer Programming Constraints** Arxiv, 2021. [paper](https://openreview.net/forum?id=z4D7-PTxTb), [code](https://github.com/martius-lab/CombOptNet)
+11. **Accelerating primal solution findings for mixed integer programs based on solution prediction** AAAI, 2020. [paper](https://arxiv.org/abs/1906.09575)
+
+    *Ding, Jian-Ya, Chao Zhang, Lei Shen, Shengyin Li, Bing Wang, Yinghui Xu, and Le Song*
+
+12. **CombOptNet: Fit the Right NP-Hard Problem by Learning Integer Programming Constraints** Arxiv, 2021. [paper](https://openreview.net/forum?id=z4D7-PTxTb), [code](https://github.com/martius-lab/CombOptNet)
 
     *Paulus, Anselm and Rolinek, Michal and Musil, Vit and Amos, Brandon and Martius, Georg*
 
-12. **Reinforcement Learning for (Mixed) Integer Programming: Smart Feasibility Pump** ICML Workshop, 2021. [paper](https://arxiv.org/abs/2102.09663)
+13. **Reinforcement Learning for (Mixed) Integer Programming: Smart Feasibility Pump** ICML Workshop, 2021. [paper](https://arxiv.org/abs/2102.09663)
 
     *Qi, Meng and Wang, Mengxin and Shen, Zuo-Jun*
 
-13. **Parameterizing Branch-and-Bound Search Trees to Learn Branching Policies** AAAI, 2021. [paper](https://www.aaai.org/AAAI21Papers/AAAI-9826.ZarpellonG.pdf), [code](https://github.com/ds4dm/branch-search-trees)
+14. **Parameterizing Branch-and-Bound Search Trees to Learn Branching Policies** AAAI, 2021. [paper](https://www.aaai.org/AAAI21Papers/AAAI-9826.ZarpellonG.pdf), [code](https://github.com/ds4dm/branch-search-trees)
 
     *Zarpellon, Giulia and Jo, Jason and Lodi, Andrea and Bengio, Yoshua*
 
-14. **Learning to Select Cuts for Efficient Mixed-Integer Programming** Arxiv, 2021. [journal](https://arxiv.org/abs/2105.13645)
+15. **Learning to Select Cuts for Efficient Mixed-Integer Programming** Arxiv, 2021. [journal](https://arxiv.org/abs/2105.13645)
 
     *Huang, Zeren and Wang, Kerong and Liu, Furui and Zhen, Hui-ling and Zhang, Weinan and Yuan, Mingxuan and Hao, Jianye and Yu, Yong and Wang, Jun*
 
-15. **Generative deep learning for decision making in gas networks** Arxiv, 2021. [paper](https://arxiv.org/abs/2102.02125)
+16. **Generative deep learning for decision making in gas networks** Arxiv, 2021. [paper](https://arxiv.org/abs/2102.02125)
 
     *Lovis Anderson and Mark Turner and Thorsten Koch*
 
-16. **Offline constraint screening for online mixed-integer optimization** Arxiv, 2021. [paper](https://arxiv.org/abs/2103.13074)
+17. **Offline constraint screening for online mixed-integer optimization** Arxiv, 2021. [paper](https://arxiv.org/abs/2103.13074)
 
     *Asunción Jiménez-Cordero and Juan Miguel Morales and Salvador Pineda*
 
-17. **Mixed Integer Programming versus Evolutionary Computation for Optimizing a Hard Real-World Staff Assignment Problem** ICAPS, 2021. [paper](https://ojs.aaai.org/index.php/ICAPS/article/view/3521)
+18. **Mixed Integer Programming versus Evolutionary Computation for Optimizing a Hard Real-World Staff Assignment Problem** ICAPS, 2021. [paper](https://ojs.aaai.org/index.php/ICAPS/article/view/3521)
 
     *Peters, Jannik and Stephan, Daniel and Amon, Isabel and Gawendowicz, Hans and Lischeid, Julius and Salabarria, Lennart and Umland, Jonas and Werner, Felix and Krejca, Martin S and Rothenberger, Ralf and others*
 
-18. **Learning To Scale Mixed-Integer Programs** AAAI, 2021 [paper](https://www.aaai.org/AAAI21Papers/AAAI-7940.BertholdT.pdf)
+19. **Learning To Scale Mixed-Integer Programs** AAAI, 2021 [paper](https://www.aaai.org/AAAI21Papers/AAAI-7940.BertholdT.pdf)
 
     *Berthold, Timo, and Gregor Hendel*
-
-19. **Accelerating primal solution findings for mixed integer programs based on solution prediction** AAAI, 2020. [paper](https://arxiv.org/abs/1906.09575)
-
-    *Ding, Jian-Ya, Chao Zhang, Lei Shen, Shengyin Li, Bing Wang, Yinghui Xu, and Le Song*
 
 20. **Learning Pseudo-Backdoors for Mixed Integer Programs** AAAI, 2021. [paper](https://arxiv.org/pdf/2106.05080.pdf)
 
