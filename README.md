@@ -638,6 +638,18 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
     *Peters, Jannik and Stephan, Daniel and Amon, Isabel and Gawendowicz, Hans and Lischeid, Julius and Salabarria, Lennart and Umland, Jonas and Werner, Felix and Krejca, Martin S and Rothenberger, Ralf and others*
 
+18. **Learning To Scale Mixed-Integer Programs** AAAI, 2021 [paper](https://www.aaai.org/AAAI21Papers/AAAI-7940.BertholdT.pdf)
+
+    *Berthold, Timo, and Gregor Hendel*
+
+19. **Accelerating primal solution findings for mixed integer programs based on solution prediction** AAAI, 2020. [paper](https://arxiv.org/abs/1906.09575)
+
+    *Ding, Jian-Ya, Chao Zhang, Lei Shen, Shengyin Li, Bing Wang, Yinghui Xu, and Le Song*
+
+20. **Learning Pseudo-Backdoors for Mixed Integer Programs** AAAI, 2021. [paper](https://arxiv.org/pdf/2106.05080.pdf)
+
+    *Aaron Ferber and Jialin Song and Bistra Dilkina and Yisong Yue*
+
 ### [Causal Discovery](#content)
 
 1. **DAGs with NO TEARS: Continuous Optimization for Structure Learning.** NeurIPS, 2018. [paper](https://arxiv.org/pdf/1803.01422.pdf)
