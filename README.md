@@ -504,6 +504,10 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
     *Zhu, Qianwen and Li, Xihan and Zhang, Zihan and Luo, Zhixing and Tong, Xialiang and Yuan, Mingxuan and Zeng, Jia*
 
+21. **Learning Efficient Online 3D Bin Packing on Packing Configuration Trees** ICLR, 2022. [paper](https://openreview.net/forum?id=bfuGjlCwAq)
+
+    *Hang Zhao and Kai Xu*
+
 ### [Graph Edit Distance](#content)
 
 1. **SimGNN - A Neural Network Approach to Fast Graph Similarity Computation** WSDM, 2019. [paper](https://arxiv.org/abs/1808.05689), [code](https://github.com/yunshengb/SimGNN)
