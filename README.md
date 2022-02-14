@@ -286,7 +286,7 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
     *Simon Geisler, Johanna Sommer, Jan Schuchardt, Aleksandar Bojchevski and Stephan Günnemann*
 
-21. **The First AI4TSP Competition: Learning to Solve Stochastic Routing Problems** Arxiv, 2022. [paper](https://arxiv.org/abs/2201.10453)
+21. **The First AI4TSP Competition: Learning to Solve Stochastic Routing Problems** Arxiv, 2022. [paper](https://arxiv.org/abs/2201.10453), [code](https://github.com/paulorocosta/ai-for-tsp-competition)
 
     *Bliek, Laurens and da Costa, Paulo and Afshar, Reza Refaei and Zhang, Yingqian and Catshoek, Tom and Vos, Daniel and Verwer, Sicco and Schmitt-Ulms, Fynn and Hottung, Andre and Shah, Tapan and others*
 
