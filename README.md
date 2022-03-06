@@ -282,13 +282,13 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
     *Chaitanya K. Joshi, Quentin Cappart, Louis-Martin Rousseau and Thomas Laurent*
 
-20. **Generalization of Neural Combinatorial Solvers Through the Lens of Adversarial Robustness** Arxiv, 2021. [paper](https://arxiv.org/pdf/2110.10942.pdf)
-
-    *Simon Geisler, Johanna Sommer, Jan Schuchardt, Aleksandar Bojchevski and Stephan Günnemann*
-
-21. **The First AI4TSP Competition: Learning to Solve Stochastic Routing Problems** Arxiv, 2022. [paper](https://arxiv.org/abs/2201.10453), [code](https://github.com/paulorocosta/ai-for-tsp-competition)
+20. **The First AI4TSP Competition: Learning to Solve Stochastic Routing Problems** Arxiv, 2022. [paper](https://arxiv.org/abs/2201.10453), [code](https://github.com/paulorocosta/ai-for-tsp-competition)
 
     *Bliek, Laurens and da Costa, Paulo and Afshar, Reza Refaei and Zhang, Yingqian and Catshoek, Tom and Vos, Daniel and Verwer, Sicco and Schmitt-Ulms, Fynn and Hottung, Andre and Shah, Tapan and others*
+
+21. **Generalization of Neural Combinatorial Solvers Through the Lens of Adversarial Robustness** ICLR, 2022. [paper](https://openreview.net/forum?id=vJZ7dPIjip3)
+
+    *Simon Geisler, Johanna Sommer, Jan Schuchardt, Aleksandar Bojchevski and Stephan Günnemann*
 
 ### [Maximal Cut](#content)
 
@@ -550,6 +550,10 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
     *Das, Dibyendu and Ahmad, Shahid Asghar and Venkataramanan, Kumar.*
 
+2. **Neural Models for Output-Space Invariance in Combinatorial Problems** ICLR, 2022. [paper](https://openreview.net/forum?id=ibrUkC-pbis)
+
+    *Nandwani, Yatin and Jain, Vidit and Singla, Parag and others*
+
 ### [Maximal Common Subgraph](#content)
 
 1. **Fast Detection of Maximum Common Subgraph via Deep Q-Learning.** Arxiv, 2020. [paper](https://arxiv.org/abs/2002.03129)
@@ -587,6 +591,10 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 5. **NN-Baker: A Neural-network Infused Algorithmic Framework for Optimization Problems on Geometric Intersection Graphs** NeurlPS, 2021. [paper](https://papers.nips.cc/paper/2021/file/c236337b043acf93c7df397fdb9082b3-Paper.pdf)
 
     *McCarty, Evan and Zhao, Qi and Sidiropoulos, Anastasios and Wang, Yusu*
+
+6. **What's Wrong with Deep Learning in Tree Search for Combinatorial Optimization** ICLR, 2022. [paper](https://openreview.net/forum?id=mk0HzdqY7i1), [code](https://github.com/MaxiBoether/mis-benchmark-framework)
+
+    *Bother, Maximilian and Kissig, Otto and Taraz, Martin and Cohen, Sarel and Seidel, Karen and Friedrich, Tobias*
 
 ### [Mixed Integer Programming](#content)
 
@@ -760,7 +768,7 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
     *Zhang, Wenjie, Zeyu Sun, Qihao Zhu, Ge Li, Shaowei Cai, Yingfei Xiong, and Lu Zhang.*
 
-19. **Generalization of Neural Combinatorial Solvers Through the Lens of Adversarial Robustness** Arxiv, 2021. [paper](https://arxiv.org/pdf/2110.10942.pdf)
+19. **Generalization of Neural Combinatorial Solvers Through the Lens of Adversarial Robustness** ICLR, 2022. [paper](https://openreview.net/forum?id=vJZ7dPIjip3)
 
     *Simon Geisler, Johanna Sommer, Jan Schuchardt, Aleksandar Bojchevski and Stephan Günnemann*
 
@@ -816,7 +824,7 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
     *Chaitanya K. Joshi, Quentin Cappart, Louis-Martin Rousseau and Thomas Laurent*
 
-3. **Generalization of Neural Combinatorial Solvers Through the Lens of Adversarial Robustness** Arxiv, 2021. [paper](https://arxiv.org/pdf/2110.10942.pdf)
+3. **Generalization of Neural Combinatorial Solvers Through the Lens of Adversarial Robustness** ICLR, 2022. [paper](https://openreview.net/forum?id=vJZ7dPIjip3)
 
     *Simon Geisler, Johanna Sommer, Jan Schuchardt, Aleksandar Bojchevski and Stephan Günnemann*
 
