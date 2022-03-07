@@ -290,7 +290,11 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
     *Hudson, Benjamin and Li, Qingbiao and Malencia, Matthew and Prorok, Amanda*
 
-22. **Generalization of Neural Combinatorial Solvers Through the Lens of Adversarial Robustness** ICLR, 2022. [paper](https://openreview.net/forum?id=vJZ7dPIjip3)
+22. **Preference Conditioned Neural Multi-objective Combinatorial Optimization** ICLR, 2022. [paper](https://openreview.net/forum?id=QuObT9BTWo)
+
+    *Lin, Xi and Yang, Zhiyuan and Zhang, Qingfu*
+
+23. **Generalization of Neural Combinatorial Solvers Through the Lens of Adversarial Robustness** ICLR, 2022. [paper](https://openreview.net/forum?id=vJZ7dPIjip3)
 
     *Simon Geisler, Johanna Sommer, Jan Schuchardt, Aleksandar Bojchevski and Stephan Günnemann*
 
@@ -369,6 +373,10 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 14. **Learning a Latent Search Space for Routing Problems using Variational Autoencoders** ICLR, 2021. [paper](https://openreview.net/forum?id=90JprVrJBO)
 
     *Hottung, Andre and Bhandari, Bhanu and Tierney, Kevin*
+
+15. **Preference Conditioned Neural Multi-objective Combinatorial Optimization** ICLR, 2022. [paper](https://openreview.net/forum?id=QuObT9BTWo)
+
+    *Lin, Xi and Yang, Zhiyuan and Zhang, Qingfu*
 
 ### [Job Shop Scheduling Problem](#content)
 
