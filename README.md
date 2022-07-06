@@ -190,6 +190,26 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
     *Yu, Tianshu and Wang, Runzhong and Yan, Junchi and Li, Baoxin.*
 
+14. **IA-GM: A Deep Bidirectional Learning Method for Graph Matching** AAAI, 2021.  [paper](https://ojs.aaai.org/index.php/AAAI/article/view/16461/16268)
+
+    *Zhao, Kaixuan and Tu, Shikui and Xu, Lei*
+
+15. **Deep Graph Matching under Quadratic Constraint** CVPR, 2021.  [paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Gao_Deep_Graph_Matching_Under_Quadratic_Constraint_CVPR_2021_paper.pdf)
+
+    *Gao, Quankai and Wang, Fudong and Xue, Nan and Yu, Jin-Gang and Xia, Gui-Song*
+
+16. **GAMnet: Robust Feature Matching via Graph Adversarial-Matching Network** MM, 2021.  [paper](https://dl.acm.org/doi/pdf/10.1145/3474085.3475669)
+
+    *Jiang, Bo and Sun, Pengfei and Zhang, Ziyan and Tang, Jin and Luo, Bin*
+
+17. **Hypergraph Neural Networks for Hypergraph Matching** ICCV, 2021.  [paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Liao_Hypergraph_Neural_Networks_for_Hypergraph_Matching_ICCV_2021_paper.pdf)
+
+    *Liao, Xiaowei and Xu, Yong and Ling, Haibin*
+
+18. **✨Appearance and Structure Aware Robust Deep Visual Graph Matching: Attack, Defense and Beyond** CVPR, 2022.  [paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Ren_Appearance_and_Structure_Aware_Robust_Deep_Visual_Graph_Matching_Attack_CVPR_2022_paper.pdf), [code](https://github.com/Thinklab-SJTU/RobustMatch)
+
+    *Ren, Qibing and Bao, Qingquan and Wang, Runzhong and Yan, Junchi*
+
 ### [Quadratic Assignment Problem](#content)
 
 1. **Revised Note on Learning Algorithms for Quadratic Assignment with Graph Neural Networks** Arxiv, 2017. [paper](https://arxiv.org/pdf/1706.07450.pdf), [code](https://github.com/alexnowakvila/QAP_pt)
