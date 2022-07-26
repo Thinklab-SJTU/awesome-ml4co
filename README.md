@@ -190,25 +190,29 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
     *Yu, Tianshu and Wang, Runzhong and Yan, Junchi and Li, Baoxin.*
 
-14. **IA-GM: A Deep Bidirectional Learning Method for Graph Matching** AAAI, 2021.  [paper](https://ojs.aaai.org/index.php/AAAI/article/view/16461/16268)
+14. **IA-GM: A Deep Bidirectional Learning Method for Graph Matching** AAAI, 2021. [paper](https://ojs.aaai.org/index.php/AAAI/article/view/16461/16268)
 
     *Zhao, Kaixuan and Tu, Shikui and Xu, Lei*
 
-15. **Deep Graph Matching under Quadratic Constraint** CVPR, 2021.  [paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Gao_Deep_Graph_Matching_Under_Quadratic_Constraint_CVPR_2021_paper.pdf)
+15. **Deep Graph Matching under Quadratic Constraint** CVPR, 2021. [paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Gao_Deep_Graph_Matching_Under_Quadratic_Constraint_CVPR_2021_paper.pdf)
 
     *Gao, Quankai and Wang, Fudong and Xue, Nan and Yu, Jin-Gang and Xia, Gui-Song*
 
-16. **GAMnet: Robust Feature Matching via Graph Adversarial-Matching Network** MM, 2021.  [paper](https://dl.acm.org/doi/pdf/10.1145/3474085.3475669)
+16. **GAMnet: Robust Feature Matching via Graph Adversarial-Matching Network** MM, 2021. [paper](https://dl.acm.org/doi/pdf/10.1145/3474085.3475669)
 
     *Jiang, Bo and Sun, Pengfei and Zhang, Ziyan and Tang, Jin and Luo, Bin*
 
-17. **Hypergraph Neural Networks for Hypergraph Matching** ICCV, 2021.  [paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Liao_Hypergraph_Neural_Networks_for_Hypergraph_Matching_ICCV_2021_paper.pdf)
+17. **Hypergraph Neural Networks for Hypergraph Matching** ICCV, 2021. [paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Liao_Hypergraph_Neural_Networks_for_Hypergraph_Matching_ICCV_2021_paper.pdf)
 
     *Liao, Xiaowei and Xu, Yong and Ling, Haibin*
 
-18. **✨Appearance and Structure Aware Robust Deep Visual Graph Matching: Attack, Defense and Beyond** CVPR, 2022.  [paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Ren_Appearance_and_Structure_Aware_Robust_Deep_Visual_Graph_Matching_Attack_CVPR_2022_paper.pdf), [code](https://github.com/Thinklab-SJTU/RobustMatch)
+18. **✨Appearance and Structure Aware Robust Deep Visual Graph Matching: Attack, Defense and Beyond** CVPR, 2022. [paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Ren_Appearance_and_Structure_Aware_Robust_Deep_Visual_Graph_Matching_Attack_CVPR_2022_paper.pdf), [code](https://github.com/Thinklab-SJTU/RobustMatch)
 
     *Ren, Qibing and Bao, Qingquan and Wang, Runzhong and Yan, Junchi*
+
+19. **✨Self-supervised Learning of Visual Graph Matching** ECCV, 2022. [paper](), [code](https://github.com/Thinklab-SJTU/ThinkMatch-SCGM)
+
+    *Liu, Chang and Zhang, Shaofeng and Yang, Xiaokang and Yan, Junchi*
 
 ### [Quadratic Assignment Problem](#content)
 
@@ -335,6 +339,10 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 4. **Reversible Action Design for Combinatorial Optimization with Reinforcement Learning** Arxiv, 2021. [paper](https://arxiv.org/abs/2102.07210)
 
     *Yao, Fan and Cai, Renqin and Wang, Hongning*
+
+5. **LeNSE: Learning To Navigate Subgraph Embeddings for Large-Scale Combinatorial Optimisation** ICML, 2022. [paper](https://proceedings.mlr.press/v162/ireland22a.html), [code](https://github.com/davidireland3/LeNSE)
+
+    *Ireland, David and G. Montana*
 
 ### [Vehicle Routing Problem](#content)
 
@@ -540,7 +548,7 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
     *Zhu, Qianwen and Li, Xihan and Zhang, Zihan and Luo, Zhixing and Tong, Xialiang and Yuan, Mingxuan and Zeng, Jia*
 
-21. **Learning Efficient Online 3D Bin Packing on Packing Configuration Trees** ICLR, 2022. [paper](https://openreview.net/forum?id=bfuGjlCwAq)
+21. **Learning Efficient Online 3D Bin Packing on Packing Configuration Trees.** ICLR, 2022. [paper](https://openreview.net/forum?id=bfuGjlCwAq)
 
     *Hang Zhao and Kai Xu*
 
@@ -586,6 +594,10 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
     *Nandwani, Yatin and Jain, Vidit and Singla, Parag and others*
 
+3. **Enhancing Column Generation by a Machine-Learning-Based Pricing Heuristic for Graph Coloring** AAAI, 2022. [paper](https://www.aaai.org/AAAI22Papers/AAAI-4026.ShenY.pdf), [code](https://github.com/Joey-Shen/MLPH.git)
+
+    *Shen, Yunzhuang, Yuan Sun, Xiaodong Li, Andrew Craig Eberhard and Andreas T. Ernst.*
+
 ### [Maximal Common Subgraph](#content)
 
 1. **Fast Detection of Maximum Common Subgraph via Deep Q-Learning.** Arxiv, 2020. [paper](https://arxiv.org/abs/2002.03129)
@@ -601,6 +613,10 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 2. **Controlling Graph Dynamics with Reinforcement Learning and Graph Neural Networks.** ICML, 2021. [paper](https://arxiv.org/abs/2010.05313)
 
     *Eli A. Meirom, Haggai Maron, Shie Mannor, Gal Chechik*
+
+3. **LeNSE: Learning To Navigate Subgraph Embeddings for Large-Scale Combinatorial Optimisation** ICML, 2022. [paper](https://proceedings.mlr.press/v162/ireland22a.html), [code](https://github.com/davidireland3/LeNSE)
+
+    *Ireland, David and G. Montana*
 
 ### [Maximal/Maximum Independent Set](#content)
 
@@ -710,6 +726,30 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
     *Aaron Ferber and Jialin Song and Bistra Dilkina and Yisong Yue*
 
+21. **Learning to Branch with Tree MDPs** Arxiv, 2022. [paper](https://arxiv.org/abs/2205.11107), [code](https://github.com/lascavana/rl2branch)
+
+    *Scavuzzo, Lara, F. Chen, Didier Ch'etelat, Maxime Gasse, Andrea Lodi, N. Yorke-Smith and Karen Aardal.*
+
+22. **A Deep Reinforcement Learning Framework For Column Generation** Arxiv, 2022. [paper](https://arxiv.org/abs/2206.02568)
+
+    *Chi, Cheng, Amine Mohamed Aboussalah, Elias Boutros Khalil, Juyoung Wang and Zoha Sherkat-Masoumi.*
+
+23. **Ranking Constraint Relaxations for Mixed Integer Programs Using a Machine Learning Approach** Arxiv, 2022. [journal](https://arxiv.org/abs/2207.00219)
+
+    *Weiner, Jake, Andreas T. Ernst, Xiaodong Li and Yuan Sun.*
+
+24. **Learning to Accelerate Approximate Methods for Solving Integer Programming via Early Fixing** Arxiv, 2022. [journal](https://arxiv.org/abs/2207.02087), [code](https://github.com/SCLBD/Accelerated-Lpbox-ADMM)
+
+    *Li, Longkang and Baoyuan Wu.*
+
+25. **Learning to Cut by Looking Ahead: Cutting Plane Selection via Imitation Learning** ICML, 2022. [paper](https://proceedings.mlr.press/v162/paulus22a.html)
+
+    *Paulus, Max B., Giulia Zarpellon, Andreas Krause, Laurent Charlin and Chris J. Maddison.*
+
+26. **Lookback for Learning to Branch** Arxiv, 2022. [journal](https://arxiv.org/abs/2206.14987)
+
+    *Gupta, Prateek, Elias Boutros Khalil, Didier Chet'elat, Maxime Gasse, Yoshua Bengio, Andrea Lodi and M. Pawan Kumar.*
+
 ### [Causal Discovery](#content)
 
 1. **DAGs with NO TEARS: Continuous Optimization for Structure Learning.** NeurIPS, 2018. [paper](https://arxiv.org/pdf/1803.01422.pdf)
@@ -800,7 +840,11 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
     *Zhang, Wenjie, Zeyu Sun, Qihao Zhu, Ge Li, Shaowei Cai, Yingfei Xiong, and Lu Zhang.*
 
-19. **Generalization of Neural Combinatorial Solvers Through the Lens of Adversarial Robustness** ICLR, 2022. [paper](https://openreview.net/forum?id=vJZ7dPIjip3)
+19. **Augment with Care: Contrastive Learning for Combinatorial Problems** ICML, 2022. [paper](https://proceedings.mlr.press/v162/duan22b.html), [code](https://github.com/h4duan/contrastive-sat)
+
+    *Duan, Haonan, Pashootan Vaezipoor, Max B. Paulus, Yangjun Ruan and Chris J. Maddison*
+
+20. **Generalization of Neural Combinatorial Solvers Through the Lens of Adversarial Robustness** ICLR, 2022. [paper](https://openreview.net/forum?id=vJZ7dPIjip3)
 
     *Simon Geisler, Johanna Sommer, Jan Schuchardt, Aleksandar Bojchevski and Stephan Günnemann*
 
@@ -829,6 +873,14 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 6. **Interior Point Solving for LP-based prediction+optimization** NeurIPS, 2020. [paper](https://proceedings.neurips.cc//paper/2020/hash/51311013e51adebc3c34d2cc591fefee-Abstract.html), [code](https://github.com/JayMan91/NeurIPSIntopt)
 
     *Jayanta Mandi, Tias Guns*
+
+7. **An Exact Symbolic Reduction of Linear Smart Predict+Optimize to Mixed Integer Linear Programming** ICML, 2022. [paper](https://proceedings.mlr.press/v162/jeong22a.html), [code](https://github.com/jihwan-jeong/xaddpy)
+
+    *Jeong, Jihwan, Parth Jaggi, Andrew Butler and Scott Sanner. “An Exact Symbolic Reduction of Linear Smart Predict+Optimize to Mixed Integer Linear Programming.” ICML (2022).*
+
+8. **Constrained Discrete Black-Box Optimization using Mixed-Integer Programming** ICML, 2022. [paper](https://proceedings.mlr.press/v162/papalexopoulos22a.html)
+
+    *Papalexopoulos, Theodore, Christian Tjandraatmadja, Ross Anderson, Juan Pablo Vielma and Daving Belanger.*
 
 ### [Car Dispatch](#content)
 
