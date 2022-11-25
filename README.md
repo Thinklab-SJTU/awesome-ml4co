@@ -800,7 +800,7 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
     *Liang, Jia Hui, Chanseok Oh, Minu Mathew, Ciza Thomas, Chunxiao Li, and Vijay Ganesh.*
 
-4. **Learning to solve circuit-SAT: An unsupervised differentiable approach** ICLR, 2019. [paper](https://openreview.net/pdf?id=BJxgz2R9t7), [code](https://github.com/lee-man/circuit-sat)
+4. **Learning to solve circuit-SAT: An unsupervised differentiable approach.** ICLR, 2019. [paper](https://openreview.net/pdf?id=BJxgz2R9t7), [code](https://github.com/lee-man/circuit-sat)
 
     *Amizadeh, Saeed, Sergiy Matusevych, and Markus Weimer.*
 
@@ -812,19 +812,19 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
     *Kurin, Vitaly, Saad Godil, Shimon Whiteson, and Bryan Catanzaro.*
 
-7. **Graph neural reasoning may fail in certifying boolean unsatisfiability** Arxiv, 2019. [paper](https://arxiv.org/pdf/1909.11588)
+7. **Graph neural reasoning may fail in certifying boolean unsatisfiability.** Arxiv, 2019. [paper](https://arxiv.org/pdf/1909.11588)
 
     *Chen, Ziliang, and Zhanfu Yang.*
 
-8. **Guiding high-performance SAT solvers with unsat-core predictions** SAT, 2019. [paper](https://arxiv.org/pdf/1903.04671)
+8. **Guiding high-performance SAT solvers with unsat-core predictions.** SAT, 2019. [paper](https://arxiv.org/pdf/1903.04671)
 
     *Selsam, Daniel, and Nikolaj Bjørner.*
 
-9. **G2SAT: Learning to Generate SAT Formulas** NeurIPS, 2019. [paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7138247/), [code](https://github.com/JiaxuanYou/G2SAT)
+9. **G2SAT: Learning to Generate SAT Formulas.** NeurIPS, 2019. [paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7138247/), [code](https://github.com/JiaxuanYou/G2SAT)
 
     *You, Jiaxuan, Haoze Wu, Clark Barrett, Raghuram Ramanujan, and Jure Leskovec.*
 
-10. **Learning Heuristics for Quantified Boolean Formulas through Reinforcement Learning** Arxiv, 2019. [paper](https://arxiv.org/pdf/1807.08058), [code](https://github.com/lederg/learningqbf)
+10. **Learning Heuristics for Quantified Boolean Formulas through Reinforcement Learning.** Arxiv, 2019. [paper](https://arxiv.org/pdf/1807.08058), [code](https://github.com/lederg/learningqbf)
 
     *Lederman, Gil, Markus N. Rabe, Edward A. Lee, and Sanjit A. Seshia.*
 
@@ -856,15 +856,35 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
     *Jaszczur, Sebastian, Michał Łuszczyk, and Henryk Michalewski.*
 
-18. **NLocalSAT: Boosting Local Search with Solution Prediction** Arxiv, 2020. [paper](https://arxiv.org/pdf/2001.09398), [code](https://github.com/myxxxsquared/NLocalSAT)
+18. **NLocalSAT: Boosting Local Search with Solution Prediction.** Arxiv, 2020. [paper](https://arxiv.org/pdf/2001.09398), [code](https://github.com/myxxxsquared/NLocalSAT)
 
     *Zhang, Wenjie, Zeyu Sun, Qihao Zhu, Ge Li, Shaowei Cai, Yingfei Xiong, and Lu Zhang.*
 
-19. **Augment with Care: Contrastive Learning for Combinatorial Problems** ICML, 2022. [paper](https://proceedings.mlr.press/v162/duan22b.html), [code](https://github.com/h4duan/contrastive-sat)
+19. **Goal-Aware Neural SAT Solver.** IJCNN, 2022. [paper](https://ieeexplore.ieee.org/document/9892733)
+
+    *Ozolins, Emils, Karlis Freivalds, Andis Draguns, Eliza Gaile, Ronalds Zakovskis, and Sergejs Kozlovics.*
+
+20. **NeuroComb: Improving SAT Solving with Graph Neural Networks.** Arxiv, 2022. [paper](https://arxiv.org/abs/2110.14053)
+
+    *Wang, Wenxi, Yang Hu, Mohit Tiwari, Sarfraz Khurshid, Kenneth McMillan, and Risto Miikkulainen.*
+
+21. **On the Performance of Deep Generative Models of Realistic SAT Instances.** SAT, 2022. [paper](https://drops.dagstuhl.de/opus/volltexte/2022/16677/pdf/LIPIcs-SAT-2022-3.pdf)
+
+    *Garzón, Iván, Pablo Mesejo, and Jesús Giráldez-Cru.*
+
+22. **DeepSAT: An EDA-Driven Learning Framework for SAT.** Arxiv, 2022. [paper](http://arxiv.org/abs/2205.13745)
+
+    *Li, Min, Zhengyuan Shi, Qiuxia Lai, Sadaf Khan, and Qiang Xu.*
+
+23. **SATformer: Transformers for SAT Solving.** Arxiv, 2022. [paper](https://arxiv.org/abs/2209.00953)
+
+    *Shi, Zhengyuan, Min Li, Sadaf Khan, Hui-Ling Zhen, Mingxuan Yuan, and Qiang Xu.*
+
+24. **Augment with Care: Contrastive Learning for Combinatorial Problems.** ICML, 2022. [paper](https://proceedings.mlr.press/v162/duan22b.html), [code](https://github.com/h4duan/contrastive-sat)
 
     *Duan, Haonan, Pashootan Vaezipoor, Max B. Paulus, Yangjun Ruan and Chris J. Maddison*
 
-20. **Generalization of Neural Combinatorial Solvers Through the Lens of Adversarial Robustness** ICLR, 2022. [paper](https://openreview.net/forum?id=vJZ7dPIjip3)
+25. **Generalization of Neural Combinatorial Solvers Through the Lens of Adversarial Robustness** ICLR, 2022. [paper](https://openreview.net/forum?id=vJZ7dPIjip3)
 
     *Simon Geisler, Johanna Sommer, Jan Schuchardt, Aleksandar Bojchevski and Stephan Günnemann*
 
