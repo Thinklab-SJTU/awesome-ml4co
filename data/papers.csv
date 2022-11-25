@@ -140,6 +140,7 @@ Mixed Integer Programming,Learning a Large Neighborhood Search Algorithm for Mix
 Mixed Integer Programming,A General Large Neighborhood Search Framework for Solving Integer Linear Programs,NeurlPS,2020,paper,https://arxiv.org/abs/2004.00422,"Song, Jialin and Lanka, Ravi and Yue, Yisong and Dilkina, Bistra",
 Mixed Integer Programming,Neural Large Neighborhood Search,NeurlPS Workshop,2020,paper,https://openreview.net/forum?id=xEQhKANoVW,"Nair, Vinod and Alizadeh, Mohammad and others",
 Mixed Integer Programming,Accelerating Primal Solution Findings for Mixed Integer Programs Based on Solution Prediction,AAAI,2020,paper,https://arxiv.org/abs/1906.09575,"Ding, Jian-Ya, Chao Zhang, Lei Shen, Shengyin Li, Bing Wang, Yinghui Xu, and Le Song",
+Mixed Integer Programming,Confidence Threshold Neural Diving,NeurIPS ML4CO Competition Workshop,2021,paper,https://arxiv.org/abs/2202.07506,"Taehyun Yoon",
 Mixed Integer Programming,Learning large neighborhood search policy for integer programming,NeurlPS,2021,paper,https://proceedings.neurips.cc/paper/2021/hash/fc9e62695def29ccdb9eb3fed5b4c8c8-Abstract.html,"Wu, Yaoxin and Song, Wen and Cao, Zhiguang and Zhang, Jie",
 Mixed Integer Programming,Generative Deep Learning for Decision Making in Gas Networks,Arxiv,2021,paper,https://arxiv.org/abs/2102.02125,Lovis Anderson and Mark Turner and Thorsten Koch,
 Mixed Integer Programming,Offline Constraint Screening for Online Mixed-integer Optimization,Arxiv,2021,paper,https://arxiv.org/abs/2103.13074,Asunción Jiménez-Cordero and Juan Miguel Morales and Salvador Pineda,
