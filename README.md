@@ -24,35 +24,35 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 	<td>&emsp;<a href=#maximal-cut>2.4 Maximal Cut</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#vehicle-routing-problem>2.5 Vehicle Routing Problem (VRP)</a></td>
-	<td>&emsp;<a href=#job-shop-scheduling-problem>2.6 Job Shop Scheduling Problem (JSSP)</a></td>
+	<td>&emsp;<a href=#differentiable-optimization>2.5 Differentiable Optimization</a></td>
+	<td>&emsp;<a href=#vehicle-routing-problem>2.6 Vehicle Routing Problem (VRP)</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#computing-resource-allocation>2.7 Computing Resource Allocation</a></td>
-	<td>&emsp;<a href=#bin-packing-problem>2.8 Bin Packing Problem (BPP)</a></td>
+	<td>&emsp;<a href=#job-shop-scheduling-problem>2.7 Job Shop Scheduling Problem (JSSP)</a></td>
+	<td>&emsp;<a href=#computing-resource-allocation>2.8 Computing Resource Allocation</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#graph-edit-distance>2.9 Graph Edit Distance (GED)</a></td>
-	<td>&emsp;<a href=#hamiltonian-cycle-problem>2.10 Hamiltonian Cycle Problem (HCP)</a></td>
+	<td>&emsp;<a href=#bin-packing-problem>2.9 Bin Packing Problem (BPP)</a></td>
+	<td>&emsp;<a href=#graph-edit-distance>2.10 Graph Edit Distance (GED)</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#graph-coloring>2.11 Graph Coloring</a></td>
-	<td>&emsp;<a href=#maximal-common-subgraph>2.12 Maximal Common Subgraph (MCS)</a></td>
+	<td>&emsp;<a href=#hamiltonian-cycle-problem>2.11 Hamiltonian Cycle Problem (HCP)</a></td>
+	<td>&emsp;<a href=#graph-coloring>2.12 Graph Coloring</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#influence-maximization>2.13 Influence Maximization</a></td>
-	<td>&emsp;<a href=#maximal/maximum-independent-set>2.14 Maximal/Maximum Independent Set</a></td>
+	<td>&emsp;<a href=#maximal-common-subgraph>2.13 Maximal Common Subgraph (MCS)</a></td>
+	<td>&emsp;<a href=#influence-maximization>2.14 Influence Maximization</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#boolean-satisfiability>2.15 Boolean Satisfiability (SAT)</a></td>
-	<td>&emsp;<a href=#mixed-integer-programming>2.16 Mixed Integer Programming</a></td>
+	<td>&emsp;<a href=#maximal/maximum-independent-set>2.15 Maximal/Maximum Independent Set</a></td>
+	<td>&emsp;<a href=#boolean-satisfiability>2.16 Boolean Satisfiability (SAT)</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#causal-discovery>2.17 Causal Discovery</a></td>
-	<td>&emsp;<a href=#game-theoretic-semantics>2.18 Game Theoretic Semantics</a></td>
+	<td>&emsp;<a href=#mixed-integer-programming>2.17 Mixed Integer Programming</a></td>
+	<td>&emsp;<a href=#causal-discovery>2.18 Causal Discovery</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#differentiable-optimization>2.19 Differentiable Optimization</a></td>
+	<td>&emsp;<a href=#game-theoretic-semantics>2.19 Game Theoretic Semantics</a></td>
 	<td>&emsp;<a href=#car-dispatch>2.20 Car Dispatch</a></td>
 </tr>
 <tr>
@@ -65,7 +65,7 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 </tr>
 <tr>
 	<td>&emsp;<a href=#virtual-network-embedding>2.25 Virtual Network Embedding (VNE)</a></td>
-<td>&ensp;</td>
+	<td>&emsp;<a href=#optical-power-flow>2.26 Optical Power Flow (OPF)</a></td>
 </tr>
 </table>
 
@@ -274,83 +274,79 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
     *Fu, Zhang-Hua and Qiu, Kai-Bin and Zha, Hongyuan.*
 
-8. **Differentiation of Blackbox Combinatorial Solvers** ICLR, 2020. [paper](https://arxiv.org/pdf/1912.02175v2.pdf), [code](https://github.com/martius-lab/blackbox-backprop)
-
-    *Marin Vlastelica, Anselm Paulus, Vít Musil, Georg Martius, Michal Rolínek*
-
-9. **A Reinforcement Learning Approach for Optimizing Multiple Traveling Salesman Problems over Graphs** KBS, 2020. [journal](https://www.sciencedirect.com/science/article/pii/S0950705120304445)
+8. **A Reinforcement Learning Approach for Optimizing Multiple Traveling Salesman Problems over Graphs** KBS, 2020. [journal](https://www.sciencedirect.com/science/article/pii/S0950705120304445)
 
     *Hu, Yujiao and Yao, Yuan and Lee, Wee Sun*
 
-10. **Learning 2-opt Heuristics for the Traveling Salesman Problem via Deep Reinforcement Learning** ACML, 2020. [paper](http://proceedings.mlr.press/v129/costa20a), [code](https://github.com/paulorocosta/learning-2opt-drl)
+9. **Learning 2-opt Heuristics for the Traveling Salesman Problem via Deep Reinforcement Learning** ACML, 2020. [paper](http://proceedings.mlr.press/v129/costa20a), [code](https://github.com/paulorocosta/learning-2opt-drl)
 
     *d O Costa, Paulo R and Rhuggenaath, Jason and Zhang, Yingqian and Akcay, Alp*
 
-11. **Deep Reinforcement Learning for Combinatorial Optimization: Covering Salesman Problems.** IEEE Trans Cybern, 2021. [journal](https://arxiv.org/abs/2102.05875)
+10. **Deep Reinforcement Learning for Combinatorial Optimization: Covering Salesman Problems.** IEEE Trans Cybern, 2021. [journal](https://arxiv.org/abs/2102.05875)
 
     *Kaiwen Li, Tao Zhang, Rui Wang Yuheng Wang, and Yi Han*
 
-12. **The Transformer Network for the Traveling Salesman Problem** IPAM, 2021. [paper](http://helper.ipam.ucla.edu/publications/dlc2021/dlc2021_16703.pdf)
+11. **The Transformer Network for the Traveling Salesman Problem** IPAM, 2021. [paper](http://helper.ipam.ucla.edu/publications/dlc2021/dlc2021_16703.pdf)
 
     *Xavier Bresson，Thomas Laurent*
 
-13. **Learning Improvement Heuristics for Solving Routing Problems** TNNLS, 2021. [journal](https://ieeexplore.ieee.org/abstract/document/9393606?casa_token=mFeyLmrOGfIAAAAA:nmAkjUaTSooYurWHuWGYNoguV453anw9Enyv45xG5jb2oCps6QE4A1CFe1EmFmTzbON6cL5maw)
+12. **Learning Improvement Heuristics for Solving Routing Problems** TNNLS, 2021. [journal](https://ieeexplore.ieee.org/abstract/document/9393606?casa_token=mFeyLmrOGfIAAAAA:nmAkjUaTSooYurWHuWGYNoguV453anw9Enyv45xG5jb2oCps6QE4A1CFe1EmFmTzbON6cL5maw)
 
     *Wu, Yaoxin and Song, Wen and Cao, Zhiguang and Zhang, Jie and Lim, Andrew*
 
-14. **Reversible Action Design for Combinatorial Optimization with Reinforcement Learning** Arxiv, 2021. [paper](https://arxiv.org/abs/2102.07210)
+13. **Reversible Action Design for Combinatorial Optimization with Reinforcement Learning** Arxiv, 2021. [paper](https://arxiv.org/abs/2102.07210)
 
     *Yao, Fan and Cai, Renqin and Wang, Hongning*
 
-15. **Solving Dynamic Traveling Salesman Problems with Deep Reinforcement Learning.** TNNLS, 2021. [journal](https://ieeexplore.ieee.org/document/9537638)
+14. **Solving Dynamic Traveling Salesman Problems with Deep Reinforcement Learning.** TNNLS, 2021. [journal](https://ieeexplore.ieee.org/document/9537638)
 
     *Zizhen Zhang, Hong Liu, Meng Chu Zhou, Jiahai Wang*
 
-16. **ScheduleNet: Learn to Solve Multi-agent Scheduling Problems with Reinforcement Learning** Arxiv, 2021. [paper](https://arxiv.org/abs/2106.03051)
+15. **ScheduleNet: Learn to Solve Multi-agent Scheduling Problems with Reinforcement Learning** Arxiv, 2021. [paper](https://arxiv.org/abs/2106.03051)
 
     *Junyoung Park, Sanjar Bakhtiyar, Jinkyoo Park*
 
-17. **DAN: Decentralized Attention-based Neural Network to Solve the MinMax Multiple Traveling Salesman Problem** Arxiv, 2021. [paper](https://arxiv.org/abs/2109.04205)
+16. **DAN: Decentralized Attention-based Neural Network to Solve the MinMax Multiple Traveling Salesman Problem** Arxiv, 2021. [paper](https://arxiv.org/abs/2109.04205)
 
     *Cao, Yuhong and Sun, Zhanhong and Sartoretti, Guillaume*
 
-18. **Reinforcement Learning for Route Optimization with Robustness Guarantees** IJCAI, 2021. [paper](https://www.ijcai.org/proceedings/2021/0357.pdf)
+17. **Reinforcement Learning for Route Optimization with Robustness Guarantees** IJCAI, 2021. [paper](https://www.ijcai.org/proceedings/2021/0357.pdf)
 
     *Jacobs, Tobias and Alesiani, Francesco and Ermis, Gulcin*
 
-19. **Learning TSP Requires Rethinking Generalization** CP, 2021. [paper](https://arxiv.org/pdf/2006.07054.pdf), [code](https://github.com/chaitjo/learning-tsp)
+18. **Learning TSP Requires Rethinking Generalization** CP, 2021. [paper](https://arxiv.org/pdf/2006.07054.pdf), [code](https://github.com/chaitjo/learning-tsp)
 
     *Chaitanya K. Joshi, Quentin Cappart, Louis-Martin Rousseau and Thomas Laurent*
 
-20. **The First AI4TSP Competition: Learning to Solve Stochastic Routing Problems** Arxiv, 2022. [paper](https://arxiv.org/abs/2201.10453), [code](https://github.com/paulorocosta/ai-for-tsp-competition)
+19. **The First AI4TSP Competition: Learning to Solve Stochastic Routing Problems** Arxiv, 2022. [paper](https://arxiv.org/abs/2201.10453), [code](https://github.com/paulorocosta/ai-for-tsp-competition)
 
     *Bliek, Laurens and da Costa, Paulo and Afshar, Reza Refaei and Zhang, Yingqian and Catshoek, Tom and Vos, Daniel and Verwer, Sicco and Schmitt-Ulms, Fynn and Hottung, Andre and Shah, Tapan and others*
 
-21. **Graph Neural Network Guided Local Search for the Traveling Salesperson Problem** ICLR, 2022. [paper](https://openreview.net/forum?id=ar92oEosBIg)
+20. **Graph Neural Network Guided Local Search for the Traveling Salesperson Problem** ICLR, 2022. [paper](https://openreview.net/forum?id=ar92oEosBIg)
 
     *Hudson, Benjamin and Li, Qingbiao and Malencia, Matthew and Prorok, Amanda*
 
-22. **Preference Conditioned Neural Multi-objective Combinatorial Optimization** ICLR, 2022. [paper](https://openreview.net/forum?id=QuObT9BTWo)
+21. **Preference Conditioned Neural Multi-objective Combinatorial Optimization** ICLR, 2022. [paper](https://openreview.net/forum?id=QuObT9BTWo)
 
     *Lin, Xi and Yang, Zhiyuan and Zhang, Qingfu*
 
-23. **Learning Generalizable Models for Vehicle Routing Problems via Knowledge Distillation** NeurIPS, 2022. [paper](https://openreview.net/forum?id=sOVNpUEgKMp), [code](https://github.com/jieyibi/AMDKD)
+22. **Learning Generalizable Models for Vehicle Routing Problems via Knowledge Distillation** NeurIPS, 2022. [paper](https://openreview.net/forum?id=sOVNpUEgKMp), [code](https://github.com/jieyibi/AMDKD)
 
     *Bi, Jieyi and Ma, Yining and Wang, Jiahai and Cao, Zhiguang and Chen, Jinbiao and Sun, Yuan and Chee, Yeow Meng*
 
-24. **DIMES: A Differentiable Meta Solver for Combinatorial Optimization Problems** NeurIPS, 2022. [paper](https://openreview.net/forum?id=9u05zr0nhx)
+23. **DIMES: A Differentiable Meta Solver for Combinatorial Optimization Problems** NeurIPS, 2022. [paper](https://openreview.net/forum?id=9u05zr0nhx)
 
     *Qiu, Ruizhong and Sun, Zhiqing and Yang, Yiming*
 
-25. **Sym-NCO: Leveraging Symmetricity for Neural Combinatorial Optimization** NeurIPS, 2022. [paper](https://openreview.net/forum?id=kHrE2vi5Rvs), [code](https://github.com/alstn12088/Sym-NCO)
+24. **Sym-NCO: Leveraging Symmetricity for Neural Combinatorial Optimization** NeurIPS, 2022. [paper](https://openreview.net/forum?id=kHrE2vi5Rvs), [code](https://github.com/alstn12088/Sym-NCO)
 
     *Kim, Minsu and Park, Junyoung and Park, Jinkyoo*
 
-26. **Simulation-guided Beam Search for Neural Combinatorial Optimization** NeurIPS, 2022. [paper](https://openreview.net/forum?id=tYAS1Rpys5), [code](https://github.com/yd-kwon/SGBS)
+25. **Simulation-guided Beam Search for Neural Combinatorial Optimization** NeurIPS, 2022. [paper](https://openreview.net/forum?id=tYAS1Rpys5), [code](https://github.com/yd-kwon/SGBS)
 
     *Choo, Jinho and Kwon, Yeong-Dae and Kim, Jihoon and Jae, Jeongwoo and Hottung, Andr{\'e} and Tierney, Kevin and Gwon, Youngjune*
 
-27. **Generalization of Neural Combinatorial Solvers Through the Lens of Adversarial Robustness** ICLR, 2022. [paper](https://openreview.net/forum?id=vJZ7dPIjip3)
+26. **Generalization of Neural Combinatorial Solvers Through the Lens of Adversarial Robustness** ICLR, 2022. [paper](https://openreview.net/forum?id=vJZ7dPIjip3)
 
     *Simon Geisler, Johanna Sommer, Jan Schuchardt, Aleksandar Bojchevski and Stephan Günnemann*
 
@@ -379,6 +375,68 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 6. **Learning to Solve Combinatorial Graph Partitioning Problems via Efficient Exploration** Arxiv, 2022. [paper](https://arxiv.org/abs/2205.14105), [code](https://github.com/tomdbar/ecord)
 
     *Barrett, Thomas D and Parsonson, Christopher WF and Laterre, Alexandre*
+
+### [Differentiable Optimization](#content)
+
+1. **Differentiable Learning of Submodular Models** NeurIPS, 2017. [paper](https://papers.NeurIPS.cc/paper/2017/hash/192fc044e74dffea144f9ac5dc9f3395-Abstract.html), [code](https://github.com/josipd/torch-submod)
+
+    *Josip Djolonga, Andreas Krause*
+
+2. **OptNet: differentiable optimization as a layer in neural networks** ICML, 2017. [paper](https://dl.acm.org/doi/abs/10.5555/3305381.3305396), [code](https://github.com/locuslab/optnet)
+
+    *Brandon Amos and J. Zico Kolter*
+
+3. **Melding the Data-Decisions Pipeline: Decision-Focused Learning for Combinatorial Optimization** AAAI, 2019. [paper](https://ojs.aaai.org//index.php/AAAI/article/view/3982)
+
+    *Bryan Wilder, Bistra Dilkina, Milind Tambe*
+
+4. **Differentiable Convex Optimization Layers** NeurIPS, 2019. [paper](https://dl.acm.org/doi/abs/10.5555/3454287.3455145), [code](https://github.com/cvxgrp/cvxpylayers)
+
+    *Agrawal, Akshay and Boyd, Stephen*
+
+5. **Predict+optimise with ranking objectives: exhaustively learning linear functions** IJCAI, 2019. [paper](https://dl.acm.org/doi/abs/10.5555/3367032.3367186)
+
+    *Demirovic, Emir and Stuckey, Peter J. and Bailey, James and Chan, Jeffrey and Leckie, Christopher and Ramamohanarao, Kotagiri and Guns, Tias*
+
+6. **Differentiation of Blackbox Combinatorial Solvers** ICLR, 2020. [paper](https://arxiv.org/pdf/1912.02175v2.pdf), [code](https://github.com/martius-lab/blackbox-backprop)
+
+    *Marin Vlastelica, Anselm Paulus, Vít Musil, Georg Martius, Michal Rolínek*
+
+7. **Smart Predict-and-Optimize for Hard Combinatorial Optimization Problems** AAAI, 2020. [paper](https://arxiv.org/abs/1911.10092), [code](https://github.com/JayMan91/aaai_predit_then_optimize)
+
+    *Jaynta Mandi, Emir Demirovi, Peter. J Stuckey, Tias Guns*
+
+8. **Differentiation of blackbox combinatorial solvers** ICLR, 2020. [paper](https://openreview.net/forum?id=BkevoJSYPB), [code](https://github.com/martius-lab/blackbox-backprop)
+
+    *Marin Vlastelica Pogani, Anselm Paulus, Vit Musil, Georg Martius, Michal Rolinek*
+
+9. **Interior Point Solving for LP-based prediction+optimization** NeurIPS, 2020. [paper](https://proceedings.neurips.cc//paper/2020/hash/51311013e51adebc3c34d2cc591fefee-Abstract.html), [code](https://github.com/JayMan91/NeurIPSIntopt)
+
+    *Jayanta Mandi, Tias Guns*
+
+10. **Automatically Learning Compact Quality-aware Surrogates for Optimization Problems** NeurIPS, 2020. [paper](https://openreview.net/forum?id=v8hzdOdOle)
+
+    *Kai Wang, Bryan Wilder, Andrew Perrault, Milind Tambe*
+
+11. **Contrastive Losses and Solution Caching for Predict-and-Optimize** IJCAI, 2021. [paper](https://www.ijcai.org/proceedings/2021/0390.pdf), [code](https://github.com/jayman91/ltr-predopt)
+
+    *Maxime Mulamba, Jayanta Mandi, Michelangelo Diligenti , Michele Lombardi, Victor Bucarey, Tias Guns*
+
+12. **A Surrogate Objective Framework for Prediction+Programming with Soft Constraints** NeurIPS, 2021. [paper](https://openreview.net/forum?id=9Sa2xh4mGR), [code](https://github.com/PredOptwithSoftConstraint/PredOptwithSoftConstraint)
+
+    *Kai Yan, Jie Yan, Chuan Luo, Liting Chen, Qingwei Lin, Dongmei Zhang*
+
+13. **Implicit MLE: Backpropagating Through Discrete Exponential Family Distributions** NeurIPS, 2021. [paper](https://openreview.net/forum?id=lR4aaWCQgB), [code](https://github.com/uclnlp/torch-imle)
+
+    *Mathias Niepert, Pasquale Minervini, Luca Franceschi*
+
+14. **An Exact Symbolic Reduction of Linear Smart Predict+Optimize to Mixed Integer Linear Programming** ICML, 2022. [paper](https://proceedings.mlr.press/v162/jeong22a.html), [code](https://github.com/jihwan-jeong/xaddpy)
+
+    *Jeong, Jihwan, Parth Jaggi, Andrew Butler and Scott Sanner*
+
+15. **End-to-End Stochastic Optimization with  Energy-Based Model** NeurIPS, 2022. [paper](https://proceedings.neurips.cc/paper/2017/hash/3fc2c60b5782f641f76bcefc39fb2392-Abstract.html), [code](https://github.com/locuslab/e2e-model-learning)
+
+    *Donti, Priya and Amos, Brandon and Kolter, J Zico*
 
 ### [Vehicle Routing Problem](#content)
 
@@ -888,113 +946,121 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
     *Ding, Jian-Ya, Chao Zhang, Lei Shen, Shengyin Li, Bing Wang, Yinghui Xu, and Le Song*
 
-21. **CombOptNet: Fit the Right NP-Hard Problem by Learning Integer Programming Constraints** Arxiv, 2021. [paper](https://openreview.net/forum?id=z4D7-PTxTb), [code](https://github.com/martius-lab/CombOptNet)
+21. **MIPaaL: Mixed Integer Program as a Layer** AAAI, 2020. [paper](https://ojs.aaai.org//index.php/AAAI/article/view/5509), [code](https://github.com/amf272/MIPaaL/)
+
+    *Aaron Ferber, Bryan Wilder, Bistra Dilkina, Milind Tambe*
+
+22. **CombOptNet: Fit the Right NP-Hard Problem by Learning Integer Programming Constraints** Arxiv, 2021. [paper](https://openreview.net/forum?id=z4D7-PTxTb), [code](https://github.com/martius-lab/CombOptNet)
 
     *Paulus, Anselm and Rolinek, Michal and Musil, Vit and Amos, Brandon and Martius, Georg*
 
-22. **Reinforcement Learning for (Mixed) Integer Programming: Smart Feasibility Pump** ICML Workshop, 2021. [paper](https://arxiv.org/abs/2102.09663)
+23. **Reinforcement Learning for (Mixed) Integer Programming: Smart Feasibility Pump** ICML Workshop, 2021. [paper](https://arxiv.org/abs/2102.09663)
 
     *Qi, Meng and Wang, Mengxin and Shen, Zuo-Jun*
 
-23. **Parameterizing Branch-and-Bound Search Trees to Learn Branching Policies** AAAI, 2021. [paper](https://www.aaai.org/AAAI21Papers/AAAI-9826.ZarpellonG.pdf), [code](https://github.com/ds4dm/branch-search-trees)
+24. **Parameterizing Branch-and-Bound Search Trees to Learn Branching Policies** AAAI, 2021. [paper](https://www.aaai.org/AAAI21Papers/AAAI-9826.ZarpellonG.pdf), [code](https://github.com/ds4dm/branch-search-trees)
 
     *Zarpellon, Giulia and Jo, Jason and Lodi, Andrea and Bengio, Yoshua*
 
-24. **Learning to Select Cuts for Efficient Mixed-Integer Programming** Arxiv, 2021. [journal](https://arxiv.org/abs/2105.13645)
+25. **Learning to Select Cuts for Efficient Mixed-Integer Programming** Arxiv, 2021. [journal](https://arxiv.org/abs/2105.13645)
 
     *Huang, Zeren and Wang, Kerong and Liu, Furui and Zhen, Hui-ling and Zhang, Weinan and Yuan, Mingxuan and Hao, Jianye and Yu, Yong and Wang, Jun*
 
-25. **Confidence Threshold Neural Diving** NeurIPS ML4CO Competition Workshop, 2021. [paper](https://arxiv.org/abs/2202.07506)
+26. **Confidence Threshold Neural Diving** NeurIPS ML4CO Competition Workshop, 2021. [paper](https://arxiv.org/abs/2202.07506)
 
     *Taehyun Yoon*
 
-26. **Learning large neighborhood search policy for integer programming** NeurlPS, 2021. [paper](https://proceedings.neurips.cc/paper/2021/hash/fc9e62695def29ccdb9eb3fed5b4c8c8-Abstract.html)
+27. **Learning large neighborhood search policy for integer programming** NeurlPS, 2021. [paper](https://proceedings.neurips.cc/paper/2021/hash/fc9e62695def29ccdb9eb3fed5b4c8c8-Abstract.html)
 
     *Wu, Yaoxin and Song, Wen and Cao, Zhiguang and Zhang, Jie*
 
-27. **Generative Deep Learning for Decision Making in Gas Networks** Arxiv, 2021. [paper](https://arxiv.org/abs/2102.02125)
+28. **Generative Deep Learning for Decision Making in Gas Networks** Arxiv, 2021. [paper](https://arxiv.org/abs/2102.02125)
 
     *Lovis Anderson and Mark Turner and Thorsten Koch*
 
-28. **Offline Constraint Screening for Online Mixed-integer Optimization** Arxiv, 2021. [paper](https://arxiv.org/abs/2103.13074)
+29. **Offline Constraint Screening for Online Mixed-integer Optimization** Arxiv, 2021. [paper](https://arxiv.org/abs/2103.13074)
 
     *Asunción Jiménez-Cordero and Juan Miguel Morales and Salvador Pineda*
 
-29. **Mixed Integer Programming versus Evolutionary Computation for Optimizing a Hard Real-World Staff Assignment Problem** ICAPS, 2021. [paper](https://ojs.aaai.org/index.php/ICAPS/article/view/3521)
+30. **Mixed Integer Programming versus Evolutionary Computation for Optimizing a Hard Real-World Staff Assignment Problem** ICAPS, 2021. [paper](https://ojs.aaai.org/index.php/ICAPS/article/view/3521)
 
     *Peters, Jannik and Stephan, Daniel and Amon, Isabel and Gawendowicz, Hans and Lischeid, Julius and Salabarria, Lennart and Umland, Jonas and Werner, Felix and Krejca, Martin S and Rothenberger, Ralf and others*
 
-30. **Learning To Scale Mixed-Integer Programs** AAAI, 2021. [paper](https://www.aaai.org/AAAI21Papers/AAAI-7940.BertholdT.pdf)
+31. **Learning To Scale Mixed-Integer Programs** AAAI, 2021. [paper](https://www.aaai.org/AAAI21Papers/AAAI-7940.BertholdT.pdf)
 
     *Berthold, Timo, and Gregor Hendel*
 
-31. **Learning Pseudo-Backdoors for Mixed Integer Programs** AAAI, 2021. [paper](https://arxiv.org/pdf/2106.05080.pdf)
+32. **Learning Pseudo-Backdoors for Mixed Integer Programs** AAAI, 2021. [paper](https://arxiv.org/pdf/2106.05080.pdf)
 
     *Aaron Ferber and Jialin Song and Bistra Dilkina and Yisong Yue*
 
-32. **Confidence Threshold Neural Diving** NeurIPS ML4CO Competition Workshop, 2021. [paper](https://arxiv.org/abs/2202.07506)
+33. **Confidence Threshold Neural Diving** NeurIPS ML4CO Competition Workshop, 2021. [paper](https://arxiv.org/abs/2202.07506)
 
     *Taehyun Yoon*
 
-33. **Learning Primal Heuristics for Mixed Integer Programs** IJCNN, 2021. [paper](https://arxiv.org/pdf/2107.00866.pdf)
+34. **Learning Primal Heuristics for Mixed Integer Programs** IJCNN, 2021. [paper](https://arxiv.org/pdf/2107.00866.pdf)
 
     *Shen, Yunzhuang and Sun, Yuan and Eberhard, Andrew and Li, Xiaodong*
 
-34. **Learning to Solve Large-scale Security-constrained Unit Commitment Problems** INFORMS Journal on Computing, 2021. [journal](https://pubsonline.informs.org/doi/abs/10.1287/ijoc.2020.0976)
+35. **Learning to Solve Large-scale Security-constrained Unit Commitment Problems** INFORMS Journal on Computing, 2021. [journal](https://pubsonline.informs.org/doi/abs/10.1287/ijoc.2020.0976)
 
     *Xavier, {\'A}linson S and Qiu, Feng and Ahmed, Shabbir*
 
-35. **Learning to Branch with Tree MDPs** Arxiv, 2022. [paper](https://arxiv.org/abs/2205.11107), [code](https://github.com/lascavana/rl2branch)
+36. **Learning to Branch with Tree MDPs** Arxiv, 2022. [paper](https://arxiv.org/abs/2205.11107), [code](https://github.com/lascavana/rl2branch)
 
     *Scavuzzo, Lara, F. Chen, Didier Ch'etelat, Maxime Gasse, Andrea Lodi, N. Yorke-Smith and Karen Aardal.*
 
-36. **A Deep Reinforcement Learning Framework For Column Generation** Arxiv, 2022. [paper](https://arxiv.org/abs/2206.02568)
+37. **A Deep Reinforcement Learning Framework For Column Generation** Arxiv, 2022. [paper](https://arxiv.org/abs/2206.02568)
 
     *Chi, Cheng, Amine Mohamed Aboussalah, Elias Boutros Khalil, Juyoung Wang and Zoha Sherkat-Masoumi.*
 
-37. **Ranking Constraint Relaxations for Mixed Integer Programs Using a Machine Learning Approach** Arxiv, 2022. [journal](https://arxiv.org/abs/2207.00219)
+38. **Ranking Constraint Relaxations for Mixed Integer Programs Using a Machine Learning Approach** Arxiv, 2022. [journal](https://arxiv.org/abs/2207.00219)
 
     *Weiner, Jake, Andreas T. Ernst, Xiaodong Li and Yuan Sun.*
 
-38. **Learning to Accelerate Approximate Methods for Solving Integer Programming via Early Fixing** Arxiv, 2022. [journal](https://arxiv.org/abs/2207.02087), [code](https://github.com/SCLBD/Accelerated-Lpbox-ADMM)
+39. **Learning to Accelerate Approximate Methods for Solving Integer Programming via Early Fixing** Arxiv, 2022. [journal](https://arxiv.org/abs/2207.02087), [code](https://github.com/SCLBD/Accelerated-Lpbox-ADMM)
 
     *Li, Longkang and Baoyuan Wu.*
 
-39. **Learning to Cut by Looking Ahead: Cutting Plane Selection via Imitation Learning** ICML, 2022. [paper](https://proceedings.mlr.press/v162/paulus22a.html)
+40. **Learning to Cut by Looking Ahead: Cutting Plane Selection via Imitation Learning** ICML, 2022. [paper](https://proceedings.mlr.press/v162/paulus22a.html)
 
     *Paulus, Max B., Giulia Zarpellon, Andreas Krause, Laurent Charlin and Chris J. Maddison.*
 
-40. **Lookback for Learning to Branch** Arxiv, 2022. [journal](https://arxiv.org/abs/2206.14987)
+41. **Lookback for Learning to Branch** Arxiv, 2022. [journal](https://arxiv.org/abs/2206.14987)
 
     *Gupta, Prateek, Elias Boutros Khalil, Didier Chet'elat, Maxime Gasse, Yoshua Bengio, Andrea Lodi and M. Pawan Kumar.*
 
-41. **Learning to Search in Local Branching** AAAI, 2022. [paper](https://ojs.aaai.org/index.php/AAAI/article/view/20294), [code](https://github.com/pandat8/ML4LB)
+42. **Learning to Search in Local Branching** AAAI, 2022. [paper](https://ojs.aaai.org/index.php/AAAI/article/view/20294), [code](https://github.com/pandat8/ML4LB)
 
     *Liu, Defeng and Fischetti, Matteo and Lodi, Andrea*
 
-42. **Deep Reinforcement Learning for Exact Combinatorial Optimization: Learning to Branch** Arxiv, 2022. [paper](https://arxiv.org/abs/2206.06965)
+43. **Deep Reinforcement Learning for Exact Combinatorial Optimization: Learning to Branch** Arxiv, 2022. [paper](https://arxiv.org/abs/2206.06965)
 
     *Zhang, Tianyu and Banitalebi-Dehkordi, Amin and Zhang, Yong*
 
-43. **Learning to Branch with Tree-aware Branching Transformers** Knowledge-Based Systems, 2022. [journal](https://www.sciencedirect.com/science/article/pii/S0950705122007298?via%3Dihub), [code](https://github.com/linjc16/TBranT)
+44. **Learning to Branch with Tree-aware Branching Transformers** Knowledge-Based Systems, 2022. [journal](https://www.sciencedirect.com/science/article/pii/S0950705122007298?via%3Dihub), [code](https://github.com/linjc16/TBranT)
 
     *Lin, Jiacheng and Zhu, Jialin and Wang, Huangang and Zhang, Tao*
 
-44. **An Improved Reinforcement Learning Algorithm for Learning to Branch** Arxiv, 2022. [paper](https://arxiv.org/abs/2201.06213)
+45. **An Improved Reinforcement Learning Algorithm for Learning to Branch** Arxiv, 2022. [paper](https://arxiv.org/abs/2201.06213)
 
     *Qu, Qingyu and Li, Xijun and Zhou, Yunfan and Zeng, Jia and Yuan, Mingxuan and Wang, Jie and Lv, Jinhu and Liu, Kexin and Mao, Kun*
 
-45. **Learning to Use Local Cuts** Arxiv, 2022. [paper](https://arxiv.org/abs/2206.11618)
+46. **Learning to Use Local Cuts** Arxiv, 2022. [paper](https://arxiv.org/abs/2206.11618)
 
     *Berthold, Timo and Francobaldi, Matteo and Hendel, Gregor*
 
-46. **DOGE-Train: Discrete Optimization on GPU with End-to-end Training** Arxiv, 2022. [paper](https://arxiv.org/abs/2205.11638)
+47. **DOGE-Train: Discrete Optimization on GPU with End-to-end Training** Arxiv, 2022. [paper](https://arxiv.org/abs/2205.11638)
 
     *Abbas, Ahmed and Swoboda, Paul*
 
-47. **Structural Analysis of Branch-and-Cut and the Learnability of Gomory Mixed Integer Cuts** NeurIPS, 2022. [paper](https://openreview.net/forum?id=e2gRdexoTZf)
+48. **Structural Analysis of Branch-and-Cut and the Learnability of Gomory Mixed Integer Cuts** NeurIPS, 2022. [paper](https://openreview.net/forum?id=e2gRdexoTZf)
 
     *Balcan, Maria-Florina and Prasad, Siddharth and Sandholm, Tuomas and Vitercik, Ellen*
+
+49. **Constrained Discrete Black-Box Optimization using Mixed-Integer Programming** ICML, 2022. [paper](https://proceedings.mlr.press/v162/papalexopoulos22a.html)
+
+    *Papalexopoulos, Theodore, Christian Tjandraatmadja, Ross Anderson, Juan Pablo Vielma and Daving Belanger.*
 
 ### [Causal Discovery](#content)
 
@@ -1015,40 +1081,6 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 1. **First-Order Problem Solving through Neural MCTS based Reinforcement Learning.** Arxiv, 2021. [paper](https://arxiv.org/abs/2101.04167)
 
     *Xu, Ruiyang and Kadam, Prashank and Lieberherr, Karl.*
-
-### [Differentiable Optimization](#content)
-
-1. **Differentiable Learning of Submodular Models** NeurIPS, 2017. [paper](https://papers.NeurIPS.cc/paper/2017/hash/192fc044e74dffea144f9ac5dc9f3395-Abstract.html), [code](https://github.com/josipd/torch-submod)
-
-    *Josip Djolonga, Andreas Krause*
-
-2. **Melding the Data-Decisions Pipeline: Decision-Focused Learning for Combinatorial Optimization** AAAI, 2019. [paper](https://ojs.aaai.org//index.php/AAAI/article/view/3982)
-
-    *Bryan Wilder, Bistra Dilkina, Milind Tambe*
-
-3. **MIPaaL: Mixed Integer Program as a Layer** AAAI, 2020. [paper](https://ojs.aaai.org//index.php/AAAI/article/view/5509), [code](https://github.com/amf272/MIPaaL/)
-
-    *Aaron Ferber, Bryan Wilder, Bistra Dilkina, Milind Tambe*
-
-4. **Smart Predict-and-Optimize for Hard Combinatorial Optimization Problems** AAAI, 2020. [paper](https://arxiv.org/abs/1911.10092), [code](https://github.com/JayMan91/aaai_predit_then_optimize)
-
-    *Jaynta Mandi, Emir Demirovi, Peter. J Stuckey, Tias Guns*
-
-5. **Differentiation of blackbox combinatorial solvers** ICLR, 2020. [paper](https://openreview.net/forum?id=BkevoJSYPB), [code](https://github.com/martius-lab/blackbox-backprop)
-
-    *Marin Vlastelica Pogani, Anselm Paulus, Vit Musil, Georg Martius, Michal Rolinek*
-
-6. **Interior Point Solving for LP-based prediction+optimization** NeurIPS, 2020. [paper](https://proceedings.neurips.cc//paper/2020/hash/51311013e51adebc3c34d2cc591fefee-Abstract.html), [code](https://github.com/JayMan91/NeurIPSIntopt)
-
-    *Jayanta Mandi, Tias Guns*
-
-7. **An Exact Symbolic Reduction of Linear Smart Predict+Optimize to Mixed Integer Linear Programming** ICML, 2022. [paper](https://proceedings.mlr.press/v162/jeong22a.html), [code](https://github.com/jihwan-jeong/xaddpy)
-
-    *Jeong, Jihwan, Parth Jaggi, Andrew Butler and Scott Sanner. “An Exact Symbolic Reduction of Linear Smart Predict+Optimize to Mixed Integer Linear Programming.” ICML (2022).*
-
-8. **Constrained Discrete Black-Box Optimization using Mixed-Integer Programming** ICML, 2022. [paper](https://proceedings.mlr.press/v162/papalexopoulos22a.html)
-
-    *Papalexopoulos, Theodore, Christian Tjandraatmadja, Ross Anderson, Juan Pablo Vielma and Daving Belanger.*
 
 ### [Car Dispatch](#content)
 
@@ -1106,7 +1138,7 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
     *Soroush Haeri; Ljiljana Trajković*
 
-2. **A novel reinforcement learning algorithm for virtual network embedding** Neurocomputing, 2018. [journal](https://www.sciencedirect.com/user/identity/landing?code=ypbj1KzN4IscY0aeWBBl_nMPBSSGdVYmVhtGVB4p&state=retryCounter%3D0%26csrfToken%3D3c44d15d-63d8-46b5-bf29-e73a13678928%26idpPolicy%3Durn%253Acom%253Aelsevier%253Aidp%253Apolicy%253Aproduct%253Ainst_assoc%26returnUrl%3D%252Fscience%252Farticle%252Fpii%252FS0925231218300420%26prompt%3Dnone%26cid%3Darp-97334edb-3452-4e5c-8692-d12930ded2fe)
+2. **A novel reinforcement learning algorithm for virtual network embedding** Neurocomputing, 2018. [journal](https://www.sciencedirect.com/science/article/abs/pii/S0925231218300420)
 
     *Haipeng Yao,Xu Chen, Maozhen Li, Peiying Zhang, Luyao Wang*
 
@@ -1149,4 +1181,14 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 12. **DRL-SFCP: Adaptive Service Function Chains Placement with Deep Reinforcement Learning** ICC, 2021. [paper](https://ieeexplore.ieee.org/document/9500964)
 
     *Tianfu Wang; Qilin Fan; Xiuhua Li; Xu Zhang; Qingyu Xiong; Shu Fu; Min Gao*
+
+### [Optical Power Flow](#content)
+
+1. **Predicting AC Optimal Power Flows: Combining Deep Learning and Lagrangian Dual Methods** AAAI, 2020. [paper](https://ojs.aaai.org/index.php/AAAI/article/view/5403)
+
+    *Ferdinando Fioretto, Terrence W.K. Mak, Pascal Van Hentenryck*
+
+2. **Adversarially Robust Learning for Security-Constrained Optimal Power Flow** NeurIPS, 2021. [paper](https://proceedings.neurips.cc/paper/2021/hash/f0f07e680de407b0f12abf15bd520097-Abstract.html)
+
+    *Priya Donti, Aayushya Agarwal, Neeraj Vijay Bedmutha, Larry Pileggi, J. Zico Kolter*
 
