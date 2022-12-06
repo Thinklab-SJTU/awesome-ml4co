@@ -63,6 +63,10 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 	<td>&emsp;<a href=#conjunctive-query-containment>2.23 Conjunctive Query Containment</a></td>
 	<td>&emsp;<a href=#orienteering-problem>2.24 Orienteering Problem (OP)</a></td>
 </tr>
+<tr>
+	<td>&emsp;<a href=#virtual-network-embedding>2.25 Virtual Network Embedding (VNE)</a></td>
+<td>&ensp;</td>
+</tr>
 </table>
 
 
@@ -1095,4 +1099,54 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 1. **A reinforcement learning approach to the orienteering problem with time windows** Computers & Operations Research, 2021. [paper](https://arxiv.org/abs/2011.03647v2), [code](https://github.com/mustelideos/optw_rl)
 
     *Ricardo Gama, Hugo L. Fernandes*
+
+### [Virtual Network Embedding](#content)
+
+1. **Virtual Network Embedding via Monte Carlo Tree Search** IEEE Trans. Cybern, 2017. [journal](https://ieeexplore.ieee.org/document/7859375)
+
+    *Soroush Haeri; Ljiljana Trajković*
+
+2. **A novel reinforcement learning algorithm for virtual network embedding** Neurocomputing, 2018. [journal](https://www.sciencedirect.com/user/identity/landing?code=ypbj1KzN4IscY0aeWBBl_nMPBSSGdVYmVhtGVB4p&state=retryCounter%3D0%26csrfToken%3D3c44d15d-63d8-46b5-bf29-e73a13678928%26idpPolicy%3Durn%253Acom%253Aelsevier%253Aidp%253Apolicy%253Aproduct%253Ainst_assoc%26returnUrl%3D%252Fscience%252Farticle%252Fpii%252FS0925231218300420%26prompt%3Dnone%26cid%3Darp-97334edb-3452-4e5c-8692-d12930ded2fe)
+
+    *Haipeng Yao,Xu Chen, Maozhen Li, Peiying Zhang, Luyao Wang*
+
+3. **NeuroViNE: A Neural Preprocessor for Your Virtual Network Embedding Algorithm** INFOCOM, 2018. [paper](https://ieeexplore.ieee.org/document/8486263)
+
+    *Andreas Blenk; Patrick Kalmbach; Johannes Zerwas; Michael Jarschel; Stefan Schmid; Wolfgang Kellerer*
+
+4. **A Virtual Network Embedding Algorithm Based On Double-Layer Reinforcement Learning** TCJ, 2019. [journal](https://ieeexplore.ieee.org/document/9514735)
+
+    *Meng Li; MeiLian Lu*
+
+5. **NFVdeep: Adaptive Online Service Function Chain Deployment with Deep Reinforcement Learning** IWQoS, 2019. [paper](https://ieeexplore.ieee.org/document/9068634)
+
+    *Yikai Xiao; Qixia Zhang; Fangming Liu; Jia Wang; Miao Zhao; Zhongxing Zhang; Jiaxing Zhang*
+
+6. **A Continuous-Decision Virtual Network Embedding Scheme Relying on Reinforcement Learning** IEEE TNSM, 2020. [journal](https://ieeexplore.ieee.org/document/8982091)
+
+    *Haipeng Yao; Sihan Ma; Jingjing Wang; Peiying Zhang; Chunxiao Jiang; Song Guo*
+
+7. **Automatic Virtual Network Embedding A Deep Reinforcement Learning Approach With Graph Convolutional Networks** J-SAC, 2020. [journal](https://ieeexplore.ieee.org/document/9060910)
+
+    *Zhongxia Yan; Jingguo Ge; Yulei Wu; Liangxiong Li; Tong Li*
+
+8. **A Q-learning-based approach for virtual network embedding in data center** NCA, 2020. [journal](https://link.springer.com/article/10.1007/s00521-019-04376-6)
+
+    *Ying Yuan, Zejie Tian, Cong Wang, Fanghui Zheng & Yanxia Lv*
+
+9. **Accelerating Virtual Network Embedding with Graph Neural Networks** CNSM, 2020. [journal](https://ieeexplore.ieee.org/document/9269128)
+
+    *Farzad Habibi; Mahdi Dolati; Ahmad Khonsari; Majid Ghaderi*
+
+10. **Dynamic Virtual Network Embedding Algorithm Based on Graph Convolution Neural Network and Reinforcement Learning** IoT-J, 2021. [journal](https://ieeexplore.ieee.org/document/9475485)
+
+    *Peiying Zhang; Chao Wang; Neeraj Kumar; Weishan Zhang; Lei Liu*
+
+11. **Deep Reinforcement Based Optimization of Function Splitting in Virtualized Radio Access Networks** ICC, 2021. [paper](https://ieeexplore.ieee.org/document/9473703), [code](https://github.com/rubensolozabal/vnf_placement_optimization_rl)
+
+    *Fahri Wisnu Murti; Samad Ali; Matti Latva-aho*
+
+12. **DRL-SFCP: Adaptive Service Function Chains Placement with Deep Reinforcement Learning** ICC, 2021. [paper](https://ieeexplore.ieee.org/document/9500964)
+
+    *Tianfu Wang; Qilin Fan; Xiuhua Li; Xu Zhang; Qingyu Xiong; Shu Fu; Min Gao*
 
