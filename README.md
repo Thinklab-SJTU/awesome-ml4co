@@ -430,11 +430,15 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
     *Mathias Niepert, Pasquale Minervini, Luca Franceschi*
 
-14. **An Exact Symbolic Reduction of Linear Smart Predict+Optimize to Mixed Integer Linear Programming** ICML, 2022. [paper](https://proceedings.mlr.press/v162/jeong22a.html), [code](https://github.com/jihwan-jeong/xaddpy)
+14. **COPS: Combinatorial Optimization for Panoptic Segmentation: A Fully Differentiable Approach** NeurIPS, 2021. [paper](https://proceedings.neurips.cc/paper/2021/hash/83a368f54768f506b833130584455df4-Abstract.html), [code](https://github.com/aabbas90/COPS)
+
+    *Ahmed Abbas, Paul Swoboda*
+
+15. **An Exact Symbolic Reduction of Linear Smart Predict+Optimize to Mixed Integer Linear Programming** ICML, 2022. [paper](https://proceedings.mlr.press/v162/jeong22a.html), [code](https://github.com/jihwan-jeong/xaddpy)
 
     *Jeong, Jihwan, Parth Jaggi, Andrew Butler and Scott Sanner*
 
-15. **End-to-End Stochastic Optimization with  Energy-Based Model** NeurIPS, 2022. [paper](https://proceedings.neurips.cc/paper/2017/hash/3fc2c60b5782f641f76bcefc39fb2392-Abstract.html), [code](https://github.com/locuslab/e2e-model-learning)
+16. **End-to-End Stochastic Optimization with  Energy-Based Model** NeurIPS, 2022. [paper](https://proceedings.neurips.cc/paper/2017/hash/3fc2c60b5782f641f76bcefc39fb2392-Abstract.html), [code](https://github.com/locuslab/e2e-model-learning)
 
     *Donti, Priya and Amos, Brandon and Kolter, J Zico*
 
