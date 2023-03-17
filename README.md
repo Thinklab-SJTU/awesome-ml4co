@@ -458,9 +458,13 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
     *Papalexopoulos, Theodore, Christian Tjandraatmadja, Ross Anderson, Juan Pablo Vielma and Daving Belanger.*
 
-18. **End-to-End Stochastic Optimization with  Energy-Based Model** NeurIPS, 2022. [paper](https://proceedings.neurips.cc/paper/2017/hash/3fc2c60b5782f641f76bcefc39fb2392-Abstract.html), [code](https://github.com/locuslab/e2e-model-learning)
+18. **End-to-End Stochastic Optimization with Energy-Based Model** NeurIPS, 2022. [paper](https://openreview.net/forum?id=_sYOodxTMcF), [code](https://github.com/Lingkai-Kong/so-ebm)
 
-    *Donti, Priya and Amos, Brandon and Kolter, J Zico*
+    *Lingkai Kong, Jiaming Cui, Yuchen Zhuang, Rui Feng, B. Aditya Prakash, Chao Zhang*
+
+19. **Deep Declarative Networks** TPAMI, 2022. [paper](https://ieeexplore.ieee.org/document/9355027), [code](https://github.com/anucvml/ddn)
+
+    *Stephen Gould, Richard Hartley and Dylan Campbell*
 
 ### [Vehicle Routing Problem](#content)
 
@@ -1188,7 +1192,7 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
 ### [Generalization](#content)
 
-1. **It’s Not What Machines Can Learn It’s What We Cannot Teach** ICML, 2020. [paper](http://proceedings.mlr.press/v119/yehuda20a/yehuda20a.pdf)
+1. **It's Not What Machines Can Learn It's What We Cannot Teach** ICML, 2020. [paper](http://proceedings.mlr.press/v119/yehuda20a/yehuda20a.pdf)
 
     *Gal Yehuda, Moshe Gabel and Assaf Schuster*
 
@@ -1206,7 +1210,7 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
 ### [Conjunctive Query Containment](#content)
 
-1. **It’s Not What Machines Can Learn It’s What We Cannot Teach** ICML, 2020. [paper](http://proceedings.mlr.press/v119/yehuda20a/yehuda20a.pdf)
+1. **It's Not What Machines Can Learn It's What We Cannot Teach** ICML, 2020. [paper](http://proceedings.mlr.press/v119/yehuda20a/yehuda20a.pdf)
 
     *Gal Yehuda, Moshe Gabel and Assaf Schuster*
 
