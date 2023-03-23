@@ -1,20 +1,19 @@
 
 
 # Awesome Machine Learning for Combinatorial Optimization Resources
-We would like to maintain a list of resources that utilize machine learning technologies to solve combinatorial optimization problems. 
+We would like to maintain a list of resources that utilize machine learning technologies to solve combinatorial optimization problems.
 
-We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
+We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 
 *Maintained by members in SJTU-Thinklab: Chang Liu, Runzhong Wang, Jiayi Zhang, Zelin Zhao, Haoyu Geng, Tianzhe Wang, Wenxuan Guo, Wenjie Wu and Junchi Yan. We also thank [all contributers from the community](https://github.com/Thinklab-SJTU/awesome-ml4co/graphs/contributors)!*
 
-*We are looking for post-docs interested in machine learning especially for learning combinatorial solvers, dynamic graphs, and reinforcement learning. Please send your up-to-date resume via yanjunchi AT sjtu.edu.cn.* 
+*We are looking for post-docs interested in machine learning especially for learning combinatorial solvers, dynamic graphs, and reinforcement learning. Please send your up-to-date resume via yanjunchi AT sjtu.edu.cn.*
 
 ## [Content](#content)
 
 <table>
-<tr><td colspan="2"><a href="#survey-papers">1. Survey</a></td></tr> 
+<tr><td colspan="2"><a href="#survey-papers">1. Survey</a></td></tr>
 <tr><td colspan="2"><a href="#problems">2. Problems</a></td></tr> 
-
 <tr>
 	<td>&emsp;<a href=#graph-matching>2.1 Graph Matching (GM)</a></td>
 	<td>&emsp;<a href=#quadratic-assignment-problem>2.2 Quadratic Assignment Problem (QAP)</a></td>
@@ -118,7 +117,7 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
     *Mazyavkina, Nina and Sviridov, Sergey and Ivanov, Sergei and Burnaev, Evgeny.*
 
-10. **✨Learning Graph Matching and Related Combinatorial Optimization Problems.** IJCAI, 2020. [paper](https://www.ijcai.org/proceedings/2020/0694.pdf)
+10. **⭐Learning Graph Matching and Related Combinatorial Optimization Problems.** IJCAI, 2020. [paper](https://www.ijcai.org/proceedings/2020/0694.pdf)
 
     *Yan, Junchi and Yang, Shuang, and Hancock, Edwin R.*
 
@@ -150,7 +149,7 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
     *Huang, Guyue and Hu, Jingbo and He, Yifan and Liu, Jialong and Ma, Mingyuan and Shen, Zhaoyang and Wu, Juejian and Xu, Yuanfan and Zhang, Hengrui and Zhong, Kai and others*
 
-18. **✨A Survey for Solving Mixed Integer Programming via Machine Learning** Neurocomputing, 2022. [journal](https://www.sciencedirect.com/science/article/pii/S0925231222014035)
+18. **⭐A Survey for Solving Mixed Integer Programming via Machine Learning** Neurocomputing, 2022. [journal](https://www.sciencedirect.com/science/article/pii/S0925231222014035)
 
     *Jiayi Zhang and Chang Liu and Xijun Li and Hui-Ling Zhen and Mingxuan Yuan and Yawen Li and Junchi Yan*
 
@@ -166,7 +165,7 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
     *Zanfir, Andrei and Sminchisescu, Cristian*
 
-3. **✨Learning Combinatorial Embedding Networks for Deep Graph Matching.** ICCV, 2019. [paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Wang_Learning_Combinatorial_Embedding_Networks_for_Deep_Graph_Matching_ICCV_2019_paper.pdf), [code](https://github.com/Thinklab-SJTU/ThinkMatch)
+3. **⭐Learning Combinatorial Embedding Networks for Deep Graph Matching.** ICCV, 2019. [paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Wang_Learning_Combinatorial_Embedding_Networks_for_Deep_Graph_Matching_ICCV_2019_paper.pdf), [code](https://github.com/Thinklab-SJTU/ThinkMatch)
 
     *Wang, Runzhong and Yan, Junchi and Yang, Xiaokang*
 
@@ -178,7 +177,7 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
     *Jiang, Bo and Sun, Pengfei and Tang, Jin and Luo, Bin*
 
-6. **✨Learning deep graph matching with channel-independent embedding and Hungarian attention.** ICLR, 2020. [paper](https://openreview.net/forum?id=rJgBd2NYPH), [code](https://github.com/Thinklab-SJTU/ThinkMatch)
+6. **⭐Learning deep graph matching with channel-independent embedding and Hungarian attention.** ICLR, 2020. [paper](https://openreview.net/forum?id=rJgBd2NYPH), [code](https://github.com/Thinklab-SJTU/ThinkMatch)
 
     *Yu, Tianshu and Wang, Runzhong and Yan, Junchi and Li, Baoxin*
 
@@ -186,11 +185,11 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
     *Fey, Matthias and Lenssen, Jan E. and Morris, Christopher and Masci, Jonathan and Kriege, Nils M.*
 
-8. **✨Graduated Assignment for Joint Multi-Graph Matching and Clustering with Application to Unsupervised Graph Matching Network Learning.** NeurIPS, 2020. [paper](https://papers.NeurIPS.cc/paper/2020/file/e6384711491713d29bc63fc5eeb5ba4f-Paper.pdf), [code](https://github.com/Thinklab-SJTU/ThinkMatch)
+8. **⭐Graduated Assignment for Joint Multi-Graph Matching and Clustering with Application to Unsupervised Graph Matching Network Learning.** NeurIPS, 2020. [paper](https://papers.NeurIPS.cc/paper/2020/file/e6384711491713d29bc63fc5eeb5ba4f-Paper.pdf), [code](https://github.com/Thinklab-SJTU/ThinkMatch)
 
     *Wang, Runzhong and Yan, Junchi and Yang, Xiaokang*
 
-9. **✨Combinatorial Learning of Robust Deep Graph Matching: An Embedding Based Approach.** TPAMI, 2020. [paper](https://doi.org/10.1109/TPAMI.2020.3005590), [code](https://github.com/Thinklab-SJTU/ThinkMatch)
+9. **⭐Combinatorial Learning of Robust Deep Graph Matching: An Embedding Based Approach.** TPAMI, 2020. [paper](https://doi.org/10.1109/TPAMI.2020.3005590), [code](https://github.com/Thinklab-SJTU/ThinkMatch)
 
     *Wang, Runzhong and Yan, Junchi and Yang, Xiaokang*
 
@@ -198,11 +197,11 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
     *Rolinek, Michal and Swoboda, Paul and Zietlow, Dominik and Paulus, Anselm and Musil, Vit and Martius, Georg*
 
-11. **✨Neural Graph Matching Network: Learning Lawler's Quadratic Assignment Problem with Extension to Hypergraph and Multiple-graph Matching.** TPAMI, 2021. [paper](https://arxiv.org/abs/1911.11308), [code](https://github.com/Thinklab-SJTU/ThinkMatch)
+11. **⭐Neural Graph Matching Network: Learning Lawler's Quadratic Assignment Problem with Extension to Hypergraph and Multiple-graph Matching.** TPAMI, 2021. [paper](https://arxiv.org/abs/1911.11308), [code](https://github.com/Thinklab-SJTU/ThinkMatch)
 
     *Wang, Runzhong and Yan, Junchi and Yang, Xiaokang*
 
-12. **✨Deep Latent Graph Matching** ICML, 2021. [paper](http://proceedings.mlr.press/v139/yu21d/yu21d.pdf)
+12. **⭐Deep Latent Graph Matching** ICML, 2021. [paper](http://proceedings.mlr.press/v139/yu21d/yu21d.pdf)
 
     *Yu, Tianshu and Wang, Runzhong and Yan, Junchi and Li, Baoxin.*
 
@@ -226,15 +225,15 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
     *Chen, Hongkai and Luo, Zixin and Zhang, Jiahui and Zhou, Lei and Bai, Xuyang and Hu, Zeyu and Tai, Chiew-Lan and Quan, Long*
 
-18. **✨Appearance and Structure Aware Robust Deep Visual Graph Matching: Attack, Defense and Beyond** CVPR, 2022. [paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Ren_Appearance_and_Structure_Aware_Robust_Deep_Visual_Graph_Matching_Attack_CVPR_2022_paper.pdf), [code](https://github.com/Thinklab-SJTU/RobustMatch)
+18. **⭐Appearance and Structure Aware Robust Deep Visual Graph Matching: Attack, Defense and Beyond** CVPR, 2022. [paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Ren_Appearance_and_Structure_Aware_Robust_Deep_Visual_Graph_Matching_Attack_CVPR_2022_paper.pdf), [code](https://github.com/Thinklab-SJTU/RobustMatch)
 
     *Ren, Qibing and Bao, Qingquan and Wang, Runzhong and Yan, Junchi*
 
-19. **✨Self-supervised Learning of Visual Graph Matching** ECCV, 2022. [paper](), [code](https://github.com/Thinklab-SJTU/ThinkMatch-SCGM)
+19. **⭐Self-supervised Learning of Visual Graph Matching** ECCV, 2022. [paper](), [code](https://github.com/Thinklab-SJTU/ThinkMatch-SCGM)
 
     *Liu, Chang and Zhang, Shaofeng and Yang, Xiaokang and Yan, Junchi*
 
-20. **✨Revocable Deep Reinforcement Learning with Affinity Regularization for Outlier-Robust Graph Matching.** ICLR, 2023. [paper](https://openreview.net/forum?id=QjQibO3scV_), [code](https://github.com/Thinklab-SJTU/RGM)
+20. **⭐Revocable Deep Reinforcement Learning with Affinity Regularization for Outlier-Robust Graph Matching.** ICLR, 2023. [paper](https://openreview.net/forum?id=QjQibO3scV_), [code](https://github.com/Thinklab-SJTU/RGM)
 
     *Liu, Chang and Jiang, Zetian and Wang, Runzhong and Yan, Junchi and Huang, Lingxiao and Lu, Pinyan*
 
@@ -244,11 +243,11 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
     *Nowak, Alex and Villar, Soledad and Bandeira, S. Afonso and Bruna, Joan*
 
-2. **✨Neural Graph Matching Network: Learning Lawler's Quadratic Assignment Problem with Extension to Hypergraph and Multiple-graph Matching.** TPAMI, 2021. [paper](https://arxiv.org/abs/1911.11308), [code](https://github.com/Thinklab-SJTU/ThinkMatch)
+2. **⭐Neural Graph Matching Network: Learning Lawler's Quadratic Assignment Problem with Extension to Hypergraph and Multiple-graph Matching.** TPAMI, 2021. [paper](https://arxiv.org/abs/1911.11308), [code](https://github.com/Thinklab-SJTU/ThinkMatch)
 
     *Wang, Runzhong and Yan, Junchi and Yang, Xiaokang*
 
-3. **✨Revocable Deep Reinforcement Learning with Affinity Regularization for Outlier-Robust Graph Matching.** ICLR, 2023. [paper](https://openreview.net/forum?id=QjQibO3scV_), [code](https://github.com/Thinklab-SJTU/RGM)
+3. **⭐Revocable Deep Reinforcement Learning with Affinity Regularization for Outlier-Robust Graph Matching.** ICLR, 2023. [paper](https://openreview.net/forum?id=QjQibO3scV_), [code](https://github.com/Thinklab-SJTU/RGM)
 
     *Liu, Chang and Jiang, Zetian and Wang, Runzhong and Yan, Junchi and Huang, Lingxiao and Lu, Pinyan*
 
@@ -366,7 +365,7 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
     *Hou, Qingchun and Yang, Jingwei and Su, Yiqiang and Wang, Xiaoqing and Deng, Yuming*
 
-29. **✨ROCO: A General Framework for Evaluating Robustness of Combinatorial Optimization Solvers on Graphs** ICLR, 2023. [paper](https://openreview.net/forum?id=2r6YMqz4Mml), [code](https://github.com/Thinklab-SJTU/ROCO)
+29. **⭐ROCO: A General Framework for Evaluating Robustness of Combinatorial Optimization Solvers on Graphs** ICLR, 2023. [paper](https://openreview.net/forum?id=2r6YMqz4Mml), [code](https://github.com/Thinklab-SJTU/ROCO)
 
     *Lu, Han and Li, Zenan and Wang, Runzhong and Ren, Qibing and Li, Xijun and Yuan, Mingxuan and Zeng, Jia and Yang, Xiaokang and Yan, Junchi*
 
@@ -628,7 +627,7 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
     *Malherbe, Cedric and Grosnit, Antoine and Tutunov, Rasul and Ammar, Haitham Bou and Wang, Jun*
 
-8. **✨ROCO: A General Framework for Evaluating Robustness of Combinatorial Optimization Solvers on Graphs** ICLR, 2023. [paper](https://openreview.net/forum?id=2r6YMqz4Mml), [code](https://github.com/Thinklab-SJTU/ROCO)
+8. **⭐ROCO: A General Framework for Evaluating Robustness of Combinatorial Optimization Solvers on Graphs** ICLR, 2023. [paper](https://openreview.net/forum?id=2r6YMqz4Mml), [code](https://github.com/Thinklab-SJTU/ROCO)
 
     *Lu, Han and Li, Zenan and Wang, Runzhong and Ren, Qibing and Li, Xijun and Yuan, Mingxuan and Zeng, Jia and Yang, Xiaokang and Yan, Junchi*
 
@@ -662,7 +661,7 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
     *He, Yongming and Wu, Guohua and Chen, Yingwu and Pedrycz, Witold*
 
-6. **✨A Bi-Level Framework for Learning to Solve Combinatorial Optimization on Graphs** NeurIPS, 2021. [paper](https://arxiv.org/abs/2106.04927), [code](https://github.com/Thinklab-SJTU/PPO-BiHyb)
+6. **⭐A Bi-Level Framework for Learning to Solve Combinatorial Optimization on Graphs** NeurIPS, 2021. [paper](https://arxiv.org/abs/2106.04927), [code](https://github.com/Thinklab-SJTU/PPO-BiHyb)
 
     *Wang, Runzhong and Hua, Zhigang and Liu, Gan and Zhang, Jiayi and Yan, Junchi and Qi, Feng and Yang, Shuang and Zhou, Jun and Yang, Xiaokang*
 
@@ -774,17 +773,17 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
     *Bai, Yunsheng and Ding, Hao and Gu, Ken and Sun, Yizhou and Wang, Wei*
 
-5. **✨A Bi-Level Framework for Learning to Solve Combinatorial Optimization on Graphs** NeurIPS, 2021. [paper](https://arxiv.org/abs/2106.04927), [code](https://github.com/Thinklab-SJTU/PPO-BiHyb)
+5. **⭐A Bi-Level Framework for Learning to Solve Combinatorial Optimization on Graphs** NeurIPS, 2021. [paper](https://arxiv.org/abs/2106.04927), [code](https://github.com/Thinklab-SJTU/PPO-BiHyb)
 
     *Wang, Runzhong and Hua, Zhigang and Liu, Gan and Zhang, Jiayi and Yan, Junchi and Qi, Feng and Yang, Shuang and Zhou, Jun and Yang, Xiaokang*
 
-6. **✨Combinatorial Learning of Graph Edit Distance via Dynamic Embedding.** CVPR, 2021. [paper](https://arxiv.org/abs/2011.15039), [code](https://github.com/Thinklab-SJTU/GENN-Astar)
+6. **⭐Combinatorial Learning of Graph Edit Distance via Dynamic Embedding.** CVPR, 2021. [paper](https://arxiv.org/abs/2011.15039), [code](https://github.com/Thinklab-SJTU/GENN-Astar)
 
     *Wang, Runzhong and Zhang, Tianqi and Yu, Tianshu and Yan, Junchi and Yang, Xiaokang.*
 
 ### [Hamiltonian Cycle Problem](#content)
 
-1. **✨A Bi-Level Framework for Learning to Solve Combinatorial Optimization on Graphs** NeurIPS, 2021. [paper](https://arxiv.org/abs/2106.04927), [code](https://github.com/Thinklab-SJTU/PPO-BiHyb)
+1. **⭐A Bi-Level Framework for Learning to Solve Combinatorial Optimization on Graphs** NeurIPS, 2021. [paper](https://arxiv.org/abs/2106.04927), [code](https://github.com/Thinklab-SJTU/PPO-BiHyb)
 
     *Wang, Runzhong and Hua, Zhigang and Liu, Gan and Zhang, Jiayi and Yan, Junchi and Qi, Feng and Yang, Shuang and Zhou, Jun and Yang, Xiaokang*
 
@@ -826,7 +825,7 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
     *Ireland, David and G. Montana*
 
-4. **✨Towards One-shot Neural Combinatorial Solvers: Theoretical and Empirical Notes on the Cardinality-Constrained Case** ICLR, 2023. [paper](https://openreview.net/forum?id=h21yJhdzbwz), [code](https://github.com/Thinklab-SJTU/One-Shot-Cardinality-NN-Solver)
+4. **⭐Towards One-shot Neural Combinatorial Solvers: Theoretical and Empirical Notes on the Cardinality-Constrained Case** ICLR, 2023. [paper](https://openreview.net/forum?id=h21yJhdzbwz), [code](https://github.com/Thinklab-SJTU/One-Shot-Cardinality-NN-Solver)
 
     *Wang, Runzhong and Shen, Li and Chen, Yiting and Yan, Junchi and Yang, Xiaokang and Tao, Dacheng*
 
@@ -1182,7 +1181,7 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
 ### [Electronic Design Automation](#content)
 
-1. **✨On Joint Learning for Solving Placement and Routing in Chip Design** NeurIPS, 2021. [paper](https://arxiv.org/abs/2111.00234), [code](https://github.com/Thinklab-SJTU/EDA-AI)
+1. **⭐On Joint Learning for Solving Placement and Routing in Chip Design** NeurIPS, 2021. [paper](https://arxiv.org/abs/2111.00234), [code](https://github.com/Thinklab-SJTU/EDA-AI)
 
     *Cheng, Ruoyu and Yan, Junchi*
 
@@ -1294,7 +1293,7 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
     *Wang, Chenguang and Han, Congying and Guo, Tiande and Ding, Man*
 
-2. **✨Towards One-shot Neural Combinatorial Solvers: Theoretical and Empirical Notes on the Cardinality-Constrained Case** ICLR, 2023. [paper](https://openreview.net/forum?id=h21yJhdzbwz), [code](https://github.com/Thinklab-SJTU/One-Shot-Cardinality-NN-Solver)
+2. **⭐Towards One-shot Neural Combinatorial Solvers: Theoretical and Empirical Notes on the Cardinality-Constrained Case** ICLR, 2023. [paper](https://openreview.net/forum?id=h21yJhdzbwz), [code](https://github.com/Thinklab-SJTU/One-Shot-Cardinality-NN-Solver)
 
     *Wang, Runzhong and Shen, Li and Chen, Yiting and Yan, Junchi and Yang, Xiaokang and Tao, Dacheng*
 
@@ -1304,7 +1303,7 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
     *Butler, Andrew and Kwon, Roy H*
 
-2. **✨Towards One-shot Neural Combinatorial Solvers: Theoretical and Empirical Notes on the Cardinality-Constrained Case** ICLR, 2023. [paper](https://openreview.net/forum?id=h21yJhdzbwz), [code](https://github.com/Thinklab-SJTU/One-Shot-Cardinality-NN-Solver)
+2. **⭐Towards One-shot Neural Combinatorial Solvers: Theoretical and Empirical Notes on the Cardinality-Constrained Case** ICLR, 2023. [paper](https://openreview.net/forum?id=h21yJhdzbwz), [code](https://github.com/Thinklab-SJTU/One-Shot-Cardinality-NN-Solver)
 
     *Wang, Runzhong and Shen, Li and Chen, Yiting and Yan, Junchi and Yang, Xiaokang and Tao, Dacheng*
 
