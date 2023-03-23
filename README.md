@@ -68,7 +68,11 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 	<td>&emsp;<a href=#optical-power-flow>2.26 Optical Power Flow (OPF)</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#sorting-&-ranking>2.27 Sorting & Ranking (Sort&Rank)</a></td>
+	<td>&emsp;<a href=#facility-location-problem>2.27 Facility Location Problem (FLP)</a></td>
+	<td>&emsp;<a href=#portfolio-optimization>2.28 Portfolio Optimization (PortOpt)</a></td>
+</tr>
+<tr>
+	<td>&emsp;<a href=#sorting-&-ranking>2.29 Sorting & Ranking (Sort&Rank)</a></td>
 <td>&ensp;</td>
 </tr>
 </table>
@@ -636,10 +640,6 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 
     *Zhao, Zhongyuan and Swami, Ananthram and Segarra, Santiago*
 
-11. **✨Towards One-shot Neural Combinatorial Solvers: Theoretical and Empirical Notes on the Cardinality-Constrained Case** ICLR, 2023. [paper](https://openreview.net/forum?id=h21yJhdzbwz), [code](https://github.com/Thinklab-SJTU/One-Shot-Cardinality-NN-Solver)
-
-    *Wang, Runzhong and Shen, Li and Chen, Yiting and Yan, Junchi and Yang, Xiaokang and Tao, Dacheng*
-
 ### [Computing Resource Allocation](#content)
 
 1. **Resource Management with Deep Reinforcement Learning.** HotNets, 2016. [paper](https://dl.acm.org/doi/abs/10.1145/3005745.3005750)
@@ -825,6 +825,10 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 3. **LeNSE: Learning To Navigate Subgraph Embeddings for Large-Scale Combinatorial Optimisation** ICML, 2022. [paper](https://proceedings.mlr.press/v162/ireland22a.html), [code](https://github.com/davidireland3/LeNSE)
 
     *Ireland, David and G. Montana*
+
+4. **✨Towards One-shot Neural Combinatorial Solvers: Theoretical and Empirical Notes on the Cardinality-Constrained Case** ICLR, 2023. [paper](https://openreview.net/forum?id=h21yJhdzbwz), [code](https://github.com/Thinklab-SJTU/One-Shot-Cardinality-NN-Solver)
+
+    *Wang, Runzhong and Shen, Li and Chen, Yiting and Yan, Junchi and Yang, Xiaokang and Tao, Dacheng*
 
 ### [Boolean Satisfiability](#content)
 
@@ -1283,6 +1287,26 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ✨.
 2. **Adversarially Robust Learning for Security-Constrained Optimal Power Flow** NeurIPS, 2021. [paper](https://proceedings.neurips.cc/paper/2021/hash/f0f07e680de407b0f12abf15bd520097-Abstract.html)
 
     *Priya Donti, Aayushya Agarwal, Neeraj Vijay Bedmutha, Larry Pileggi, J. Zico Kolter*
+
+### [Facility Location Problem](#content)
+
+1. **Solving uncapacitated P-Median problem with reinforcement learning assisted by graph attention networks** Applied Intelligence, 2023. [paper](https://link.springer.com/article/10.1007/s10489-022-03453-z)
+
+    *Wang, Chenguang and Han, Congying and Guo, Tiande and Ding, Man*
+
+2. **✨Towards One-shot Neural Combinatorial Solvers: Theoretical and Empirical Notes on the Cardinality-Constrained Case** ICLR, 2023. [paper](https://openreview.net/forum?id=h21yJhdzbwz), [code](https://github.com/Thinklab-SJTU/One-Shot-Cardinality-NN-Solver)
+
+    *Wang, Runzhong and Shen, Li and Chen, Yiting and Yan, Junchi and Yang, Xiaokang and Tao, Dacheng*
+
+### [Portfolio Optimization](#content)
+
+1. **Integrating prediction in mean-variance portfolio optimization** Quantitative Finance, 2023. [paper](https://arxiv.org/pdf/2102.09287.pdf)
+
+    *Butler, Andrew and Kwon, Roy H*
+
+2. **✨Towards One-shot Neural Combinatorial Solvers: Theoretical and Empirical Notes on the Cardinality-Constrained Case** ICLR, 2023. [paper](https://openreview.net/forum?id=h21yJhdzbwz), [code](https://github.com/Thinklab-SJTU/One-Shot-Cardinality-NN-Solver)
+
+    *Wang, Runzhong and Shen, Li and Chen, Yiting and Yan, Junchi and Yang, Xiaokang and Tao, Dacheng*
 
 ### [Sorting & Ranking](#content)
 
