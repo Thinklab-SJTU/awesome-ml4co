@@ -31,32 +31,32 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 	<td>&emsp;<a href=#maximal/maximum-independent-set>2.8 Maximal/Maximum Independent Set</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#computing-resource-allocation>2.9 Computing Resource Allocation</a></td>
-	<td>&emsp;<a href=#bin-packing-problem>2.10 Bin Packing Problem (BPP)</a></td>
+	<td>&emsp;<a href=#generalization>2.9 Generalization</a></td>
+	<td>&emsp;<a href=#computing-resource-allocation>2.10 Computing Resource Allocation</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#graph-edit-distance>2.11 Graph Edit Distance (GED)</a></td>
-	<td>&emsp;<a href=#hamiltonian-cycle-problem>2.12 Hamiltonian Cycle Problem (HCP)</a></td>
+	<td>&emsp;<a href=#bin-packing-problem>2.11 Bin Packing Problem (BPP)</a></td>
+	<td>&emsp;<a href=#graph-edit-distance>2.12 Graph Edit Distance (GED)</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#graph-coloring>2.13 Graph Coloring</a></td>
-	<td>&emsp;<a href=#maximal-common-subgraph>2.14 Maximal Common Subgraph (MCS)</a></td>
+	<td>&emsp;<a href=#hamiltonian-cycle-problem>2.13 Hamiltonian Cycle Problem (HCP)</a></td>
+	<td>&emsp;<a href=#graph-coloring>2.14 Graph Coloring</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#influence-maximization>2.15 Influence Maximization</a></td>
-	<td>&emsp;<a href=#boolean-satisfiability>2.16 Boolean Satisfiability (SAT)</a></td>
+	<td>&emsp;<a href=#maximal-common-subgraph>2.15 Maximal Common Subgraph (MCS)</a></td>
+	<td>&emsp;<a href=#influence-maximization>2.16 Influence Maximization</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#mixed-integer-programming>2.17 Mixed Integer Programming</a></td>
-	<td>&emsp;<a href=#causal-discovery>2.18 Causal Discovery</a></td>
+	<td>&emsp;<a href=#boolean-satisfiability>2.17 Boolean Satisfiability (SAT)</a></td>
+	<td>&emsp;<a href=#mixed-integer-programming>2.18 Mixed Integer Programming</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#game-theoretic-semantics>2.19 Game Theoretic Semantics</a></td>
-	<td>&emsp;<a href=#car-dispatch>2.20 Car Dispatch</a></td>
+	<td>&emsp;<a href=#causal-discovery>2.19 Causal Discovery</a></td>
+	<td>&emsp;<a href=#game-theoretic-semantics>2.20 Game Theoretic Semantics</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#electronic-design-automation>2.21 Electronic Design Automation (EDA)</a></td>
-	<td>&emsp;<a href=#generalization>2.22 Generalization</a></td>
+	<td>&emsp;<a href=#car-dispatch>2.21 Car Dispatch</a></td>
+	<td>&emsp;<a href=#electronic-design-automation>2.22 Electronic Design Automation (EDA)</a></td>
 </tr>
 <tr>
 	<td>&emsp;<a href=#conjunctive-query-containment>2.23 Conjunctive Query Containment</a></td>
@@ -639,6 +639,28 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 
     *Zhao, Zhongyuan and Swami, Ananthram and Segarra, Santiago*
 
+### [Generalization](#content)
+
+1. **It's Not What Machines Can Learn It's What We Cannot Teach** ICML, 2020. [paper](http://proceedings.mlr.press/v119/yehuda20a/yehuda20a.pdf)
+
+    *Gal Yehuda, Moshe Gabel and Assaf Schuster*
+
+2. **Learning TSP Requires Rethinking Generalization** CP, 2021. [paper](https://arxiv.org/pdf/2006.07054.pdf), [code](https://github.com/chaitjo/learning-tsp)
+
+    *Chaitanya K. Joshi, Quentin Cappart, Louis-Martin Rousseau and Thomas Laurent*
+
+3. **Generalization of Neural Combinatorial Solvers Through the Lens of Adversarial Robustness** ICLR, 2022. [paper](https://openreview.net/forum?id=vJZ7dPIjip3)
+
+    *Simon Geisler, Johanna Sommer, Jan Schuchardt, Aleksandar Bojchevski and Stephan Günnemann*
+
+4. **Learning for Robust Combinatorial Optimization: Algorithm and Application** INFOCOM, 2022. [journal](https://ieeexplore.ieee.org/abstract/document/9796715/)
+
+    *Shao, Zhihui and Yang, Jianyi and Shen, Cong and Ren, Shaolei*
+
+5. **⭐ROCO: A General Framework for Evaluating Robustness of Combinatorial Optimization Solvers on Graphs** ICLR, 2023. [paper](https://openreview.net/forum?id=2r6YMqz4Mml), [code](https://github.com/Thinklab-SJTU/ROCO)
+
+    *Lu, Han and Li, Zenan and Wang, Runzhong and Ren, Qibing and Li, Xijun and Yuan, Mingxuan and Zeng, Jia and Yang, Xiaokang and Yan, Junchi*
+
 ### [Computing Resource Allocation](#content)
 
 1. **Resource Management with Deep Reinforcement Learning.** HotNets, 2016. [paper](https://dl.acm.org/doi/abs/10.1145/3005745.3005750)
@@ -1196,24 +1218,6 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 4. **CktGNN: Circuit Graph Neural Network for Electronic Design Automation** ICLR, 2023. [paper](https://openreview.net/forum?id=NE2911Kq1sp)
 
     *Dong, Zehao and Cao, Weidong and Zhang, Muhan and Tao, Dacheng and Chen, Yixin and Zhang, Xuan*
-
-### [Generalization](#content)
-
-1. **It's Not What Machines Can Learn It's What We Cannot Teach** ICML, 2020. [paper](http://proceedings.mlr.press/v119/yehuda20a/yehuda20a.pdf)
-
-    *Gal Yehuda, Moshe Gabel and Assaf Schuster*
-
-2. **Learning TSP Requires Rethinking Generalization** CP, 2021. [paper](https://arxiv.org/pdf/2006.07054.pdf), [code](https://github.com/chaitjo/learning-tsp)
-
-    *Chaitanya K. Joshi, Quentin Cappart, Louis-Martin Rousseau and Thomas Laurent*
-
-3. **Generalization of Neural Combinatorial Solvers Through the Lens of Adversarial Robustness** ICLR, 2022. [paper](https://openreview.net/forum?id=vJZ7dPIjip3)
-
-    *Simon Geisler, Johanna Sommer, Jan Schuchardt, Aleksandar Bojchevski and Stephan Günnemann*
-
-4. **Learning for Robust Combinatorial Optimization: Algorithm and Application** INFOCOM, 2022. [journal](https://ieeexplore.ieee.org/abstract/document/9796715/)
-
-    *Shao, Zhihui and Yang, Jianyi and Shen, Cong and Ren, Shaolei*
 
 ### [Conjunctive Query Containment](#content)
 
