@@ -72,7 +72,7 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 </tr>
 <tr>
 	<td>&emsp;<a href=#sorting-&-ranking>2.29 Sorting & Ranking (Sort&Rank)</a></td>
-<td>&ensp;</td>
+	<td>&emsp;<a href=#knapsack>2.30 Knapsack</a></td>
 </tr>
 </table>
 
@@ -1368,4 +1368,22 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 11. **PiRank-Scalable Learning To Rank via Differentiable Sorting** NeurIPS, 2022. [paper](https://openreview.net/forum?id=dL8p6rLFTS3), [code](https://github.com/ermongroup/pirank)
 
     *Robin Marcel Edwin Swezey, Aditya Grover, Bruno Charron, Stefano Ermon*
+
+### [Knapsack](#content)
+
+1. **A Pointer Network Based Deep Learning Algorithm  for 0-1 Knapsack Problem** ICACI, 2018. [paper](https://ieeexplore.ieee.org/abstract/document/8377505)
+
+    *Gu Shenshen, and Tao Hao*
+
+2. **An Investigation into Prediction + Optimisation for the Knapsack Problem** CPAIOR, 2019. [paper](https://link.springer.com/chapter/10.1007/978-3-030-19212-9_16)
+
+    *"Demirovic Emir and Stuckey Peter J and Bailey James and Chan Jeffrey and Leckie Chris and Ramamohanarao Kotagiri and Guns Tias"*
+
+3. **A Novel Method to Solve Neural Knapsack Problems** ICML, 2021. [paper](http://proceedings.mlr.press/v139/li21m.html)
+
+    *"Li Duanshun and Liu Jing and Lee Dongeun and Seyedmazloom Ali and Kaushik Giridhar and Lee Kookjin and Park Noseong"*
+
+4. **Provably Good Solutions to the Knapsack Problem via Neural Networks of Bounded Size** AAAI, 2021. [paper](https://pubsonline.informs.org/doi/abs/10.1287/ijoc.2021.0225)
+
+    *Hertrich Christoph and Martin Skutella*
 
