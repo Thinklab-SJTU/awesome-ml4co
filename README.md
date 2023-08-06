@@ -48,7 +48,7 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 </tr>
 <tr>
 	<td>&emsp;<a href=#boolean-satisfiability>2.17 Boolean Satisfiability (SAT)</a></td>
-	<td>&emsp;<a href=#mixed-integer-programming>2.18 Mixed Integer Programming</a></td>
+	<td>&emsp;<a href=#mixed-integer-programming>2.18 Mixed Integer Programming (MIP)</a></td>
 </tr>
 <tr>
 	<td>&emsp;<a href=#causal-discovery>2.19 Causal Discovery</a></td>
@@ -1187,6 +1187,22 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 
     *Wang, Zhihai and Li, Xijun and Wang, Jie and Kuang, Yufei and Yuan, Mingxuan and Zeng, Jia and Zhang, Yongdong and Wu, Feng*
 
+50. **On Representing Mixed-Integer Linear Programs by Graph Neural Networks** ICLR, 2023. [paper](https://openreview.net/forum?id=4gc3MGZra1d), [code](https://github.com/liujl11git/GNN-MILP)
+
+    *Ziang Chen, Jialin Liu, Xinshang Wang, Wotao Yin*
+
+51. **Learning Cut Selection for Mixed-Integer Linear Programming via Hierarchical Sequence Model** ICLR, 2023. [paper](https://openreview.net/forum?id=Zob4P9bRNcK), [code](https://github.com/MIRALab-USTC/L2O-HEM-Torch)
+
+    *Zhihai Wang, Xijun Li, Jie Wang, Yufei Kuang, Mingxuan Yuan, Jia Zeng, Yongdong Zhang, Feng Wu*
+
+52. **GNN-GBDT-Guided Fast Optimizing Framework for Large-scale Integer Programming** ICML, 2023. [paper](https://proceedings.mlr.press/v202/ye23e.html), [code](https://github.com/thuiar/GNN-GBDT-Guided-Fast-Optimizing-Framework)
+
+    *Huigen Ye, Hua Xu, Hongyan Wang, Chengming Wang, Yu Jiang*
+
+53. **Searching Large Neighborhoods for Integer Linear Programs with Contrastive Learning** ICML, 2023. [paper](https://proceedings.mlr.press/v202/huang23g.html), [code](https://github.com/facebookresearch/CL-LNS)
+
+    *Taoan Huang, Aaron M Ferber, Yuandong Tian, Bistra Dilkina, Benoit Steiner*
+
 ### [Causal Discovery](#content)
 
 1. **DAGs with NO TEARS: Continuous Optimization for Structure Learning.** NeurIPS, 2018. [paper](https://arxiv.org/pdf/1803.01422.pdf)
@@ -1304,6 +1320,10 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 12. **DRL-SFCP: Adaptive Service Function Chains Placement with Deep Reinforcement Learning** ICC, 2021. [paper](https://ieeexplore.ieee.org/document/9500964)
 
     *Tianfu Wang; Qilin Fan; Xiuhua Li; Xu Zhang; Qingyu Xiong; Shu Fu; Min Gao*
+
+13. **⭐GAL-VNE: Solving the VNE Problem with Global Reinforcement Learning and Local One-Shot Neural Prediction** KDD, 2023. [paper](https://dl.acm.org/doi/10.1145/3580305.3599358), [code](https://github.com/Thinklab-SJTU/GAL-VNE)
+
+    *Haoyu Geng, Runzhong Wang, Fei Wu, Junchi Yan*
 
 ### [Optical Power Flow](#content)
 

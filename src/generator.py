@@ -15,6 +15,7 @@ abbr = {'Graph Matching': 'GM', 'Travelling Salesman Problem': 'TSP', 'Vehicle R
         'Sorting & Ranking':'Sort&Rank',
         'Facility Location Problem': 'FLP',
         'Portfolio Optimization': 'PortOpt',
+        'Mixed Integer Programming': 'MIP',
         }
 
 
