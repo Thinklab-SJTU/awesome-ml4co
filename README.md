@@ -32,39 +32,39 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 </tr>
 <tr>
 	<td>&emsp;<a href=#generalization>2.9 Generalization</a></td>
-	<td>&emsp;<a href=#computing-resource-allocation>2.10 Computing Resource Allocation</a></td>
+	<td>&emsp;<a href=#orienteering-problem>2.10 Orienteering Problem (OP)</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#bin-packing-problem>2.11 Bin Packing Problem (BPP)</a></td>
-	<td>&emsp;<a href=#graph-edit-distance>2.12 Graph Edit Distance (GED)</a></td>
+	<td>&emsp;<a href=#computing-resource-allocation>2.11 Computing Resource Allocation</a></td>
+	<td>&emsp;<a href=#bin-packing-problem>2.12 Bin Packing Problem (BPP)</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#hamiltonian-cycle-problem>2.13 Hamiltonian Cycle Problem (HCP)</a></td>
-	<td>&emsp;<a href=#graph-coloring>2.14 Graph Coloring</a></td>
+	<td>&emsp;<a href=#graph-edit-distance>2.13 Graph Edit Distance (GED)</a></td>
+	<td>&emsp;<a href=#hamiltonian-cycle-problem>2.14 Hamiltonian Cycle Problem (HCP)</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#maximal-common-subgraph>2.15 Maximal Common Subgraph (MCS)</a></td>
-	<td>&emsp;<a href=#influence-maximization>2.16 Influence Maximization</a></td>
+	<td>&emsp;<a href=#graph-coloring>2.15 Graph Coloring</a></td>
+	<td>&emsp;<a href=#maximal-common-subgraph>2.16 Maximal Common Subgraph (MCS)</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#boolean-satisfiability>2.17 Boolean Satisfiability (SAT)</a></td>
-	<td>&emsp;<a href=#mixed-integer-programming>2.18 Mixed Integer Programming (MIP)</a></td>
+	<td>&emsp;<a href=#influence-maximization>2.17 Influence Maximization</a></td>
+	<td>&emsp;<a href=#boolean-satisfiability>2.18 Boolean Satisfiability (SAT)</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#causal-discovery>2.19 Causal Discovery</a></td>
-	<td>&emsp;<a href=#game-theoretic-semantics>2.20 Game Theoretic Semantics</a></td>
+	<td>&emsp;<a href=#mixed-integer-programming>2.19 Mixed Integer Programming (MIP)</a></td>
+	<td>&emsp;<a href=#causal-discovery>2.20 Causal Discovery</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#car-dispatch>2.21 Car Dispatch</a></td>
-	<td>&emsp;<a href=#electronic-design-automation>2.22 Electronic Design Automation (EDA)</a></td>
+	<td>&emsp;<a href=#game-theoretic-semantics>2.21 Game Theoretic Semantics</a></td>
+	<td>&emsp;<a href=#car-dispatch>2.22 Car Dispatch</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#conjunctive-query-containment>2.23 Conjunctive Query Containment</a></td>
-	<td>&emsp;<a href=#orienteering-problem>2.24 Orienteering Problem (OP)</a></td>
+	<td>&emsp;<a href=#electronic-design-automation>2.23 Electronic Design Automation (EDA)</a></td>
+	<td>&emsp;<a href=#conjunctive-query-containment>2.24 Conjunctive Query Containment</a></td>
 </tr>
 <tr>
 	<td>&emsp;<a href=#virtual-network-embedding>2.25 Virtual Network Embedding (VNE)</a></td>
-	<td>&emsp;<a href=#optical-power-flow>2.26 Optical Power Flow (OPF)</a></td>
+	<td>&emsp;<a href=#optimal-power-flow>2.26 Optimal Power Flow</a></td>
 </tr>
 <tr>
 	<td>&emsp;<a href=#facility-location-problem>2.27 Facility Location Problem (FLP)</a></td>
@@ -241,6 +241,18 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 
     *Liu, Chang and Jiang, Zetian and Wang, Runzhong and Yan, Junchi and Huang, Lingxiao and Lu, Pinyan*
 
+21. **SeedGNN: Graph Neural Network for Supervised Seeded Graph Matching** ICML, 2023. [paper](https://icml.cc/virtual/2023/poster/24282)
+
+    *Yu, Liren and Xu, Jiaming and Lin, Xiaojun*
+
+22. **D2Match: Leveraging Deep Learning and Degeneracy for Subgraph Matching** ICML, 2023. [paper](https://icml.cc/virtual/2023/poster/24358)
+
+    *Liu, Xuan, Lin Zhang, Jiaqi Sun, Yujiu Yang and Haiqing Yang*
+
+23. **⭐LinSATNet: The Positive Linear Satisfiability Neural Networks** ICML, 2023. [paper](https://icml.cc/virtual/2023/poster/25110), [code](https://github.com/Thinklab-SJTU/LinSATNet)
+
+    *Runzhong Wang and Yunhao Zhang and Ziao Guo and Tianyi Chen and Xiaokang Yang and Junchi Yan*
+
 ### [Quadratic Assignment Problem](#content)
 
 1. **Revised Note on Learning Algorithms for Quadratic Assignment with Graph Neural Networks** Arxiv, 2017. [paper](https://arxiv.org/pdf/1706.07450.pdf), [code](https://github.com/alexnowakvila/QAP_pt)
@@ -254,6 +266,10 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 3. **⭐Revocable Deep Reinforcement Learning with Affinity Regularization for Outlier-Robust Graph Matching.** ICLR, 2023. [paper](https://openreview.net/forum?id=QjQibO3scV_), [code](https://github.com/Thinklab-SJTU/RGM)
 
     *Liu, Chang and Jiang, Zetian and Wang, Runzhong and Yan, Junchi and Huang, Lingxiao and Lu, Pinyan*
+
+4. **⭐Towards Quantum Machine Learning for Constrained Combinatorial Optimization: a Quantum QAP Solver** ICML, 2023. [paper](https://icml.cc/virtual/2023/poster/24148)
+
+    *Ye, Xinyu and Yan, Ge and Yan, Junchi*
 
 ### [Travelling Salesman Problem](#content)
 
@@ -389,6 +405,22 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 
     *Yuan Jiang, Zhiguang Cao, Yaoxin Wu, Jie Zhang*
 
+34. **Revisiting Sampling for Combinatorial Optimization** ICML, 2023. [paper](https://icml.cc/virtual/2023/poster/23661)
+
+    *Sun, Haoran, Goshvadi Katayoon,Nova Azade,Schuurmans  Dale and Dai Hanjun.*
+
+35. **Meta-SAGE: Scale Meta-Learning Scheduled Adaptation with Guided Exploration for Mitigating Scale Shift on Combinatorial Optimization** ICML, 2023. [paper](https://icml.cc/virtual/2023/poster/25138)
+
+    *Son, Jiwoo and Kim, Minsu and Kim, Hyeonah and Park, Jinkyoo*
+
+36. **Towards Omni-generalizable Neural Methods for Vehicle Routing Problems** ICML, 2023. [paper](https://icml.cc/virtual/2023/poster/25267), [code](https://github.com/RoyalSkye/Omni-VRP)
+
+    *Zhou Jianan, Yaoxin Wu, Wen Song, Zhiguang Cao, Jie Zhang*
+
+37. **⭐LinSATNet: The Positive Linear Satisfiability Neural Networks** ICML, 2023. [paper](https://icml.cc/virtual/2023/poster/25110), [code](https://github.com/Thinklab-SJTU/LinSATNet)
+
+    *Runzhong Wang and Yunhao Zhang and Ziao Guo and Tianyi Chen and Xiaokang Yang and Junchi Yan*
+
 ### [Maximal Cut](#content)
 
 1. **Learning Combinatorial Optimization Algorithms over Graphs.** NeurIPS, 2017. [paper](https://arxiv.org/abs/1704.01665)
@@ -415,7 +447,11 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 
     *Barrett, Thomas D and Parsonson, Christopher WF and Laterre, Alexandre*
 
-7. **Let the Flows Tell: Solving Graph Combinatorial Optimization Problems with GFlowNets** Arxiv, 2023. [paper](https://arxiv.org/abs/2305.17010)
+7. **Revisiting Sampling for Combinatorial Optimization** ICML, 2023. [paper](https://icml.cc/virtual/2023/poster/23661)
+
+    *Sun, Haoran, Goshvadi Katayoon,Nova Azade,Schuurmans  Dale and Dai Hanjun.*
+
+8. **Let the Flows Tell: Solving Graph Combinatorial Optimization Problems with GFlowNets** Arxiv, 2023. [paper](https://arxiv.org/abs/2305.17010)
 
     *Dinghuai Zhang, Hanjun Dai, Nikolay Malkin, Aaron Courville, Yoshua Bengio, Ling Pan*
 
@@ -496,6 +532,10 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 19. **Deep Declarative Networks** TPAMI, 2022. [paper](https://ieeexplore.ieee.org/document/9355027), [code](https://github.com/anucvml/ddn)
 
     *Stephen Gould, Richard Hartley and Dylan Campbell*
+
+20. **SurCo: Learning Linear Surrogates For Combinatorial Nonlinear Optimization Problems** ICML, 2023. [paper](https://arxiv.org/abs/2210.12547), [code](https://github.com/facebookresearch/SurCo)
+
+    *Ferber, Aaron M and Huang, Taoan and Zha, Daochen and Schubert, Martin and Steiner, Benoit and Dilkina, Bistra and Tian, Yuandong*
 
 ### [Vehicle Routing Problem](#content)
 
@@ -579,6 +619,14 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 
     *Hou, Qingchun and Yang, Jingwei and Su, Yiqiang and Wang, Xiaoqing and Deng, Yuming*
 
+21. **Meta-SAGE: Scale Meta-Learning Scheduled Adaptation with Guided Exploration for Mitigating Scale Shift on Combinatorial Optimization** ICML, 2023. [paper](https://icml.cc/virtual/2023/poster/25138)
+
+    *Son, Jiwoo and Kim, Minsu and Kim, Hyeonah and Park, Jinkyoo*
+
+22. **Towards Omni-generalizable Neural Methods for Vehicle Routing Problems** ICML, 2023. [paper](https://icml.cc/virtual/2023/poster/25267), [code](https://github.com/RoyalSkye/Omni-VRP)
+
+    *Zhou Jianan, Yaoxin Wu, Wen Song, Zhiguang Cao, Jie Zhang*
+
 ### [Job Shop Scheduling Problem](#content)
 
 1. **Smart Manufacturing Scheduling With Edge Computing Using Multiclass Deep Q Network** Transactions on Industrial Informatics, 2019. [journal](https://ieeexplore.ieee.org/document/8676376)
@@ -617,6 +665,10 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 
     *Zhang, David W and Rainone, Corrado and Peschl, Markus and Bondesan, Roberto*
 
+10. **Continual Task Allocation in Meta-Policy Network via Sparse Prompting** ICML, 2023. [paper](https://icml.cc/virtual/2023/poster/24080)
+
+    *Yang, Yijun, Tianyi Zhou, Jing Jiang, Guodong Long and Yuhui Shi.*
+
 ### [Maximal/Maximum Independent Set](#content)
 
 1. **Combinatorial Optimization with Graph Convolutional Networks and Guided Tree Search.** NeurIPS, 2018. [paper](https://arxiv.org/abs/1810.10659)
@@ -651,15 +703,19 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 
     *Lu, Han and Li, Zenan and Wang, Runzhong and Ren, Qibing and Li, Xijun and Yuan, Mingxuan and Zeng, Jia and Yang, Xiaokang and Yan, Junchi*
 
-9. **Unsupervised Learning for Combinatorial Optimization Needs Meta Learning** ICLR, 2023. [paper](https://openreview.net/forum?id=-ENYHCE8zBp), [code](https://github.com/Graph-COM/Meta_CO)
+9. **Revisiting Sampling for Combinatorial Optimization** ICML, 2023. [paper](https://icml.cc/virtual/2023/poster/23661)
+
+    *Sun, Haoran, Goshvadi Katayoon,Nova Azade,Schuurmans  Dale and Dai Hanjun.*
+
+10. **Unsupervised Learning for Combinatorial Optimization Needs Meta Learning** ICLR, 2023. [paper](https://openreview.net/forum?id=-ENYHCE8zBp), [code](https://github.com/Graph-COM/Meta_CO)
 
     *Wang, Haoyu and Li, Pan*
 
-10. **Graph-based Deterministic Policy Gradient for Repetitive Combinatorial Optimization Problems** ICLR, 2023. [paper](https://openreview.net/forum?id=yHIIM9BgOo), [code](https://github.com/XzrTGMu/twin-nphard)
+11. **Graph-based Deterministic Policy Gradient for Repetitive Combinatorial Optimization Problems** ICLR, 2023. [paper](https://openreview.net/forum?id=yHIIM9BgOo), [code](https://github.com/XzrTGMu/twin-nphard)
 
     *Zhao, Zhongyuan and Swami, Ananthram and Segarra, Santiago*
 
-11. **Let the Flows Tell: Solving Graph Combinatorial Optimization Problems with GFlowNets** Arxiv, 2023. [paper](https://arxiv.org/abs/2305.17010)
+12. **Let the Flows Tell: Solving Graph Combinatorial Optimization Problems with GFlowNets** Arxiv, 2023. [paper](https://arxiv.org/abs/2305.17010)
 
     *Dinghuai Zhang, Hanjun Dai, Nikolay Malkin, Aaron Courville, Yoshua Bengio, Ling Pan*
 
@@ -684,6 +740,20 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 5. **⭐ROCO: A General Framework for Evaluating Robustness of Combinatorial Optimization Solvers on Graphs** ICLR, 2023. [paper](https://openreview.net/forum?id=2r6YMqz4Mml), [code](https://github.com/Thinklab-SJTU/ROCO)
 
     *Lu, Han and Li, Zenan and Wang, Runzhong and Ren, Qibing and Li, Xijun and Yuan, Mingxuan and Zeng, Jia and Yang, Xiaokang and Yan, Junchi*
+
+6. **Towards Omni-generalizable Neural Methods for Vehicle Routing Problems** ICML, 2023. [paper](https://icml.cc/virtual/2023/poster/25267), [code](https://github.com/RoyalSkye/Omni-VRP)
+
+    *Zhou Jianan, Yaoxin Wu, Wen Song, Zhiguang Cao, Jie Zhang*
+
+### [Orienteering Problem](#content)
+
+1. **A reinforcement learning approach to the orienteering problem with time windows** Computers & Operations Research, 2021. [paper](https://arxiv.org/abs/2011.03647v2), [code](https://github.com/mustelideos/optw_rl)
+
+    *Ricardo Gama, Hugo L. Fernandes*
+
+2. **Meta-SAGE: Scale Meta-Learning Scheduled Adaptation with Guided Exploration for Mitigating Scale Shift on Combinatorial Optimization** ICML, 2023. [paper](https://icml.cc/virtual/2023/poster/25138)
+
+    *Son, Jiwoo and Kim, Minsu and Kim, Hyeonah and Park, Jinkyoo*
 
 ### [Computing Resource Allocation](#content)
 
@@ -801,6 +871,10 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 
     *Hang Zhao and Kai Xu*
 
+23. **Improved Algorithms for Multi-period Multi-class Packing Problemswith Bandit Feedback** ICML, 2023. [paper](https://icml.cc/virtual/2023/poster/24252)
+
+    *Kim, Wonyoung and Iyengar, Garud and Zeevi, Assaf*
+
 ### [Graph Edit Distance](#content)
 
 1. **SimGNN - A Neural Network Approach to Fast Graph Similarity Computation** WSDM, 2019. [paper](https://arxiv.org/abs/1808.05689), [code](https://github.com/yunshengb/SimGNN)
@@ -874,6 +948,10 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 4. **⭐Towards One-shot Neural Combinatorial Solvers: Theoretical and Empirical Notes on the Cardinality-Constrained Case** ICLR, 2023. [paper](https://openreview.net/forum?id=h21yJhdzbwz), [code](https://github.com/Thinklab-SJTU/One-Shot-Cardinality-NN-Solver)
 
     *Wang, Runzhong and Shen, Li and Chen, Yiting and Yan, Junchi and Yang, Xiaokang and Tao, Dacheng*
+
+5. **Deep Graph Representation Learning and Optimization for Influence Maximization** ICML, 2023. [paper](https://icml.cc/virtual/2023/poster/24512)
+
+    *Chen Ling and Junji Jiang and Junxiang Wang and My T. Thai and Lukas Xue and James Song and Meikang Qiu and Liang Zhao*
 
 ### [Boolean Satisfiability](#content)
 
@@ -1203,6 +1281,10 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 
     *Taoan Huang, Aaron M Ferber, Yuandong Tian, Bistra Dilkina, Benoit Steiner*
 
+54. **GNN&GBDT-Guided Fast Optimizing Framework for Large-scale Integer Programming** ICML, 2023. [paper](https://icml.cc/virtual/2023/poster/24107)
+
+    *Ye, Huigen, Hua-Hui Xu, Hongyan Wang, Cheng . Wang and YueYen Jiang.*
+
 ### [Causal Discovery](#content)
 
 1. **DAGs with NO TEARS: Continuous Optimization for Structure Learning.** NeurIPS, 2018. [paper](https://arxiv.org/pdf/1803.01422.pdf)
@@ -1228,6 +1310,10 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 6. **Diffusion Models for Causal Discovery via Topological Ordering** ICLR, 2023. [paper](https://openreview.net/forum?id=Idusfje4-Wq), [code](https://github.com/vios-s/DiffAN)
 
     *Sanchez, Pedro and Liu, Xiao and O'Neil, Alison Q and Tsaftaris, Sotirios A*
+
+7. **Nonlinear Causal Discovery with Latent Confounders** ICML, 2023. [paper](https://icml.cc/virtual/2023/poster/23789), [code](https://github.com/chunlinli/defuse)
+
+    *David Kaltenpoth and Jilles Vreeken*
 
 ### [Game Theoretic Semantics](#content)
 
@@ -1264,12 +1350,6 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 1. **It's Not What Machines Can Learn It's What We Cannot Teach** ICML, 2020. [paper](http://proceedings.mlr.press/v119/yehuda20a/yehuda20a.pdf)
 
     *Gal Yehuda, Moshe Gabel and Assaf Schuster*
-
-### [Orienteering Problem](#content)
-
-1. **A reinforcement learning approach to the orienteering problem with time windows** Computers & Operations Research, 2021. [paper](https://arxiv.org/abs/2011.03647v2), [code](https://github.com/mustelideos/optw_rl)
-
-    *Ricardo Gama, Hugo L. Fernandes*
 
 ### [Virtual Network Embedding](#content)
 
@@ -1325,7 +1405,7 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 
     *Haoyu Geng, Runzhong Wang, Fei Wu, Junchi Yan*
 
-### [Optical Power Flow](#content)
+### [Optimal Power Flow](#content)
 
 1. **Predicting AC Optimal Power Flows: Combining Deep Learning and Lagrangian Dual Methods** AAAI, 2020. [paper](https://ojs.aaai.org/index.php/AAAI/article/view/5403)
 
@@ -1354,6 +1434,10 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 2. **⭐Towards One-shot Neural Combinatorial Solvers: Theoretical and Empirical Notes on the Cardinality-Constrained Case** ICLR, 2023. [paper](https://openreview.net/forum?id=h21yJhdzbwz), [code](https://github.com/Thinklab-SJTU/One-Shot-Cardinality-NN-Solver)
 
     *Wang, Runzhong and Shen, Li and Chen, Yiting and Yan, Junchi and Yang, Xiaokang and Tao, Dacheng*
+
+3. **⭐LinSATNet: The Positive Linear Satisfiability Neural Networks** ICML, 2023. [paper](https://icml.cc/virtual/2023/poster/25110), [code](https://github.com/Thinklab-SJTU/LinSATNet)
+
+    *Runzhong Wang and Yunhao Zhang and Ziao Guo and Tianyi Chen and Xiaokang Yang and Junchi Yan*
 
 ### [Sorting & Ranking](#content)
 
@@ -1433,7 +1517,19 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 
     *Sun, Hongda and Xie, Shufang and Li, Shuqi and Chen, Yuhan and Wen, Ji-Rong and Yan, Rui*
 
-4. **⭐MoleRec: Combinatorial Drug Recommendation with Substructure-Aware Molecular Representation Learning** TheWebConf, 2023. [paper](https://dl.acm.org/doi/10.1145/3543507.3583872), [code](https://github.com/yangnianzu0515/MoleRec)
+4. **⭐MoleRec: Combinatorial Drug Recommendation with Substructure-Aware Molecular Representation Learning** WWW, 2023. [paper](https://dl.acm.org/doi/10.1145/3543507.3583872), [code](https://github.com/yangnianzu0515/MoleRec)
 
     *Yang, Nianzu and Zeng, Kaipeng and Wu, Qitian and Yan, Junchi*
+
+5. **Enhancing Activity Prediction Models in Drug Discovery with the Ability to Understand Human Language** ICML, 2023. [paper](https://icml.cc/virtual/2023/poster/24953)
+
+    *Philipp Seidl and Andreu Vall and Sepp Hochreiter and Gunter Klambauer*
+
+6. **Learning Subpocket Prototypes for Generalizable Structure-based Drug Design** ICML, 2023. [paper](https://icml.cc/virtual/2023/poster/25062)
+
+    *Zaixin Zhang and Qi Liu*
+
+7. **DECOMPDIFF: Diffusion Models with Decomposed Priors for Structure-Based Drug Design** ICML, 2023. [paper](https://icml.cc/virtual/2023/poster/23697)
+
+    *Jiaqi Guan and Xiangxin Zhou and Yuwei Yang and Yu Bao and Jian-wei Peng and Jianzhu Ma and Q. Liu and Liang Wang and Quanquan Gu*
 
