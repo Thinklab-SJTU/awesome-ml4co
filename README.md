@@ -407,7 +407,7 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 
 34. **Revisiting Sampling for Combinatorial Optimization** ICML, 2023. [paper](https://icml.cc/virtual/2023/poster/23661)
 
-    *Sun, Haoran, Goshvadi Katayoon,Nova Azade,Schuurmans  Dale and Dai Hanjun.*
+    *Sun, Haoran, Goshvadi Katayoon,Nova Azade,Schuurmans  Dale, Dai Hanjun.*
 
 35. **Meta-SAGE: Scale Meta-Learning Scheduled Adaptation with Guided Exploration for Mitigating Scale Shift on Combinatorial Optimization** ICML, 2023. [paper](https://icml.cc/virtual/2023/poster/25138)
 
@@ -423,7 +423,19 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 
 38. **⭐LinSATNet: The Positive Linear Satisfiability Neural Networks** ICML, 2023. [paper](https://icml.cc/virtual/2023/poster/25110), [code](https://github.com/Thinklab-SJTU/LinSATNet)
 
-    *Runzhong Wang and Yunhao Zhang and Ziao Guo and Tianyi Chen and Xiaokang Yang and Junchi Yan*
+    *Runzhong Wang and Yunhao Zhang and Ziao Guo and Tianyi Chen and Xiaokang Yang, Junchi Yan*
+
+39. **Neural Combinatorial Optimization with Heavy Decoder: Toward Large Scale Generalization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=RBI4oAbdpm)
+
+    *Fu Luo, Xi Lin, Fei Liu, Qingfu Zhang, Zhenkun Wang*
+
+40. **DIFUSCO: Graph-based Diffusion Solvers for Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=JV8Ff0lgVV)
+
+    Zhiqing Sun, Yiming Yang
+
+41. ⭐**From Distribution Learning in Training to Gradient Search in Testing for Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=JtF0ugNMv2), [code](https://github.com/Thinklab-SJTU/T2TCO)
+
+    Yang Li, Jinpei Guo, Runzhong Wang, Junchi Yan
 
 ### [Maximal Cut](#content)
 
@@ -635,6 +647,10 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 
     *Haoran Ye, Jiarui Wang, Zhiguang Cao, Helan Liang, Yong Li*
 
+24. **Neural Combinatorial Optimization with Heavy Decoder: Toward Large Scale Generalization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=RBI4oAbdpm)
+
+    *Fu Luo, Xi Lin, Fei Liu, Qingfu Zhang, Zhenkun Wang*
+
 ### [Job Shop Scheduling Problem](#content)
 
 1. **Smart Manufacturing Scheduling With Edge Computing Using Multiclass Deep Q Network** Transactions on Industrial Informatics, 2019. [journal](https://ieeexplore.ieee.org/document/8676376)
@@ -726,6 +742,14 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 12. **Let the Flows Tell: Solving Graph Combinatorial Optimization Problems with GFlowNets** Arxiv, 2023. [paper](https://arxiv.org/abs/2305.17010)
 
     *Dinghuai Zhang, Hanjun Dai, Nikolay Malkin, Aaron Courville, Yoshua Bengio, Ling Pan*
+
+13. **DIFUSCO: Graph-based Diffusion Solvers for Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=JV8Ff0lgVV)
+
+    *Zhiqing Sun, Yiming Yang*
+
+14. ⭐**From Distribution Learning in Training to Gradient Search in Testing for Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=JtF0ugNMv2), [code](https://github.com/Thinklab-SJTU/T2TCO)
+
+    *Yang Li, Jinpei Guo, Runzhong Wang, Junchi Yan*
 
 ### [Generalization](#content)
 
@@ -1079,6 +1103,10 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 
     *Simon Geisler, Johanna Sommer, Jan Schuchardt, Aleksandar Bojchevski and Stephan Günnemann*
 
+29. ⭐**HardSATGEN: Understanding the Difficulty of Hard SAT Formula Generation and A Strong Structure-Hardness-Aware Baseline** KDD, 2023. [paper](https://dl.acm.org/doi/10.1145/3580305.3599837), [code](https://github.com/Thinklab-SJTU/HardSATGEN)
+
+    *Yang Li, Xinyan Chen, Wenxuan Guo, Xijun Li, Wanqian Luo, Junhua Huang, Hui-Ling Zhen, Mingxuan Yuan, Junchi Yan*
+
 ### [Mixed Integer Programming](#content)
 
 1. **Sequential model-based optimization for general algorithm configuration** International conference on learning and intelligent optimization, 2011. [journal](https://link.springer.com/chapter/10.1007/978-3-642-25566-3_40)
@@ -1353,9 +1381,13 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 
     *Wang, Haoyu Peter and Wu, Nan and Yang, Hang and Hao, Cong and Li, Pan*
 
-4. **CktGNN: Circuit Graph Neural Network for Electronic Design Automation** ICLR, 2023. [paper](https://openreview.net/forum?id=NE2911Kq1sp)
+4. ⭐**The Policy-gradient Placement and Generative Routing Neural Networks for Chip Design** NeurIPS, 2022. [paper](https://proceedings.neurips.cc/paper_files/paper/2022/hash/a8b8c1ad51df1b93d9e3d1fca75debbf-Abstract-Conference.html), [code](https://github.com/Thinklab-SJTU/EDA-AI)
 
-    *Dong, Zehao and Cao, Weidong and Zhang, Muhan and Tao, Dacheng and Chen, Yixin and Zhang, Xuan*
+   *Ruoyu Cheng, Xianglong Lyu, Yang Li, Junjie Ye, Jianye Hao, Junchi Yan*
+
+5. **CktGNN: Circuit Graph Neural Network for Electronic Design Automation** ICLR, 2023. [paper](https://openreview.net/forum?id=NE2911Kq1sp)
+
+   *Dong, Zehao and Cao, Weidong and Zhang, Muhan and Tao, Dacheng and Chen, Yixin and Zhang, Xuan*
 
 ### [Conjunctive Query Containment](#content)
 
