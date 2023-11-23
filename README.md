@@ -35,44 +35,44 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 	<td>&emsp;<a href=#orienteering-problem>2.10 Orienteering Problem (OP)</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#computing-resource-allocation>2.11 Computing Resource Allocation</a></td>
-	<td>&emsp;<a href=#bin-packing-problem>2.12 Bin Packing Problem (BPP)</a></td>
+	<td>&emsp;<a href=#knapsack>2.11 Knapsack</a></td>
+	<td>&emsp;<a href=#computing-resource-allocation>2.12 Computing Resource Allocation</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#graph-edit-distance>2.13 Graph Edit Distance (GED)</a></td>
-	<td>&emsp;<a href=#hamiltonian-cycle-problem>2.14 Hamiltonian Cycle Problem (HCP)</a></td>
+	<td>&emsp;<a href=#bin-packing-problem>2.13 Bin Packing Problem (BPP)</a></td>
+	<td>&emsp;<a href=#graph-edit-distance>2.14 Graph Edit Distance (GED)</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#graph-coloring>2.15 Graph Coloring</a></td>
-	<td>&emsp;<a href=#maximal-common-subgraph>2.16 Maximal Common Subgraph (MCS)</a></td>
+	<td>&emsp;<a href=#hamiltonian-cycle-problem>2.15 Hamiltonian Cycle Problem (HCP)</a></td>
+	<td>&emsp;<a href=#graph-coloring>2.16 Graph Coloring</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#influence-maximization>2.17 Influence Maximization</a></td>
-	<td>&emsp;<a href=#boolean-satisfiability>2.18 Boolean Satisfiability (SAT)</a></td>
+	<td>&emsp;<a href=#maximal-common-subgraph>2.17 Maximal Common Subgraph (MCS)</a></td>
+	<td>&emsp;<a href=#influence-maximization>2.18 Influence Maximization</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#mixed-integer-programming>2.19 Mixed Integer Programming (MIP)</a></td>
-	<td>&emsp;<a href=#causal-discovery>2.20 Causal Discovery</a></td>
+	<td>&emsp;<a href=#boolean-satisfiability>2.19 Boolean Satisfiability (SAT)</a></td>
+	<td>&emsp;<a href=#mixed-integer-programming>2.20 Mixed Integer Programming (MIP)</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#game-theoretic-semantics>2.21 Game Theoretic Semantics</a></td>
-	<td>&emsp;<a href=#car-dispatch>2.22 Car Dispatch</a></td>
+	<td>&emsp;<a href=#causal-discovery>2.21 Causal Discovery</a></td>
+	<td>&emsp;<a href=#game-theoretic-semantics>2.22 Game Theoretic Semantics</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#electronic-design-automation>2.23 Electronic Design Automation (EDA)</a></td>
-	<td>&emsp;<a href=#conjunctive-query-containment>2.24 Conjunctive Query Containment</a></td>
+	<td>&emsp;<a href=#car-dispatch>2.23 Car Dispatch</a></td>
+	<td>&emsp;<a href=#electronic-design-automation>2.24 Electronic Design Automation (EDA)</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#virtual-network-embedding>2.25 Virtual Network Embedding (VNE)</a></td>
-	<td>&emsp;<a href=#optimal-power-flow>2.26 Optimal Power Flow</a></td>
+	<td>&emsp;<a href=#conjunctive-query-containment>2.25 Conjunctive Query Containment</a></td>
+	<td>&emsp;<a href=#virtual-network-embedding>2.26 Virtual Network Embedding (VNE)</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#facility-location-problem>2.27 Facility Location Problem (FLP)</a></td>
-	<td>&emsp;<a href=#portfolio-optimization>2.28 Portfolio Optimization (PortOpt)</a></td>
+	<td>&emsp;<a href=#optimal-power-flow>2.27 Optimal Power Flow</a></td>
+	<td>&emsp;<a href=#facility-location-problem>2.28 Facility Location Problem (FLP)</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#sorting-&-ranking>2.29 Sorting & Ranking (Sort&Rank)</a></td>
-	<td>&emsp;<a href=#knapsack>2.30 Knapsack</a></td>
+	<td>&emsp;<a href=#portfolio-optimization>2.29 Portfolio Optimization (PortOpt)</a></td>
+	<td>&emsp;<a href=#sorting-&-ranking>2.30 Sorting & Ranking (Sort&Rank)</a></td>
 </tr>
 <tr>
 	<td>&emsp;<a href=#combinatorial-drug-recommendation>2.31 Combinatorial Drug Recommendation</a></td>
@@ -249,7 +249,15 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 
     *Liu, Xuan, Lin Zhang, Jiaqi Sun, Yujiu Yang and Haiqing Yang*
 
-23. **⭐LinSATNet: The Positive Linear Satisfiability Neural Networks** ICML, 2023. [paper](https://icml.cc/virtual/2023/poster/25110), [code](https://github.com/Thinklab-SJTU/LinSATNet)
+23. **LVM-Med: Learning Large-Scale Self-Supervised Vision Models for Medical Imaging via Second-order Graph Matching** NeurIPS, 2023. [paper](https://openreview.net/forum?id=xE7oH5iVGK), [code](https://github.com/duyhominhnguyen/LVM-Med)
+
+    *Nguyen, Duy MH and Nguyen, Hoang and Diep, Nghiem T and Pham, Tan N and Cao, Tri and Nguyen, Binh T and Swoboda, Paul and Ho, Nhat and Albarqouni, Shadi and Xie, Pengtao and others*
+
+24. **Improving Graph Matching with Positional Reconstruction Encoder-Decoder Network** NeurIPS, 2023. [paper](https://openreview.net/forum?id=28RTu9MOT6)
+
+    *Zhou, Yixiao and Jia, Ruiqi and Lin, Hongxiang and Quan, Hefeng and Zhao, Yumeng and Lyu, Xiaoqing*
+
+25. **⭐LinSATNet: The Positive Linear Satisfiability Neural Networks** ICML, 2023. [paper](https://icml.cc/virtual/2023/poster/25110), [code](https://github.com/Thinklab-SJTU/LinSATNet)
 
     *Runzhong Wang and Yunhao Zhang and Ziao Guo and Tianyi Chen and Xiaokang Yang and Junchi Yan*
 
@@ -421,21 +429,65 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 
     *Haoran Ye, Jiarui Wang, Zhiguang Cao, Helan Liang, Yong Li*
 
-38. **⭐LinSATNet: The Positive Linear Satisfiability Neural Networks** ICML, 2023. [paper](https://icml.cc/virtual/2023/poster/25110), [code](https://github.com/Thinklab-SJTU/LinSATNet)
-
-    *Runzhong Wang and Yunhao Zhang and Ziao Guo and Tianyi Chen and Xiaokang Yang, Junchi Yan*
-
-39. **Neural Combinatorial Optimization with Heavy Decoder: Toward Large Scale Generalization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=RBI4oAbdpm)
+38. **Neural Combinatorial Optimization with Heavy Decoder: Toward Large Scale Generalization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=RBI4oAbdpm)
 
     *Fu Luo, Xi Lin, Fei Liu, Qingfu Zhang, Zhenkun Wang*
 
-40. **DIFUSCO: Graph-based Diffusion Solvers for Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=JV8Ff0lgVV)
+39. **DIFUSCO: Graph-based Diffusion Solvers for Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=JV8Ff0lgVV), [code](https://github.com/Edward-Sun/DIFUSCO)
 
-    Zhiqing Sun, Yiming Yang
+    *Zhiqing Sun, Yiming Yang*
 
-41. ⭐**From Distribution Learning in Training to Gradient Search in Testing for Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=JtF0ugNMv2), [code](https://github.com/Thinklab-SJTU/T2TCO)
+40. **⭐From Distribution Learning in Training to Gradient Search in Testing for Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=JtF0ugNMv2), [code](https://github.com/Thinklab-SJTU/T2TCO)
 
-    Yang Li, Jinpei Guo, Runzhong Wang, Junchi Yan
+    *Yang Li, Jinpei Guo, Runzhong Wang, Junchi Yan*
+
+41. **DeepACO: Neural-enhanced Ant Systems for Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=cd5D1DD923), [code](https://github.com/henry-yeh/DeepACO)
+
+    *Ye, Haoran and Wang, Jiarui and Cao, Zhiguang and Liang, Helan and Li, Yong*
+
+42. **Winner Takes It All: Training Performant RL Populations for Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=v6VpqGcGAR)
+
+    *Grinsztajn, Nathan and Furelos-Blanco, Daniel and Surana, Shikha and Bonnet, Cl{\'e}ment and Barrett, Thomas D*
+
+43. **Optimizing Solution-Samplers for Combinatorial Problems: The Landscape of Policy-Gradient Methods** NeurIPS, 2023. [paper](https://openreview.net/forum?id=mmTy1iyU5G), [code](https://openreview.net/attachment?id=mmTy1iyU5G&name=supplementary_material)
+
+    *Caramanis, Constantine and Fotakis, Dimitris and Kalavasis, Alkis and Kontonis, Vasilis and Tzamos, Christos*
+
+44. **Combinatorial Optimization with Policy Adaptation using Latent Space Search** NeurIPS, 2023. [paper](https://openreview.net/forum?id=vpMBqdt9Hl)
+
+    *Chalumeau, Felix and Surana, Shikha and Bonnet, Cl{\'e}ment and Grinsztajn, Nathan and Pretorius, Arnu and Laterre, Alexandre and Barrett, Thomas D*
+
+45. **Efficient Meta Neural Heuristic for Multi-Objective Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=593fc38lhN), [code](https://github.com/bill-cjb/EMNH)
+
+    *Chen, Jinbiao and Wang, Jiahai and Zhang, Zizhen and Cao, Zhiguang and Ye, Te and Chen, Siyuan*
+
+46. **BQ-NCO: Bisimulation Quotienting for Efficient Neural Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=BRqlkTDvvm), [code](https://github.com/naver/bq-nco)
+
+    *Drakulic, Darko and Michel, Sofia and Mai, Florian and Sors, Arnaud and Andreoli, Jean-Marc*
+
+47. **Neural Combinatorial Optimization with Heavy Decoder: Toward Large Scale Generalization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=RBI4oAbdpm), [code](https://github.com/CIAM-Group/NCO_code/tree/main/single_objective/LEHD)
+
+    *Luo, Fu and Lin, Xi and Liu, Fei and Zhang, Qingfu and Wang, Zhenkun*
+
+48. **Neural Multi-Objective Combinatorial Optimization with Diversity Enhancement** NeurIPS, 2023. [paper](https://openreview.net/forum?id=N4JkStI1fe), [code](https://github.com/bill-cjb/NHDE)
+
+    *Chen, Jinbiao and Zhang, Zizhen and Cao, Zhiguang and Wu, Yaoxin and Ma, Yining and Ye, Te and Wang, Jiahai*
+
+49. **Unsupervised Learning for Solving the Travelling Salesman Problem** NeurIPS, 2023. [paper](https://openreview.net/forum?id=lAEc7aIW20)
+
+    *Min, Yimeng and Bai, Yiwei and Gomes, Carla P*
+
+50. **Ensemble-based Deep Reinforcement Learning for Vehicle Routing Problems under Distribution Shift** NeurIPS, 2023. [paper](https://openreview.net/forum?id=HoBbZ1vPAh)
+
+    *Jiang, Yuan and Cao, Zhiguang and Wu, Yaoxin and Song, Wen and Zhang, Jie*
+
+51. **Learning to Search Feasible and Infeasible Regions of Routing Problems with Flexible Neural k-Opt** NeurIPS, 2023. [paper](https://openreview.net/forum?id=q1JukwH2yP), [code](https://github.com/yining043/NeuOpt)
+
+    *Ma, Yining and Cao, Zhiguang and Chee, Yeow Meng*
+
+52. **⭐LinSATNet: The Positive Linear Satisfiability Neural Networks** ICML, 2023. [paper](https://icml.cc/virtual/2023/poster/25110), [code](https://github.com/Thinklab-SJTU/LinSATNet)
+
+    *Runzhong Wang and Yunhao Zhang and Ziao Guo and Tianyi Chen and Xiaokang Yang and Junchi Yan*
 
 ### [Maximal Cut](#content)
 
@@ -467,9 +519,17 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 
     *Sun, Haoran, Goshvadi Katayoon,Nova Azade,Schuurmans  Dale and Dai Hanjun.*
 
-8. **Let the Flows Tell: Solving Graph Combinatorial Optimization Problems with GFlowNets** Arxiv, 2023. [paper](https://arxiv.org/abs/2305.17010)
+8. **Optimizing Solution-Samplers for Combinatorial Problems: The Landscape of Policy-Gradient Methods** NeurIPS, 2023. [paper](https://openreview.net/forum?id=mmTy1iyU5G), [code](https://openreview.net/attachment?id=mmTy1iyU5G&name=supplementary_material)
+
+    *Caramanis, Constantine and Fotakis, Dimitris and Kalavasis, Alkis and Kontonis, Vasilis and Tzamos, Christos*
+
+9. **Let the Flows Tell: Solving Graph Combinatorial Optimization Problems with GFlowNets** NeurlPS, 2023. [paper](https://arxiv.org/abs/2305.17010), [code](https://github.com/zdhNarsil/GFlowNet-CombOpt)
 
     *Dinghuai Zhang, Hanjun Dai, Nikolay Malkin, Aaron Courville, Yoshua Bengio, Ling Pan*
+
+10. **Variational Annealing on Graphs for Combinatorial Optimization** NeurlPS, 2023. [paper](https://openreview.net/forum?id=SLx7paoaTU), [code](https://github.com/ml-jku/VAG-CO)
+
+    *Sanokowski, Sebastian and Berghammer, Wilhelm Franz and Hochreiter, Sepp and Lehner, Sebastian*
 
 ### [Differentiable Optimization](#content)
 
@@ -651,6 +711,42 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 
     *Fu Luo, Xi Lin, Fei Liu, Qingfu Zhang, Zhenkun Wang*
 
+25. **DeepACO: Neural-enhanced Ant Systems for Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=cd5D1DD923), [code](https://github.com/henry-yeh/DeepACO)
+
+    *Ye, Haoran and Wang, Jiarui and Cao, Zhiguang and Liang, Helan and Li, Yong*
+
+26. **Winner Takes It All: Training Performant RL Populations for Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=v6VpqGcGAR)
+
+    *Grinsztajn, Nathan and Furelos-Blanco, Daniel and Surana, Shikha and Bonnet, Cl{\'e}ment and Barrett, Thomas D*
+
+27. **Combinatorial Optimization with Policy Adaptation using Latent Space Search** NeurIPS, 2023. [paper](https://openreview.net/forum?id=vpMBqdt9Hl)
+
+    *Chalumeau, Felix and Surana, Shikha and Bonnet, Cl{\'e}ment and Grinsztajn, Nathan and Pretorius, Arnu and Laterre, Alexandre and Barrett, Thomas D*
+
+28. **Efficient Meta Neural Heuristic for Multi-Objective Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=593fc38lhN), [code](https://github.com/bill-cjb/EMNH)
+
+    *Chen, Jinbiao and Wang, Jiahai and Zhang, Zizhen and Cao, Zhiguang and Ye, Te and Chen, Siyuan*
+
+29. **BQ-NCO: Bisimulation Quotienting for Efficient Neural Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=BRqlkTDvvm), [code](https://github.com/naver/bq-nco)
+
+    *Drakulic, Darko and Michel, Sofia and Mai, Florian and Sors, Arnaud and Andreoli, Jean-Marc*
+
+30. **Neural Combinatorial Optimization with Heavy Decoder: Toward Large Scale Generalization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=RBI4oAbdpm), [code](https://github.com/CIAM-Group/NCO_code/tree/main/single_objective/LEHD)
+
+    *Luo, Fu and Lin, Xi and Liu, Fei and Zhang, Qingfu and Wang, Zhenkun*
+
+31. **Neural Multi-Objective Combinatorial Optimization with Diversity Enhancement** NeurIPS, 2023. [paper](https://openreview.net/forum?id=N4JkStI1fe), [code](https://github.com/bill-cjb/NHDE)
+
+    *Chen, Jinbiao and Zhang, Zizhen and Cao, Zhiguang and Wu, Yaoxin and Ma, Yining and Ye, Te and Wang, Jiahai*
+
+32. **Ensemble-based Deep Reinforcement Learning for Vehicle Routing Problems under Distribution Shift** NeurIPS, 2023. [paper](https://openreview.net/forum?id=HoBbZ1vPAh)
+
+    *Jiang, Yuan and Cao, Zhiguang and Wu, Yaoxin and Song, Wen and Zhang, Jie*
+
+33. **Learning to Search Feasible and Infeasible Regions of Routing Problems with Flexible Neural k-Opt** NeurIPS, 2023. [paper](https://openreview.net/forum?id=q1JukwH2yP), [code](https://github.com/yining043/NeuOpt)
+
+    *Ma, Yining and Cao, Zhiguang and Chee, Yeow Meng*
+
 ### [Job Shop Scheduling Problem](#content)
 
 1. **Smart Manufacturing Scheduling With Edge Computing Using Multiclass Deep Q Network** Transactions on Industrial Informatics, 2019. [journal](https://ieeexplore.ieee.org/document/8676376)
@@ -681,15 +777,27 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 
     *Andreas Kuhnle,Marvin Carl May,Louis Sch?fer & Gisela Lanza*
 
-8. **Neural DAG Scheduling via One-Shot Priority Sampling** ICLR, 2023. [paper](https://openreview.net/forum?id=WL8FlAugqQ)
+8. **DeepACO: Neural-enhanced Ant Systems for Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=cd5D1DD923), [code](https://github.com/henry-yeh/DeepACO)
+
+    *Ye, Haoran and Wang, Jiarui and Cao, Zhiguang and Liang, Helan and Li, Yong*
+
+9. **Winner Takes It All: Training Performant RL Populations for Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=v6VpqGcGAR)
+
+    *Grinsztajn, Nathan and Furelos-Blanco, Daniel and Surana, Shikha and Bonnet, Cl{\'e}ment and Barrett, Thomas D*
+
+10. **Combinatorial Optimization with Policy Adaptation using Latent Space Search** NeurIPS, 2023. [paper](https://openreview.net/forum?id=vpMBqdt9Hl)
+
+    *Chalumeau, Felix and Surana, Shikha and Bonnet, Cl{\'e}ment and Grinsztajn, Nathan and Pretorius, Arnu and Laterre, Alexandre and Barrett, Thomas D*
+
+11. **Neural DAG Scheduling via One-Shot Priority Sampling** ICLR, 2023. [paper](https://openreview.net/forum?id=WL8FlAugqQ)
 
     *Jeon, Wonseok and Gagrani, Mukul and Bartan, Burak and Zeng, Weiliang Will and Teague, Harris and Zappi, Piero and Lott, Christopher*
 
-9. **Robust Scheduling with GFlowNets** ICLR, 2023. [paper](https://openreview.net/forum?id=ZBUthI6wK9h)
+12. **Robust Scheduling with GFlowNets** ICLR, 2023. [paper](https://openreview.net/forum?id=ZBUthI6wK9h)
 
     *Zhang, David W and Rainone, Corrado and Peschl, Markus and Bondesan, Roberto*
 
-10. **Continual Task Allocation in Meta-Policy Network via Sparse Prompting** ICML, 2023. [paper](https://icml.cc/virtual/2023/poster/24080)
+13. **Continual Task Allocation in Meta-Policy Network via Sparse Prompting** ICML, 2023. [paper](https://icml.cc/virtual/2023/poster/24080)
 
     *Yang, Yijun, Tianyi Zhou, Jing Jiang, Guodong Long and Yuhui Shi.*
 
@@ -731,25 +839,33 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 
     *Sun, Haoran, Goshvadi Katayoon,Nova Azade,Schuurmans  Dale and Dai Hanjun.*
 
-10. **Unsupervised Learning for Combinatorial Optimization Needs Meta Learning** ICLR, 2023. [paper](https://openreview.net/forum?id=-ENYHCE8zBp), [code](https://github.com/Graph-COM/Meta_CO)
-
-    *Wang, Haoyu and Li, Pan*
-
-11. **Graph-based Deterministic Policy Gradient for Repetitive Combinatorial Optimization Problems** ICLR, 2023. [paper](https://openreview.net/forum?id=yHIIM9BgOo), [code](https://github.com/XzrTGMu/twin-nphard)
-
-    *Zhao, Zhongyuan and Swami, Ananthram and Segarra, Santiago*
-
-12. **Let the Flows Tell: Solving Graph Combinatorial Optimization Problems with GFlowNets** Arxiv, 2023. [paper](https://arxiv.org/abs/2305.17010)
-
-    *Dinghuai Zhang, Hanjun Dai, Nikolay Malkin, Aaron Courville, Yoshua Bengio, Ling Pan*
-
-13. **DIFUSCO: Graph-based Diffusion Solvers for Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=JV8Ff0lgVV)
+10. **DIFUSCO: Graph-based Diffusion Solvers for Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=JV8Ff0lgVV), [code](https://github.com/Edward-Sun/DIFUSCO)
 
     *Zhiqing Sun, Yiming Yang*
 
-14. ⭐**From Distribution Learning in Training to Gradient Search in Testing for Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=JtF0ugNMv2), [code](https://github.com/Thinklab-SJTU/T2TCO)
+11. **⭐From Distribution Learning in Training to Gradient Search in Testing for Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=JtF0ugNMv2), [code](https://github.com/Thinklab-SJTU/T2TCO)
 
     *Yang Li, Jinpei Guo, Runzhong Wang, Junchi Yan*
+
+12. **Unsupervised Learning for Combinatorial Optimization Needs Meta Learning** ICLR, 2023. [paper](https://openreview.net/forum?id=-ENYHCE8zBp), [code](https://github.com/Graph-COM/Meta_CO)
+
+    *Wang, Haoyu and Li, Pan*
+
+13. **Graph-based Deterministic Policy Gradient for Repetitive Combinatorial Optimization Problems** ICLR, 2023. [paper](https://openreview.net/forum?id=yHIIM9BgOo), [code](https://github.com/XzrTGMu/twin-nphard)
+
+    *Zhao, Zhongyuan and Swami, Ananthram and Segarra, Santiago*
+
+14. **Let the Flows Tell: Solving Graph Combinatorial Optimization Problems with GFlowNets** NeurlPS, 2023. [paper](https://arxiv.org/abs/2305.17010), [code](https://github.com/zdhNarsil/GFlowNet-CombOpt)
+
+    *Dinghuai Zhang, Hanjun Dai, Nikolay Malkin, Aaron Courville, Yoshua Bengio, Ling Pan*
+
+15. **Variational Annealing on Graphs for Combinatorial Optimization** NeurlPS, 2023. [paper](https://openreview.net/forum?id=SLx7paoaTU), [code](https://github.com/ml-jku/VAG-CO)
+
+    *Sanokowski, Sebastian and Berghammer, Wilhelm Franz and Hochreiter, Sepp and Lehner, Sebastian*
+
+16. **Maximum Independent Set: Self-Training through Dynamic Programming** NeurlPS, 2023. [paper](https://openreview.net/forum?id=igE3Zbxvws), [code](https://github.com/LIONS-EPFL/dynamic-MIS)
+
+    *Brusca, Lorenzo and Quaedvlieg, Lars CPM and Skoulakis, Stratis and Chrysos, Grigorios G and Cevher, Volkan*
 
 ### [Generalization](#content)
 
@@ -790,6 +906,48 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 3. **DeepACO: Neural-enhanced Ant Systems for Combinatorial Optimization** NeurIPS, 2023. [paper](https://arxiv.org/abs/2309.14032), [code](https://github.com/henry-yeh/DeepACO)
 
     *Haoran Ye, Jiarui Wang, Zhiguang Cao, Helan Liang, Yong Li*
+
+4. **DeepACO: Neural-enhanced Ant Systems for Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=cd5D1DD923), [code](https://github.com/henry-yeh/DeepACO)
+
+    *Ye, Haoran and Wang, Jiarui and Cao, Zhiguang and Liang, Helan and Li, Yong*
+
+### [Knapsack](#content)
+
+1. **A Pointer Network Based Deep Learning Algorithm  for 0-1 Knapsack Problem** ICACI, 2018. [paper](https://ieeexplore.ieee.org/abstract/document/8377505)
+
+    *Gu Shenshen, and Tao Hao*
+
+2. **An Investigation into Prediction + Optimisation for the Knapsack Problem** CPAIOR, 2019. [paper](https://link.springer.com/chapter/10.1007/978-3-030-19212-9_16)
+
+    *"Demirovic Emir and Stuckey Peter J and Bailey James and Chan Jeffrey and Leckie Chris and Ramamohanarao Kotagiri and Guns Tias"*
+
+3. **A Novel Method to Solve Neural Knapsack Problems** ICML, 2021. [paper](http://proceedings.mlr.press/v139/li21m.html)
+
+    *"Li Duanshun and Liu Jing and Lee Dongeun and Seyedmazloom Ali and Kaushik Giridhar and Lee Kookjin and Park Noseong"*
+
+4. **Provably Good Solutions to the Knapsack Problem via Neural Networks of Bounded Size** AAAI, 2021. [paper](https://pubsonline.informs.org/doi/abs/10.1287/ijoc.2021.0225)
+
+    *Hertrich Christoph and Martin Skutella*
+
+5. **DeepACO: Neural-enhanced Ant Systems for Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=cd5D1DD923), [code](https://github.com/henry-yeh/DeepACO)
+
+    *Ye, Haoran and Wang, Jiarui and Cao, Zhiguang and Liang, Helan and Li, Yong*
+
+6. **Winner Takes It All: Training Performant RL Populations for Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=v6VpqGcGAR)
+
+    *Grinsztajn, Nathan and Furelos-Blanco, Daniel and Surana, Shikha and Bonnet, Cl{\'e}ment and Barrett, Thomas D*
+
+7. **Efficient Meta Neural Heuristic for Multi-Objective Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=593fc38lhN), [code](https://github.com/bill-cjb/EMNH)
+
+    *Chen, Jinbiao and Wang, Jiahai and Zhang, Zizhen and Cao, Zhiguang and Ye, Te and Chen, Siyuan*
+
+8. **BQ-NCO: Bisimulation Quotienting for Efficient Neural Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=BRqlkTDvvm), [code](https://github.com/naver/bq-nco)
+
+    *Drakulic, Darko and Michel, Sofia and Mai, Florian and Sors, Arnaud and Andreoli, Jean-Marc*
+
+9. **Neural Multi-Objective Combinatorial Optimization with Diversity Enhancement** NeurIPS, 2023. [paper](https://openreview.net/forum?id=N4JkStI1fe), [code](https://github.com/bill-cjb/NHDE)
+
+    *Chen, Jinbiao and Zhang, Zizhen and Cao, Zhiguang and Wu, Yaoxin and Ma, Yining and Ye, Te and Wang, Jiahai*
 
 ### [Computing Resource Allocation](#content)
 
@@ -910,6 +1068,10 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 23. **Improved Algorithms for Multi-period Multi-class Packing Problemswith Bandit Feedback** ICML, 2023. [paper](https://icml.cc/virtual/2023/poster/24252)
 
     *Kim, Wonyoung and Iyengar, Garud and Zeevi, Assaf*
+
+24. **Adjustable Robust Reinforcement Learning for Online 3D Bin Packing** NeurIPS, 2023. [paper](https://openreview.net/forum?id=1mdTYi1jAW)
+
+    *Pan, Yuxin and Chen, Yize and Lin, Fangzhen*
 
 ### [Graph Edit Distance](#content)
 
@@ -1103,7 +1265,11 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 
     *Simon Geisler, Johanna Sommer, Jan Schuchardt, Aleksandar Bojchevski and Stephan Günnemann*
 
-29. ⭐**HardSATGEN: Understanding the Difficulty of Hard SAT Formula Generation and A Strong Structure-Hardness-Aware Baseline** KDD, 2023. [paper](https://dl.acm.org/doi/10.1145/3580305.3599837), [code](https://github.com/Thinklab-SJTU/HardSATGEN)
+29. **Let the Flows Tell: Solving Graph Combinatorial Optimization Problems with GFlowNets** NeurlPS, 2023. [paper](https://arxiv.org/abs/2305.17010), [code](https://github.com/zdhNarsil/GFlowNet-CombOpt)
+
+    *Dinghuai Zhang, Hanjun Dai, Nikolay Malkin, Aaron Courville, Yoshua Bengio, Ling Pan*
+
+30. **⭐HardSATGEN: Understanding the Difficulty of Hard SAT Formula Generation and A Strong Structure-Hardness-Aware Baseline** KDD, 2023. [paper](https://dl.acm.org/doi/10.1145/3580305.3599837), [code](https://github.com/Thinklab-SJTU/HardSATGEN)
 
     *Yang Li, Xinyan Chen, Wenxuan Guo, Xijun Li, Wanqian Luo, Junhua Huang, Hui-Ling Zhen, Mingxuan Yuan, Junchi Yan*
 
@@ -1325,6 +1491,22 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 
     *Ye, Huigen, Hua-Hui Xu, Hongyan Wang, Cheng . Wang and YueYen Jiang.*
 
+55. **Learning to Configure Separators in Branch-and-Cut** NeurIPS, 2023. [paper](https://openreview.net/forum?id=gf5xJVQS5p)
+
+    *Li, Sirui and Ouyang, Wenbin and Paulus, Max B and Wu, Cathy*
+
+56. **Learning to Dive in Branch and Bound** NeurIPS, 2023. [paper](https://openreview.net/forum?id=iPTF2hON1C)
+
+    *Paulus, Max B and Krause, Andreas*
+
+57. **Two-Stage Predict+Optimize for Mixed Integer Linear Programs with Unknown Parameters in Constraints** NeurIPS, 2023. [paper](https://openreview.net/forum?id=0tnhFpyWjb)
+
+    *Hu, Xinyi and Lee, Jasper CH and Lee, Jimmy HM*
+
+58. **A Deep Instance Generative Framework for MILP Solvers Under Limited Data Availability** NeurIPS, 2023. [paper](https://openreview.net/forum?id=AiEipk1X0c), [code](https://miralab-ustc.github.io/L2O-G2MILP)
+
+    *Geng, Zijie and Li, Xijun and Wang, Jie and Li, Xiao and Zhang, Yongdong and Wu, Feng*
+
 ### [Causal Discovery](#content)
 
 1. **DAGs with NO TEARS: Continuous Optimization for Structure Learning.** NeurIPS, 2018. [paper](https://arxiv.org/pdf/1803.01422.pdf)
@@ -1355,6 +1537,14 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 
     *David Kaltenpoth and Jilles Vreeken*
 
+8. **BayesDAG: Gradient-Based Posterior Inference for Causal Discovery** NeurIPS, 2023. [paper](https://openreview.net/forum?id=woptnU6fh1)
+
+    *Annadani, Yashas and Pawlowski, Nick and Jennings, Joel and Bauer, Stefan and Zhang, Cheng and Gong, Wenbo*
+
+9. **Sample Complexity Bounds for Score-Matching: Causal Discovery and Generative Modeling** NeurIPS, 2023. [paper](https://openreview.net/forum?id=uNnPWR66b8)
+
+    *Zhu, Zhenyu and Locatello, Francesco and Cevher, Volkan*
+
 ### [Game Theoretic Semantics](#content)
 
 1. **First-Order Problem Solving through Neural MCTS based Reinforcement Learning.** Arxiv, 2021. [paper](https://arxiv.org/abs/2101.04167)
@@ -1381,13 +1571,17 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 
     *Wang, Haoyu Peter and Wu, Nan and Yang, Hang and Hao, Cong and Li, Pan*
 
-4. ⭐**The Policy-gradient Placement and Generative Routing Neural Networks for Chip Design** NeurIPS, 2022. [paper](https://proceedings.neurips.cc/paper_files/paper/2022/hash/a8b8c1ad51df1b93d9e3d1fca75debbf-Abstract-Conference.html), [code](https://github.com/Thinklab-SJTU/EDA-AI)
+4. **⭐The Policy-gradient Placement and Generative Routing Neural Networks for Chip Design** NeurIPS, 2022. [paper](https://proceedings.neurips.cc/paper_files/paper/2022/hash/a8b8c1ad51df1b93d9e3d1fca75debbf-Abstract-Conference.html), [code](https://github.com/Thinklab-SJTU/EDA-AI)
 
-   *Ruoyu Cheng, Xianglong Lyu, Yang Li, Junjie Ye, Jianye Hao, Junchi Yan*
+    *Ruoyu Cheng, Xianglong Lyu, Yang Li, Junjie Ye, Jianye Hao, Junchi Yan*
 
 5. **CktGNN: Circuit Graph Neural Network for Electronic Design Automation** ICLR, 2023. [paper](https://openreview.net/forum?id=NE2911Kq1sp)
 
-   *Dong, Zehao and Cao, Weidong and Zhang, Muhan and Tao, Dacheng and Chen, Yixin and Zhang, Xuan*
+    *Dong, Zehao and Cao, Weidong and Zhang, Muhan and Tao, Dacheng and Chen, Yixin and Zhang, Xuan*
+
+6. **HubRouter: Learning Global Routing via Hub Generation and Pin-hub Connection** NeurIPS, 2023. [paper](https://openreview.net/forum?id=f0Jj3C3Pnp)
+
+    *Du, Xingbo and Wang, Chonghua and Zhong, Ruizhe and Yan, Junchi*
 
 ### [Conjunctive Query Containment](#content)
 
@@ -1528,24 +1722,6 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 11. **PiRank-Scalable Learning To Rank via Differentiable Sorting** NeurIPS, 2022. [paper](https://openreview.net/forum?id=dL8p6rLFTS3), [code](https://github.com/ermongroup/pirank)
 
     *Robin Marcel Edwin Swezey, Aditya Grover, Bruno Charron, Stefano Ermon*
-
-### [Knapsack](#content)
-
-1. **A Pointer Network Based Deep Learning Algorithm  for 0-1 Knapsack Problem** ICACI, 2018. [paper](https://ieeexplore.ieee.org/abstract/document/8377505)
-
-    *Gu Shenshen, and Tao Hao*
-
-2. **An Investigation into Prediction + Optimisation for the Knapsack Problem** CPAIOR, 2019. [paper](https://link.springer.com/chapter/10.1007/978-3-030-19212-9_16)
-
-    *"Demirovic Emir and Stuckey Peter J and Bailey James and Chan Jeffrey and Leckie Chris and Ramamohanarao Kotagiri and Guns Tias"*
-
-3. **A Novel Method to Solve Neural Knapsack Problems** ICML, 2021. [paper](http://proceedings.mlr.press/v139/li21m.html)
-
-    *"Li Duanshun and Liu Jing and Lee Dongeun and Seyedmazloom Ali and Kaushik Giridhar and Lee Kookjin and Park Noseong"*
-
-4. **Provably Good Solutions to the Knapsack Problem via Neural Networks of Bounded Size** AAAI, 2021. [paper](https://pubsonline.informs.org/doi/abs/10.1287/ijoc.2021.0225)
-
-    *Hertrich Christoph and Martin Skutella*
 
 ### [Combinatorial Drug Recommendation](#content)
 
