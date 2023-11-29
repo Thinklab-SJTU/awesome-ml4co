@@ -67,15 +67,19 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 	<td>&emsp;<a href=#virtual-network-embedding>2.26 Virtual Network Embedding (VNE)</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#optimal-power-flow>2.27 Optimal Power Flow</a></td>
-	<td>&emsp;<a href=#facility-location-problem>2.28 Facility Location Problem (FLP)</a></td>
+	<td>&emsp;<a href=#predict+optimize>2.27 Predict+Optimize</a></td>
+	<td>&emsp;<a href=#optimal-power-flow>2.28 Optimal Power Flow</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#portfolio-optimization>2.29 Portfolio Optimization (PortOpt)</a></td>
-	<td>&emsp;<a href=#sorting-&-ranking>2.30 Sorting & Ranking (Sort&Rank)</a></td>
+	<td>&emsp;<a href=#facility-location-problem>2.29 Facility Location Problem (FLP)</a></td>
+	<td>&emsp;<a href=#portfolio-optimization>2.30 Portfolio Optimization (PortOpt)</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#combinatorial-drug-recommendation>2.31 Combinatorial Drug Recommendation</a></td>
+	<td>&emsp;<a href=#sorting-&-ranking>2.31 Sorting & Ranking (Sort&Rank)</a></td>
+	<td>&emsp;<a href=#combinatorial-drug-recommendation>2.32 Combinatorial Drug Recommendation</a></td>
+</tr>
+<tr>
+	<td>&emsp;<a href=#stochastic-combinatorial-optimization>2.33 Stochastic Combinatorial Optimization</a></td>
 <td>&ensp;</td>
 </tr>
 </table>
@@ -415,7 +419,7 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 
 34. **Revisiting Sampling for Combinatorial Optimization** ICML, 2023. [paper](https://icml.cc/virtual/2023/poster/23661)
 
-    *Sun, Haoran, Goshvadi Katayoon,Nova Azade,Schuurmans  Dale, Dai Hanjun.*
+    *Sun, Haoran, Goshvadi Katayoon,Nova Azade,Schuurmans  Dale and Dai Hanjun.*
 
 35. **Meta-SAGE: Scale Meta-Learning Scheduled Adaptation with Guided Exploration for Mitigating Scale Shift on Combinatorial Optimization** ICML, 2023. [paper](https://icml.cc/virtual/2023/poster/25138)
 
@@ -537,79 +541,39 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 
     *Josip Djolonga, Andreas Krause*
 
-2. **OptNet: differentiable optimization as a layer in neural networks** ICML, 2017. [paper](https://dl.acm.org/doi/abs/10.5555/3305381.3305396), [code](https://github.com/locuslab/optnet)
-
-    *Brandon Amos and J. Zico Kolter*
-
-3. **Melding the Data-Decisions Pipeline: Decision-Focused Learning for Combinatorial Optimization** AAAI, 2019. [paper](https://ojs.aaai.org//index.php/AAAI/article/view/3982)
+2. **Melding the Data-Decisions Pipeline: Decision-Focused Learning for Combinatorial Optimization** AAAI, 2019. [paper](https://ojs.aaai.org//index.php/AAAI/article/view/3982)
 
     *Bryan Wilder, Bistra Dilkina, Milind Tambe*
 
-4. **Differentiable Convex Optimization Layers** NeurIPS, 2019. [paper](https://dl.acm.org/doi/abs/10.5555/3454287.3455145), [code](https://github.com/cvxgrp/cvxpylayers)
-
-    *Agrawal, Akshay and Boyd, Stephen*
-
-5. **Predict+optimise with ranking objectives: exhaustively learning linear functions** IJCAI, 2019. [paper](https://dl.acm.org/doi/abs/10.5555/3367032.3367186)
-
-    *Demirovic, Emir and Stuckey, Peter J. and Bailey, James and Chan, Jeffrey and Leckie, Christopher and Ramamohanarao, Kotagiri and Guns, Tias*
-
-6. **Differentiation of Blackbox Combinatorial Solvers** ICLR, 2020. [paper](https://arxiv.org/pdf/1912.02175v2.pdf), [code](https://github.com/martius-lab/blackbox-backprop)
+3. **Differentiation of Blackbox Combinatorial Solvers** ICLR, 2020. [paper](https://arxiv.org/pdf/1912.02175v2.pdf), [code](https://github.com/martius-lab/blackbox-backprop)
 
     *Marin Vlastelica, Anselm Paulus, Vít Musil, Georg Martius, Michal Rolínek*
 
-7. **MIPaaL: Mixed Integer Program as a Layer** AAAI, 2020. [paper](https://ojs.aaai.org//index.php/AAAI/article/view/5509), [code](https://github.com/amf272/MIPaaL/)
+4. **MIPaaL: Mixed Integer Program as a Layer** AAAI, 2020. [paper](https://ojs.aaai.org//index.php/AAAI/article/view/5509), [code](https://github.com/amf272/MIPaaL/)
 
     *Aaron Ferber, Bryan Wilder, Bistra Dilkina, Milind Tambe*
 
-8. **Smart Predict-and-Optimize for Hard Combinatorial Optimization Problems** AAAI, 2020. [paper](https://arxiv.org/abs/1911.10092), [code](https://github.com/JayMan91/aaai_predit_then_optimize)
+5. **Smart Predict-and-Optimize for Hard Combinatorial Optimization Problems** AAAI, 2020. [paper](https://arxiv.org/abs/1911.10092), [code](https://github.com/JayMan91/aaai_predit_then_optimize)
 
     *Jaynta Mandi, Emir Demirovi, Peter. J Stuckey, Tias Guns*
 
-9. **Differentiation of blackbox combinatorial solvers** ICLR, 2020. [paper](https://openreview.net/forum?id=BkevoJSYPB), [code](https://github.com/martius-lab/blackbox-backprop)
+6. **Differentiation of blackbox combinatorial solvers** ICLR, 2020. [paper](https://openreview.net/forum?id=BkevoJSYPB), [code](https://github.com/martius-lab/blackbox-backprop)
 
     *Marin Vlastelica Pogani, Anselm Paulus, Vit Musil, Georg Martius, Michal Rolinek*
 
-10. **Interior Point Solving for LP-based prediction+optimization** NeurIPS, 2020. [paper](https://proceedings.neurips.cc//paper/2020/hash/51311013e51adebc3c34d2cc591fefee-Abstract.html), [code](https://github.com/JayMan91/NeurIPSIntopt)
+7. **Interior Point Solving for LP-based prediction+optimization** NeurIPS, 2020. [paper](https://proceedings.neurips.cc//paper/2020/hash/51311013e51adebc3c34d2cc591fefee-Abstract.html), [code](https://github.com/JayMan91/NeurIPSIntopt)
 
     *Jayanta Mandi, Tias Guns*
 
-11. **Automatically Learning Compact Quality-aware Surrogates for Optimization Problems** NeurIPS, 2020. [paper](https://openreview.net/forum?id=v8hzdOdOle)
-
-    *Kai Wang, Bryan Wilder, Andrew Perrault, Milind Tambe*
-
-12. **Contrastive Losses and Solution Caching for Predict-and-Optimize** IJCAI, 2021. [paper](https://www.ijcai.org/proceedings/2021/0390.pdf), [code](https://github.com/jayman91/ltr-predopt)
-
-    *Maxime Mulamba, Jayanta Mandi, Michelangelo Diligenti , Michele Lombardi, Victor Bucarey, Tias Guns*
-
-13. **A Surrogate Objective Framework for Prediction+Programming with Soft Constraints** NeurIPS, 2021. [paper](https://openreview.net/forum?id=9Sa2xh4mGR), [code](https://github.com/PredOptwithSoftConstraint/PredOptwithSoftConstraint)
-
-    *Kai Yan, Jie Yan, Chuan Luo, Liting Chen, Qingwei Lin, Dongmei Zhang*
-
-14. **Implicit MLE: Backpropagating Through Discrete Exponential Family Distributions** NeurIPS, 2021. [paper](https://openreview.net/forum?id=lR4aaWCQgB), [code](https://github.com/uclnlp/torch-imle)
-
-    *Mathias Niepert, Pasquale Minervini, Luca Franceschi*
-
-15. **COPS: Combinatorial Optimization for Panoptic Segmentation: A Fully Differentiable Approach** NeurIPS, 2021. [paper](https://proceedings.neurips.cc/paper/2021/hash/83a368f54768f506b833130584455df4-Abstract.html), [code](https://github.com/aabbas90/COPS)
-
-    *Ahmed Abbas, Paul Swoboda*
-
-16. **An Exact Symbolic Reduction of Linear Smart Predict+Optimize to Mixed Integer Linear Programming** ICML, 2022. [paper](https://proceedings.mlr.press/v162/jeong22a.html), [code](https://github.com/jihwan-jeong/xaddpy)
+8. **An Exact Symbolic Reduction of Linear Smart Predict+Optimize to Mixed Integer Linear Programming** ICML, 2022. [paper](https://proceedings.mlr.press/v162/jeong22a.html), [code](https://github.com/jihwan-jeong/xaddpy)
 
     *Jeong, Jihwan, Parth Jaggi, Andrew Butler and Scott Sanner. “An Exact Symbolic Reduction of Linear Smart Predict+Optimize to Mixed Integer Linear Programming.” ICML (2022).*
 
-17. **Constrained Discrete Black-Box Optimization using Mixed-Integer Programming** ICML, 2022. [paper](https://proceedings.mlr.press/v162/papalexopoulos22a.html)
+9. **Constrained Discrete Black-Box Optimization using Mixed-Integer Programming** ICML, 2022. [paper](https://proceedings.mlr.press/v162/papalexopoulos22a.html)
 
     *Papalexopoulos, Theodore, Christian Tjandraatmadja, Ross Anderson, Juan Pablo Vielma and Daving Belanger.*
 
-18. **End-to-End Stochastic Optimization with Energy-Based Model** NeurIPS, 2022. [paper](https://openreview.net/forum?id=_sYOodxTMcF), [code](https://github.com/Lingkai-Kong/so-ebm)
-
-    *Lingkai Kong, Jiaming Cui, Yuchen Zhuang, Rui Feng, B. Aditya Prakash, Chao Zhang*
-
-19. **Deep Declarative Networks** TPAMI, 2022. [paper](https://ieeexplore.ieee.org/document/9355027), [code](https://github.com/anucvml/ddn)
-
-    *Stephen Gould, Richard Hartley and Dylan Campbell*
-
-20. **SurCo: Learning Linear Surrogates For Combinatorial Nonlinear Optimization Problems** ICML, 2023. [paper](https://arxiv.org/abs/2210.12547), [code](https://github.com/facebookresearch/SurCo)
+10. **SurCo: Learning Linear Surrogates For Combinatorial Nonlinear Optimization Problems** ICML, 2023. [paper](https://arxiv.org/abs/2210.12547), [code](https://github.com/facebookresearch/SurCo)
 
     *Ferber, Aaron M and Huang, Taoan and Zha, Daochen and Schubert, Martin and Steiner, Benoit and Dilkina, Bistra and Tian, Yuandong*
 
@@ -1499,11 +1463,7 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 
     *Paulus, Max B and Krause, Andreas*
 
-57. **Two-Stage Predict+Optimize for Mixed Integer Linear Programs with Unknown Parameters in Constraints** NeurIPS, 2023. [paper](https://openreview.net/forum?id=0tnhFpyWjb)
-
-    *Hu, Xinyi and Lee, Jasper CH and Lee, Jimmy HM*
-
-58. **A Deep Instance Generative Framework for MILP Solvers Under Limited Data Availability** NeurIPS, 2023. [paper](https://openreview.net/forum?id=AiEipk1X0c), [code](https://miralab-ustc.github.io/L2O-G2MILP)
+57. **A Deep Instance Generative Framework for MILP Solvers Under Limited Data Availability** NeurIPS, 2023. [paper](https://openreview.net/forum?id=AiEipk1X0c), [code](https://miralab-ustc.github.io/L2O-G2MILP)
 
     *Geng, Zijie and Li, Xijun and Wang, Jie and Li, Xiao and Zhang, Yongdong and Wu, Feng*
 
@@ -1643,6 +1603,56 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 
     *Haoyu Geng, Runzhong Wang, Fei Wu, Junchi Yan*
 
+### [Predict+Optimize](#content)
+
+1. **OptNet: differentiable optimization as a layer in neural networks** ICML, 2017. [paper](https://dl.acm.org/doi/abs/10.5555/3305381.3305396), [code](https://github.com/locuslab/optnet)
+
+    *Brandon Amos and J. Zico Kolter*
+
+2. **Differentiable Convex Optimization Layers** NeurIPS, 2019. [paper](https://dl.acm.org/doi/abs/10.5555/3454287.3455145), [code](https://github.com/cvxgrp/cvxpylayers)
+
+    *Agrawal, Akshay and Boyd, Stephen*
+
+3. **Predict+optimise with ranking objectives: exhaustively learning linear functions** IJCAI, 2019. [paper](https://dl.acm.org/doi/abs/10.5555/3367032.3367186)
+
+    *Demirovic, Emir and Stuckey, Peter J. and Bailey, James and Chan, Jeffrey and Leckie, Christopher and Ramamohanarao, Kotagiri and Guns, Tias*
+
+4. **Automatically Learning Compact Quality-aware Surrogates for Optimization Problems** NeurIPS, 2020. [paper](https://openreview.net/forum?id=v8hzdOdOle)
+
+    *Kai Wang, Bryan Wilder, Andrew Perrault, Milind Tambe*
+
+5. **Contrastive Losses and Solution Caching for Predict-and-Optimize** IJCAI, 2021. [paper](https://www.ijcai.org/proceedings/2021/0390.pdf), [code](https://github.com/jayman91/ltr-predopt)
+
+    *Maxime Mulamba, Jayanta Mandi, Michelangelo Diligenti , Michele Lombardi, Victor Bucarey, Tias Guns*
+
+6. **A Surrogate Objective Framework for Prediction+Programming with Soft Constraints** NeurIPS, 2021. [paper](https://openreview.net/forum?id=9Sa2xh4mGR), [code](https://github.com/PredOptwithSoftConstraint/PredOptwithSoftConstraint)
+
+    *Kai Yan, Jie Yan, Chuan Luo, Liting Chen, Qingwei Lin, Dongmei Zhang*
+
+7. **Implicit MLE: Backpropagating Through Discrete Exponential Family Distributions** NeurIPS, 2021. [paper](https://openreview.net/forum?id=lR4aaWCQgB), [code](https://github.com/uclnlp/torch-imle)
+
+    *Mathias Niepert, Pasquale Minervini, Luca Franceschi*
+
+8. **COPS: Combinatorial Optimization for Panoptic Segmentation: A Fully Differentiable Approach** NeurIPS, 2021. [paper](https://proceedings.neurips.cc/paper/2021/hash/83a368f54768f506b833130584455df4-Abstract.html), [code](https://github.com/aabbas90/COPS)
+
+    *Ahmed Abbas, Paul Swoboda*
+
+9. **End-to-End Stochastic Optimization with Energy-Based Model** NeurIPS, 2022. [paper](https://openreview.net/forum?id=_sYOodxTMcF), [code](https://github.com/Lingkai-Kong/so-ebm)
+
+    *Lingkai Kong, Jiaming Cui, Yuchen Zhuang, Rui Feng, B. Aditya Prakash, Chao Zhang*
+
+10. **Deep Declarative Networks** TPAMI, 2022. [paper](https://ieeexplore.ieee.org/document/9355027), [code](https://github.com/anucvml/ddn)
+
+    *Stephen Gould, Richard Hartley and Dylan Campbell*
+
+11. **Two-Stage Predict+Optimize for Mixed Integer Linear Programs with Unknown Parameters in Constraints** NeurIPS, 2023. [paper](https://openreview.net/forum?id=0tnhFpyWjb), [code](https://github.com/elizabethxyhu/neurips_two_stage_predict-optimize)
+
+    *Hu, Xinyi and Lee, Jasper CH and Lee, Jimmy HM*
+
+12. **Predict+ Optimize for packing and covering LPs with unknown parameters in constraints** AAAI, 2023. [paper](https://dl.acm.org/doi/10.1609/aaai.v37i4.25513)
+
+    *Xinyi Hu, Jasper C.H. Lee, Jimmy H.M. Lee*
+
 ### [Optimal Power Flow](#content)
 
 1. **Predicting AC Optimal Power Flows: Combining Deep Learning and Lagrangian Dual Methods** AAAI, 2020. [paper](https://ojs.aaai.org/index.php/AAAI/article/view/5403)
@@ -1752,4 +1762,26 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 7. **DECOMPDIFF: Diffusion Models with Decomposed Priors for Structure-Based Drug Design** ICML, 2023. [paper](https://icml.cc/virtual/2023/poster/23697)
 
     *Jiaqi Guan and Xiangxin Zhou and Yuwei Yang and Yu Bao and Jian-wei Peng and Jianzhu Ma and Q. Liu and Liang Wang and Quanquan Gu*
+
+### [Stochastic Combinatorial Optimization](#content)
+
+1. **Learning fast optimizers for contextual stochastic integer programs** UAI, 2018. [paper](http://auai.org/uai2018/proceedings/papers/217.pdf)
+
+    *V Nair, D Dvijotham, I Dunning, O Vinyals*
+
+2. **USCO-Solver: Solving Undetermined Stochastic Combinatorial Optimization Problems** NeurIPS, 2021. [paper](https://openreview.net/forum?id=P85jauwfNCV), [code](https://github.com/cdslabamotong/USCO-Solver)
+
+    *Guangmo Tong*
+
+3. **A New Approach for Vehicle Routing with Stochastic Demand- Combining Route Assignment with Process Flexibility** OR, 2022. [journal](https://pubsonline.informs.org/doi/abs/10.1287/opre.2022.2304)
+
+    *Kirby Ledvina, Hanzhang Qin, David Simchi-Levi, Yehua Wei*
+
+4. **Neur2SP- Neural Two-Stage Stochastic Programming** NeurIPS, 2022. [paper](https://openreview.net/forum?id=HQDvPsdXS-F), [code](https://github.com/khalil-research/Neur2SP)
+
+    *Rahul Mihir Patel, Justin Dumouchelle, Elias Boutros Khalil, Merve Bodur*
+
+5. **Learning to Optimize with Stochastic Dominance Constraints** AISTATS, 2023. [paper](https://proceedings.mlr.press/v206/dai23b.html)
+
+    *Hanjun Dai, Yuan Xue, Niao He, Yixin Wang, Na Li, Dale Schuurmans, Bo Dai*
 
