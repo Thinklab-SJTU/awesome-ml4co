@@ -20,59 +20,59 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 </tr>
 <tr>
 	<td>&emsp;<a href=#travelling-salesman-problem>2.3 Travelling Salesman Problem (TSP)</a></td>
-	<td>&emsp;<a href=#maximal-cut>2.4 Maximal Cut</a></td>
+	<td>&emsp;<a href=#portfolio-optimization>2.4 Portfolio Optimization (PortOpt)</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#differentiable-optimization>2.5 Differentiable Optimization</a></td>
-	<td>&emsp;<a href=#vehicle-routing-problem>2.6 Vehicle Routing Problem (VRP)</a></td>
+	<td>&emsp;<a href=#maximal-cut>2.5 Maximal Cut</a></td>
+	<td>&emsp;<a href=#differentiable-optimization>2.6 Differentiable Optimization</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#job-shop-scheduling-problem>2.7 Job Shop Scheduling Problem (JSSP)</a></td>
-	<td>&emsp;<a href=#maximal/maximum-independent-set>2.8 Maximal/Maximum Independent Set</a></td>
+	<td>&emsp;<a href=#vehicle-routing-problem>2.7 Vehicle Routing Problem (VRP)</a></td>
+	<td>&emsp;<a href=#job-shop-scheduling-problem>2.8 Job Shop Scheduling Problem (JSSP)</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#generalization>2.9 Generalization</a></td>
-	<td>&emsp;<a href=#orienteering-problem>2.10 Orienteering Problem (OP)</a></td>
+	<td>&emsp;<a href=#maximal/maximum-independent-set>2.9 Maximal/Maximum Independent Set</a></td>
+	<td>&emsp;<a href=#generalization>2.10 Generalization</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#knapsack>2.11 Knapsack</a></td>
-	<td>&emsp;<a href=#computing-resource-allocation>2.12 Computing Resource Allocation</a></td>
+	<td>&emsp;<a href=#orienteering-problem>2.11 Orienteering Problem (OP)</a></td>
+	<td>&emsp;<a href=#knapsack>2.12 Knapsack</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#bin-packing-problem>2.13 Bin Packing Problem (BPP)</a></td>
-	<td>&emsp;<a href=#graph-edit-distance>2.14 Graph Edit Distance (GED)</a></td>
+	<td>&emsp;<a href=#computing-resource-allocation>2.13 Computing Resource Allocation</a></td>
+	<td>&emsp;<a href=#bin-packing-problem>2.14 Bin Packing Problem (BPP)</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#hamiltonian-cycle-problem>2.15 Hamiltonian Cycle Problem (HCP)</a></td>
-	<td>&emsp;<a href=#graph-coloring>2.16 Graph Coloring</a></td>
+	<td>&emsp;<a href=#graph-edit-distance>2.15 Graph Edit Distance (GED)</a></td>
+	<td>&emsp;<a href=#hamiltonian-cycle-problem>2.16 Hamiltonian Cycle Problem (HCP)</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#maximal-common-subgraph>2.17 Maximal Common Subgraph (MCS)</a></td>
-	<td>&emsp;<a href=#influence-maximization>2.18 Influence Maximization</a></td>
+	<td>&emsp;<a href=#graph-coloring>2.17 Graph Coloring</a></td>
+	<td>&emsp;<a href=#maximal-common-subgraph>2.18 Maximal Common Subgraph (MCS)</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#boolean-satisfiability>2.19 Boolean Satisfiability (SAT)</a></td>
-	<td>&emsp;<a href=#mixed-integer-programming>2.20 Mixed Integer Programming (MIP)</a></td>
+	<td>&emsp;<a href=#influence-maximization>2.19 Influence Maximization</a></td>
+	<td>&emsp;<a href=#boolean-satisfiability>2.20 Boolean Satisfiability (SAT)</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#causal-discovery>2.21 Causal Discovery</a></td>
-	<td>&emsp;<a href=#game-theoretic-semantics>2.22 Game Theoretic Semantics</a></td>
+	<td>&emsp;<a href=#mixed-integer-programming>2.21 Mixed Integer Programming (MIP)</a></td>
+	<td>&emsp;<a href=#causal-discovery>2.22 Causal Discovery</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#car-dispatch>2.23 Car Dispatch</a></td>
-	<td>&emsp;<a href=#electronic-design-automation>2.24 Electronic Design Automation (EDA)</a></td>
+	<td>&emsp;<a href=#game-theoretic-semantics>2.23 Game Theoretic Semantics</a></td>
+	<td>&emsp;<a href=#car-dispatch>2.24 Car Dispatch</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#conjunctive-query-containment>2.25 Conjunctive Query Containment</a></td>
-	<td>&emsp;<a href=#virtual-network-embedding>2.26 Virtual Network Embedding (VNE)</a></td>
+	<td>&emsp;<a href=#electronic-design-automation>2.25 Electronic Design Automation (EDA)</a></td>
+	<td>&emsp;<a href=#conjunctive-query-containment>2.26 Conjunctive Query Containment</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#predict+optimize>2.27 Predict+Optimize</a></td>
-	<td>&emsp;<a href=#optimal-power-flow>2.28 Optimal Power Flow</a></td>
+	<td>&emsp;<a href=#virtual-network-embedding>2.27 Virtual Network Embedding (VNE)</a></td>
+	<td>&emsp;<a href=#predict+optimize>2.28 Predict+Optimize</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#facility-location-problem>2.29 Facility Location Problem (FLP)</a></td>
-	<td>&emsp;<a href=#portfolio-optimization>2.30 Portfolio Optimization (PortOpt)</a></td>
+	<td>&emsp;<a href=#optimal-power-flow>2.29 Optimal Power Flow</a></td>
+	<td>&emsp;<a href=#facility-location-problem>2.30 Facility Location Problem (FLP)</a></td>
 </tr>
 <tr>
 	<td>&emsp;<a href=#sorting-&-ranking>2.31 Sorting & Ranking (Sort&Rank)</a></td>
@@ -253,17 +253,17 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 
     *Liu, Xuan, Lin Zhang, Jiaqi Sun, Yujiu Yang and Haiqing Yang*
 
-23. **LVM-Med: Learning Large-Scale Self-Supervised Vision Models for Medical Imaging via Second-order Graph Matching** NeurIPS, 2023. [paper](https://openreview.net/forum?id=xE7oH5iVGK), [code](https://github.com/duyhominhnguyen/LVM-Med)
+23. **⭐LinSATNet: The Positive Linear Satisfiability Neural Networks** ICML, 2023. [paper](https://icml.cc/virtual/2023/poster/25110), [code](https://github.com/Thinklab-SJTU/LinSATNet)
+
+    *Runzhong Wang and Yunhao Zhang and Ziao Guo and Tianyi Chen and Xiaokang Yang and Junchi Yan*
+
+24. **LVM-Med: Learning Large-Scale Self-Supervised Vision Models for Medical Imaging via Second-order Graph Matching** NeurIPS, 2023. [paper](https://openreview.net/forum?id=xE7oH5iVGK), [code](https://github.com/duyhominhnguyen/LVM-Med)
 
     *Nguyen, Duy MH and Nguyen, Hoang and Diep, Nghiem T and Pham, Tan N and Cao, Tri and Nguyen, Binh T and Swoboda, Paul and Ho, Nhat and Albarqouni, Shadi and Xie, Pengtao and others*
 
-24. **Improving Graph Matching with Positional Reconstruction Encoder-Decoder Network** NeurIPS, 2023. [paper](https://openreview.net/forum?id=28RTu9MOT6)
+25. **Improving Graph Matching with Positional Reconstruction Encoder-Decoder Network** NeurIPS, 2023. [paper](https://openreview.net/forum?id=28RTu9MOT6)
 
     *Zhou, Yixiao and Jia, Ruiqi and Lin, Hongxiang and Quan, Hefeng and Zhao, Yumeng and Lyu, Xiaoqing*
-
-25. **⭐LinSATNet: The Positive Linear Satisfiability Neural Networks** ICML, 2023. [paper](https://icml.cc/virtual/2023/poster/25110), [code](https://github.com/Thinklab-SJTU/LinSATNet)
-
-    *Runzhong Wang and Yunhao Zhang and Ziao Guo and Tianyi Chen and Xiaokang Yang and Junchi Yan*
 
 ### [Quadratic Assignment Problem](#content)
 
@@ -389,61 +389,61 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 
     *Simon Geisler, Johanna Sommer, Jan Schuchardt, Aleksandar Bojchevski and Stephan Günnemann*
 
-27. **Learning to CROSS exchange to solve min-max vehicle routing problems** ICLR, 2023. [paper](https://openreview.net/forum?id=ZcnzsHC10Y)
+27. **⭐LinSATNet: The Positive Linear Satisfiability Neural Networks** ICML, 2023. [paper](https://icml.cc/virtual/2023/poster/25110), [code](https://github.com/Thinklab-SJTU/LinSATNet)
+
+    *Runzhong Wang and Yunhao Zhang and Ziao Guo and Tianyi Chen and Xiaokang Yang and Junchi Yan*
+
+28. **Learning to CROSS exchange to solve min-max vehicle routing problems** ICLR, 2023. [paper](https://openreview.net/forum?id=ZcnzsHC10Y)
 
     *Kim, Minjun and Park, Junyoung and Park, Jinkyoo*
 
-28. **Generalize Learned Heuristics to Solve Large-scale Vehicle Routing Problems in Real-time** ICLR, 2023. [paper](https://openreview.net/forum?id=6ZajpxqTlQ)
+29. **Generalize Learned Heuristics to Solve Large-scale Vehicle Routing Problems in Real-time** ICLR, 2023. [paper](https://openreview.net/forum?id=6ZajpxqTlQ)
 
     *Hou, Qingchun and Yang, Jingwei and Su, Yiqiang and Wang, Xiaoqing and Deng, Yuming*
 
-29. **⭐ROCO: A General Framework for Evaluating Robustness of Combinatorial Optimization Solvers on Graphs** ICLR, 2023. [paper](https://openreview.net/forum?id=2r6YMqz4Mml), [code](https://github.com/Thinklab-SJTU/ROCO)
+30. **⭐ROCO: A General Framework for Evaluating Robustness of Combinatorial Optimization Solvers on Graphs** ICLR, 2023. [paper](https://openreview.net/forum?id=2r6YMqz4Mml), [code](https://github.com/Thinklab-SJTU/ROCO)
 
     *Lu, Han and Li, Zenan and Wang, Runzhong and Ren, Qibing and Li, Xijun and Yuan, Mingxuan and Zeng, Jia and Yang, Xiaokang and Yan, Junchi*
 
-30. **Pointerformer: Deep Reinforced Multi-Pointer Transformer for the Traveling Salesman Problem** Arxiv, 2023. [paper](https://arxiv.org/abs/2304.09407), [code](https://github.com/Pointerformer/Pointerformer)
+31. **Pointerformer: Deep Reinforced Multi-Pointer Transformer for the Traveling Salesman Problem** Arxiv, 2023. [paper](https://arxiv.org/abs/2304.09407), [code](https://github.com/Pointerformer/Pointerformer)
 
     *Yan Jin, Yuandong Ding, Xuanhao Pan, Kun He, Li Zhao, Tao Qin, Lei Song, Jiang Bian*
 
-31. **H-tsp: Hierarchically solving the large-scale traveling salesman problem** AAAI, 2023. [paper](https://www.microsoft.com/en-us/research/publication/h-tsp-hierarchically-solving-the-large-scale-traveling-salesman-problem/), [code](https://github.com/Learning4Optimization-HUST/H-TSP)
+32. **H-tsp: Hierarchically solving the large-scale traveling salesman problem** AAAI, 2023. [paper](https://www.microsoft.com/en-us/research/publication/h-tsp-hierarchically-solving-the-large-scale-traveling-salesman-problem/), [code](https://github.com/Learning4Optimization-HUST/H-TSP)
 
     *Xuanhao Pan,  Yan Jin,  Yuandong Ding,  Mingxiao Feng,  Li Zhao,  Lei Song,  Jiang Bian*
 
-32. **Select and Optimize: Learning to solve large-scale TSP instances** AISTATS, 2023. [paper](https://proceedings.mlr.press/v206/cheng23a.html)
+33. **Select and Optimize: Learning to solve large-scale TSP instances** AISTATS, 2023. [paper](https://proceedings.mlr.press/v206/cheng23a.html)
 
     *Hanni Cheng, Haosi Zheng, Ya Cong, Weihao Jiang, Shiliang Pu*
 
-33. **Multi-View Graph Contrastive Learning for Solving Vehicle Routing Problems** UAI, 2023. [paper](https://openreview.net/pdf?id=Z-mRKVaxVU3)
+34. **Multi-View Graph Contrastive Learning for Solving Vehicle Routing Problems** UAI, 2023. [paper](https://openreview.net/pdf?id=Z-mRKVaxVU3)
 
     *Yuan Jiang, Zhiguang Cao, Yaoxin Wu, Jie Zhang*
 
-34. **Revisiting Sampling for Combinatorial Optimization** ICML, 2023. [paper](https://icml.cc/virtual/2023/poster/23661)
+35. **Revisiting Sampling for Combinatorial Optimization** ICML, 2023. [paper](https://icml.cc/virtual/2023/poster/23661)
 
     *Sun, Haoran, Goshvadi Katayoon,Nova Azade,Schuurmans  Dale and Dai Hanjun.*
 
-35. **Meta-SAGE: Scale Meta-Learning Scheduled Adaptation with Guided Exploration for Mitigating Scale Shift on Combinatorial Optimization** ICML, 2023. [paper](https://icml.cc/virtual/2023/poster/25138)
+36. **Meta-SAGE: Scale Meta-Learning Scheduled Adaptation with Guided Exploration for Mitigating Scale Shift on Combinatorial Optimization** ICML, 2023. [paper](https://icml.cc/virtual/2023/poster/25138)
 
     *Son, Jiwoo and Kim, Minsu and Kim, Hyeonah and Park, Jinkyoo*
 
-36. **Towards Omni-generalizable Neural Methods for Vehicle Routing Problems** ICML, 2023. [paper](https://icml.cc/virtual/2023/poster/25267), [code](https://github.com/RoyalSkye/Omni-VRP)
+37. **Towards Omni-generalizable Neural Methods for Vehicle Routing Problems** ICML, 2023. [paper](https://icml.cc/virtual/2023/poster/25267), [code](https://github.com/RoyalSkye/Omni-VRP)
 
     *Zhou Jianan, Yaoxin Wu, Wen Song, Zhiguang Cao, Jie Zhang*
 
-37. **DeepACO: Neural-enhanced Ant Systems for Combinatorial Optimization** NeurIPS, 2023. [paper](https://arxiv.org/abs/2309.14032), [code](https://github.com/henry-yeh/DeepACO)
+38. **DeepACO: Neural-enhanced Ant Systems for Combinatorial Optimization** NeurIPS, 2023. [paper](https://arxiv.org/abs/2309.14032), [code](https://github.com/henry-yeh/DeepACO)
 
     *Haoran Ye, Jiarui Wang, Zhiguang Cao, Helan Liang, Yong Li*
 
-38. **Neural Combinatorial Optimization with Heavy Decoder: Toward Large Scale Generalization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=RBI4oAbdpm)
+39. **Neural Combinatorial Optimization with Heavy Decoder: Toward Large Scale Generalization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=RBI4oAbdpm)
 
     *Fu Luo, Xi Lin, Fei Liu, Qingfu Zhang, Zhenkun Wang*
 
-39. **DIFUSCO: Graph-based Diffusion Solvers for Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=JV8Ff0lgVV), [code](https://github.com/Edward-Sun/DIFUSCO)
+40. **DIFUSCO: Graph-based Diffusion Solvers for Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=JV8Ff0lgVV), [code](https://github.com/Edward-Sun/DIFUSCO)
 
     *Zhiqing Sun, Yiming Yang*
-
-40. **⭐From Distribution Learning in Training to Gradient Search in Testing for Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=JtF0ugNMv2), [code](https://github.com/Thinklab-SJTU/T2TCO)
-
-    *Yang Li, Jinpei Guo, Runzhong Wang, Junchi Yan*
 
 41. **DeepACO: Neural-enhanced Ant Systems for Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=cd5D1DD923), [code](https://github.com/henry-yeh/DeepACO)
 
@@ -489,9 +489,23 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 
     *Ma, Yining and Cao, Zhiguang and Chee, Yeow Meng*
 
-52. **⭐LinSATNet: The Positive Linear Satisfiability Neural Networks** ICML, 2023. [paper](https://icml.cc/virtual/2023/poster/25110), [code](https://github.com/Thinklab-SJTU/LinSATNet)
+52. **⭐From Distribution Learning in Training to Gradient Search in Testing for Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=JtF0ugNMv2), [code](https://github.com/Thinklab-SJTU/T2TCO)
+
+    *Yang Li, Jinpei Guo, Runzhong Wang, Junchi Yan*
+
+### [Portfolio Optimization](#content)
+
+1. **⭐LinSATNet: The Positive Linear Satisfiability Neural Networks** ICML, 2023. [paper](https://icml.cc/virtual/2023/poster/25110), [code](https://github.com/Thinklab-SJTU/LinSATNet)
 
     *Runzhong Wang and Yunhao Zhang and Ziao Guo and Tianyi Chen and Xiaokang Yang and Junchi Yan*
+
+2. **Integrating prediction in mean-variance portfolio optimization** Quantitative Finance, 2023. [paper](https://arxiv.org/pdf/2102.09287.pdf)
+
+    *Butler, Andrew and Kwon, Roy H*
+
+3. **⭐Towards One-shot Neural Combinatorial Solvers: Theoretical and Empirical Notes on the Cardinality-Constrained Case** ICLR, 2023. [paper](https://openreview.net/forum?id=h21yJhdzbwz), [code](https://github.com/Thinklab-SJTU/One-Shot-Cardinality-NN-Solver)
+
+    *Wang, Runzhong and Shen, Li and Chen, Yiting and Yan, Junchi and Yang, Xiaokang and Tao, Dacheng*
 
 ### [Maximal Cut](#content)
 
@@ -1672,20 +1686,6 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 2. **⭐Towards One-shot Neural Combinatorial Solvers: Theoretical and Empirical Notes on the Cardinality-Constrained Case** ICLR, 2023. [paper](https://openreview.net/forum?id=h21yJhdzbwz), [code](https://github.com/Thinklab-SJTU/One-Shot-Cardinality-NN-Solver)
 
     *Wang, Runzhong and Shen, Li and Chen, Yiting and Yan, Junchi and Yang, Xiaokang and Tao, Dacheng*
-
-### [Portfolio Optimization](#content)
-
-1. **Integrating prediction in mean-variance portfolio optimization** Quantitative Finance, 2023. [paper](https://arxiv.org/pdf/2102.09287.pdf)
-
-    *Butler, Andrew and Kwon, Roy H*
-
-2. **⭐Towards One-shot Neural Combinatorial Solvers: Theoretical and Empirical Notes on the Cardinality-Constrained Case** ICLR, 2023. [paper](https://openreview.net/forum?id=h21yJhdzbwz), [code](https://github.com/Thinklab-SJTU/One-Shot-Cardinality-NN-Solver)
-
-    *Wang, Runzhong and Shen, Li and Chen, Yiting and Yan, Junchi and Yang, Xiaokang and Tao, Dacheng*
-
-3. **⭐LinSATNet: The Positive Linear Satisfiability Neural Networks** ICML, 2023. [paper](https://icml.cc/virtual/2023/poster/25110), [code](https://github.com/Thinklab-SJTU/LinSATNet)
-
-    *Runzhong Wang and Yunhao Zhang and Ziao Guo and Tianyi Chen and Xiaokang Yang and Junchi Yan*
 
 ### [Sorting & Ranking](#content)
 
