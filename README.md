@@ -433,63 +433,59 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 
     *Zhou Jianan, Yaoxin Wu, Wen Song, Zhiguang Cao, Jie Zhang*
 
-38. **DeepACO: Neural-enhanced Ant Systems for Combinatorial Optimization** NeurIPS, 2023. [paper](https://arxiv.org/abs/2309.14032), [code](https://github.com/henry-yeh/DeepACO)
-
-    *Haoran Ye, Jiarui Wang, Zhiguang Cao, Helan Liang, Yong Li*
-
-39. **Neural Combinatorial Optimization with Heavy Decoder: Toward Large Scale Generalization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=RBI4oAbdpm)
+38. **Neural Combinatorial Optimization with Heavy Decoder: Toward Large Scale Generalization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=RBI4oAbdpm)
 
     *Fu Luo, Xi Lin, Fei Liu, Qingfu Zhang, Zhenkun Wang*
 
-40. **DIFUSCO: Graph-based Diffusion Solvers for Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=JV8Ff0lgVV), [code](https://github.com/Edward-Sun/DIFUSCO)
+39. **DIFUSCO: Graph-based Diffusion Solvers for Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=JV8Ff0lgVV), [code](https://github.com/Edward-Sun/DIFUSCO)
 
     *Zhiqing Sun, Yiming Yang*
 
-41. **DeepACO: Neural-enhanced Ant Systems for Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=cd5D1DD923), [code](https://github.com/henry-yeh/DeepACO)
+40. **DeepACO: Neural-enhanced Ant Systems for Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=cd5D1DD923), [code](https://github.com/henry-yeh/DeepACO)
 
     *Ye, Haoran and Wang, Jiarui and Cao, Zhiguang and Liang, Helan and Li, Yong*
 
-42. **Winner Takes It All: Training Performant RL Populations for Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=v6VpqGcGAR)
+41. **Winner Takes It All: Training Performant RL Populations for Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=v6VpqGcGAR)
 
     *Grinsztajn, Nathan and Furelos-Blanco, Daniel and Surana, Shikha and Bonnet, Cl{\'e}ment and Barrett, Thomas D*
 
-43. **Optimizing Solution-Samplers for Combinatorial Problems: The Landscape of Policy-Gradient Methods** NeurIPS, 2023. [paper](https://openreview.net/forum?id=mmTy1iyU5G), [code](https://openreview.net/attachment?id=mmTy1iyU5G&name=supplementary_material)
+42. **Optimizing Solution-Samplers for Combinatorial Problems: The Landscape of Policy-Gradient Methods** NeurIPS, 2023. [paper](https://openreview.net/forum?id=mmTy1iyU5G), [code](https://openreview.net/attachment?id=mmTy1iyU5G&name=supplementary_material)
 
     *Caramanis, Constantine and Fotakis, Dimitris and Kalavasis, Alkis and Kontonis, Vasilis and Tzamos, Christos*
 
-44. **Combinatorial Optimization with Policy Adaptation using Latent Space Search** NeurIPS, 2023. [paper](https://openreview.net/forum?id=vpMBqdt9Hl)
+43. **Combinatorial Optimization with Policy Adaptation using Latent Space Search** NeurIPS, 2023. [paper](https://openreview.net/forum?id=vpMBqdt9Hl)
 
     *Chalumeau, Felix and Surana, Shikha and Bonnet, Cl{\'e}ment and Grinsztajn, Nathan and Pretorius, Arnu and Laterre, Alexandre and Barrett, Thomas D*
 
-45. **Efficient Meta Neural Heuristic for Multi-Objective Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=593fc38lhN), [code](https://github.com/bill-cjb/EMNH)
+44. **Efficient Meta Neural Heuristic for Multi-Objective Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=593fc38lhN), [code](https://github.com/bill-cjb/EMNH)
 
     *Chen, Jinbiao and Wang, Jiahai and Zhang, Zizhen and Cao, Zhiguang and Ye, Te and Chen, Siyuan*
 
-46. **BQ-NCO: Bisimulation Quotienting for Efficient Neural Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=BRqlkTDvvm), [code](https://github.com/naver/bq-nco)
+45. **BQ-NCO: Bisimulation Quotienting for Efficient Neural Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=BRqlkTDvvm), [code](https://github.com/naver/bq-nco)
 
     *Drakulic, Darko and Michel, Sofia and Mai, Florian and Sors, Arnaud and Andreoli, Jean-Marc*
 
-47. **Neural Combinatorial Optimization with Heavy Decoder: Toward Large Scale Generalization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=RBI4oAbdpm), [code](https://github.com/CIAM-Group/NCO_code/tree/main/single_objective/LEHD)
+46. **Neural Combinatorial Optimization with Heavy Decoder: Toward Large Scale Generalization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=RBI4oAbdpm), [code](https://github.com/CIAM-Group/NCO_code/tree/main/single_objective/LEHD)
 
     *Luo, Fu and Lin, Xi and Liu, Fei and Zhang, Qingfu and Wang, Zhenkun*
 
-48. **Neural Multi-Objective Combinatorial Optimization with Diversity Enhancement** NeurIPS, 2023. [paper](https://openreview.net/forum?id=N4JkStI1fe), [code](https://github.com/bill-cjb/NHDE)
+47. **Neural Multi-Objective Combinatorial Optimization with Diversity Enhancement** NeurIPS, 2023. [paper](https://openreview.net/forum?id=N4JkStI1fe), [code](https://github.com/bill-cjb/NHDE)
 
     *Chen, Jinbiao and Zhang, Zizhen and Cao, Zhiguang and Wu, Yaoxin and Ma, Yining and Ye, Te and Wang, Jiahai*
 
-49. **Unsupervised Learning for Solving the Travelling Salesman Problem** NeurIPS, 2023. [paper](https://openreview.net/forum?id=lAEc7aIW20)
+48. **Unsupervised Learning for Solving the Travelling Salesman Problem** NeurIPS, 2023. [paper](https://openreview.net/forum?id=lAEc7aIW20)
 
     *Min, Yimeng and Bai, Yiwei and Gomes, Carla P*
 
-50. **Ensemble-based Deep Reinforcement Learning for Vehicle Routing Problems under Distribution Shift** NeurIPS, 2023. [paper](https://openreview.net/forum?id=HoBbZ1vPAh)
+49. **Ensemble-based Deep Reinforcement Learning for Vehicle Routing Problems under Distribution Shift** NeurIPS, 2023. [paper](https://openreview.net/forum?id=HoBbZ1vPAh)
 
     *Jiang, Yuan and Cao, Zhiguang and Wu, Yaoxin and Song, Wen and Zhang, Jie*
 
-51. **Learning to Search Feasible and Infeasible Regions of Routing Problems with Flexible Neural k-Opt** NeurIPS, 2023. [paper](https://openreview.net/forum?id=q1JukwH2yP), [code](https://github.com/yining043/NeuOpt)
+50. **Learning to Search Feasible and Infeasible Regions of Routing Problems with Flexible Neural k-Opt** NeurIPS, 2023. [paper](https://openreview.net/forum?id=q1JukwH2yP), [code](https://github.com/yining043/NeuOpt)
 
     *Ma, Yining and Cao, Zhiguang and Chee, Yeow Meng*
 
-52. **⭐From Distribution Learning in Training to Gradient Search in Testing for Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=JtF0ugNMv2), [code](https://github.com/Thinklab-SJTU/T2TCO)
+51. **⭐From Distribution Learning in Training to Gradient Search in Testing for Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=JtF0ugNMv2), [code](https://github.com/Thinklab-SJTU/T2TCO)
 
     *Yang Li, Jinpei Guo, Runzhong Wang, Junchi Yan*
 
@@ -681,47 +677,43 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 
     *Zhou Jianan, Yaoxin Wu, Wen Song, Zhiguang Cao, Jie Zhang*
 
-23. **DeepACO: Neural-enhanced Ant Systems for Combinatorial Optimization** NeurIPS, 2023. [paper](https://arxiv.org/abs/2309.14032), [code](https://github.com/henry-yeh/DeepACO)
-
-    *Haoran Ye, Jiarui Wang, Zhiguang Cao, Helan Liang, Yong Li*
-
-24. **Neural Combinatorial Optimization with Heavy Decoder: Toward Large Scale Generalization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=RBI4oAbdpm)
+23. **Neural Combinatorial Optimization with Heavy Decoder: Toward Large Scale Generalization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=RBI4oAbdpm)
 
     *Fu Luo, Xi Lin, Fei Liu, Qingfu Zhang, Zhenkun Wang*
 
-25. **DeepACO: Neural-enhanced Ant Systems for Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=cd5D1DD923), [code](https://github.com/henry-yeh/DeepACO)
+24. **DeepACO: Neural-enhanced Ant Systems for Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=cd5D1DD923), [code](https://github.com/henry-yeh/DeepACO)
 
     *Ye, Haoran and Wang, Jiarui and Cao, Zhiguang and Liang, Helan and Li, Yong*
 
-26. **Winner Takes It All: Training Performant RL Populations for Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=v6VpqGcGAR)
+25. **Winner Takes It All: Training Performant RL Populations for Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=v6VpqGcGAR)
 
     *Grinsztajn, Nathan and Furelos-Blanco, Daniel and Surana, Shikha and Bonnet, Cl{\'e}ment and Barrett, Thomas D*
 
-27. **Combinatorial Optimization with Policy Adaptation using Latent Space Search** NeurIPS, 2023. [paper](https://openreview.net/forum?id=vpMBqdt9Hl)
+26. **Combinatorial Optimization with Policy Adaptation using Latent Space Search** NeurIPS, 2023. [paper](https://openreview.net/forum?id=vpMBqdt9Hl)
 
     *Chalumeau, Felix and Surana, Shikha and Bonnet, Cl{\'e}ment and Grinsztajn, Nathan and Pretorius, Arnu and Laterre, Alexandre and Barrett, Thomas D*
 
-28. **Efficient Meta Neural Heuristic for Multi-Objective Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=593fc38lhN), [code](https://github.com/bill-cjb/EMNH)
+27. **Efficient Meta Neural Heuristic for Multi-Objective Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=593fc38lhN), [code](https://github.com/bill-cjb/EMNH)
 
     *Chen, Jinbiao and Wang, Jiahai and Zhang, Zizhen and Cao, Zhiguang and Ye, Te and Chen, Siyuan*
 
-29. **BQ-NCO: Bisimulation Quotienting for Efficient Neural Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=BRqlkTDvvm), [code](https://github.com/naver/bq-nco)
+28. **BQ-NCO: Bisimulation Quotienting for Efficient Neural Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=BRqlkTDvvm), [code](https://github.com/naver/bq-nco)
 
     *Drakulic, Darko and Michel, Sofia and Mai, Florian and Sors, Arnaud and Andreoli, Jean-Marc*
 
-30. **Neural Combinatorial Optimization with Heavy Decoder: Toward Large Scale Generalization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=RBI4oAbdpm), [code](https://github.com/CIAM-Group/NCO_code/tree/main/single_objective/LEHD)
+29. **Neural Combinatorial Optimization with Heavy Decoder: Toward Large Scale Generalization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=RBI4oAbdpm), [code](https://github.com/CIAM-Group/NCO_code/tree/main/single_objective/LEHD)
 
     *Luo, Fu and Lin, Xi and Liu, Fei and Zhang, Qingfu and Wang, Zhenkun*
 
-31. **Neural Multi-Objective Combinatorial Optimization with Diversity Enhancement** NeurIPS, 2023. [paper](https://openreview.net/forum?id=N4JkStI1fe), [code](https://github.com/bill-cjb/NHDE)
+30. **Neural Multi-Objective Combinatorial Optimization with Diversity Enhancement** NeurIPS, 2023. [paper](https://openreview.net/forum?id=N4JkStI1fe), [code](https://github.com/bill-cjb/NHDE)
 
     *Chen, Jinbiao and Zhang, Zizhen and Cao, Zhiguang and Wu, Yaoxin and Ma, Yining and Ye, Te and Wang, Jiahai*
 
-32. **Ensemble-based Deep Reinforcement Learning for Vehicle Routing Problems under Distribution Shift** NeurIPS, 2023. [paper](https://openreview.net/forum?id=HoBbZ1vPAh)
+31. **Ensemble-based Deep Reinforcement Learning for Vehicle Routing Problems under Distribution Shift** NeurIPS, 2023. [paper](https://openreview.net/forum?id=HoBbZ1vPAh)
 
     *Jiang, Yuan and Cao, Zhiguang and Wu, Yaoxin and Song, Wen and Zhang, Jie*
 
-33. **Learning to Search Feasible and Infeasible Regions of Routing Problems with Flexible Neural k-Opt** NeurIPS, 2023. [paper](https://openreview.net/forum?id=q1JukwH2yP), [code](https://github.com/yining043/NeuOpt)
+32. **Learning to Search Feasible and Infeasible Regions of Routing Problems with Flexible Neural k-Opt** NeurIPS, 2023. [paper](https://openreview.net/forum?id=q1JukwH2yP), [code](https://github.com/yining043/NeuOpt)
 
     *Ma, Yining and Cao, Zhiguang and Chee, Yeow Meng*
 
@@ -881,11 +873,7 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 
     *Son, Jiwoo and Kim, Minsu and Kim, Hyeonah and Park, Jinkyoo*
 
-3. **DeepACO: Neural-enhanced Ant Systems for Combinatorial Optimization** NeurIPS, 2023. [paper](https://arxiv.org/abs/2309.14032), [code](https://github.com/henry-yeh/DeepACO)
-
-    *Haoran Ye, Jiarui Wang, Zhiguang Cao, Helan Liang, Yong Li*
-
-4. **DeepACO: Neural-enhanced Ant Systems for Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=cd5D1DD923), [code](https://github.com/henry-yeh/DeepACO)
+3. **DeepACO: Neural-enhanced Ant Systems for Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=cd5D1DD923), [code](https://github.com/henry-yeh/DeepACO)
 
     *Ye, Haoran and Wang, Jiarui and Cao, Zhiguang and Liang, Helan and Li, Yong*
 
@@ -1553,7 +1541,7 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 
     *Dong, Zehao and Cao, Weidong and Zhang, Muhan and Tao, Dacheng and Chen, Yixin and Zhang, Xuan*
 
-6. **HubRouter: Learning Global Routing via Hub Generation and Pin-hub Connection** NeurIPS, 2023. [paper](https://openreview.net/forum?id=f0Jj3C3Pnp)
+6. **⭐HubRouter: Learning Global Routing via Hub Generation and Pin-hub Connection** NeurIPS, 2023. [paper](https://openreview.net/forum?id=f0Jj3C3Pnp)
 
     *Du, Xingbo and Wang, Chonghua and Zhong, Ruizhe and Yan, Junchi*
 
