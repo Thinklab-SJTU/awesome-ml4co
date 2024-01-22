@@ -28,7 +28,7 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 </tr>
 <tr>
 	<td>&emsp;<a href=#job-shop-scheduling-problem>2.7 Job Shop Scheduling Problem (JSSP)</a></td>
-	<td>&emsp;<a href=#maximal/maximum-independent-set>2.8 Maximal/Maximum Independent Set</a></td>
+	<td>&emsp;<a href=#maximum-independent-set>2.8 Maximum Independent Set</a></td>
 </tr>
 <tr>
 	<td>&emsp;<a href=#generalization>2.9 Generalization</a></td>
@@ -52,35 +52,35 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 </tr>
 <tr>
 	<td>&emsp;<a href=#boolean-satisfiability>2.19 Boolean Satisfiability (SAT)</a></td>
-	<td>&emsp;<a href=#mixed-integer-programming>2.20 Mixed Integer Programming (MIP)</a></td>
+	<td>&emsp;<a href=#max-clique>2.20 Max Clique</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#causal-discovery>2.21 Causal Discovery</a></td>
-	<td>&emsp;<a href=#game-theoretic-semantics>2.22 Game Theoretic Semantics</a></td>
+	<td>&emsp;<a href=#mixed-integer-programming>2.21 Mixed Integer Programming (MIP)</a></td>
+	<td>&emsp;<a href=#causal-discovery>2.22 Causal Discovery</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#differentiable-optimization>2.23 Differentiable Optimization</a></td>
-	<td>&emsp;<a href=#car-dispatch>2.24 Car Dispatch</a></td>
+	<td>&emsp;<a href=#game-theoretic-semantics>2.23 Game Theoretic Semantics</a></td>
+	<td>&emsp;<a href=#differentiable-optimization>2.24 Differentiable Optimization</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#electronic-design-automation>2.25 Electronic Design Automation (EDA)</a></td>
-	<td>&emsp;<a href=#conjunctive-query-containment>2.26 Conjunctive Query Containment</a></td>
+	<td>&emsp;<a href=#car-dispatch>2.25 Car Dispatch</a></td>
+	<td>&emsp;<a href=#electronic-design-automation>2.26 Electronic Design Automation (EDA)</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#virtual-network-embedding>2.27 Virtual Network Embedding (VNE)</a></td>
-	<td>&emsp;<a href=#predict+optimize>2.28 Predict+Optimize</a></td>
+	<td>&emsp;<a href=#conjunctive-query-containment>2.27 Conjunctive Query Containment</a></td>
+	<td>&emsp;<a href=#virtual-network-embedding>2.28 Virtual Network Embedding (VNE)</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#optimal-power-flow>2.29 Optimal Power Flow</a></td>
-	<td>&emsp;<a href=#facility-location-problem>2.30 Facility Location Problem (FLP)</a></td>
+	<td>&emsp;<a href=#predict+optimize>2.29 Predict+Optimize</a></td>
+	<td>&emsp;<a href=#optimal-power-flow>2.30 Optimal Power Flow</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#sorting-&-ranking>2.31 Sorting & Ranking (Sort&Rank)</a></td>
-	<td>&emsp;<a href=#combinatorial-drug-recommendation>2.32 Combinatorial Drug Recommendation</a></td>
+	<td>&emsp;<a href=#facility-location-problem>2.31 Facility Location Problem (FLP)</a></td>
+	<td>&emsp;<a href=#sorting-&-ranking>2.32 Sorting & Ranking (Sort&Rank)</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#stochastic-combinatorial-optimization>2.33 Stochastic Combinatorial Optimization</a></td>
-<td>&ensp;</td>
+	<td>&emsp;<a href=#combinatorial-drug-recommendation>2.33 Combinatorial Drug Recommendation</a></td>
+	<td>&emsp;<a href=#stochastic-combinatorial-optimization>2.34 Stochastic Combinatorial Optimization</a></td>
 </tr>
 </table>
 
@@ -557,6 +557,10 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 
     *Sanokowski, Sebastian and Berghammer, Wilhelm Franz and Hochreiter, Sepp and Lehner, Sebastian*
 
+11. **DISCS: A Benchmark for Discrete Sampling** NeurlPS, 2023. [paper](https://openreview.net/forum?id=oi1MUMk5NF), [code](https://github.com/google-research/discs)
+
+    *Katayoon Goshvadi, Haoran Sun, Xingchao Liu, Azade Nova, Ruqi Zhang, Will Sussman Grathwohl, Dale Schuurmans, Hanjun Dai*
+
 ### [Vehicle Routing Problem](#content)
 
 1. **Learning to Perform Local Rewriting for Combinatorial Optimization.** NeurIPS, 2019. [paper](https://arxiv.org/abs/1810.00337), [code](https://github.com/facebookresearch/neural-rewriter)
@@ -745,7 +749,7 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 
     *Yang, Yijun, Tianyi Zhou, Jing Jiang, Guodong Long and Yuhui Shi.*
 
-### [Maximal/Maximum Independent Set](#content)
+### [Maximum Independent Set](#content)
 
 1. **Combinatorial Optimization with Graph Convolutional Networks and Guided Tree Search.** NeurIPS, 2018. [paper](https://arxiv.org/abs/1810.10659)
 
@@ -810,6 +814,10 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 16. **Maximum Independent Set: Self-Training through Dynamic Programming** NeurlPS, 2023. [paper](https://openreview.net/forum?id=igE3Zbxvws), [code](https://github.com/LIONS-EPFL/dynamic-MIS)
 
     *Brusca, Lorenzo and Quaedvlieg, Lars CPM and Skoulakis, Stratis and Chrysos, Grigorios G and Cevher, Volkan*
+
+17. **DISCS: A Benchmark for Discrete Sampling** NeurlPS, 2023. [paper](https://openreview.net/forum?id=oi1MUMk5NF), [code](https://github.com/google-research/discs)
+
+    *Katayoon Goshvadi, Haoran Sun, Xingchao Liu, Azade Nova, Ruqi Zhang, Will Sussman Grathwohl, Dale Schuurmans, Hanjun Dai*
 
 ### [Generalization](#content)
 
@@ -1212,6 +1220,16 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 30. **⭐HardSATGEN: Understanding the Difficulty of Hard SAT Formula Generation and A Strong Structure-Hardness-Aware Baseline** KDD, 2023. [paper](https://dl.acm.org/doi/10.1145/3580305.3599837), [code](https://github.com/Thinklab-SJTU/HardSATGEN)
 
     *Yang Li, Xinyan Chen, Wenxuan Guo, Xijun Li, Wanqian Luo, Junhua Huang, Hui-Ling Zhen, Mingxuan Yuan, Junchi Yan*
+
+### [Max Clique](#content)
+
+1. **Can Hybrid Geometric Scattering Networks Help Solve the Maximum Clique Problem** NeurIPS, 2022. [paper](https://openreview.net/forum?id=uxc8hDSs_xh), [code](https://github.com/yimengmin/geometricscatteringmaximalclique)
+
+    *Yimeng Min, Frederik Wenkel, Michael Perlmutter, Guy Wolf*
+
+2. **DISCS: A Benchmark for Discrete Sampling** NeurlPS, 2023. [paper](https://openreview.net/forum?id=oi1MUMk5NF), [code](https://github.com/google-research/discs)
+
+    *Katayoon Goshvadi, Haoran Sun, Xingchao Liu, Azade Nova, Ruqi Zhang, Will Sussman Grathwohl, Dale Schuurmans, Hanjun Dai*
 
 ### [Mixed Integer Programming](#content)
 
