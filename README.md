@@ -565,6 +565,10 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 
     *Katayoon Goshvadi, Haoran Sun, Xingchao Liu, Azade Nova, Ruqi Zhang, Will Sussman Grathwohl, Dale Schuurmans, Hanjun Dai*
 
+12. **A Diffusion Model Framework for Unsupervised Neural Combinatorial Optimization** ICML, 2024. [paper](https://arxiv.org/abs/2406.01661), [code](https://github.com/ml-jku/DIffUCO)
+
+    *Sanokowski, Sebastian and Hochreiter, Sepp and Lehner, Sebastian*
+
 ### [Vehicle Routing Problem](#content)
 
 1. **Learning to Perform Local Rewriting for Combinatorial Optimization.** NeurIPS, 2019. [paper](https://arxiv.org/abs/1810.00337), [code](https://github.com/facebookresearch/neural-rewriter)
@@ -826,6 +830,10 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 17. **DISCS: A Benchmark for Discrete Sampling** NeurlPS, 2023. [paper](https://openreview.net/forum?id=oi1MUMk5NF), [code](https://github.com/google-research/discs)
 
     *Katayoon Goshvadi, Haoran Sun, Xingchao Liu, Azade Nova, Ruqi Zhang, Will Sussman Grathwohl, Dale Schuurmans, Hanjun Dai*
+
+18. **A Diffusion Model Framework for Unsupervised Neural Combinatorial Optimization** ICML, 2024. [paper](https://arxiv.org/abs/2406.01661), [code](https://github.com/ml-jku/DIffUCO)
+
+    *Sanokowski, Sebastian and Hochreiter, Sepp and Lehner, Sebastian*
 
 ### [Generalization](#content)
 
@@ -1235,9 +1243,17 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 
     *Yimeng Min, Frederik Wenkel, Michael Perlmutter, Guy Wolf*
 
-2. **DISCS: A Benchmark for Discrete Sampling** NeurlPS, 2023. [paper](https://openreview.net/forum?id=oi1MUMk5NF), [code](https://github.com/google-research/discs)
+2. **Variational Annealing on Graphs for Combinatorial Optimization** NeurlPS, 2023. [paper](https://openreview.net/forum?id=SLx7paoaTU), [code](https://github.com/ml-jku/VAG-CO)
+
+    *Sanokowski, Sebastian and Berghammer, Wilhelm Franz and Hochreiter, Sepp and Lehner, Sebastian*
+
+3. **DISCS: A Benchmark for Discrete Sampling** NeurlPS, 2023. [paper](https://openreview.net/forum?id=oi1MUMk5NF), [code](https://github.com/google-research/discs)
 
     *Katayoon Goshvadi, Haoran Sun, Xingchao Liu, Azade Nova, Ruqi Zhang, Will Sussman Grathwohl, Dale Schuurmans, Hanjun Dai*
+
+4. **A Diffusion Model Framework for Unsupervised Neural Combinatorial Optimization** ICML, 2024. [paper](https://arxiv.org/abs/2406.01661), [code](https://github.com/ml-jku/DIffUCO)
+
+    *Sanokowski, Sebastian and Hochreiter, Sepp and Lehner, Sebastian*
 
 ### [Mixed Integer Programming](#content)
 
