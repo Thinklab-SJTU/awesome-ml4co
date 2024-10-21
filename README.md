@@ -581,6 +581,10 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 
     *Sanokowski, Sebastian and Hochreiter, Sepp and Lehner, Sebastian*
 
+13. **Distributed Constrained Combinatorial Optimization leveraging Hypergraph Neural Networks** Nature Machine Intelligence, 2024. [paper](https://arxiv.org/abs/2311.09375), [code](https://github.com/nasheydari/HypOp)
+
+    *Nasimeh Heydaribeni, Xinrui Zhan, Ruisi Zhang, Tina Eliassi-Rad, Farinaz Koushanfar*
+
 ### [Vehicle Routing Problem](#content)
 
 1. **Learning to Perform Local Rewriting for Combinatorial Optimization.** NeurIPS, 2019. [paper](https://arxiv.org/abs/1810.00337), [code](https://github.com/facebookresearch/neural-rewriter)
@@ -850,6 +854,10 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 18. **A Diffusion Model Framework for Unsupervised Neural Combinatorial Optimization** ICML, 2024. [paper](https://arxiv.org/abs/2406.01661), [code](https://github.com/ml-jku/DIffUCO)
 
     *Sanokowski, Sebastian and Hochreiter, Sepp and Lehner, Sebastian*
+
+19. **Distributed Constrained Combinatorial Optimization leveraging Hypergraph Neural Networks** Nature Machine Intelligence, 2024. [paper](https://arxiv.org/abs/2311.09375), [code](https://github.com/nasheydari/HypOp)
+
+    *Nasimeh Heydaribeni, Xinrui Zhan, Ruisi Zhang, Tina Eliassi-Rad, Farinaz Koushanfar*
 
 ### [Generalization](#content)
 
@@ -1243,6 +1251,10 @@ Knapsack,A Pointer Network Based Deep Learning Algorithm  for 0-1 Knapsack Probl
 30. **⭐HardSATGEN: Understanding the Difficulty of Hard SAT Formula Generation and A Strong Structure-Hardness-Aware Baseline** KDD, 2023. [paper](https://dl.acm.org/doi/10.1145/3580305.3599837), [code](https://github.com/Thinklab-SJTU/HardSATGEN)
 
     *Yang Li, Xinyan Chen, Wenxuan Guo, Xijun Li, Wanqian Luo, Junhua Huang, Hui-Ling Zhen, Mingxuan Yuan, Junchi Yan*
+
+31. **Distributed Constrained Combinatorial Optimization leveraging Hypergraph Neural Networks** Nature Machine Intelligence, 2024. [paper](https://arxiv.org/abs/2311.09375), [code](https://github.com/nasheydari/HypOp)
+
+    *Nasimeh Heydaribeni, Xinrui Zhan, Ruisi Zhang, Tina Eliassi-Rad, Farinaz Koushanfar*
 
 ### [Max Clique](#content)
 
