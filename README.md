@@ -729,7 +729,11 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 
     *Yuma Ichikawa*
 
-15. **A Diffusion Model Framework for Unsupervised Neural Combinatorial Optimization** ICML, 2024. [paper](https://arxiv.org/abs/2406.01661), [code](https://github.com/ml-jku/DIffUCO)
+15. **Distributed Constrained Combinatorial Optimization leveraging Hypergraph Neural Networks** Nature Machine Intelligence, 2024. [paper](https://arxiv.org/abs/2311.09375), [code](https://github.com/nasheydari/HypOp)
+
+    *Nasimeh Heydaribeni, Xinrui Zhan, Ruisi Zhang, Tina Eliassi-Rad, Farinaz Koushanfar*
+
+16. **A Diffusion Model Framework for Unsupervised Neural Combinatorial Optimization** ICML, 2024. [paper](https://arxiv.org/abs/2406.01661), [code](https://github.com/ml-jku/DIffUCO)
 
     *Sanokowski, Sebastian and Hochreiter, Sepp and Lehner, Sebastian*
 
@@ -969,11 +973,15 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 
     *Yuma Ichikawa*
 
-21. **Efficient Combinatorial Optimization via Heat Diffusion** NeurlPS, 2024. [paper](https://openreview.net/pdf?id=psDrko9v1D)
+21. **Distributed Constrained Combinatorial Optimization leveraging Hypergraph Neural Networks** Nature Machine Intelligence, 2024. [paper](https://arxiv.org/abs/2311.09375), [code](https://github.com/nasheydari/HypOp)
+
+    *Nasimeh Heydaribeni, Xinrui Zhan, Ruisi Zhang, Tina Eliassi-Rad, Farinaz Koushanfar*
+
+22. **Efficient Combinatorial Optimization via Heat Diffusion** NeurlPS, 2024. [paper](https://openreview.net/pdf?id=psDrko9v1D)
 
     *Hengyuan Ma, Wenlian Lu, Jianfeng Feng*
 
-22. **A Diffusion Model Framework for Unsupervised Neural Combinatorial Optimization** ICML, 2024. [paper](https://arxiv.org/abs/2406.01661), [code](https://github.com/ml-jku/DIffUCO)
+23. **A Diffusion Model Framework for Unsupervised Neural Combinatorial Optimization** ICML, 2024. [paper](https://arxiv.org/abs/2406.01661), [code](https://github.com/ml-jku/DIffUCO)
 
     *Sanokowski, Sebastian and Hochreiter, Sepp and Lehner, Sebastian*
 
@@ -1374,7 +1382,11 @@ Knapsack,A Pointer Network Based Deep Learning Algorithm  for 0-1 Knapsack Probl
 
     *Yang Li, Xinyan Chen, Wenxuan Guo, Xijun Li, Wanqian Luo, Junhua Huang, Hui-Ling Zhen, Mingxuan Yuan, Junchi Yan*
 
-31. **Efficient Combinatorial Optimization via Heat Diffusion** NeurlPS, 2024. [paper](https://openreview.net/pdf?id=psDrko9v1D)
+31. **Distributed Constrained Combinatorial Optimization leveraging Hypergraph Neural Networks** Nature Machine Intelligence, 2024. [paper](https://arxiv.org/abs/2311.09375), [code](https://github.com/nasheydari/HypOp)
+
+    *Nasimeh Heydaribeni, Xinrui Zhan, Ruisi Zhang, Tina Eliassi-Rad, Farinaz Koushanfar*
+
+32. **Efficient Combinatorial Optimization via Heat Diffusion** NeurlPS, 2024. [paper](https://openreview.net/pdf?id=psDrko9v1D)
 
     *Hengyuan Ma, Wenlian Lu, Jianfeng Feng*
 
