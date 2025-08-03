@@ -1751,6 +1751,10 @@ Published*
 
     *Geng, Zijie and Li, Xijun and Wang, Jie and Li, Xiao and Zhang, Yongdong and Wu, Feng*
 
+59. **Scalable Primal Heuristics Using Graph Neural Networks for Combinatorial Optimization** JAIR, 2024. [journal](https://www.jair.org/index.php/jair/article/view/14972), [code](https://github.com/furkancanturk/gnn4co)
+
+    *Canturk, Furkan and Varol, Taha and Aydogan, Reyhan and Ozener, Okan O*
+
 ### [Causal Discovery](#content)
 
 1. **DAGs with NO TEARS: Continuous Optimization for Structure Learning.** NeurIPS, 2018. [paper](https://arxiv.org/pdf/1803.01422.pdf)
