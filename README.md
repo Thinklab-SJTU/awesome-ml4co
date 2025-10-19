@@ -700,6 +700,15 @@ Published*
 
     *Yang Li, Jiale Ma, Wenzheng Pan, Runzhong Wang, Haoyu Geng, Nianzu Yang, Junchi Yan*
 
+70. **⭐COExpander: Adaptive Solution Expansion for Combinatorial Optimization** ICML, 2025. [paper](https://openreview.net/forum?id=KMaBXMWsBM), [code](https://github.com/Thinklab-SJTU/COExpander)
+
+    *Jiale Ma and Wenzheng Pan and Yang Li and Junchi Yan*
+
+71. **⭐ML4CO-Bench-101: Benchmark Machine Learning for Classic Combinatorial Problems on Graphs** NeurIPS, 2025. [paper](https://openreview.net/forum?id=ye4ntB1Kzi), [code](https://github.com/Thinklab-SJTU/ML4CO-Bench-101)
+
+    *Jiale Ma and Wenzheng Pan and Yang Li and Junchi Yan*
+
+
 ### [Portfolio Optimization](#content)
 
 1. **⭐LinSATNet: The Positive Linear Satisfiability Neural Networks** ICML, 2023. [paper](https://icml.cc/virtual/2023/poster/25110), [code](https://github.com/Thinklab-SJTU/LinSATNet)
@@ -752,15 +761,15 @@ Published*
 
     *Andoni I. Garmendia, Josu Ceberio, Alexander Mendiburu*
 
-10. **Let the Flows Tell: Solving Graph Combinatorial Optimization Problems with GFlowNets** NeurlPS, 2023. [paper](https://arxiv.org/abs/2305.17010), [code](https://github.com/zdhNarsil/GFlowNet-CombOpt)
+10. **Let the Flows Tell: Solving Graph Combinatorial Optimization Problems with GFlowNets** NeurIPS, 2023. [paper](https://arxiv.org/abs/2305.17010), [code](https://github.com/zdhNarsil/GFlowNet-CombOpt)
 
     *Dinghuai Zhang, Hanjun Dai, Nikolay Malkin, Aaron Courville, Yoshua Bengio, Ling Pan*
 
-11. **Variational Annealing on Graphs for Combinatorial Optimization** NeurlPS, 2023. [paper](https://openreview.net/forum?id=SLx7paoaTU), [code](https://github.com/ml-jku/VAG-CO)
+11. **Variational Annealing on Graphs for Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=SLx7paoaTU), [code](https://github.com/ml-jku/VAG-CO)
 
     *Sanokowski, Sebastian and Berghammer, Wilhelm Franz and Hochreiter, Sepp and Lehner, Sebastian*
 
-12. **DISCS: A Benchmark for Discrete Sampling** NeurlPS, 2023. [paper](https://openreview.net/forum?id=oi1MUMk5NF), [code](https://github.com/google-research/discs)
+12. **DISCS: A Benchmark for Discrete Sampling** NeurIPS, 2023. [paper](https://openreview.net/forum?id=oi1MUMk5NF), [code](https://github.com/google-research/discs)
 
     *Katayoon Goshvadi, Haoran Sun, Xingchao Liu, Azade Nova, Ruqi Zhang, Will Sussman Grathwohl, Dale Schuurmans, Hanjun Dai*
 
@@ -768,7 +777,7 @@ Published*
 
     *Andoni I. Garmendia, Quentin Cappart, Josu Ceberio, Alexander Mendiburu*
 
-14. **Controlling Continuous Relaxation for Combinatorial Optimization** NeurlPS, 2024. [paper](https://openreview.net/pdf?id=ykACV1IhjD)
+14. **Controlling Continuous Relaxation for Combinatorial Optimization** NeurIPS, 2024. [paper](https://openreview.net/pdf?id=ykACV1IhjD)
 
     *Yuma Ichikawa*
 
@@ -787,6 +796,15 @@ Published*
 18. **Scalable Discrete Diffusion Samplers: Combinatorial Optimization and Statistical Physics** ICLR, 2025. [paper](https://openreview.net/pdf?id=peNgxpbdxB)
 
     *Sebastian Sanokowski, Wilhelm Franz Berghammer, Haoyu Peter Wang, Martin Ennemoser, Sepp Hochreiter, Sebastian Lehner*
+
+19. **⭐COExpander: Adaptive Solution Expansion for Combinatorial Optimization** ICML, 2025. [paper](https://openreview.net/forum?id=KMaBXMWsBM), [code](https://github.com/Thinklab-SJTU/COExpander)
+
+    *Jiale Ma and Wenzheng Pan and Yang Li and Junchi Yan*
+
+20. **⭐ML4CO-Bench-101: Benchmark Machine Learning for Classic Combinatorial Problems on Graphs** NeurIPS, 2025. [paper](https://openreview.net/forum?id=ye4ntB1Kzi), [code](https://github.com/Thinklab-SJTU/ML4CO-Bench-101)
+
+    *Jiale Ma and Wenzheng Pan and Yang Li and Junchi Yan*
+
 
 ### [Vehicle Routing Problem](#content)
 
@@ -955,6 +973,15 @@ Published*
 
     *Fu Luo, Xi Lin, Yaoxin Wu, Zhenkun Wang, Tong Xialiang, Mingxuan Yuan, Qingfu Zhang*
 
+42. **⭐COExpander: Adaptive Solution Expansion for Combinatorial Optimization** ICML, 2025. [paper](https://openreview.net/forum?id=KMaBXMWsBM), [code](https://github.com/Thinklab-SJTU/COExpander)
+
+    *Jiale Ma and Wenzheng Pan and Yang Li and Junchi Yan*
+
+43. **⭐ML4CO-Bench-101: Benchmark Machine Learning for Classic Combinatorial Problems on Graphs** NeurIPS, 2025. [paper](https://openreview.net/forum?id=ye4ntB1Kzi), [code](https://github.com/Thinklab-SJTU/ML4CO-Bench-101)
+
+    *Jiale Ma and Wenzheng Pan and Yang Li and Junchi Yan*
+
+
 ### [Maximum Independent Set](#content)
 
 1. **Combinatorial Optimization with Graph Convolutional Networks and Guided Tree Search.** NeurIPS, 2018. [paper](https://arxiv.org/abs/1810.10659)
@@ -969,11 +996,11 @@ Published*
 
     *Zhao, Zhongyuan and Verma, Gunjan and Rao, Chirag and Swami, Ananthram and Segarra, Santiago*
 
-4. **Solving Graph-based Public Good Games with Tree Search and Imitation Learning** NeurlPS, 2021. [paper](https://arxiv.org/abs/2106.06762)
+4. **Solving Graph-based Public Good Games with Tree Search and Imitation Learning** NeurIPS, 2021. [paper](https://arxiv.org/abs/2106.06762)
 
     *Darvariu, Victor-Alexandru and Hailes, Stephen and Musolesi, Mirco*
 
-5. **NN-Baker: A Neural-network Infused Algorithmic Framework for Optimization Problems on Geometric Intersection Graphs** NeurlPS, 2021. [paper](https://papers.nips.cc/paper/2021/file/c236337b043acf93c7df397fdb9082b3-Paper.pdf)
+5. **NN-Baker: A Neural-network Infused Algorithmic Framework for Optimization Problems on Geometric Intersection Graphs** NeurIPS, 2021. [paper](https://papers.nips.cc/paper/2021/file/c236337b043acf93c7df397fdb9082b3-Paper.pdf)
 
     *McCarty, Evan and Zhao, Qi and Sidiropoulos, Anastasios and Wang, Yusu*
 
@@ -981,7 +1008,7 @@ Published*
 
     *Bother, Maximilian and Kissig, Otto and Taraz, Martin and Cohen, Sarel and Seidel, Karen and Friedrich, Tobias*
 
-7. **Optimistic tree search strategies for black-box combinatorial optimization** NeurlPS, 2022. [paper](https://openreview.net/forum?id=JGLW4DvX11F)
+7. **Optimistic tree search strategies for black-box combinatorial optimization** NeurIPS, 2022. [paper](https://openreview.net/forum?id=JGLW4DvX11F)
 
     *Malherbe, Cedric and Grosnit, Antoine and Tutunov, Rasul and Ammar, Haitham Bou and Wang, Jun*
 
@@ -1009,19 +1036,19 @@ Published*
 
     *Zhao, Zhongyuan and Swami, Ananthram and Segarra, Santiago*
 
-14. **Let the Flows Tell: Solving Graph Combinatorial Optimization Problems with GFlowNets** NeurlPS, 2023. [paper](https://arxiv.org/abs/2305.17010), [code](https://github.com/zdhNarsil/GFlowNet-CombOpt)
+14. **Let the Flows Tell: Solving Graph Combinatorial Optimization Problems with GFlowNets** NeurIPS, 2023. [paper](https://arxiv.org/abs/2305.17010), [code](https://github.com/zdhNarsil/GFlowNet-CombOpt)
 
     *Dinghuai Zhang, Hanjun Dai, Nikolay Malkin, Aaron Courville, Yoshua Bengio, Ling Pan*
 
-15. **Variational Annealing on Graphs for Combinatorial Optimization** NeurlPS, 2023. [paper](https://openreview.net/forum?id=SLx7paoaTU), [code](https://github.com/ml-jku/VAG-CO)
+15. **Variational Annealing on Graphs for Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=SLx7paoaTU), [code](https://github.com/ml-jku/VAG-CO)
 
     *Sanokowski, Sebastian and Berghammer, Wilhelm Franz and Hochreiter, Sepp and Lehner, Sebastian*
 
-16. **Maximum Independent Set: Self-Training through Dynamic Programming** NeurlPS, 2023. [paper](https://openreview.net/forum?id=igE3Zbxvws), [code](https://github.com/LIONS-EPFL/dynamic-MIS)
+16. **Maximum Independent Set: Self-Training through Dynamic Programming** NeurIPS, 2023. [paper](https://openreview.net/forum?id=igE3Zbxvws), [code](https://github.com/LIONS-EPFL/dynamic-MIS)
 
     *Brusca, Lorenzo and Quaedvlieg, Lars CPM and Skoulakis, Stratis and Chrysos, Grigorios G and Cevher, Volkan*
 
-17. **DISCS: A Benchmark for Discrete Sampling** NeurlPS, 2023. [paper](https://openreview.net/forum?id=oi1MUMk5NF), [code](https://github.com/google-research/discs)
+17. **DISCS: A Benchmark for Discrete Sampling** NeurIPS, 2023. [paper](https://openreview.net/forum?id=oi1MUMk5NF), [code](https://github.com/google-research/discs)
 
     *Katayoon Goshvadi, Haoran Sun, Xingchao Liu, Azade Nova, Ruqi Zhang, Will Sussman Grathwohl, Dale Schuurmans, Hanjun Dai*
 
@@ -1033,7 +1060,7 @@ Published*
 
     *Yang Li, Jinpei Guo, Runzhong Wang, Hongyuan Zha, Junchi Yan*
 
-20. **Controlling Continuous Relaxation for Combinatorial Optimization** NeurlPS, 2024. [paper](https://openreview.net/pdf?id=ykACV1IhjD)
+20. **Controlling Continuous Relaxation for Combinatorial Optimization** NeurIPS, 2024. [paper](https://openreview.net/pdf?id=ykACV1IhjD)
 
     *Yuma Ichikawa*
 
@@ -1041,7 +1068,7 @@ Published*
 
     *Nasimeh Heydaribeni, Xinrui Zhan, Ruisi Zhang, Tina Eliassi-Rad, Farinaz Koushanfar*
 
-22. **Efficient Combinatorial Optimization via Heat Diffusion** NeurlPS, 2024. [paper](https://openreview.net/pdf?id=psDrko9v1D)
+22. **Efficient Combinatorial Optimization via Heat Diffusion** NeurIPS, 2024. [paper](https://openreview.net/pdf?id=psDrko9v1D)
 
     *Hengyuan Ma, Wenlian Lu, Jianfeng Feng*
 
@@ -1052,6 +1079,15 @@ Published*
 24. **Scalable Discrete Diffusion Samplers: Combinatorial Optimization and Statistical Physics** ICLR, 2025. [paper](https://openreview.net/pdf?id=peNgxpbdxB)
 
     *Sebastian Sanokowski, Wilhelm Franz Berghammer, Haoyu Peter Wang, Martin Ennemoser, Sepp Hochreiter, Sebastian Lehner*
+
+25. **⭐COExpander: Adaptive Solution Expansion for Combinatorial Optimization** ICML, 2025. [paper](https://openreview.net/forum?id=KMaBXMWsBM), [code](https://github.com/Thinklab-SJTU/COExpander)
+
+    *Jiale Ma and Wenzheng Pan and Yang Li and Junchi Yan*
+
+26. **⭐ML4CO-Bench-101: Benchmark Machine Learning for Classic Combinatorial Problems on Graphs** NeurIPS, 2025. [paper](https://openreview.net/forum?id=ye4ntB1Kzi), [code](https://github.com/Thinklab-SJTU/ML4CO-Bench-101)
+
+    *Jiale Ma and Wenzheng Pan and Yang Li and Junchi Yan*
+
 
 ### [Generalization](#content)
 
@@ -1213,7 +1249,7 @@ Published*
 
     *Zhang, Wenjie, Zeyu Sun, Qihao Zhu, Ge Li, Shaowei Cai, Yingfei Xiong, and Lu Zhang.*
 
-19. **Optimistic tree search strategies for black-box combinatorial optimization** NeurlPS, 2022. [paper](https://openreview.net/forum?id=JGLW4DvX11F)
+19. **Optimistic tree search strategies for black-box combinatorial optimization** NeurIPS, 2022. [paper](https://openreview.net/forum?id=JGLW4DvX11F)
 
     *Malherbe, Cedric and Grosnit, Antoine and Tutunov, Rasul and Ammar, Haitham Bou and Wang, Jun*
 
@@ -1253,7 +1289,7 @@ Published*
 
     *Simon Geisler, Johanna Sommer, Jan Schuchardt, Aleksandar Bojchevski and Stephan Günnemann*
 
-29. **Let the Flows Tell: Solving Graph Combinatorial Optimization Problems with GFlowNets** NeurlPS, 2023. [paper](https://arxiv.org/abs/2305.17010), [code](https://github.com/zdhNarsil/GFlowNet-CombOpt)
+29. **Let the Flows Tell: Solving Graph Combinatorial Optimization Problems with GFlowNets** NeurIPS, 2023. [paper](https://arxiv.org/abs/2305.17010), [code](https://github.com/zdhNarsil/GFlowNet-CombOpt)
 
     *Dinghuai Zhang, Hanjun Dai, Nikolay Malkin, Aaron Courville, Yoshua Bengio, Ling Pan*
 
@@ -1265,7 +1301,7 @@ Published*
 
     *Nasimeh Heydaribeni, Xinrui Zhan, Ruisi Zhang, Tina Eliassi-Rad, Farinaz Koushanfar*
 
-32. **Efficient Combinatorial Optimization via Heat Diffusion** NeurlPS, 2024. [paper](https://openreview.net/pdf?id=psDrko9v1D)
+32. **Efficient Combinatorial Optimization via Heat Diffusion** NeurIPS, 2024. [paper](https://openreview.net/pdf?id=psDrko9v1D)
 
     *Hengyuan Ma, Wenlian Lu, Jianfeng Feng*
 
@@ -1493,11 +1529,11 @@ Published*
 
     *Yimeng Min, Frederik Wenkel, Michael Perlmutter, Guy Wolf*
 
-2. **Variational Annealing on Graphs for Combinatorial Optimization** NeurlPS, 2023. [paper](https://openreview.net/forum?id=SLx7paoaTU), [code](https://github.com/ml-jku/VAG-CO)
+2. **Variational Annealing on Graphs for Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=SLx7paoaTU), [code](https://github.com/ml-jku/VAG-CO)
 
     *Sanokowski, Sebastian and Berghammer, Wilhelm Franz and Hochreiter, Sepp and Lehner, Sebastian*
 
-3. **DISCS: A Benchmark for Discrete Sampling** NeurlPS, 2023. [paper](https://openreview.net/forum?id=oi1MUMk5NF), [code](https://github.com/google-research/discs)
+3. **DISCS: A Benchmark for Discrete Sampling** NeurIPS, 2023. [paper](https://openreview.net/forum?id=oi1MUMk5NF), [code](https://github.com/google-research/discs)
 
     *Katayoon Goshvadi, Haoran Sun, Xingchao Liu, Azade Nova, Ruqi Zhang, Will Sussman Grathwohl, Dale Schuurmans, Hanjun Dai*
 
@@ -1517,6 +1553,15 @@ Published*
 
     *Antonios Antoniadis, Marek Elias, Adam Polak, Moritz Venzin*
 
+8. **⭐COExpander: Adaptive Solution Expansion for Combinatorial Optimization** ICML, 2025. [paper](https://openreview.net/forum?id=KMaBXMWsBM), [code](https://github.com/Thinklab-SJTU/COExpander)
+
+    *Jiale Ma and Wenzheng Pan and Yang Li and Junchi Yan*
+
+9. **⭐ML4CO-Bench-101: Benchmark Machine Learning for Classic Combinatorial Problems on Graphs** NeurIPS, 2025. [paper](https://openreview.net/forum?id=ye4ntB1Kzi), [code](https://github.com/Thinklab-SJTU/ML4CO-Bench-101)
+
+    *Jiale Ma and Wenzheng Pan and Yang Li and Junchi Yan*
+
+
 ### [Mixed Integer Programming](#content)
 
 1. **Sequential model-based optimization for general algorithm configuration** International conference on learning and intelligent optimization, 2011. [journal](https://link.springer.com/chapter/10.1007/978-3-642-25566-3_40)
@@ -1531,7 +1576,7 @@ Published*
 
     *Alvarez, Alejandro Marcos and Louveaux, Quentin and Wehenkel, Louis*
 
-4. **Learning to Search in Branch-and-Bound Algorithms** NeurlPS, 2014. [paper](http://papers.nips.cc/paper/5495-learning-to-search-in-branch-and-bound-algorithms)
+4. **Learning to Search in Branch-and-Bound Algorithms** NeurIPS, 2014. [paper](http://papers.nips.cc/paper/5495-learning-to-search-in-branch-and-bound-algorithms)
 
     *He, He and Daume III, Hal and Eisner, Jason M*
 
@@ -1551,7 +1596,7 @@ Published*
 
     *Khalil, Elias B and Dilkina, Bistra and Nemhauser, George L and Ahmed, Shabbir and Shao, Yufen*
 
-9. **Exact Combinatorial Optimization with Graph Convolutional Neural Networks** NeurlPS, 2019. [paper](https://arxiv.org/abs/1906.01629), [code](https://github.com/ds4dm/learn2branch)
+9. **Exact Combinatorial Optimization with Graph Convolutional Neural Networks** NeurIPS, 2019. [paper](https://arxiv.org/abs/1906.01629), [code](https://github.com/ds4dm/learn2branch)
 
     *Gasse, Maxime and Chetelat, Didier and Ferroni, Nicola and Charlin, Laurent and Lodi, Andrea*
 
@@ -1567,7 +1612,7 @@ Published*
 
     *Basso, Saverio and Ceselli, Alberto and Tettamanzi, Andrea*
 
-13. **Hybrid Models for Learning to Branch** NeurlPS, 2020. [paper](https://arxiv.org/abs/2006.15212), [code](https://github.com/pg2455/Hybrid-learn2branch)
+13. **Hybrid Models for Learning to Branch** NeurIPS, 2020. [paper](https://arxiv.org/abs/2006.15212), [code](https://github.com/pg2455/Hybrid-learn2branch)
 
     *Gupta, Prateek and Gasse, Maxime and Khalil, Elias B and Kumar, M Pawan and Lodi, Andrea and Bengio, Yoshua*
 
@@ -1587,11 +1632,11 @@ Published*
 
     *Sonnerat, Nicolas and Wang, Pengming and Ktena, Ira and Bartunov, Sergey and Nair, Vinod*
 
-18. **A General Large Neighborhood Search Framework for Solving Integer Linear Programs** NeurlPS, 2020. [paper](https://arxiv.org/abs/2004.00422)
+18. **A General Large Neighborhood Search Framework for Solving Integer Linear Programs** NeurIPS, 2020. [paper](https://arxiv.org/abs/2004.00422)
 
     *Song, Jialin and Lanka, Ravi and Yue, Yisong and Dilkina, Bistra*
 
-19. **Neural Large Neighborhood Search** NeurlPS Workshop, 2020. [paper](https://openreview.net/forum?id=xEQhKANoVW)
+19. **Neural Large Neighborhood Search** NeurIPS Workshop, 2020. [paper](https://openreview.net/forum?id=xEQhKANoVW)
 
     *Nair, Vinod and Alizadeh, Mohammad and others*
 
@@ -1619,7 +1664,7 @@ Published*
 
     *Taehyun Yoon*
 
-26. **Learning large neighborhood search policy for integer programming** NeurlPS, 2021. [paper](https://proceedings.neurips.cc/paper/2021/hash/fc9e62695def29ccdb9eb3fed5b4c8c8-Abstract.html)
+26. **Learning large neighborhood search policy for integer programming** NeurIPS, 2021. [paper](https://proceedings.neurips.cc/paper/2021/hash/fc9e62695def29ccdb9eb3fed5b4c8c8-Abstract.html)
 
     *Wu, Yaoxin and Song, Wen and Cao, Zhiguang and Zhang, Jie*
 
@@ -2070,3 +2115,10 @@ Facility Location Problem,Solving uncapacitated P-Median problem with reinforcem
 
     *Antonios Antoniadis, Marek Elias, Adam Polak, Moritz Venzin*
 
+2. **⭐COExpander: Adaptive Solution Expansion for Combinatorial Optimization** ICML, 2025. [paper](https://openreview.net/forum?id=KMaBXMWsBM), [code](https://github.com/Thinklab-SJTU/COExpander)
+
+    *Jiale Ma and Wenzheng Pan and Yang Li and Junchi Yan*
+
+3. **⭐ML4CO-Bench-101: Benchmark Machine Learning for Classic Combinatorial Problems on Graphs** NeurIPS, 2025. [paper](https://openreview.net/forum?id=ye4ntB1Kzi), [code](https://github.com/Thinklab-SJTU/ML4CO-Bench-101)
+
+    *Jiale Ma and Wenzheng Pan and Yang Li and Junchi Yan*
