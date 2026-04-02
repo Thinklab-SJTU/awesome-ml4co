@@ -719,47 +719,55 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 
     *Xia Jiang, Yaoxin Wu, Minshuo Li, Zhiguang Cao, Yingqian Zhang*
 
-73. **Generalizable Heuristic Generation Through LLMs with Meta-Optimization** ICLR, 2026. [paper](https://arxiv.org/abs/2505.20881), [code](https://github.com/yiding-s/MoH)
+73. **⭐StruDiCO: Structured Denoising Diffusion with Gradient-free Inference-stage Boosting for Memory and Time Efficient Combinatorial Optimization** NeurIPS, 2025. [paper](https://openreview.net/forum?id=P69X3V4WwH), [code](https://github.com/yuuuuwang/StruDiCO)
+
+    *Yu Wang, Yang Li, Junchi Yan, Yi Chang*
+
+74. **⭐Generation as search operator for test-time scaling of diffusion-based combinatorial optimization** NeurIPS, 2025. [paper](https://openreview.net/forum?id=9JM03CQwzC), [code](https://github.com/Thinklab-SJTU/GenSCO)
+
+    *Yang Li, Lvda Chen, Haonan Wang, Runzhong Wang, Junchi Yan*
+
+75. **Generalizable Heuristic Generation Through LLMs with Meta-Optimization** ICLR, 2026. [paper](https://arxiv.org/abs/2505.20881), [code](https://github.com/yiding-s/MoH)
 
     *Yiding Shi, Jianan Zhou, Wen Song, Jieyi Bi, Yaoxin Wu, Zhiguang Cao, Jie Zhang*
 
-74. **DRAGON: LLM-Driven Decomposition and Reconstruction Agents for Large-Scale Combinatorial Optimization** AAMAS, 2026. [paper](https://arxiv.org/abs/2601.06502)
+76. **DRAGON: LLM-Driven Decomposition and Reconstruction Agents for Large-Scale Combinatorial Optimization** AAMAS, 2026. [paper](https://arxiv.org/abs/2601.06502)
 
     *Shengkai Chen, Zhiguang Cao, Jianan Zhou, Yaoxin Wu, Senthilnath Jayavelu, Zhuoyi Lin, Xiaoli Li, Shili Xiang*
 
-75. **Bridging Synthetic and Real Routing Problems via LLM-Guided Instance Generation and Progressive Adaptation** AAAI, 2026. [paper](https://arxiv.org/abs/2511.10233), [code](https://github.com/HenryZhu1029/EvoReal)
+77. **Bridging Synthetic and Real Routing Problems via LLM-Guided Instance Generation and Progressive Adaptation** AAAI, 2026. [paper](https://arxiv.org/abs/2511.10233), [code](https://github.com/HenryZhu1029/EvoReal)
 
     *Jianghan Zhu, Yaoxin Wu, Zhuoyi Lin, Zhengyuan Zhang, Haiyan Yin, Zhiguang Cao, Senthilnath Jayavelu, Xiaoli Li*
 
-76. **EoH-S: Evolution of Heuristic Set using LLMs for Automated Heuristic Design** AAAI, 2026. [paper](https://arxiv.org/abs/2508.03082), [code](https://github.com/FeiLiu36/EoH-S)
+78. **EoH-S: Evolution of Heuristic Set using LLMs for Automated Heuristic Design** AAAI, 2026. [paper](https://arxiv.org/abs/2508.03082), [code](https://github.com/FeiLiu36/EoH-S)
 
     *Fei Liu, Yilu Liu, Qingfu Zhang, Xialiang Tong, Mingxuan Yuan*
 
-77. **G-LNS: Generative Large Neighborhood Search for LLM-Based Automatic Heuristic Design** Arxiv, 2026. [paper](https://arxiv.org/abs/2602.08253), [code](https://github.com/ZBoyn/G-LNS)
+79. **G-LNS: Generative Large Neighborhood Search for LLM-Based Automatic Heuristic Design** Arxiv, 2026. [paper](https://arxiv.org/abs/2602.08253), [code](https://github.com/ZBoyn/G-LNS)
 
     *Baoyun Zhao, He Wang, Liang Zeng*
 
-78. **Beyond Simple Graphs: Neural Multi-Objective Routing on Multigraphs** ICLR, 2026. [paper](https://arxiv.org/abs/2506.22095), [code](https://github.com/filiprydin/GMS)
+80. **Beyond Simple Graphs: Neural Multi-Objective Routing on Multigraphs** ICLR, 2026. [paper](https://arxiv.org/abs/2506.22095), [code](https://github.com/filiprydin/GMS)
 
     *Filip Rydin, Attila Lischka, Jiaming Wu, Morteza Haghir Chehreghani, Balazs Kulcsar*
 
-79. **⭐MaskCO: Masked Generation Drives Effective Representation Learning and Exploiting for Combinatorial Optimization** ICLR, 2026. [paper](https://openreview.net/forum?id=psUjNnLhl9), [code](https://github.com/Thinklab-SJTU/MaskCO)
+81. **⭐MaskCO: Masked Generation Drives Effective Representation Learning and Exploiting for Combinatorial Optimization** ICLR, 2026. [paper](https://openreview.net/forum?id=psUjNnLhl9), [code](https://github.com/Thinklab-SJTU/MaskCO)
 
     *Lvda Chen, Yang Li, Junchi Yan*
 
-80. **Towards Efficient Constraint Handling in Neural Solvers for Routing Problems** ICLR, 2026. [paper](https://openreview.net/forum?id=raDFGuQxvD), [code](https://github.com/jieyibi/CaR-constraint)
+82. **Towards Efficient Constraint Handling in Neural Solvers for Routing Problems** ICLR, 2026. [paper](https://openreview.net/forum?id=raDFGuQxvD), [code](https://github.com/jieyibi/CaR-constraint)
 
     *Jieyi Bi, Zhiguang Cao, Jianan Zhou, Wen Song, Yaoxin Wu, Jie Zhang, Yining Ma, Cathy Wu*
 
-81. **⭐Native Adaptive Solution Expansion for Diffusion-based Combinatorial Optimization** ICLR, 2026. [paper](https://openreview.net/forum?id=084SvT55yk)
+83. **⭐Native Adaptive Solution Expansion for Diffusion-based Combinatorial Optimization** ICLR, 2026. [paper](https://openreview.net/forum?id=084SvT55yk)
 
     *Yu Wang, Yang Li, Jiale Ma, Junchi Yan, Yi Chang*
 
-82. **ViTSP: A Vision Language Models Guided Framework for Solving Large-Scale Traveling Salesman Problems** ICLR, 2026. [paper](https://arxiv.org/abs/2509.23465), [code](https://github.itap.purdue.edu/uSMART/ViTSP_ICLR2026)
+84. **ViTSP: A Vision Language Models Guided Framework for Solving Large-Scale Traveling Salesman Problems** ICLR, 2026. [paper](https://arxiv.org/abs/2509.23465), [code](https://github.itap.purdue.edu/uSMART/ViTSP_ICLR2026)
 
     *Zhuoli Yin, Yi Ding, Reem Khir, Hua Cai*
 
-83. **FrontierCO: Real-World and Large-Scale Evaluation of Machine Learning Solvers for Combinatorial Optimization** ICLR, 2026. [paper](https://openreview.net/forum?id=BVprkacwFY), [code](https://github.com/sunnweiwei/FrontierCO)
+85. **FrontierCO: Real-World and Large-Scale Evaluation of Machine Learning Solvers for Combinatorial Optimization** ICLR, 2026. [paper](https://openreview.net/forum?id=BVprkacwFY), [code](https://github.com/sunnweiwei/FrontierCO)
 
     *Shengyu Feng, Weiwei Sun, Shanda Li, Ameet Talwalkar, Yiming Yang*
 
@@ -1215,27 +1223,35 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 
     *Xia Jiang, Yaoxin Wu, Minshuo Li, Zhiguang Cao, Yingqian Zhang*
 
-27. **Scalable Discrete Diffusion Samplers: Combinatorial Optimization and Statistical Physics** ICLR, 2025. [paper](https://openreview.net/pdf?id=peNgxpbdxB)
+27. **⭐StruDiCO: Structured Denoising Diffusion with Gradient-free Inference-stage Boosting for Memory and Time Efficient Combinatorial Optimization** NeurIPS, 2025. [paper](https://openreview.net/forum?id=P69X3V4WwH), [code](https://github.com/yuuuuwang/StruDiCO)
+
+    *Yu Wang, Yang Li, Junchi Yan, Yi Chang*
+
+28. **⭐Generation as search operator for test-time scaling of diffusion-based combinatorial optimization** NeurIPS, 2025. [paper](https://openreview.net/forum?id=9JM03CQwzC), [code](https://github.com/Thinklab-SJTU/GenSCO)
+
+    *Yang Li, Lvda Chen, Haonan Wang, Runzhong Wang, Junchi Yan*
+
+29. **Scalable Discrete Diffusion Samplers: Combinatorial Optimization and Statistical Physics** ICLR, 2025. [paper](https://openreview.net/pdf?id=peNgxpbdxB)
 
     *Sebastian Sanokowski, Wilhelm Franz Berghammer, Haoyu Peter Wang, Martin Ennemoser, Sepp Hochreiter, Sebastian Lehner*
 
-28. **Learning to Explore and Exploit with GNNs for Unsupervised Combinatorial Optimization** ICLR, 2025. [paper](https://openreview.net/forum?id=vaJ4FObpXN), [code](https://github.com/utkuumur/X2GNN)
+30. **Learning to Explore and Exploit with GNNs for Unsupervised Combinatorial Optimization** ICLR, 2025. [paper](https://openreview.net/forum?id=vaJ4FObpXN), [code](https://github.com/utkuumur/X2GNN)
 
     *Utku Umur Acikalin, Aaron M. Ferber, Carla P. Gomes*
 
-29. **⭐MaskCO: Masked Generation Drives Effective Representation Learning and Exploiting for Combinatorial Optimization** ICLR, 2026. [paper](https://openreview.net/forum?id=psUjNnLhl9), [code](https://github.com/Thinklab-SJTU/MaskCO)
+31. **⭐MaskCO: Masked Generation Drives Effective Representation Learning and Exploiting for Combinatorial Optimization** ICLR, 2026. [paper](https://openreview.net/forum?id=psUjNnLhl9), [code](https://github.com/Thinklab-SJTU/MaskCO)
 
     *Lvda Chen, Yang Li, Junchi Yan*
 
-30. **⭐ConRep4CO: Contrastive Representation Learning of Combinatorial Optimization Instances across Types** ICLR, 2026. [paper](https://openreview.net/forum?id=OXRnvOOiAf), [code](https://github.com/Thinklab-SJTU/ConRep4CO)
+32. **⭐ConRep4CO: Contrastive Representation Learning of Combinatorial Optimization Instances across Types** ICLR, 2026. [paper](https://openreview.net/forum?id=OXRnvOOiAf), [code](https://github.com/Thinklab-SJTU/ConRep4CO)
 
     *Ziao Guo, Yang Li, Shiyue Wang, Junchi Yan*
 
-31. **⭐Native Adaptive Solution Expansion for Diffusion-based Combinatorial Optimization** ICLR, 2026. [paper](https://openreview.net/forum?id=084SvT55yk)
+33. **⭐Native Adaptive Solution Expansion for Diffusion-based Combinatorial Optimization** ICLR, 2026. [paper](https://openreview.net/forum?id=084SvT55yk)
 
     *Yu Wang, Yang Li, Jiale Ma, Junchi Yan, Yi Chang*
 
-32. **FrontierCO: Real-World and Large-Scale Evaluation of Machine Learning Solvers for Combinatorial Optimization** ICLR, 2026. [paper](https://openreview.net/forum?id=BVprkacwFY), [code](https://github.com/sunnweiwei/FrontierCO)
+34. **FrontierCO: Real-World and Large-Scale Evaluation of Machine Learning Solvers for Combinatorial Optimization** ICLR, 2026. [paper](https://openreview.net/forum?id=BVprkacwFY), [code](https://github.com/sunnweiwei/FrontierCO)
 
     *Shengyu Feng, Weiwei Sun, Shanda Li, Ameet Talwalkar, Yiming Yang*
 
