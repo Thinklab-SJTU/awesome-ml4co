@@ -9,20 +9,6 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 
 *We are looking for post-docs interested in machine learning especially for learning combinatorial solvers, dynamic graphs, and reinforcement learning. Please send your up-to-date resume via yanjunchi AT sjtu.edu.cn.*
 
-## Our Systematic Benchmark Works
-
-We are systematically building a foundational framework for ML4CO with a collection of resources that complement each other in a cohesive manner.
-
-⭐ [Awesome-ML4CO](https://github.com/Thinklab-SJTU/awesome-ml4co), a curated collection of literature in the ML4CO field, organized to support researchers in accessing both foundational and recent developments.
-
-⭐ [ML4CO-Kit](https://github.com/Thinklab-SJTU/ML4CO-Kit), a general-purpose toolkit that provides implementations of common algorithms used in ML4CO, along with basic training frameworks, traditional solvers and data generation tools. It aims to simplify the implementation of key techniques and offer a solid base for developing machine learning models for COPs.
-
-⭐ [ML4TSPBench](https://github.com/Thinklab-SJTU/ML4TSPBench): a benchmark focusing on exploring the TSP for representativeness. It offers a deep dive into various methodology designs, enabling comparisons and the development of specialized algorithms.
-
-⭐ [ML4CO-Bench-101](https://github.com/Thinklab-SJTU/ML4CO-Bench-101): a benchmark that categorizes neural combinatorial optimization (NCO) solvers by solving paradigms, model designs, and learning strategies. It evaluates applicability and generalization of different NCO approaches across a broad range of combinatorial optimization problems to uncover universal insights that can be transferred across various domains of ML4CO.
-
-⭐ [PredictiveCO-Benchmark](https://github.com/Thinklab-SJTU/PredictiveCO-Benchmark): a benchmark for decision-focused learning (DFL) approaches on predictive combinatorial optimization problems.
-
 ## [Content](#content)
 
 <table>
@@ -30,75 +16,75 @@ We are systematically building a foundational framework for ML4CO with a collect
 <tr><td colspan="2"><a href="#problems">2. Problems</a></td></tr> 
 <tr>
 	<td>&emsp;<a href=#job-shop-scheduling-problem>2.1 Job Shop Scheduling Problem (JSSP)</a></td>
-	<td>&emsp;<a href=#sorting-&-ranking>2.2 Sorting & Ranking (Sort&Rank)</a></td>
+	<td>&emsp;<a href=#flow-shop-problem>2.2 Flow Shop Problem (FSP)</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#graph-matching>2.3 Graph Matching (GM)</a></td>
-	<td>&emsp;<a href=#quadratic-assignment-problem>2.4 Quadratic Assignment Problem (QAP)</a></td>
+	<td>&emsp;<a href=#sorting-&-ranking>2.3 Sorting & Ranking (Sort&Rank)</a></td>
+	<td>&emsp;<a href=#graph-matching>2.4 Graph Matching (GM)</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#travelling-salesman-problem>2.5 Travelling Salesman Problem (TSP)</a></td>
-	<td>&emsp;<a href=#portfolio-optimization>2.6 Portfolio Optimization (PortOpt)</a></td>
+	<td>&emsp;<a href=#quadratic-assignment-problem>2.5 Quadratic Assignment Problem (QAP)</a></td>
+	<td>&emsp;<a href=#travelling-salesman-problem>2.6 Travelling Salesman Problem (TSP)</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#maximal-cut>2.7 Maximal Cut</a></td>
-	<td>&emsp;<a href=#vehicle-routing-problem>2.8 Vehicle Routing Problem (VRP)</a></td>
+	<td>&emsp;<a href=#portfolio-optimization>2.7 Portfolio Optimization (PortOpt)</a></td>
+	<td>&emsp;<a href=#maximal-cut>2.8 Maximal Cut</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#maximum-independent-set>2.9 Maximum Independent Set</a></td>
-	<td>&emsp;<a href=#generalization>2.10 Generalization</a></td>
+	<td>&emsp;<a href=#vehicle-routing-problem>2.9 Vehicle Routing Problem (VRP)</a></td>
+	<td>&emsp;<a href=#maximum-independent-set>2.10 Maximum Independent Set</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#orienteering-problem>2.11 Orienteering Problem (OP)</a></td>
-	<td>&emsp;<a href=#knapsack>2.12 Knapsack</a></td>
+	<td>&emsp;<a href=#generalization>2.11 Generalization</a></td>
+	<td>&emsp;<a href=#orienteering-problem>2.12 Orienteering Problem (OP)</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#boolean-satisfiability>2.13 Boolean Satisfiability (SAT)</a></td>
-	<td>&emsp;<a href=#computing-resource-allocation>2.14 Computing Resource Allocation</a></td>
+	<td>&emsp;<a href=#knapsack>2.13 Knapsack</a></td>
+	<td>&emsp;<a href=#boolean-satisfiability>2.14 Boolean Satisfiability (SAT)</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#bin-packing-problem>2.15 Bin Packing Problem (BPP)</a></td>
-	<td>&emsp;<a href=#graph-edit-distance>2.16 Graph Edit Distance (GED)</a></td>
+	<td>&emsp;<a href=#computing-resource-allocation>2.15 Computing Resource Allocation</a></td>
+	<td>&emsp;<a href=#bin-packing-problem>2.16 Bin Packing Problem (BPP)</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#hamiltonian-cycle-problem>2.17 Hamiltonian Cycle Problem (HCP)</a></td>
-	<td>&emsp;<a href=#graph-coloring>2.18 Graph Coloring</a></td>
+	<td>&emsp;<a href=#graph-edit-distance>2.17 Graph Edit Distance (GED)</a></td>
+	<td>&emsp;<a href=#hamiltonian-cycle-problem>2.18 Hamiltonian Cycle Problem (HCP)</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#maximal-common-subgraph>2.19 Maximal Common Subgraph (MCS)</a></td>
-	<td>&emsp;<a href=#influence-maximization>2.20 Influence Maximization</a></td>
+	<td>&emsp;<a href=#graph-coloring>2.19 Graph Coloring</a></td>
+	<td>&emsp;<a href=#maximal-common-subgraph>2.20 Maximal Common Subgraph (MCS)</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#max-clique>2.21 Max Clique</a></td>
-	<td>&emsp;<a href=#mixed-integer-programming>2.22 Mixed Integer Programming (MIP)</a></td>
+	<td>&emsp;<a href=#influence-maximization>2.21 Influence Maximization</a></td>
+	<td>&emsp;<a href=#max-clique>2.22 Max Clique</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#causal-discovery>2.23 Causal Discovery</a></td>
-	<td>&emsp;<a href=#game-theoretic-semantics>2.24 Game Theoretic Semantics</a></td>
+	<td>&emsp;<a href=#mixed-integer-programming>2.23 Mixed Integer Programming (MIP)</a></td>
+	<td>&emsp;<a href=#causal-discovery>2.24 Causal Discovery</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#differentiable-optimization>2.25 Differentiable Optimization</a></td>
-	<td>&emsp;<a href=#car-dispatch>2.26 Car Dispatch</a></td>
+	<td>&emsp;<a href=#game-theoretic-semantics>2.25 Game Theoretic Semantics</a></td>
+	<td>&emsp;<a href=#differentiable-optimization>2.26 Differentiable Optimization</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#electronic-design-automation>2.27 Electronic Design Automation (EDA)</a></td>
-	<td>&emsp;<a href=#conjunctive-query-containment>2.28 Conjunctive Query Containment</a></td>
+	<td>&emsp;<a href=#car-dispatch>2.27 Car Dispatch</a></td>
+	<td>&emsp;<a href=#electronic-design-automation>2.28 Electronic Design Automation (EDA)</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#virtual-network-embedding>2.29 Virtual Network Embedding (VNE)</a></td>
-	<td>&emsp;<a href=#predict+optimize>2.30 Predict+Optimize</a></td>
+	<td>&emsp;<a href=#conjunctive-query-containment>2.29 Conjunctive Query Containment</a></td>
+	<td>&emsp;<a href=#virtual-network-embedding>2.30 Virtual Network Embedding (VNE)</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#optimal-power-flow>2.31 Optimal Power Flow</a></td>
-	<td>&emsp;<a href=#facility-location-problem>2.32 Facility Location Problem (FLP)</a></td>
+	<td>&emsp;<a href=#predict+optimize>2.31 Predict+Optimize</a></td>
+	<td>&emsp;<a href=#optimal-power-flow>2.32 Optimal Power Flow</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#combinatorial-drug-recommendation>2.33 Combinatorial Drug Recommendation</a></td>
-	<td>&emsp;<a href=#stochastic-combinatorial-optimization>2.34 Stochastic Combinatorial Optimization</a></td>
+	<td>&emsp;<a href=#facility-location-problem>2.33 Facility Location Problem (FLP)</a></td>
+	<td>&emsp;<a href=#combinatorial-drug-recommendation>2.34 Combinatorial Drug Recommendation</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#vertex-cover>2.35 Vertex Cover</a></td>
-<td>&ensp;</td>
+	<td>&emsp;<a href=#stochastic-combinatorial-optimization>2.35 Stochastic Combinatorial Optimization</a></td>
+	<td>&emsp;<a href=#vertex-cover>2.36 Vertex Cover</a></td>
 </tr>
 </table>
 
@@ -109,23 +95,23 @@ We are systematically building a foundational framework for ML4CO with a collect
 
 1. **Neural Networks for Combinatorial Optimization: A Review of More Than a Decade of Research** INFORMS Journal on Computing, 1999. [journal](https://pubsonline.informs.org/doi/abs/10.1287/ijoc.11.1.15)
 
-    *Smith, Kate A.*
+    *Kate A. Smith*
 
 2. **Model-Based Search for Combinatorial Optimization: A Critical Survey.** Annals of Operations Research, 2004. [journal](https://link.springer.com/article/10.1023/B:ANOR.0000039526.52305.af)
 
-    *Zlochin, Mark and Birattari, Mauro and Meuleau, Nicolas and Dorigo, Marco.*
+    *Mark Zlochin, Mauro Birattari, Nicolas Meuleau, Marco Dorigo*
 
 3. **A Survey of Reinforcement Learning and Agent-Based Approaches to Combinatorial Optimization.** Citeseer, 2012. [journal](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.468.5208&rep=rep1&type=pdf)
 
-    *Miagkikh, Victor*
+    *Victor Miagkikh*
 
 4. **Machine Learning Approaches to Learning Heuristics for Combinatorial Optimization Problems.** Procedia Manufacturing, 2018. [journal](https://www.sciencedirect.com/science/article/pii/S2351978918311351)
 
-    *Mirshekarian, Sadegh and Sormaz, Dusan.*
+    *Sadegh Mirshekarian, Dusan Sormaz*
 
 5. **Boosting combinatorial problem modeling with machine learning.** IJCAI, 2018. [paper](https://www.ijcai.org/Proceedings/2018/0772.pdf)
 
-    *Lombardi, Michele and Milano, Michela.*
+    *Michele Lombardi, Michela Milano*
 
 6. **Deep Reinforcement Learning as a Job Shop Scheduling Solver: A Literature Review** Hybrid Intelligent Systems, 2018. [journal](http://link.springer.com/10.1007/978-3-030-14347-3_34)
 
@@ -133,55 +119,59 @@ We are systematically building a foundational framework for ML4CO with a collect
 
 7. **A Review of combinatorial optimization with graph neural networks.** BigDIA, 2019. [paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8802843)
 
-    *Huang, Tingfei and Ma, Yang and Zhou, Yuzhen and Huang, Honglan Huang and Chen, Dongmei and Gong, Zidan and Liu, Yao.*
+    *Tingfei Huang, Yang Ma, Yuzhen Zhou, Honglan Huang Huang, Dongmei Chen, Zidan Gong, Yao Liu*
 
 8. **Machine Learning for Combinatorial Optimization: a Methodological Tour d'horizon.** EJOR, 2020. [journal](https://arxiv.org/abs/1811.06128)
 
-    *Bengio, Yoshua and Lodi, Andrea and Prouvost, Antoine.*
+    *Yoshua Bengio, Andrea Lodi, Antoine Prouvost*
 
 9. **Reinforcement Learning for Combinatorial Optimization: A Survey.** Arxiv, 2020. [paper](https://arxiv.org/abs/2003.03600)
 
-    *Mazyavkina, Nina and Sviridov, Sergey and Ivanov, Sergei and Burnaev, Evgeny.*
+    *Nina Mazyavkina, Sergey Sviridov, Sergei Ivanov, Evgeny Burnaev*
 
 10. **⭐Learning Graph Matching and Related Combinatorial Optimization Problems.** IJCAI, 2020. [paper](https://www.ijcai.org/proceedings/2020/0694.pdf)
 
-    *Yan, Junchi and Yang, Shuang, and Hancock, Edwin R.*
+    *Junchi Yan, Shuang Yang, Edwin R. Hancock*
 
 11. **Learning Combinatorial Optimization on Graphs: A Survey with Applications to Networking.** IEEE ACCESS, 2020. [journal](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9125934)
 
-    *Vesselinova, Natalia and Steinert, Rebecca and Perez-Ramirez, Daniel F. and Boman, Magnus.*
+    *Natalia Vesselinova, Rebecca Steinert, Daniel F. Perez-Ramirez, Magnus Boman*
 
 12. **From Shallow to Deep Interactions Between Knowledge Representation, Reasoning and Machine Learning.** Arxiv, 2020. [paper](https://arxiv.org/abs/1912.06612)
 
-    *Bouraoui, Zied and Cornuéjols, Antoine and Denœux, Thierry and Destercke, Sébastien and Dubois, Didier and Guillaume, Romain and Marques-Silva, João and Mengin, Jérôme and Prade, Henri and Schockaert, Steven and Serrurier, Mathieu and Vrain, Christel.*
+    *Zied Bouraoui, Antoine Cornuéjols, Thierry Denœux, Sébastien Destercke, Didier Dubois, Romain Guillaume, João Marques-Silva, Jérôme Mengin, Henri Prade, Steven Schockaert, Mathieu Serrurier, Christel Vrain*
 
 13. **A Survey on Reinforcement Learning for Combinatorial Optimization.** Arxiv, 2020. [paper](https://arxiv.org/abs/2008.12248v2)
 
-    *Yang, Yunhao and Whinston, Andrew.*
+    *Yunhao Yang, Andrew Whinston*
 
 14. **Research Reviews of Combinatorial Optimization Methods Based on Deep Reinforcement Learning. (in chinese)** 自动化学报, 2020. [journal](http://www.aas.net.cn/article/doi/10.16383/j.aas.c200551)
 
-    *Li, Kai-Wen and Zhang,  Tao and Wang, Rui and Qin, Wei-Jian and He, Hui-Hui and Huang, Hong.*
+    *Kai-Wen Li, Tao Zhang, Rui Wang, Wei-Jian Qin, Hui-Hui He, Hong Huang*
 
 15. **Graph Learning for Combinatorial Optimization: A Survey of State-of-the-Art.** Data Science and Engineering, 2021. [journal](https://link.springer.com/article/10.1007/s41019-021-00155-3)
 
-    *Peng, Yue, Choi, Byron, and Xu, Jianliang.*
+    *Yue Peng, Byron Choi, Jianliang Xu*
 
-16. **Combinatorial Optimization and Reasoning with Graph Neural Networks** Arxiv, 2021. [paper](https://arxiv.org/abs/2102.09544)
+16. **Machine Learning for Electronic Design Automation (EDA) : A Survey** TODAES, 2021. [journal](https://arxiv.org/abs/2102.03357)
 
-    *Cappart, Quentin and Chetelat, Didier and Khalil, Elias and Lodi, Andrea and Morris, Christopher and Velickovic, Petar*
+    *Guyue Huang, Jingbo Hu, Yifan He, Jialong Liu, Mingyuan Ma, Zhaoyang Shen, Juejian Wu, Yuanfan Xu, Hengrui Zhang, Kai Zhong, others*
 
-17. **Machine Learning for Electronic Design Automation (EDA) : A Survey** TODAES, 2021. [journal](https://arxiv.org/abs/2102.03357)
+17. **⭐A Survey for Solving Mixed Integer Programming via Machine Learning** Neurocomputing, 2022. [journal](https://www.sciencedirect.com/science/article/pii/S0925231222014035)
 
-    *Huang, Guyue and Hu, Jingbo and He, Yifan and Liu, Jialong and Ma, Mingyuan and Shen, Zhaoyang and Wu, Juejian and Xu, Yuanfan and Zhang, Hengrui and Zhong, Kai and others*
+    *Jiayi Zhang, Chang Liu, Xijun Li, Hui-Ling Zhen, Mingxuan Yuan, Yawen Li, Junchi Yan*
 
-18. **⭐A Survey for Solving Mixed Integer Programming via Machine Learning** Neurocomputing, 2022. [journal](https://www.sciencedirect.com/science/article/pii/S0925231222014035)
+18. **Combinatorial Optimization and Reasoning with Graph Neural Networks** JMLR, 2023. [journal](https://jmlr.org/papers/volume24/21-0449/21-0449.pdf)
 
-    *Jiayi Zhang and Chang Liu and Xijun Li and Hui-Ling Zhen and Mingxuan Yuan and Yawen Li and Junchi Yan*
+    *Quentin Cappart, Didier Chetelat, Elias B. Khalil, Andrea Lodi, Christopher Morris, Petar Velickovic*
 
 19. **Applicability of Neural Combinatorial Optimization: A Critical View** TELO, 2024. [journal](https://dl.acm.org/doi/pdf/10.1145/3647644), [code](https://github.com/TheLeprechaun25/Applicability-NCO)
 
     *Andoni I. Garmendia, Josu Ceberio, Alexander Mendiburu*
+
+20. **Survey on Neural Routing Solvers** Arxiv, 2026. [paper](https://arxiv.org/abs/2602.21761)
+
+    *Yunpeng Ba, Xi Lin, Changliang Zhou, Ruihao Zheng, Zhenkun Wang, Xinyan Liang, Zhichao Lu, Jianyong Sun, Yuhua Qian, Qingfu Zhang*
 
 ## [Problems](#content)
 
@@ -197,7 +187,7 @@ We are systematically building a foundational framework for ML4CO with a collect
 
 3. **Learning to Dispatch for Job Shop Scheduling via Deep Reinforcement Learning.** NeurIPS, 2020. [paper](https://arxiv.org/abs/2010.12367), [code](https://github.com/zcajiayin/L2D)
 
-    *Zhang, Cong and Song, Wen and Cao, Zhiguang and Zhang, Jie and Tan, Puay Siew and Xu, Chi.*
+    *Cong Zhang, Wen Song, Zhiguang Cao, Jie Zhang, Puay Siew Tan, Chi Xu*
 
 4. **ScheduleNet: Learn to Solve Multi-agent Scheduling Problems with Reinforcement Learning** Arxiv, 2021. [paper](https://arxiv.org/abs/2106.03051)
 
@@ -213,35 +203,53 @@ We are systematically building a foundational framework for ML4CO with a collect
 
 7. **Explainable reinforcement learning in production control of job shop manufacturing system.** International Journal of Production Research, 2021. [journal](https://www.tandfonline.com/doi/abs/10.1080/00207543.2021.1972179?journalCode=tprs20)
 
-    *Andreas Kuhnle,Marvin Carl May,Louis Sch?fer & Gisela Lanza*
+    *Andreas Kuhnle, Marvin Carl May, Louis Sch?fer, Gisela Lanza*
 
 8. **DeepACO: Neural-enhanced Ant Systems for Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=cd5D1DD923), [code](https://github.com/henry-yeh/DeepACO)
 
-    *Ye, Haoran and Wang, Jiarui and Cao, Zhiguang and Liang, Helan and Li, Yong*
+    *Haoran Ye, Jiarui Wang, Zhiguang Cao, Helan Liang, Yong Li*
 
 9. **Winner Takes It All: Training Performant RL Populations for Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=v6VpqGcGAR)
 
-    *Grinsztajn, Nathan and Furelos-Blanco, Daniel and Surana, Shikha and Bonnet, Cl{\'e}ment and Barrett, Thomas D*
+    *Nathan Grinsztajn, Daniel Furelos-Blanco, Shikha Surana, Cl{\'e}ment Bonnet, Thomas D Barrett*
 
 10. **Combinatorial Optimization with Policy Adaptation using Latent Space Search** NeurIPS, 2023. [paper](https://openreview.net/forum?id=vpMBqdt9Hl)
 
-    *Chalumeau, Felix and Surana, Shikha and Bonnet, Cl{\'e}ment and Grinsztajn, Nathan and Pretorius, Arnu and Laterre, Alexandre and Barrett, Thomas D*
+    *Felix Chalumeau, Shikha Surana, Cl{\'e}ment Bonnet, Nathan Grinsztajn, Arnu Pretorius, Alexandre Laterre, Thomas D Barrett*
 
 11. **Neural DAG Scheduling via One-Shot Priority Sampling** ICLR, 2023. [paper](https://openreview.net/forum?id=WL8FlAugqQ)
 
-    *Jeon, Wonseok and Gagrani, Mukul and Bartan, Burak and Zeng, Weiliang Will and Teague, Harris and Zappi, Piero and Lott, Christopher*
+    *Wonseok Jeon, Mukul Gagrani, Burak Bartan, Weiliang Will Zeng, Harris Teague, Piero Zappi, Christopher Lott*
 
 12. **Robust Scheduling with GFlowNets** ICLR, 2023. [paper](https://openreview.net/forum?id=ZBUthI6wK9h)
 
-    *Zhang, David W and Rainone, Corrado and Peschl, Markus and Bondesan, Roberto*
+    *David W Zhang, Corrado Rainone, Markus Peschl, Roberto Bondesan*
 
 13. **Continual Task Allocation in Meta-Policy Network via Sparse Prompting** ICML, 2023. [paper](https://icml.cc/virtual/2023/poster/24080)
 
-    *Yang, Yijun, Tianyi Zhou, Jing Jiang, Guodong Long and Yuhui Shi.*
+    *Yijun, Tianyi Zhou, Jing Jiang, Guodong Long Yang, Yuhui Shi.*
 
 14. **Applicability of Neural Combinatorial Optimization: A Critical View** TELO, 2024. [journal](https://dl.acm.org/doi/pdf/10.1145/3647644), [code](https://github.com/TheLeprechaun25/Applicability-NCO)
 
     *Andoni I. Garmendia, Josu Ceberio, Alexander Mendiburu*
+
+15. **Large Language Models as End-to-end Combinatorial Optimization Solvers** NeurIPS, 2025. [paper](https://neurips.cc/virtual/2025/loc/san-diego/poster/115835), [code](https://github.com/Summer142857/LLMCoSolver)
+
+    *Xia Jiang, Yaoxin Wu, Minshuo Li, Zhiguang Cao, Yingqian Zhang*
+
+16. **Multi-Action Self-Improvement for Neural Combinatorial Optimization** ICLR, 2026. [paper](https://arxiv.org/abs/2510.12273), [code](https://github.com/LTluttmann/macsim)
+
+    *Laurin Luttmann, Lin Xie*
+
+17. **ReSched: Rethinking Flexible Job Shop Scheduling from a Transformer-based Architecture with Simplified States** ICLR, 2026. [paper](https://iclr.cc/virtual/2026/poster/10007089), [code](https://github.com/XiangjieXiao/ReSched)
+
+    *Xiangjie Xiao, Zhiguang Cao, Cong Zhang, Wen Song*
+
+### [Flow Shop Problem](#content)
+
+1. **Multi-Action Self-Improvement for Neural Combinatorial Optimization** ICLR, 2026. [paper](https://arxiv.org/abs/2510.12273), [code](https://github.com/LTluttmann/macsim)
+
+    *Laurin Luttmann, Lin Xie*
 
 ### [Sorting & Ranking](#content)
 
@@ -251,7 +259,7 @@ We are systematically building a foundational framework for ML4CO with a collect
 
 2. **Predict+optimise with ranking objectives: exhaustively learning linear functions** IJCAI, 2019. [paper](https://dl.acm.org/doi/abs/10.5555/3367032.3367186)
 
-    *Demirovic, Emir and Stuckey, Peter J. and Bailey, James and Chan, Jeffrey and Leckie, Christopher and Ramamohanarao, Kotagiri and Guns, Tias*
+    *Emir Demirovic, Peter J. Stuckey, James Bailey, Jeffrey Chan, Christopher Leckie, Kotagiri Ramamohanarao, Tias Guns*
 
 3. **Stochastic Optimization of Sorting Networks via Continuous Relaxations** ICLR, 2019. [paper](https://openreview.net/forum?id=H1eSS3CcKX), [code](https://github.com/ermongroup/neuralsort)
 
@@ -263,7 +271,7 @@ We are systematically building a foundational framework for ML4CO with a collect
 
 5. **Optimizing Rank-Based Metrics With Blackbox Differentiation** CVPR, 2020. [paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Rolinek_Optimizing_Rank-Based_Metrics_With_Blackbox_Differentiation_CVPR_2020_paper.pdf), [code](https://github.com/martius-lab/blackbox-backprop)
 
-    *Marin Vlastelica,Anselm Paulus,Vít Musil,Georg Martius and Michal Rolínek*
+    *Marin Vlastelica, Anselm Paulus, Vít Musil, Georg Martius, Michal Rolínek*
 
 6. **Fast Differentiable Sorting and Ranking** ICML, 2020. [paper](http://proceedings.mlr.press/v119/blondel20a/blondel20a.pdf), [code](https://github.com/google-research/fast-soft-sort/)
 
@@ -301,103 +309,103 @@ We are systematically building a foundational framework for ML4CO with a collect
 
 1. **Revised Note on Learning Algorithms for Quadratic Assignment with Graph Neural Networks** Arxiv, 2017. [paper](https://arxiv.org/pdf/1706.07450.pdf), [code](https://github.com/alexnowakvila/QAP_pt)
 
-    *Nowak, Alex and Villar, Soledad and Bandeira, S. Afonso and Bruna, Joan*
+    *Alex Nowak, Soledad Villar, S. Afonso Bandeira, Joan Bruna*
 
 2. **Deep Learning of Graph Matching.** CVPR, 2018. [paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Zanfir_Deep_Learning_of_CVPR_2018_paper.html)
 
-    *Zanfir, Andrei and Sminchisescu, Cristian*
+    *Andrei Zanfir, Cristian Sminchisescu*
 
 3. **⭐Learning Combinatorial Embedding Networks for Deep Graph Matching.** ICCV, 2019. [paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Wang_Learning_Combinatorial_Embedding_Networks_for_Deep_Graph_Matching_ICCV_2019_paper.pdf), [code](https://github.com/Thinklab-SJTU/ThinkMatch)
 
-    *Wang, Runzhong and Yan, Junchi and Yang, Xiaokang*
+    *Runzhong Wang, Junchi Yan, Xiaokang Yang*
 
 4. **Deep Graphical Feature Learning for the Feature Matching Problem.** ICCV, 2019. [paper](https://openaccess.thecvf.com/content_ICCV_2019/papers/Zhang_Deep_Graphical_Feature_Learning_for_the_Feature_Matching_Problem_ICCV_2019_paper.pdf)
 
-    *Zhang, Zhen and Lee, Wee Sun*
+    *Zhen Zhang, Wee Sun Lee*
 
 5. **GLMNet: Graph Learning-Matching Networks for Feature Matching.** Arxiv, 2019. [paper](https://arxiv.org/abs/1911.07681)
 
-    *Jiang, Bo and Sun, Pengfei and Tang, Jin and Luo, Bin*
+    *Bo Jiang, Pengfei Sun, Jin Tang, Bin Luo*
 
 6. **⭐Learning deep graph matching with channel-independent embedding and Hungarian attention.** ICLR, 2020. [paper](https://openreview.net/forum?id=rJgBd2NYPH), [code](https://github.com/Thinklab-SJTU/ThinkMatch)
 
-    *Yu, Tianshu and Wang, Runzhong and Yan, Junchi and Li, Baoxin*
+    *Tianshu Yu, Runzhong Wang, Junchi Yan, Baoxin Li*
 
 7. **Deep Graph Matching Consensus.** ICLR, 2020. [paper](http://arxiv.org/abs/2001.09621)
 
-    *Fey, Matthias and Lenssen, Jan E. and Morris, Christopher and Masci, Jonathan and Kriege, Nils M.*
+    *Matthias Fey, Jan E. Lenssen, Christopher Morris, Jonathan Masci, Nils M. Kriege*
 
 8. **⭐Graduated Assignment for Joint Multi-Graph Matching and Clustering with Application to Unsupervised Graph Matching Network Learning.** NeurIPS, 2020. [paper](https://papers.NeurIPS.cc/paper/2020/file/e6384711491713d29bc63fc5eeb5ba4f-Paper.pdf), [code](https://github.com/Thinklab-SJTU/ThinkMatch)
 
-    *Wang, Runzhong and Yan, Junchi and Yang, Xiaokang*
+    *Runzhong Wang, Junchi Yan, Xiaokang Yang*
 
 9. **⭐Combinatorial Learning of Robust Deep Graph Matching: An Embedding Based Approach.** TPAMI, 2020. [paper](https://doi.org/10.1109/TPAMI.2020.3005590), [code](https://github.com/Thinklab-SJTU/ThinkMatch)
 
-    *Wang, Runzhong and Yan, Junchi and Yang, Xiaokang*
+    *Runzhong Wang, Junchi Yan, Xiaokang Yang*
 
 10. **Deep Graph Matching via Blackbox Differentiation of Combinatorial Solvers.** ECCV, 2020. [paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123730409.pdf), [code](https://github.com/martius-lab/blackbox-deep-graph-matching)
 
-    *Rolinek, Michal and Swoboda, Paul and Zietlow, Dominik and Paulus, Anselm and Musil, Vit and Martius, Georg*
+    *Michal Rolinek, Paul Swoboda, Dominik Zietlow, Anselm Paulus, Vit Musil, Georg Martius*
 
 11. **⭐Neural Graph Matching Network: Learning Lawler's Quadratic Assignment Problem with Extension to Hypergraph and Multiple-graph Matching.** TPAMI, 2021. [paper](https://arxiv.org/abs/1911.11308), [code](https://github.com/Thinklab-SJTU/ThinkMatch)
 
-    *Wang, Runzhong and Yan, Junchi and Yang, Xiaokang*
+    *Runzhong Wang, Junchi Yan, Xiaokang Yang*
 
 12. **⭐Deep Latent Graph Matching** ICML, 2021. [paper](http://proceedings.mlr.press/v139/yu21d/yu21d.pdf)
 
-    *Yu, Tianshu and Wang, Runzhong and Yan, Junchi and Li, Baoxin.*
+    *Tianshu Yu, Runzhong Wang, Junchi Yan, Baoxin Li*
 
 13. **IA-GM: A Deep Bidirectional Learning Method for Graph Matching** AAAI, 2021. [paper](https://ojs.aaai.org/index.php/AAAI/article/view/16461/16268)
 
-    *Zhao, Kaixuan and Tu, Shikui and Xu, Lei*
+    *Kaixuan Zhao, Shikui Tu, Lei Xu*
 
 14. **Deep Graph Matching under Quadratic Constraint** CVPR, 2021. [paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Gao_Deep_Graph_Matching_Under_Quadratic_Constraint_CVPR_2021_paper.pdf)
 
-    *Gao, Quankai and Wang, Fudong and Xue, Nan and Yu, Jin-Gang and Xia, Gui-Song*
+    *Quankai Gao, Fudong Wang, Nan Xue, Jin-Gang Yu, Gui-Song Xia*
 
 15. **GAMnet: Robust Feature Matching via Graph Adversarial-Matching Network** MM, 2021. [paper](https://dl.acm.org/doi/pdf/10.1145/3474085.3475669)
 
-    *Jiang, Bo and Sun, Pengfei and Zhang, Ziyan and Tang, Jin and Luo, Bin*
+    *Bo Jiang, Pengfei Sun, Ziyan Zhang, Jin Tang, Bin Luo*
 
 16. **Hypergraph Neural Networks for Hypergraph Matching** ICCV, 2021. [paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Liao_Hypergraph_Neural_Networks_for_Hypergraph_Matching_ICCV_2021_paper.pdf)
 
-    *Liao, Xiaowei and Xu, Yong and Ling, Haibin*
+    *Xiaowei Liao, Yong Xu, Haibin Ling*
 
 17. **Learning to Match Features with Seeded Graph Matching Network** ICCV, 2021. [paper](https://openaccess.thecvf.com/content/ICCV2021/html/Chen_Learning_To_Match_Features_With_Seeded_Graph_Matching_Network_ICCV_2021_paper.html)
 
-    *Chen, Hongkai and Luo, Zixin and Zhang, Jiahui and Zhou, Lei and Bai, Xuyang and Hu, Zeyu and Tai, Chiew-Lan and Quan, Long*
+    *Hongkai Chen, Zixin Luo, Jiahui Zhang, Lei Zhou, Xuyang Bai, Zeyu Hu, Chiew-Lan Tai, Long Quan*
 
 18. **⭐Appearance and Structure Aware Robust Deep Visual Graph Matching: Attack, Defense and Beyond** CVPR, 2022. [paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Ren_Appearance_and_Structure_Aware_Robust_Deep_Visual_Graph_Matching_Attack_CVPR_2022_paper.pdf), [code](https://github.com/Thinklab-SJTU/RobustMatch)
 
-    *Ren, Qibing and Bao, Qingquan and Wang, Runzhong and Yan, Junchi*
+    *Qibing Ren, Qingquan Bao, Runzhong Wang, Junchi Yan*
 
 19. **⭐Self-supervised Learning of Visual Graph Matching** ECCV, 2022. [paper](https://link.springer.com/chapter/10.1007/978-3-031-20050-2_22), [code](https://github.com/Thinklab-SJTU/ThinkMatch-SCGM)
 
-    *Liu, Chang and Zhang, Shaofeng and Yang, Xiaokang and Yan, Junchi*
+    *Chang Liu, Shaofeng Zhang, Xiaokang Yang, Junchi Yan*
 
 20. **⭐Revocable Deep Reinforcement Learning with Affinity Regularization for Outlier-Robust Graph Matching.** ICLR, 2023. [paper](https://openreview.net/forum?id=QjQibO3scV_), [code](https://github.com/Thinklab-SJTU/RGM)
 
-    *Liu, Chang and Jiang, Zetian and Wang, Runzhong and Yan, Junchi and Huang, Lingxiao and Lu, Pinyan*
+    *Chang Liu, Zetian Jiang, Runzhong Wang, Junchi Yan, Lingxiao Huang, Pinyan Lu*
 
 21. **SeedGNN: Graph Neural Network for Supervised Seeded Graph Matching** ICML, 2023. [paper](https://icml.cc/virtual/2023/poster/24282)
 
-    *Yu, Liren and Xu, Jiaming and Lin, Xiaojun*
+    *Liren Yu, Jiaming Xu, Xiaojun Lin*
 
 22. **D2Match: Leveraging Deep Learning and Degeneracy for Subgraph Matching** ICML, 2023. [paper](https://icml.cc/virtual/2023/poster/24358)
 
-    *Liu, Xuan, Lin Zhang, Jiaqi Sun, Yujiu Yang and Haiqing Yang*
+    *Xuan Liu, Lin Zhang, Jiaqi Sun, Yujiu Yang, Haiqing Yang*
 
 23. **⭐LinSATNet: The Positive Linear Satisfiability Neural Networks** ICML, 2023. [paper](https://icml.cc/virtual/2023/poster/25110), [code](https://github.com/Thinklab-SJTU/LinSATNet)
 
-    *Runzhong Wang and Yunhao Zhang and Ziao Guo and Tianyi Chen and Xiaokang Yang and Junchi Yan*
+    *Runzhong Wang, Yunhao Zhang, Ziao Guo, Tianyi Chen, Xiaokang Yang, Junchi Yan*
 
 24. **LVM-Med: Learning Large-Scale Self-Supervised Vision Models for Medical Imaging via Second-order Graph Matching** NeurIPS, 2023. [paper](https://openreview.net/forum?id=xE7oH5iVGK), [code](https://github.com/duyhominhnguyen/LVM-Med)
 
-    *Nguyen, Duy MH and Nguyen, Hoang and Diep, Nghiem T and Pham, Tan N and Cao, Tri and Nguyen, Binh T and Swoboda, Paul and Ho, Nhat and Albarqouni, Shadi and Xie, Pengtao and others*
+    *Duy MH Nguyen, Hoang Nguyen, Nghiem T Diep, Tan N Pham, Tri Cao, Binh T Nguyen, Paul Swoboda, Nhat Ho, Shadi Albarqouni, Pengtao Xie, others*
 
 25. **Improving Graph Matching with Positional Reconstruction Encoder-Decoder Network** NeurIPS, 2023. [paper](https://openreview.net/forum?id=28RTu9MOT6)
 
-    *Zhou, Yixiao and Jia, Ruiqi and Lin, Hongxiang and Quan, Hefeng and Zhao, Yumeng and Lyu, Xiaoqing*
+    *Yixiao Zhou, Ruiqi Jia, Hongxiang Lin, Hefeng Quan, Yumeng Zhao, Xiaoqing Lyu*
 
 26. **Learning to Prune Instances of Steiner Tree Problem in Grap** INOC, 2024. [paper](https://openproceedings.org/2024/conf/inoc/INOC_31.pdf), [code](https://github.com/dajwani/alenex22)
 
@@ -407,25 +415,25 @@ We are systematically building a foundational framework for ML4CO with a collect
 
 1. **Revised Note on Learning Algorithms for Quadratic Assignment with Graph Neural Networks** Arxiv, 2017. [paper](https://arxiv.org/pdf/1706.07450.pdf), [code](https://github.com/alexnowakvila/QAP_pt)
 
-    *Nowak, Alex and Villar, Soledad and Bandeira, S. Afonso and Bruna, Joan*
+    *Alex Nowak, Soledad Villar, S. Afonso Bandeira, Joan Bruna*
 
 2. **⭐Neural Graph Matching Network: Learning Lawler's Quadratic Assignment Problem with Extension to Hypergraph and Multiple-graph Matching.** TPAMI, 2021. [paper](https://arxiv.org/abs/1911.11308), [code](https://github.com/Thinklab-SJTU/ThinkMatch)
 
-    *Wang, Runzhong and Yan, Junchi and Yang, Xiaokang*
+    *Runzhong Wang, Junchi Yan, Xiaokang Yang*
 
 3. **⭐Revocable Deep Reinforcement Learning with Affinity Regularization for Outlier-Robust Graph Matching.** ICLR, 2023. [paper](https://openreview.net/forum?id=QjQibO3scV_), [code](https://github.com/Thinklab-SJTU/RGM)
 
-    *Liu, Chang and Jiang, Zetian and Wang, Runzhong and Yan, Junchi and Huang, Lingxiao and Lu, Pinyan*
+    *Chang Liu, Zetian Jiang, Runzhong Wang, Junchi Yan, Lingxiao Huang, Pinyan Lu*
 
 4. **⭐Towards Quantum Machine Learning for Constrained Combinatorial Optimization: a Quantum QAP Solver** ICML, 2023. [paper](https://icml.cc/virtual/2023/poster/24148)
 
-    *Ye, Xinyu and Yan, Ge and Yan, Junchi*
+    *Xinyu Ye, Ge Yan, Junchi Yan*
 
 ### [Travelling Salesman Problem](#content)
 
 1. **Learning Combinatorial Optimization Algorithms over Graphs.** NeurIPS, 2017. [paper](https://arxiv.org/abs/1704.01665)
 
-    *Dai, Hanjun and Khalil, Elias B and Zhang, Yuyu and Dilkina, Bistra and Song, Le*
+    *Hanjun Dai, Elias B Khalil, Yuyu Zhang, Bistra Dilkina, Le Song*
 
 2. **Learning Heuristics for the TSP by Policy Gradient** CPAIOR, 2018. [paper](https://link.springer.com/chapter/10.1007/978-3-319-93031-2_12), [code](https://github.com/MichelDeudon/encode-attend-navigate)
 
@@ -433,11 +441,11 @@ We are systematically building a foundational framework for ML4CO with a collect
 
 3. **Attention, Learn to Solve Routing Problems!** ICLR, 2019. [paper](https://arxiv.org/abs/1803.08475)
 
-    *Kool, Wouter and Van Hoof, Herke and Welling, Max.*
+    *Wouter Kool, Herke Van Hoof, Max Welling*
 
 4. **Learning to Solve NP-Complete Problems: A Graph Neural Network for Decision TSP.** AAAI, 2019. [paper](https://ojs.aaai.org/index.php/AAAI/article/view/4399)
 
-    *Prates, Marcelo and Avelar, Pedro HC and Lemos, Henrique and Lamb, Luis C and Vardi, Moshe Y.*
+    *Marcelo Prates, Pedro HC Avelar, Henrique Lemos, Luis C Lamb, Moshe Y. Vardi*
 
 5. **An Efficient Graph Convolutional Network Technique for the Travelling Salesman Problem** Arxiv, 2019. [paper](https://arxiv.org/abs/1906.01227), [code](https://github.com/chaitjo/graph-convnet-tsp)
 
@@ -445,23 +453,23 @@ We are systematically building a foundational framework for ML4CO with a collect
 
 6. **POMO: Policy Optimization with Multiple Optima for Reinforcement Learning.** NeurIPS, 2020. [paper](https://arxiv.org/abs/2010.16011), [code](https://github.com/yd-kwon/POMO/)
 
-    *Kwon, Yeong-Dae and Choo, Jinho and Kim, Byoungjip and Yoon, Iljoo and Min, Seungjai and Gwon, Youngjune.*
+    *Yeong-Dae Kwon, Jinho Choo, Byoungjip Kim, Iljoo Yoon, Seungjai Min, Youngjune Gwon*
 
 7. **Generalize a Small Pre-trained Model to Arbitrarily Large TSP Instances.** Arxiv, 2020. [paper](https://arxiv.org/abs/2012.10658)
 
-    *Fu, Zhang-Hua and Qiu, Kai-Bin and Zha, Hongyuan.*
+    *Zhang-Hua Fu, Kai-Bin Qiu, Hongyuan Zha*
 
 8. **A Reinforcement Learning Approach for Optimizing Multiple Traveling Salesman Problems over Graphs** KBS, 2020. [journal](https://www.sciencedirect.com/science/article/pii/S0950705120304445)
 
-    *Hu, Yujiao and Yao, Yuan and Lee, Wee Sun*
+    *Yujiao Hu, Yuan Yao, Wee Sun Lee*
 
 9. **Learning 2-opt Heuristics for the Traveling Salesman Problem via Deep Reinforcement Learning** ACML, 2020. [paper](http://proceedings.mlr.press/v129/costa20a), [code](https://github.com/paulorocosta/learning-2opt-drl)
 
-    *d O Costa, Paulo R and Rhuggenaath, Jason and Zhang, Yingqian and Akcay, Alp*
+    *d O Costa, Paulo R, Jason Rhuggenaath, Yingqian Zhang, Alp Akcay*
 
 10. **Deep Reinforcement Learning for Combinatorial Optimization: Covering Salesman Problems.** IEEE Trans Cybern, 2021. [journal](https://arxiv.org/abs/2102.05875)
 
-    *Kaiwen Li, Tao Zhang, Rui Wang Yuheng Wang, and Yi Han*
+    *Kaiwen Li, Tao Zhang, Rui Wang Yuheng Wang, Yi Han*
 
 11. **The Transformer Network for the Traveling Salesman Problem** IPAM, 2021. [paper](http://helper.ipam.ucla.edu/publications/dlc2021/dlc2021_16703.pdf)
 
@@ -469,11 +477,11 @@ We are systematically building a foundational framework for ML4CO with a collect
 
 12. **Learning Improvement Heuristics for Solving Routing Problems** TNNLS, 2021. [journal](https://ieeexplore.ieee.org/abstract/document/9393606?casa_token=mFeyLmrOGfIAAAAA:nmAkjUaTSooYurWHuWGYNoguV453anw9Enyv45xG5jb2oCps6QE4A1CFe1EmFmTzbON6cL5maw)
 
-    *Wu, Yaoxin and Song, Wen and Cao, Zhiguang and Zhang, Jie and Lim, Andrew*
+    *Yaoxin Wu, Wen Song, Zhiguang Cao, Jie Zhang, Andrew Lim*
 
 13. **Reversible Action Design for Combinatorial Optimization with Reinforcement Learning** Arxiv, 2021. [paper](https://arxiv.org/abs/2102.07210)
 
-    *Yao, Fan and Cai, Renqin and Wang, Hongning*
+    *Fan Yao, Renqin Cai, Hongning Wang*
 
 14. **Solving Dynamic Traveling Salesman Problems with Deep Reinforcement Learning.** TNNLS, 2021. [journal](https://ieeexplore.ieee.org/document/9537638)
 
@@ -485,11 +493,11 @@ We are systematically building a foundational framework for ML4CO with a collect
 
 16. **DAN: Decentralized Attention-based Neural Network to Solve the MinMax Multiple Traveling Salesman Problem** Arxiv, 2021. [paper](https://arxiv.org/abs/2109.04205)
 
-    *Cao, Yuhong and Sun, Zhanhong and Sartoretti, Guillaume*
+    *Yuhong Cao, Zhanhong Sun, Guillaume Sartoretti*
 
 17. **Reinforcement Learning for Route Optimization with Robustness Guarantees** IJCAI, 2021. [paper](https://www.ijcai.org/proceedings/2021/0357.pdf)
 
-    *Jacobs, Tobias and Alesiani, Francesco and Ermis, Gulcin*
+    *Tobias Jacobs, Francesco Alesiani, Gulcin Ermis*
 
 18. **Combining Reinforcement Learning with Lin-Kernighan-Helsgaun Algorithm for the Traveling Salesman Problem** AAAI, 2021. [paper](https://ojs.aaai.org/index.php/AAAI/article/view/17476/17283), [code](https://github.com/JHL-HUST/VSR-LKH-V2)
 
@@ -501,55 +509,55 @@ We are systematically building a foundational framework for ML4CO with a collect
 
 20. **Learning TSP Requires Rethinking Generalization** CP, 2021. [paper](https://arxiv.org/pdf/2006.07054.pdf), [code](https://github.com/chaitjo/learning-tsp)
 
-    *Chaitanya K. Joshi, Quentin Cappart, Louis-Martin Rousseau and Thomas Laurent*
+    *Chaitanya K. Joshi, Quentin Cappart, Louis-Martin Rousseau, Thomas Laurent*
 
 21. **The First AI4TSP Competition: Learning to Solve Stochastic Routing Problems** Arxiv, 2022. [paper](https://arxiv.org/abs/2201.10453), [code](https://github.com/paulorocosta/ai-for-tsp-competition)
 
-    *Bliek, Laurens and da Costa, Paulo and Afshar, Reza Refaei and Zhang, Yingqian and Catshoek, Tom and Vos, Daniel and Verwer, Sicco and Schmitt-Ulms, Fynn and Hottung, Andre and Shah, Tapan and others*
+    *Laurens Bliek, Paulo da Costa, Reza Refaei Afshar, Yingqian Zhang, Tom Catshoek, Daniel Vos, Sicco Verwer, Fynn Schmitt-Ulms, Andre Hottung, Tapan Shah, others*
 
 22. **Graph Neural Network Guided Local Search for the Traveling Salesperson Problem** ICLR, 2022. [paper](https://openreview.net/forum?id=ar92oEosBIg)
 
-    *Hudson, Benjamin and Li, Qingbiao and Malencia, Matthew and Prorok, Amanda*
+    *Benjamin Hudson, Qingbiao Li, Matthew Malencia, Amanda Prorok*
 
 23. **Preference Conditioned Neural Multi-objective Combinatorial Optimization** ICLR, 2022. [paper](https://openreview.net/forum?id=QuObT9BTWo)
 
-    *Lin, Xi and Yang, Zhiyuan and Zhang, Qingfu*
+    *Xi Lin, Zhiyuan Yang, Qingfu Zhang*
 
 24. **Learning Generalizable Models for Vehicle Routing Problems via Knowledge Distillation** NeurIPS, 2022. [paper](https://openreview.net/forum?id=sOVNpUEgKMp), [code](https://github.com/jieyibi/AMDKD)
 
-    *Bi, Jieyi and Ma, Yining and Wang, Jiahai and Cao, Zhiguang and Chen, Jinbiao and Sun, Yuan and Chee, Yeow Meng*
+    *Jieyi Bi, Yining Ma, Jiahai Wang, Zhiguang Cao, Jinbiao Chen, Yuan Sun, Yeow Meng Chee*
 
 25. **DIMES: A Differentiable Meta Solver for Combinatorial Optimization Problems** NeurIPS, 2022. [paper](https://openreview.net/forum?id=9u05zr0nhx)
 
-    *Qiu, Ruizhong and Sun, Zhiqing and Yang, Yiming*
+    *Ruizhong Qiu, Zhiqing Sun, Yiming Yang*
 
 26. **Sym-NCO: Leveraging Symmetricity for Neural Combinatorial Optimization** NeurIPS, 2022. [paper](https://openreview.net/forum?id=kHrE2vi5Rvs), [code](https://github.com/alstn12088/Sym-NCO)
 
-    *Kim, Minsu and Park, Junyoung and Park, Jinkyoo*
+    *Minsu Kim, Junyoung Park, Jinkyoo Park*
 
 27. **Simulation-guided Beam Search for Neural Combinatorial Optimization** NeurIPS, 2022. [paper](https://openreview.net/forum?id=tYAS1Rpys5), [code](https://github.com/yd-kwon/SGBS)
 
-    *Choo, Jinho and Kwon, Yeong-Dae and Kim, Jihoon and Jae, Jeongwoo and Hottung, Andr{\'e} and Tierney, Kevin and Gwon, Youngjune*
+    *Jinho Choo, Yeong-Dae Kwon, Jihoon Kim, Jeongwoo Jae, Andr{\'e} Hottung, Kevin Tierney, Youngjune Gwon*
 
 28. **Generalization of Neural Combinatorial Solvers Through the Lens of Adversarial Robustness** ICLR, 2022. [paper](https://openreview.net/forum?id=vJZ7dPIjip3)
 
-    *Simon Geisler, Johanna Sommer, Jan Schuchardt, Aleksandar Bojchevski and Stephan Günnemann*
+    *Simon Geisler, Johanna Sommer, Jan Schuchardt, Aleksandar Bojchevski, Stephan Günnemann*
 
 29. **⭐LinSATNet: The Positive Linear Satisfiability Neural Networks** ICML, 2023. [paper](https://icml.cc/virtual/2023/poster/25110), [code](https://github.com/Thinklab-SJTU/LinSATNet)
 
-    *Runzhong Wang and Yunhao Zhang and Ziao Guo and Tianyi Chen and Xiaokang Yang and Junchi Yan*
+    *Runzhong Wang, Yunhao Zhang, Ziao Guo, Tianyi Chen, Xiaokang Yang, Junchi Yan*
 
 30. **Learning to CROSS exchange to solve min-max vehicle routing problems** ICLR, 2023. [paper](https://openreview.net/forum?id=ZcnzsHC10Y)
 
-    *Kim, Minjun and Park, Junyoung and Park, Jinkyoo*
+    *Minjun Kim, Junyoung Park, Jinkyoo Park*
 
 31. **Generalize Learned Heuristics to Solve Large-scale Vehicle Routing Problems in Real-time** ICLR, 2023. [paper](https://openreview.net/forum?id=6ZajpxqTlQ)
 
-    *Hou, Qingchun and Yang, Jingwei and Su, Yiqiang and Wang, Xiaoqing and Deng, Yuming*
+    *Qingchun Hou, Jingwei Yang, Yiqiang Su, Xiaoqing Wang, Yuming Deng*
 
 32. **⭐ROCO: A General Framework for Evaluating Robustness of Combinatorial Optimization Solvers on Graphs** ICLR, 2023. [paper](https://openreview.net/forum?id=2r6YMqz4Mml), [code](https://github.com/Thinklab-SJTU/ROCO)
 
-    *Lu, Han and Li, Zenan and Wang, Runzhong and Ren, Qibing and Li, Xijun and Yuan, Mingxuan and Zeng, Jia and Yang, Xiaokang and Yan, Junchi*
+    *Han Lu, Zenan Li, Runzhong Wang, Qibing Ren, Xijun Li, Mingxuan Yuan, Jia Zeng, Xiaokang Yang, Junchi Yan*
 
 33. **Pointerformer: Deep Reinforced Multi-Pointer Transformer for the Traveling Salesman Problem** Arxiv, 2023. [paper](https://arxiv.org/abs/2304.09407), [code](https://github.com/Pointerformer/Pointerformer)
 
@@ -557,7 +565,7 @@ We are systematically building a foundational framework for ML4CO with a collect
 
 34. **H-tsp: Hierarchically solving the large-scale traveling salesman problem** AAAI, 2023. [paper](https://www.microsoft.com/en-us/research/publication/h-tsp-hierarchically-solving-the-large-scale-traveling-salesman-problem/), [code](https://github.com/Learning4Optimization-HUST/H-TSP)
 
-    *Xuanhao Pan,  Yan Jin,  Yuandong Ding,  Mingxiao Feng,  Li Zhao,  Lei Song,  Jiang Bian*
+    *Xuanhao Pan, Yan Jin, Yuandong Ding, Mingxiao Feng, Li Zhao, Lei Song, Jiang Bian*
 
 35. **Select and Optimize: Learning to solve large-scale TSP instances** AISTATS, 2023. [paper](https://proceedings.mlr.press/v206/cheng23a.html)
 
@@ -569,11 +577,11 @@ We are systematically building a foundational framework for ML4CO with a collect
 
 37. **Revisiting Sampling for Combinatorial Optimization** ICML, 2023. [paper](https://icml.cc/virtual/2023/poster/23661)
 
-    *Sun, Haoran, Goshvadi Katayoon,Nova Azade,Schuurmans  Dale and Dai Hanjun.*
+    *Haoran, Goshvadi Katayoon, Nova Azade, Schuurmans Dale Sun, Dai Hanjun.*
 
 38. **Meta-SAGE: Scale Meta-Learning Scheduled Adaptation with Guided Exploration for Mitigating Scale Shift on Combinatorial Optimization** ICML, 2023. [paper](https://icml.cc/virtual/2023/poster/25138)
 
-    *Son, Jiwoo and Kim, Minsu and Kim, Hyeonah and Park, Jinkyoo*
+    *Jiwoo Son, Minsu Kim, Hyeonah Kim, Jinkyoo Park*
 
 39. **Towards Omni-generalizable Neural Methods for Vehicle Routing Problems** ICML, 2023. [paper](https://icml.cc/virtual/2023/poster/25267), [code](https://github.com/RoyalSkye/Omni-VRP)
 
@@ -585,47 +593,47 @@ We are systematically building a foundational framework for ML4CO with a collect
 
 41. **DeepACO: Neural-enhanced Ant Systems for Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=cd5D1DD923), [code](https://github.com/henry-yeh/DeepACO)
 
-    *Ye, Haoran and Wang, Jiarui and Cao, Zhiguang and Liang, Helan and Li, Yong*
+    *Haoran Ye, Jiarui Wang, Zhiguang Cao, Helan Liang, Yong Li*
 
 42. **Winner Takes It All: Training Performant RL Populations for Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=v6VpqGcGAR)
 
-    *Grinsztajn, Nathan and Furelos-Blanco, Daniel and Surana, Shikha and Bonnet, Cl{\'e}ment and Barrett, Thomas D*
+    *Nathan Grinsztajn, Daniel Furelos-Blanco, Shikha Surana, Cl{\'e}ment Bonnet, Thomas D Barrett*
 
 43. **Optimizing Solution-Samplers for Combinatorial Problems: The Landscape of Policy-Gradient Methods** NeurIPS, 2023. [paper](https://openreview.net/forum?id=mmTy1iyU5G), [code](https://openreview.net/attachment?id=mmTy1iyU5G&name=supplementary_material)
 
-    *Caramanis, Constantine and Fotakis, Dimitris and Kalavasis, Alkis and Kontonis, Vasilis and Tzamos, Christos*
+    *Constantine Caramanis, Dimitris Fotakis, Alkis Kalavasis, Vasilis Kontonis, Christos Tzamos*
 
 44. **Combinatorial Optimization with Policy Adaptation using Latent Space Search** NeurIPS, 2023. [paper](https://openreview.net/forum?id=vpMBqdt9Hl)
 
-    *Chalumeau, Felix and Surana, Shikha and Bonnet, Cl{\'e}ment and Grinsztajn, Nathan and Pretorius, Arnu and Laterre, Alexandre and Barrett, Thomas D*
+    *Felix Chalumeau, Shikha Surana, Cl{\'e}ment Bonnet, Nathan Grinsztajn, Arnu Pretorius, Alexandre Laterre, Thomas D Barrett*
 
 45. **Efficient Meta Neural Heuristic for Multi-Objective Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=593fc38lhN), [code](https://github.com/bill-cjb/EMNH)
 
-    *Chen, Jinbiao and Wang, Jiahai and Zhang, Zizhen and Cao, Zhiguang and Ye, Te and Chen, Siyuan*
+    *Jinbiao Chen, Jiahai Wang, Zizhen Zhang, Zhiguang Cao, Te Ye, Siyuan Chen*
 
 46. **BQ-NCO: Bisimulation Quotienting for Efficient Neural Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=BRqlkTDvvm), [code](https://github.com/naver/bq-nco)
 
-    *Drakulic, Darko and Michel, Sofia and Mai, Florian and Sors, Arnaud and Andreoli, Jean-Marc*
+    *Darko Drakulic, Sofia Michel, Florian Mai, Arnaud Sors, Jean-Marc Andreoli*
 
 47. **Neural Combinatorial Optimization with Heavy Decoder: Toward Large Scale Generalization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=RBI4oAbdpm), [code](https://github.com/CIAM-Group/NCO_code/tree/main/single_objective/LEHD)
 
-    *Luo, Fu and Lin, Xi and Liu, Fei and Zhang, Qingfu and Wang, Zhenkun*
+    *Fu Luo, Xi Lin, Fei Liu, Qingfu Zhang, Zhenkun Wang*
 
 48. **Neural Multi-Objective Combinatorial Optimization with Diversity Enhancement** NeurIPS, 2023. [paper](https://openreview.net/forum?id=N4JkStI1fe), [code](https://github.com/bill-cjb/NHDE)
 
-    *Chen, Jinbiao and Zhang, Zizhen and Cao, Zhiguang and Wu, Yaoxin and Ma, Yining and Ye, Te and Wang, Jiahai*
+    *Jinbiao Chen, Zizhen Zhang, Zhiguang Cao, Yaoxin Wu, Yining Ma, Te Ye, Jiahai Wang*
 
 49. **Unsupervised Learning for Solving the Travelling Salesman Problem** NeurIPS, 2023. [paper](https://openreview.net/forum?id=lAEc7aIW20)
 
-    *Min, Yimeng and Bai, Yiwei and Gomes, Carla P*
+    *Yimeng Min, Yiwei Bai, Carla P Gomes*
 
 50. **Ensemble-based Deep Reinforcement Learning for Vehicle Routing Problems under Distribution Shift** NeurIPS, 2023. [paper](https://openreview.net/forum?id=HoBbZ1vPAh)
 
-    *Jiang, Yuan and Cao, Zhiguang and Wu, Yaoxin and Song, Wen and Zhang, Jie*
+    *Yuan Jiang, Zhiguang Cao, Yaoxin Wu, Wen Song, Jie Zhang*
 
 51. **Learning to Search Feasible and Infeasible Regions of Routing Problems with Flexible Neural k-Opt** NeurIPS, 2023. [paper](https://openreview.net/forum?id=q1JukwH2yP), [code](https://github.com/yining043/NeuOpt)
 
-    *Ma, Yining and Cao, Zhiguang and Chee, Yeow Meng*
+    *Yining Ma, Zhiguang Cao, Yeow Meng Chee*
 
 52. **⭐T2T: From Distribution Learning in Training to Gradient Search in Testing for Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=JtF0ugNMv2), [code](https://github.com/Thinklab-SJTU/T2TCO)
 
@@ -677,8 +685,7 @@ We are systematically building a foundational framework for ML4CO with a collect
 
 64. **Rethinking Neural Multi-Objective Combinatorial Optimization via Neat Weight Embedding** ICLR, 2025. [paper](https://openreview.net/forum?id=GM7cmQfk2F)
 
-    *Jinbiao Chen, Zhiguang Cao, Jiahai Wang, Yaoxin Wu, Hanzhang Qin, Zizhen Zhang, Yue-Jiao Gong
-Published*
+    *Jinbiao Chen, Zhiguang Cao, Jiahai Wang, Yaoxin Wu, Hanzhang Qin, Zizhen Zhang, Yue-Jiao Gong*
 
 65. **Neural Multi-Objective Combinatorial Optimization via Graph-Image Multimodal Fusion** ICLR, 2025. [paper](https://openreview.net/forum?id=4sJ2FYE65U)
 
@@ -700,76 +707,123 @@ Published*
 
     *Yang Li, Jiale Ma, Wenzheng Pan, Runzhong Wang, Haoyu Geng, Nianzu Yang, Junchi Yan*
 
-70. **⭐COExpander: Adaptive Solution Expansion for Combinatorial Optimization** ICML, 2025. [paper](https://openreview.net/forum?id=KMaBXMWsBM), [code](https://github.com/Thinklab-SJTU/COExpander)
+70. **⭐ML4CO-Bench-101: Benchmark Machine Learning for Classic Combinatorial Problems on Graphs** NeurIPS, 2025. [paper](https://openreview.net/forum?id=ye4ntB1Kzi), [code](https://github.com/Thinklab-SJTU/ML4CO-Bench-101)
 
-    *Jiale Ma and Wenzheng Pan and Yang Li and Junchi Yan*
+    *Jiale Ma, Wenzheng Pan, Yang Li, Junchi Yan*
 
-71. **⭐ML4CO-Bench-101: Benchmark Machine Learning for Classic Combinatorial Problems on Graphs** NeurIPS, 2025. [paper](https://openreview.net/forum?id=ye4ntB1Kzi), [code](https://github.com/Thinklab-SJTU/ML4CO-Bench-101)
+71. **⭐COExpander: Adaptive Solution Expansion for Combinatorial Optimization** ICML, 2025. [paper](https://openreview.net/forum?id=KMaBXMWsBM), [code](https://github.com/Thinklab-SJTU/COExpander)
 
-    *Jiale Ma and Wenzheng Pan and Yang Li and Junchi Yan*
+    *Jiale Ma, Wenzheng Pan, Yang Li, Junchi Yan*
 
+72. **Large Language Models as End-to-end Combinatorial Optimization Solvers** NeurIPS, 2025. [paper](https://neurips.cc/virtual/2025/loc/san-diego/poster/115835), [code](https://github.com/Summer142857/LLMCoSolver)
+
+    *Xia Jiang, Yaoxin Wu, Minshuo Li, Zhiguang Cao, Yingqian Zhang*
+
+73. **Generalizable Heuristic Generation Through LLMs with Meta-Optimization** ICLR, 2026. [paper](https://arxiv.org/abs/2505.20881), [code](https://github.com/yiding-s/MoH)
+
+    *Yiding Shi, Jianan Zhou, Wen Song, Jieyi Bi, Yaoxin Wu, Zhiguang Cao, Jie Zhang*
+
+74. **DRAGON: LLM-Driven Decomposition and Reconstruction Agents for Large-Scale Combinatorial Optimization** AAMAS, 2026. [paper](https://arxiv.org/abs/2601.06502)
+
+    *Shengkai Chen, Zhiguang Cao, Jianan Zhou, Yaoxin Wu, Senthilnath Jayavelu, Zhuoyi Lin, Xiaoli Li, Shili Xiang*
+
+75. **Bridging Synthetic and Real Routing Problems via LLM-Guided Instance Generation and Progressive Adaptation** AAAI, 2026. [paper](https://arxiv.org/abs/2511.10233), [code](https://github.com/HenryZhu1029/EvoReal)
+
+    *Jianghan Zhu, Yaoxin Wu, Zhuoyi Lin, Zhengyuan Zhang, Haiyan Yin, Zhiguang Cao, Senthilnath Jayavelu, Xiaoli Li*
+
+76. **EoH-S: Evolution of Heuristic Set using LLMs for Automated Heuristic Design** AAAI, 2026. [paper](https://arxiv.org/abs/2508.03082), [code](https://github.com/FeiLiu36/EoH-S)
+
+    *Fei Liu, Yilu Liu, Qingfu Zhang, Xialiang Tong, Mingxuan Yuan*
+
+77. **G-LNS: Generative Large Neighborhood Search for LLM-Based Automatic Heuristic Design** Arxiv, 2026. [paper](https://arxiv.org/abs/2602.08253), [code](https://github.com/ZBoyn/G-LNS)
+
+    *Baoyun Zhao, He Wang, Liang Zeng*
+
+78. **Beyond Simple Graphs: Neural Multi-Objective Routing on Multigraphs** ICLR, 2026. [paper](https://arxiv.org/abs/2506.22095), [code](https://github.com/filiprydin/GMS)
+
+    *Filip Rydin, Attila Lischka, Jiaming Wu, Morteza Haghir Chehreghani, Balazs Kulcsar*
+
+79. **⭐MaskCO: Masked Generation Drives Effective Representation Learning and Exploiting for Combinatorial Optimization** ICLR, 2026. [paper](https://openreview.net/forum?id=psUjNnLhl9), [code](https://github.com/Thinklab-SJTU/MaskCO)
+
+    *Lvda Chen, Yang Li, Junchi Yan*
+
+80. **Towards Efficient Constraint Handling in Neural Solvers for Routing Problems** ICLR, 2026. [paper](https://openreview.net/forum?id=raDFGuQxvD), [code](https://github.com/jieyibi/CaR-constraint)
+
+    *Jieyi Bi, Zhiguang Cao, Jianan Zhou, Wen Song, Yaoxin Wu, Jie Zhang, Yining Ma, Cathy Wu*
+
+81. **⭐Native Adaptive Solution Expansion for Diffusion-based Combinatorial Optimization** ICLR, 2026. [paper](https://openreview.net/forum?id=084SvT55yk)
+
+    *Yu Wang, Yang Li, Jiale Ma, Junchi Yan, Yi Chang*
+
+82. **ViTSP: A Vision Language Models Guided Framework for Solving Large-Scale Traveling Salesman Problems** ICLR, 2026. [paper](https://arxiv.org/abs/2509.23465), [code](https://github.itap.purdue.edu/uSMART/ViTSP_ICLR2026)
+
+    *Zhuoli Yin, Yi Ding, Reem Khir, Hua Cai*
+
+83. **FrontierCO: Real-World and Large-Scale Evaluation of Machine Learning Solvers for Combinatorial Optimization** ICLR, 2026. [paper](https://openreview.net/forum?id=BVprkacwFY), [code](https://github.com/sunnweiwei/FrontierCO)
+
+    *Shengyu Feng, Weiwei Sun, Shanda Li, Ameet Talwalkar, Yiming Yang*
 
 ### [Portfolio Optimization](#content)
 
 1. **⭐LinSATNet: The Positive Linear Satisfiability Neural Networks** ICML, 2023. [paper](https://icml.cc/virtual/2023/poster/25110), [code](https://github.com/Thinklab-SJTU/LinSATNet)
 
-    *Runzhong Wang and Yunhao Zhang and Ziao Guo and Tianyi Chen and Xiaokang Yang and Junchi Yan*
+    *Runzhong Wang, Yunhao Zhang, Ziao Guo, Tianyi Chen, Xiaokang Yang, Junchi Yan*
 
 2. **Integrating prediction in mean-variance portfolio optimization** Quantitative Finance, 2023. [paper](https://arxiv.org/pdf/2102.09287.pdf)
 
-    *Butler, Andrew and Kwon, Roy H*
+    *Andrew Butler, Roy H Kwon*
 
 3. **⭐Towards One-shot Neural Combinatorial Solvers: Theoretical and Empirical Notes on the Cardinality-Constrained Case** ICLR, 2023. [paper](https://openreview.net/forum?id=h21yJhdzbwz), [code](https://github.com/Thinklab-SJTU/One-Shot-Cardinality-NN-Solver)
 
-    *Wang, Runzhong and Shen, Li and Chen, Yiting and Yan, Junchi and Yang, Xiaokang and Tao, Dacheng*
+    *Runzhong Wang, Li Shen, Yiting Chen, Junchi Yan, Xiaokang Yang, Dacheng Tao*
 
 ### [Maximal Cut](#content)
 
 1. **Learning Combinatorial Optimization Algorithms over Graphs.** NeurIPS, 2017. [paper](https://arxiv.org/abs/1704.01665)
 
-    *Dai, Hanjun and Khalil, Elias B and Zhang, Yuyu and Dilkina, Bistra and Song, Le*
+    *Hanjun Dai, Elias B Khalil, Yuyu Zhang, Bistra Dilkina, Le Song*
 
 2. **Exploratory Combinatorial Optimization with Reinforcement Learning.** AAAI, 2020. [paper](https://ojs.aaai.org/index.php/AAAI/article/view/5723)
 
-    *LBarrett, Thomas and Clements, William and Foerster, Jakob and Lvovsky, Alex.*
+    *Thomas LBarrett, William Clements, Jakob Foerster, Alex Lvovsky*
 
 3. **Erdos Goes Neural: an Unsupervised Learning Framework for Combinatorial Optimization on Graphs.** NeurIPS, 2020. [paper](https://static.aminer.cn/upload/pdf/575/1127/1864/5eede0b791e0116a23aafe7b_1.pdf)
 
-    *Karalias, Nikolaos and Loukas, Andreas*
+    *Nikolaos Karalias, Andreas Loukas*
 
 4. **Reversible Action Design for Combinatorial Optimization with Reinforcement Learning** Arxiv, 2021. [paper](https://arxiv.org/abs/2102.07210)
 
-    *Yao, Fan and Cai, Renqin and Wang, Hongning*
+    *Fan Yao, Renqin Cai, Hongning Wang*
 
 5. **LeNSE: Learning To Navigate Subgraph Embeddings for Large-Scale Combinatorial Optimisation** ICML, 2022. [paper](https://proceedings.mlr.press/v162/ireland22a.html), [code](https://github.com/davidireland3/LeNSE)
 
-    *Ireland, David and G. Montana*
+    *David Ireland, G. Montana*
 
 6. **Learning to Solve Combinatorial Graph Partitioning Problems via Efficient Exploration** Arxiv, 2022. [paper](https://arxiv.org/abs/2205.14105), [code](https://github.com/tomdbar/ecord)
 
-    *Barrett, Thomas D and Parsonson, Christopher WF and Laterre, Alexandre*
+    *Thomas D Barrett, Christopher WF Parsonson, Alexandre Laterre*
 
 7. **Revisiting Sampling for Combinatorial Optimization** ICML, 2023. [paper](https://icml.cc/virtual/2023/poster/23661)
 
-    *Sun, Haoran, Goshvadi Katayoon,Nova Azade,Schuurmans  Dale and Dai Hanjun.*
+    *Haoran, Goshvadi Katayoon, Nova Azade, Schuurmans Dale Sun, Dai Hanjun.*
 
 8. **Optimizing Solution-Samplers for Combinatorial Problems: The Landscape of Policy-Gradient Methods** NeurIPS, 2023. [paper](https://openreview.net/forum?id=mmTy1iyU5G), [code](https://openreview.net/attachment?id=mmTy1iyU5G&name=supplementary_material)
 
-    *Caramanis, Constantine and Fotakis, Dimitris and Kalavasis, Alkis and Kontonis, Vasilis and Tzamos, Christos*
+    *Constantine Caramanis, Dimitris Fotakis, Alkis Kalavasis, Vasilis Kontonis, Christos Tzamos*
 
 9. **Neural Improvement Heuristics for Graph Combinatorial Optimization Problems** TNNLS, 2023. [journal](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10271315&casa_token=Hqn_wH2HAjEAAAAA:rTd6KVaoKVjrFWASa-Ma0vC6CBvsmMUHnoWik2DyD56NbnfNOqBG5qZTBLR5hqf9vpCotivB_BU&tag=1), [code](https://github.com/TheLeprechaun25/neural-improvement-heuristics)
 
     *Andoni I. Garmendia, Josu Ceberio, Alexander Mendiburu*
 
-10. **Let the Flows Tell: Solving Graph Combinatorial Optimization Problems with GFlowNets** NeurIPS, 2023. [paper](https://arxiv.org/abs/2305.17010), [code](https://github.com/zdhNarsil/GFlowNet-CombOpt)
+10. **Let the Flows Tell: Solving Graph Combinatorial Optimization Problems with GFlowNets** NeurlPS, 2023. [paper](https://arxiv.org/abs/2305.17010), [code](https://github.com/zdhNarsil/GFlowNet-CombOpt)
 
     *Dinghuai Zhang, Hanjun Dai, Nikolay Malkin, Aaron Courville, Yoshua Bengio, Ling Pan*
 
-11. **Variational Annealing on Graphs for Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=SLx7paoaTU), [code](https://github.com/ml-jku/VAG-CO)
+11. **Variational Annealing on Graphs for Combinatorial Optimization** NeurlPS, 2023. [paper](https://openreview.net/forum?id=SLx7paoaTU), [code](https://github.com/ml-jku/VAG-CO)
 
-    *Sanokowski, Sebastian and Berghammer, Wilhelm Franz and Hochreiter, Sepp and Lehner, Sebastian*
+    *Sebastian Sanokowski, Wilhelm Franz Berghammer, Sepp Hochreiter, Sebastian Lehner*
 
-12. **DISCS: A Benchmark for Discrete Sampling** NeurIPS, 2023. [paper](https://openreview.net/forum?id=oi1MUMk5NF), [code](https://github.com/google-research/discs)
+12. **DISCS: A Benchmark for Discrete Sampling** NeurlPS, 2023. [paper](https://openreview.net/forum?id=oi1MUMk5NF), [code](https://github.com/google-research/discs)
 
     *Katayoon Goshvadi, Haoran Sun, Xingchao Liu, Azade Nova, Ruqi Zhang, Will Sussman Grathwohl, Dale Schuurmans, Hanjun Dai*
 
@@ -777,7 +831,7 @@ Published*
 
     *Andoni I. Garmendia, Quentin Cappart, Josu Ceberio, Alexander Mendiburu*
 
-14. **Controlling Continuous Relaxation for Combinatorial Optimization** NeurIPS, 2024. [paper](https://openreview.net/pdf?id=ykACV1IhjD)
+14. **Controlling Continuous Relaxation for Combinatorial Optimization** NeurlPS, 2024. [paper](https://openreview.net/pdf?id=ykACV1IhjD)
 
     *Yuma Ichikawa*
 
@@ -791,30 +845,33 @@ Published*
 
 17. **A Diffusion Model Framework for Unsupervised Neural Combinatorial Optimization** ICML, 2024. [paper](https://arxiv.org/abs/2406.01661), [code](https://github.com/ml-jku/DIffUCO)
 
-    *Sanokowski, Sebastian and Hochreiter, Sepp and Lehner, Sebastian*
+    *Sebastian Sanokowski, Sepp Hochreiter, Sebastian Lehner*
 
-18. **Scalable Discrete Diffusion Samplers: Combinatorial Optimization and Statistical Physics** ICLR, 2025. [paper](https://openreview.net/pdf?id=peNgxpbdxB)
+18. **⭐ML4CO-Bench-101: Benchmark Machine Learning for Classic Combinatorial Problems on Graphs** NeurIPS, 2025. [paper](https://openreview.net/forum?id=ye4ntB1Kzi), [code](https://github.com/Thinklab-SJTU/ML4CO-Bench-101)
 
-    *Sebastian Sanokowski, Wilhelm Franz Berghammer, Haoyu Peter Wang, Martin Ennemoser, Sepp Hochreiter, Sebastian Lehner*
+    *Jiale Ma, Wenzheng Pan, Yang Li, Junchi Yan*
 
 19. **⭐COExpander: Adaptive Solution Expansion for Combinatorial Optimization** ICML, 2025. [paper](https://openreview.net/forum?id=KMaBXMWsBM), [code](https://github.com/Thinklab-SJTU/COExpander)
 
-    *Jiale Ma and Wenzheng Pan and Yang Li and Junchi Yan*
+    *Jiale Ma, Wenzheng Pan, Yang Li, Junchi Yan*
 
-20. **⭐ML4CO-Bench-101: Benchmark Machine Learning for Classic Combinatorial Problems on Graphs** NeurIPS, 2025. [paper](https://openreview.net/forum?id=ye4ntB1Kzi), [code](https://github.com/Thinklab-SJTU/ML4CO-Bench-101)
+20. **Scalable Discrete Diffusion Samplers: Combinatorial Optimization and Statistical Physics** ICLR, 2025. [paper](https://openreview.net/pdf?id=peNgxpbdxB)
 
-    *Jiale Ma and Wenzheng Pan and Yang Li and Junchi Yan*
+    *Sebastian Sanokowski, Wilhelm Franz Berghammer, Haoyu Peter Wang, Martin Ennemoser, Sepp Hochreiter, Sebastian Lehner*
 
+21. **Learning to Explore and Exploit with GNNs for Unsupervised Combinatorial Optimization** ICLR, 2025. [paper](https://openreview.net/forum?id=vaJ4FObpXN), [code](https://github.com/utkuumur/X2GNN)
+
+    *Utku Umur Acikalin, Aaron M. Ferber, Carla P. Gomes*
 
 ### [Vehicle Routing Problem](#content)
 
 1. **Learning to Perform Local Rewriting for Combinatorial Optimization.** NeurIPS, 2019. [paper](https://arxiv.org/abs/1810.00337), [code](https://github.com/facebookresearch/neural-rewriter)
 
-    *Chen, Xinyun and Tian, Yuandong.*
+    *Xinyun Chen, Yuandong Tian*
 
 2. **Deep Reinforcement Learning for the Electric Vehicle Routing Problem with Time Windows.** Arxiv, 2020. [paper](https://arxiv.org/abs/2010.02068)
 
-    *Lin, Bo and Ghaddar, Bissan and Nathwani, Jatin.*
+    *Bo Lin, Bissan Ghaddar, Jatin Nathwani*
 
 3. **Efficiently Solving the Practical,Vehicle Routing Problem: A Novel Joint Learning Approach.** KDD, 2020. [paper](https://www.kdd.org/kdd2020/accepted-papers/view/efficiently-solving-the-practical-vehicle-routing-problem-a-novel-joint-lea)
 
@@ -826,19 +883,19 @@ Published*
 
 5. **A Learning-based Iterative Method for Solving Vehicle Routing Problems** ICLR, 2020. [paper](https://static.aminer.cn/upload/pdf/program/5e5e18dd93d709897ce3720b_0.pdf)
 
-    *Lu, Hao and Zhang, Xingwen and Yang, Shuang*
+    *Hao Lu, Xingwen Zhang, Shuang Yang*
 
 6. **Neural Large Neighborhood Search for the Capacitated Vehicle Routing Problem** Arxiv, 2020. [paper](https://arxiv.org/abs/1911.09539)
 
-    *Hottung, Andre and Tierney, Kevin*
+    *Andre Hottung, Kevin Tierney*
 
 7. **Learning Improvement Heuristics for Solving Routing Problems** TNNLS, 2021. [journal](https://ieeexplore.ieee.org/abstract/document/9393606?casa_token=mFeyLmrOGfIAAAAA:nmAkjUaTSooYurWHuWGYNoguV453anw9Enyv45xG5jb2oCps6QE4A1CFe1EmFmTzbON6cL5maw)
 
-    *Wu, Yaoxin and Song, Wen and Cao, Zhiguang and Zhang, Jie and Lim, Andrew*
+    *Yaoxin Wu, Wen Song, Zhiguang Cao, Jie Zhang, Andrew Lim*
 
 8. **Reinforcement Learning for Route Optimization with Robustness Guarantees** IJCAI, 2021. [paper](https://www.ijcai.org/proceedings/2021/0357.pdf)
 
-    *Jacobs, Tobias and Alesiani, Francesco and Ermis, Gulcin*
+    *Tobias Jacobs, Francesco Alesiani, Gulcin Ermis*
 
 9. **Multi-Decoder Attention Model with Embedding Glimpse for Solving Vehicle Routing Problems.** AAAI, 2021. [paper](https://arxiv.org/abs/2012.10638), [code](https://github.com/liangxinedu/MDAM)
 
@@ -846,51 +903,51 @@ Published*
 
 10. **Analytics and Machine Learning in Vehicle Routing Research** Arxiv, 2021. [paper](https://arxiv.org/abs/2102.10012)
 
-    *Bai, Ruibin and Chen, Xinan and Chen, Zhi-Long and Cui, Tianxiang and Gong, Shuhui and He, Wentao and Jiang, Xiaoping and Jin, Huan and Jin, Jiahuan and Kendall, Graham and others*
+    *Ruibin Bai, Xinan Chen, Zhi-Long Chen, Tianxiang Cui, Shuhui Gong, Wentao He, Xiaoping Jiang, Huan Jin, Jiahuan Jin, Graham Kendall, others*
 
 11. **RP-DQN: An application of Q-Learning to Vehicle Routing Problems** Arxiv, 2021. [paper](https://arxiv.org/abs/2104.12226)
 
-    *Bdeir, Ahmad and Boeder, Simon and Dernedde, Tim and Tkachuk, Kirill and Falkner, Jonas K and Schmidt-Thieme, Lars*
+    *Ahmad Bdeir, Simon Boeder, Tim Dernedde, Kirill Tkachuk, Jonas K Falkner, Lars Schmidt-Thieme*
 
 12. **Deep Policy Dynamic Programming for Vehicle Routing Problems** Arxiv, 2021. [paper](https://arxiv.org/abs/2102.11756)
 
-    *Kool, Wouter and van Hoof, Herke and Gromicho, Joaquim and Welling, Max*
+    *Wouter Kool, Herke van Hoof, Joaquim Gromicho, Max Welling*
 
 13. **Learning to Delegate for Large-scale Vehicle Routing** NeurIPS, 2021. [paper](https://proceedings.neurips.cc/paper/2021/hash/dc9fa5f217a1e57b8a6adeb065560b38-Abstract.html)
 
-    *Li, Sirui and Yan, Zhongxia and Wu, Cathy*
+    *Sirui Li, Zhongxia Yan, Cathy Wu*
 
 14. **Learning a Latent Search Space for Routing Problems using Variational Autoencoders** ICLR, 2021. [paper](https://openreview.net/forum?id=90JprVrJBO)
 
-    *Hottung, Andre and Bhandari, Bhanu and Tierney, Kevin*
+    *Andre Hottung, Bhanu Bhandari, Kevin Tierney*
 
 15. **Preference Conditioned Neural Multi-objective Combinatorial Optimization** ICLR, 2022. [paper](https://openreview.net/forum?id=QuObT9BTWo)
 
-    *Lin, Xi and Yang, Zhiyuan and Zhang, Qingfu*
+    *Xi Lin, Zhiyuan Yang, Qingfu Zhang*
 
 16. **Learning Generalizable Models for Vehicle Routing Problems via Knowledge Distillation** NeurIPS, 2022. [paper](https://openreview.net/forum?id=sOVNpUEgKMp), [code](https://github.com/jieyibi/AMDKD)
 
-    *Bi, Jieyi and Ma, Yining and Wang, Jiahai and Cao, Zhiguang and Chen, Jinbiao and Sun, Yuan and Chee, Yeow Meng*
+    *Jieyi Bi, Yining Ma, Jiahai Wang, Zhiguang Cao, Jinbiao Chen, Yuan Sun, Yeow Meng Chee*
 
 17. **Sym-NCO: Leveraging Symmetricity for Neural Combinatorial Optimization** NeurIPS, 2022. [paper](https://openreview.net/forum?id=kHrE2vi5Rvs), [code](https://github.com/alstn12088/Sym-NCO)
 
-    *Kim, Minsu and Park, Junyoung and Park, Jinkyoo*
+    *Minsu Kim, Junyoung Park, Jinkyoo Park*
 
 18. **Simulation-guided Beam Search for Neural Combinatorial Optimization** NeurIPS, 2022. [paper](https://openreview.net/forum?id=tYAS1Rpys5), [code](https://github.com/yd-kwon/SGBS)
 
-    *Choo, Jinho and Kwon, Yeong-Dae and Kim, Jihoon and Jae, Jeongwoo and Hottung, Andr{\'e} and Tierney, Kevin and Gwon, Youngjune*
+    *Jinho Choo, Yeong-Dae Kwon, Jihoon Kim, Jeongwoo Jae, Andr{\'e} Hottung, Kevin Tierney, Youngjune Gwon*
 
 19. **Learning to CROSS exchange to solve min-max vehicle routing problems** ICLR, 2023. [paper](https://openreview.net/forum?id=ZcnzsHC10Y)
 
-    *Kim, Minjun and Park, Junyoung and Park, Jinkyoo*
+    *Minjun Kim, Junyoung Park, Jinkyoo Park*
 
 20. **Generalize Learned Heuristics to Solve Large-scale Vehicle Routing Problems in Real-time** ICLR, 2023. [paper](https://openreview.net/forum?id=6ZajpxqTlQ)
 
-    *Hou, Qingchun and Yang, Jingwei and Su, Yiqiang and Wang, Xiaoqing and Deng, Yuming*
+    *Qingchun Hou, Jingwei Yang, Yiqiang Su, Xiaoqing Wang, Yuming Deng*
 
 21. **Meta-SAGE: Scale Meta-Learning Scheduled Adaptation with Guided Exploration for Mitigating Scale Shift on Combinatorial Optimization** ICML, 2023. [paper](https://icml.cc/virtual/2023/poster/25138)
 
-    *Son, Jiwoo and Kim, Minsu and Kim, Hyeonah and Park, Jinkyoo*
+    *Jiwoo Son, Minsu Kim, Hyeonah Kim, Jinkyoo Park*
 
 22. **Towards Omni-generalizable Neural Methods for Vehicle Routing Problems** ICML, 2023. [paper](https://icml.cc/virtual/2023/poster/25267), [code](https://github.com/RoyalSkye/Omni-VRP)
 
@@ -898,39 +955,39 @@ Published*
 
 23. **DeepACO: Neural-enhanced Ant Systems for Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=cd5D1DD923), [code](https://github.com/henry-yeh/DeepACO)
 
-    *Ye, Haoran and Wang, Jiarui and Cao, Zhiguang and Liang, Helan and Li, Yong*
+    *Haoran Ye, Jiarui Wang, Zhiguang Cao, Helan Liang, Yong Li*
 
 24. **Winner Takes It All: Training Performant RL Populations for Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=v6VpqGcGAR)
 
-    *Grinsztajn, Nathan and Furelos-Blanco, Daniel and Surana, Shikha and Bonnet, Cl{\'e}ment and Barrett, Thomas D*
+    *Nathan Grinsztajn, Daniel Furelos-Blanco, Shikha Surana, Cl{\'e}ment Bonnet, Thomas D Barrett*
 
 25. **Combinatorial Optimization with Policy Adaptation using Latent Space Search** NeurIPS, 2023. [paper](https://openreview.net/forum?id=vpMBqdt9Hl)
 
-    *Chalumeau, Felix and Surana, Shikha and Bonnet, Cl{\'e}ment and Grinsztajn, Nathan and Pretorius, Arnu and Laterre, Alexandre and Barrett, Thomas D*
+    *Felix Chalumeau, Shikha Surana, Cl{\'e}ment Bonnet, Nathan Grinsztajn, Arnu Pretorius, Alexandre Laterre, Thomas D Barrett*
 
 26. **Efficient Meta Neural Heuristic for Multi-Objective Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=593fc38lhN), [code](https://github.com/bill-cjb/EMNH)
 
-    *Chen, Jinbiao and Wang, Jiahai and Zhang, Zizhen and Cao, Zhiguang and Ye, Te and Chen, Siyuan*
+    *Jinbiao Chen, Jiahai Wang, Zizhen Zhang, Zhiguang Cao, Te Ye, Siyuan Chen*
 
 27. **BQ-NCO: Bisimulation Quotienting for Efficient Neural Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=BRqlkTDvvm), [code](https://github.com/naver/bq-nco)
 
-    *Drakulic, Darko and Michel, Sofia and Mai, Florian and Sors, Arnaud and Andreoli, Jean-Marc*
+    *Darko Drakulic, Sofia Michel, Florian Mai, Arnaud Sors, Jean-Marc Andreoli*
 
 28. **Neural Combinatorial Optimization with Heavy Decoder: Toward Large Scale Generalization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=RBI4oAbdpm), [code](https://github.com/CIAM-Group/NCO_code/tree/main/single_objective/LEHD)
 
-    *Luo, Fu and Lin, Xi and Liu, Fei and Zhang, Qingfu and Wang, Zhenkun*
+    *Fu Luo, Xi Lin, Fei Liu, Qingfu Zhang, Zhenkun Wang*
 
 29. **Neural Multi-Objective Combinatorial Optimization with Diversity Enhancement** NeurIPS, 2023. [paper](https://openreview.net/forum?id=N4JkStI1fe), [code](https://github.com/bill-cjb/NHDE)
 
-    *Chen, Jinbiao and Zhang, Zizhen and Cao, Zhiguang and Wu, Yaoxin and Ma, Yining and Ye, Te and Wang, Jiahai*
+    *Jinbiao Chen, Zizhen Zhang, Zhiguang Cao, Yaoxin Wu, Yining Ma, Te Ye, Jiahai Wang*
 
 30. **Ensemble-based Deep Reinforcement Learning for Vehicle Routing Problems under Distribution Shift** NeurIPS, 2023. [paper](https://openreview.net/forum?id=HoBbZ1vPAh)
 
-    *Jiang, Yuan and Cao, Zhiguang and Wu, Yaoxin and Song, Wen and Zhang, Jie*
+    *Yuan Jiang, Zhiguang Cao, Yaoxin Wu, Wen Song, Jie Zhang*
 
 31. **Learning to Search Feasible and Infeasible Regions of Routing Problems with Flexible Neural k-Opt** NeurIPS, 2023. [paper](https://openreview.net/forum?id=q1JukwH2yP), [code](https://github.com/yining043/NeuOpt)
 
-    *Ma, Yining and Cao, Zhiguang and Chee, Yeow Meng*
+    *Yining Ma, Zhiguang Cao, Yeow Meng Chee*
 
 32. **Learning to Prune Electric Vehicle Routing Problems** LION, 2023. [paper](https://link.springer.com/chapter/10.1007/978-3-031-44505-7_26)
 
@@ -966,59 +1023,129 @@ Published*
 
 40. **Rethinking Neural Multi-Objective Combinatorial Optimization via Neat Weight Embedding** ICLR, 2025. [paper](https://openreview.net/forum?id=GM7cmQfk2F)
 
-    *Jinbiao Chen, Zhiguang Cao, Jiahai Wang, Yaoxin Wu, Hanzhang Qin, Zizhen Zhang, Yue-Jiao Gong
-Published*
+    *Jinbiao Chen, Zhiguang Cao, Jiahai Wang, Yaoxin Wu, Hanzhang Qin, Zizhen Zhang, Yue-Jiao Gong*
 
 41. **Boosting Neural Combinatorial Optimization for Large-Scale Vehicle Routing Problems** ICLR, 2025. [paper](https://openreview.net/forum?id=TbTJJNjumY)
 
     *Fu Luo, Xi Lin, Yaoxin Wu, Zhenkun Wang, Tong Xialiang, Mingxuan Yuan, Qingfu Zhang*
 
-42. **⭐COExpander: Adaptive Solution Expansion for Combinatorial Optimization** ICML, 2025. [paper](https://openreview.net/forum?id=KMaBXMWsBM), [code](https://github.com/Thinklab-SJTU/COExpander)
+42. **⭐ML4CO-Bench-101: Benchmark Machine Learning for Classic Combinatorial Problems on Graphs** NeurIPS, 2025. [paper](https://openreview.net/forum?id=ye4ntB1Kzi), [code](https://github.com/Thinklab-SJTU/ML4CO-Bench-101)
 
-    *Jiale Ma and Wenzheng Pan and Yang Li and Junchi Yan*
+    *Jiale Ma, Wenzheng Pan, Yang Li, Junchi Yan*
 
-43. **⭐ML4CO-Bench-101: Benchmark Machine Learning for Classic Combinatorial Problems on Graphs** NeurIPS, 2025. [paper](https://openreview.net/forum?id=ye4ntB1Kzi), [code](https://github.com/Thinklab-SJTU/ML4CO-Bench-101)
+43. **⭐COExpander: Adaptive Solution Expansion for Combinatorial Optimization** ICML, 2025. [paper](https://openreview.net/forum?id=KMaBXMWsBM), [code](https://github.com/Thinklab-SJTU/COExpander)
 
-    *Jiale Ma and Wenzheng Pan and Yang Li and Junchi Yan*
+    *Jiale Ma, Wenzheng Pan, Yang Li, Junchi Yan*
 
+44. **Large Language Models as End-to-end Combinatorial Optimization Solvers** NeurIPS, 2025. [paper](https://neurips.cc/virtual/2025/loc/san-diego/poster/115835), [code](https://github.com/Summer142857/LLMCoSolver)
+
+    *Xia Jiang, Yaoxin Wu, Minshuo Li, Zhiguang Cao, Yingqian Zhang*
+
+45. **Generalizable Heuristic Generation Through LLMs with Meta-Optimization** ICLR, 2026. [paper](https://arxiv.org/abs/2505.20881), [code](https://github.com/yiding-s/MoH)
+
+    *Yiding Shi, Jianan Zhou, Wen Song, Jieyi Bi, Yaoxin Wu, Zhiguang Cao, Jie Zhang*
+
+46. **DRAGON: LLM-Driven Decomposition and Reconstruction Agents for Large-Scale Combinatorial Optimization** AAMAS, 2026. [paper](https://arxiv.org/abs/2601.06502)
+
+    *Shengkai Chen, Zhiguang Cao, Jianan Zhou, Yaoxin Wu, Senthilnath Jayavelu, Zhuoyi Lin, Xiaoli Li, Shili Xiang*
+
+47. **Bridging Synthetic and Real Routing Problems via LLM-Guided Instance Generation and Progressive Adaptation** AAAI, 2026. [paper](https://arxiv.org/abs/2511.10233), [code](https://github.com/HenryZhu1029/EvoReal)
+
+    *Jianghan Zhu, Yaoxin Wu, Zhuoyi Lin, Zhengyuan Zhang, Haiyan Yin, Zhiguang Cao, Senthilnath Jayavelu, Xiaoli Li*
+
+48. **EoH-S: Evolution of Heuristic Set using LLMs for Automated Heuristic Design** AAAI, 2026. [paper](https://arxiv.org/abs/2508.03082), [code](https://github.com/FeiLiu36/EoH-S)
+
+    *Fei Liu, Yilu Liu, Qingfu Zhang, Xialiang Tong, Mingxuan Yuan*
+
+49. **Refining Hybrid Genetic Search for CVRP via Reinforcement Learning-Finetuned LLM** ICLR, 2026. [paper](https://arxiv.org/abs/2510.11121), [code](https://github.com/zaodushi/RFTHGS)
+
+    *Rongjie Zhu, Cong Zhang, Zhiguang Cao*
+
+50. **RRNCO: Towards Real-World Routing with Neural Combinatorial Optimization** ICLR, 2026. [paper](https://arxiv.org/abs/2503.16159), [code](https://github.com/ai4co/real-routing-nco)
+
+    *Jiwoo Son, Zhikai Zhao, Federico Berto, Chuanbo Hua, Zhiguang Cao, Changhyun Kwon, Jinkyoo Park*
+
+51. **Chain-of-Context Learning: Dynamic Constraint Understanding for Multi-Task VRPs** ICLR, 2026. [paper](https://openreview.net/forum?id=AhE6aSlz5g), [code](https://github.com/gshuangchun/CCL-MTLVRP)
+
+    *Shuangchun Gui, Suyu Liu, Xuehe Wang, Zhiguang Cao*
+
+52. **RADAR: Learning to Route with Asymmetry-aware Distance Representations** ICLR, 2026. [paper](https://openreview.net/forum?id=lWdxX5s9T1), [code](https://github.com/yihang0410/RADAR)
+
+    *Hang Yi, Ziwei Huang, Yining Ma, Zhiguang Cao*
+
+53. **Combination-of-Experts with Knowledge Sharing for Cross-Task Vehicle Routing Problems** ICLR, 2026. [paper](https://openreview.net/forum?id=lHBs9mbgwp), [code](https://github.com/yuzikang0/CoEKS)
+
+    *Zikang Yu, Jinbiao Chen, Jiahai Wang*
+
+54. **An Agentic Framework with LLMs for Solving Complex Vehicle Routing Problems** ICLR, 2026. [paper](https://openreview.net/forum?id=BMOgYw4EhQ), [code](https://github.com/ZHANG-NI/AFL)
+
+    *Ni Zhang, Zhiguang Cao, Jianan Zhou, Cong Zhang, Yew-Soon Ong*
+
+55. **Learning to Segment for Vehicle Routing Problems** ICLR, 2026. [paper](https://arxiv.org/abs/2507.01037), [code](https://github.com/mit-wu-lab/learning-to-segment)
+
+    *Wenbin Ouyang, Sirui Li, Yining Ma, Cathy Wu*
+
+56. **G-LNS: Generative Large Neighborhood Search for LLM-Based Automatic Heuristic Design** Arxiv, 2026. [paper](https://arxiv.org/abs/2602.08253), [code](https://github.com/ZBoyn/G-LNS)
+
+    *Baoyun Zhao, He Wang, Liang Zeng*
+
+57. **Beyond Simple Graphs: Neural Multi-Objective Routing on Multigraphs** ICLR, 2026. [paper](https://arxiv.org/abs/2506.22095), [code](https://github.com/filiprydin/GMS)
+
+    *Filip Rydin, Attila Lischka, Jiaming Wu, Morteza Haghir Chehreghani, Balazs Kulcsar*
+
+58. **⭐MaskCO: Masked Generation Drives Effective Representation Learning and Exploiting for Combinatorial Optimization** ICLR, 2026. [paper](https://openreview.net/forum?id=psUjNnLhl9), [code](https://github.com/Thinklab-SJTU/MaskCO)
+
+    *Lvda Chen, Yang Li, Junchi Yan*
+
+59. **Towards Efficient Constraint Handling in Neural Solvers for Routing Problems** ICLR, 2026. [paper](https://openreview.net/forum?id=raDFGuQxvD), [code](https://github.com/jieyibi/CaR-constraint)
+
+    *Jieyi Bi, Zhiguang Cao, Jianan Zhou, Wen Song, Yaoxin Wu, Jie Zhang, Yining Ma, Cathy Wu*
+
+60. **⭐Native Adaptive Solution Expansion for Diffusion-based Combinatorial Optimization** ICLR, 2026. [paper](https://openreview.net/forum?id=084SvT55yk)
+
+    *Yu Wang, Yang Li, Jiale Ma, Junchi Yan, Yi Chang*
+
+61. **Multi-Action Self-Improvement for Neural Combinatorial Optimization** ICLR, 2026. [paper](https://arxiv.org/abs/2510.12273), [code](https://github.com/LTluttmann/macsim)
+
+    *Laurin Luttmann, Lin Xie*
 
 ### [Maximum Independent Set](#content)
 
 1. **Combinatorial Optimization with Graph Convolutional Networks and Guided Tree Search.** NeurIPS, 2018. [paper](https://arxiv.org/abs/1810.10659)
 
-    *Li, Zhuwen and Chen, Qifeng and Koltun, Vladlen.*
+    *Zhuwen Li, Qifeng Chen, Vladlen Koltun*
 
 2. **Learning What to Defer for Maximum Independent Sets** ICML, 2020. [paper](http://proceedings.mlr.press/v119/ahn20a.html)
 
-    *Ahn, Sungsoo and Seo, Younggyo and Shin, Jinwoo*
+    *Sungsoo Ahn, Younggyo Seo, Jinwoo Shin*
 
 3. **Distributed Scheduling Using Graph Neural Networks** ICASSP, 2021. [paper](https://ieeexplore.ieee.org/abstract/document/9414098?casa_token=Q4coRBbINPMAAAAA:0T8L49Kyn9p4CoM20-FqINKCyk_Sm3ye5TemPT8GlG3C3wXXLvn1RGKeHgriiyZIcg_GFB4z1A)
 
-    *Zhao, Zhongyuan and Verma, Gunjan and Rao, Chirag and Swami, Ananthram and Segarra, Santiago*
+    *Zhongyuan Zhao, Gunjan Verma, Chirag Rao, Ananthram Swami, Santiago Segarra*
 
-4. **Solving Graph-based Public Good Games with Tree Search and Imitation Learning** NeurIPS, 2021. [paper](https://arxiv.org/abs/2106.06762)
+4. **Solving Graph-based Public Good Games with Tree Search and Imitation Learning** NeurlPS, 2021. [paper](https://arxiv.org/abs/2106.06762)
 
-    *Darvariu, Victor-Alexandru and Hailes, Stephen and Musolesi, Mirco*
+    *Victor-Alexandru Darvariu, Stephen Hailes, Mirco Musolesi*
 
-5. **NN-Baker: A Neural-network Infused Algorithmic Framework for Optimization Problems on Geometric Intersection Graphs** NeurIPS, 2021. [paper](https://papers.nips.cc/paper/2021/file/c236337b043acf93c7df397fdb9082b3-Paper.pdf)
+5. **NN-Baker: A Neural-network Infused Algorithmic Framework for Optimization Problems on Geometric Intersection Graphs** NeurlPS, 2021. [paper](https://papers.nips.cc/paper/2021/file/c236337b043acf93c7df397fdb9082b3-Paper.pdf)
 
-    *McCarty, Evan and Zhao, Qi and Sidiropoulos, Anastasios and Wang, Yusu*
+    *Evan McCarty, Qi Zhao, Anastasios Sidiropoulos, Yusu Wang*
 
 6. **What's Wrong with Deep Learning in Tree Search for Combinatorial Optimization** ICLR, 2022. [paper](https://openreview.net/forum?id=mk0HzdqY7i1), [code](https://github.com/MaxiBoether/mis-benchmark-framework)
 
-    *Bother, Maximilian and Kissig, Otto and Taraz, Martin and Cohen, Sarel and Seidel, Karen and Friedrich, Tobias*
+    *Maximilian Bother, Otto Kissig, Martin Taraz, Sarel Cohen, Karen Seidel, Tobias Friedrich*
 
-7. **Optimistic tree search strategies for black-box combinatorial optimization** NeurIPS, 2022. [paper](https://openreview.net/forum?id=JGLW4DvX11F)
+7. **Optimistic tree search strategies for black-box combinatorial optimization** NeurlPS, 2022. [paper](https://openreview.net/forum?id=JGLW4DvX11F)
 
-    *Malherbe, Cedric and Grosnit, Antoine and Tutunov, Rasul and Ammar, Haitham Bou and Wang, Jun*
+    *Cedric Malherbe, Antoine Grosnit, Rasul Tutunov, Haitham Bou Ammar, Jun Wang*
 
 8. **⭐ROCO: A General Framework for Evaluating Robustness of Combinatorial Optimization Solvers on Graphs** ICLR, 2023. [paper](https://openreview.net/forum?id=2r6YMqz4Mml), [code](https://github.com/Thinklab-SJTU/ROCO)
 
-    *Lu, Han and Li, Zenan and Wang, Runzhong and Ren, Qibing and Li, Xijun and Yuan, Mingxuan and Zeng, Jia and Yang, Xiaokang and Yan, Junchi*
+    *Han Lu, Zenan Li, Runzhong Wang, Qibing Ren, Xijun Li, Mingxuan Yuan, Jia Zeng, Xiaokang Yang, Junchi Yan*
 
 9. **Revisiting Sampling for Combinatorial Optimization** ICML, 2023. [paper](https://icml.cc/virtual/2023/poster/23661)
 
-    *Sun, Haoran, Goshvadi Katayoon,Nova Azade,Schuurmans  Dale and Dai Hanjun.*
+    *Haoran, Goshvadi Katayoon, Nova Azade, Schuurmans Dale Sun, Dai Hanjun.*
 
 10. **DIFUSCO: Graph-based Diffusion Solvers for Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=JV8Ff0lgVV), [code](https://github.com/Edward-Sun/DIFUSCO)
 
@@ -1030,25 +1157,25 @@ Published*
 
 12. **Unsupervised Learning for Combinatorial Optimization Needs Meta Learning** ICLR, 2023. [paper](https://openreview.net/forum?id=-ENYHCE8zBp), [code](https://github.com/Graph-COM/Meta_CO)
 
-    *Wang, Haoyu and Li, Pan*
+    *Haoyu Wang, Pan Li*
 
 13. **Graph-based Deterministic Policy Gradient for Repetitive Combinatorial Optimization Problems** ICLR, 2023. [paper](https://openreview.net/forum?id=yHIIM9BgOo), [code](https://github.com/XzrTGMu/twin-nphard)
 
-    *Zhao, Zhongyuan and Swami, Ananthram and Segarra, Santiago*
+    *Zhongyuan Zhao, Ananthram Swami, Santiago Segarra*
 
-14. **Let the Flows Tell: Solving Graph Combinatorial Optimization Problems with GFlowNets** NeurIPS, 2023. [paper](https://arxiv.org/abs/2305.17010), [code](https://github.com/zdhNarsil/GFlowNet-CombOpt)
+14. **Let the Flows Tell: Solving Graph Combinatorial Optimization Problems with GFlowNets** NeurlPS, 2023. [paper](https://arxiv.org/abs/2305.17010), [code](https://github.com/zdhNarsil/GFlowNet-CombOpt)
 
     *Dinghuai Zhang, Hanjun Dai, Nikolay Malkin, Aaron Courville, Yoshua Bengio, Ling Pan*
 
-15. **Variational Annealing on Graphs for Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=SLx7paoaTU), [code](https://github.com/ml-jku/VAG-CO)
+15. **Variational Annealing on Graphs for Combinatorial Optimization** NeurlPS, 2023. [paper](https://openreview.net/forum?id=SLx7paoaTU), [code](https://github.com/ml-jku/VAG-CO)
 
-    *Sanokowski, Sebastian and Berghammer, Wilhelm Franz and Hochreiter, Sepp and Lehner, Sebastian*
+    *Sebastian Sanokowski, Wilhelm Franz Berghammer, Sepp Hochreiter, Sebastian Lehner*
 
-16. **Maximum Independent Set: Self-Training through Dynamic Programming** NeurIPS, 2023. [paper](https://openreview.net/forum?id=igE3Zbxvws), [code](https://github.com/LIONS-EPFL/dynamic-MIS)
+16. **Maximum Independent Set: Self-Training through Dynamic Programming** NeurlPS, 2023. [paper](https://openreview.net/forum?id=igE3Zbxvws), [code](https://github.com/LIONS-EPFL/dynamic-MIS)
 
-    *Brusca, Lorenzo and Quaedvlieg, Lars CPM and Skoulakis, Stratis and Chrysos, Grigorios G and Cevher, Volkan*
+    *Lorenzo Brusca, Lars CPM Quaedvlieg, Stratis Skoulakis, Grigorios G Chrysos, Volkan Cevher*
 
-17. **DISCS: A Benchmark for Discrete Sampling** NeurIPS, 2023. [paper](https://openreview.net/forum?id=oi1MUMk5NF), [code](https://github.com/google-research/discs)
+17. **DISCS: A Benchmark for Discrete Sampling** NeurlPS, 2023. [paper](https://openreview.net/forum?id=oi1MUMk5NF), [code](https://github.com/google-research/discs)
 
     *Katayoon Goshvadi, Haoran Sun, Xingchao Liu, Azade Nova, Ruqi Zhang, Will Sussman Grathwohl, Dale Schuurmans, Hanjun Dai*
 
@@ -1060,7 +1187,7 @@ Published*
 
     *Yang Li, Jinpei Guo, Runzhong Wang, Hongyuan Zha, Junchi Yan*
 
-20. **Controlling Continuous Relaxation for Combinatorial Optimization** NeurIPS, 2024. [paper](https://openreview.net/pdf?id=ykACV1IhjD)
+20. **Controlling Continuous Relaxation for Combinatorial Optimization** NeurlPS, 2024. [paper](https://openreview.net/pdf?id=ykACV1IhjD)
 
     *Yuma Ichikawa*
 
@@ -1068,48 +1195,71 @@ Published*
 
     *Nasimeh Heydaribeni, Xinrui Zhan, Ruisi Zhang, Tina Eliassi-Rad, Farinaz Koushanfar*
 
-22. **Efficient Combinatorial Optimization via Heat Diffusion** NeurIPS, 2024. [paper](https://openreview.net/pdf?id=psDrko9v1D)
+22. **Efficient Combinatorial Optimization via Heat Diffusion** NeurlPS, 2024. [paper](https://openreview.net/pdf?id=psDrko9v1D)
 
     *Hengyuan Ma, Wenlian Lu, Jianfeng Feng*
 
 23. **A Diffusion Model Framework for Unsupervised Neural Combinatorial Optimization** ICML, 2024. [paper](https://arxiv.org/abs/2406.01661), [code](https://github.com/ml-jku/DIffUCO)
 
-    *Sanokowski, Sebastian and Hochreiter, Sepp and Lehner, Sebastian*
+    *Sebastian Sanokowski, Sepp Hochreiter, Sebastian Lehner*
 
-24. **Scalable Discrete Diffusion Samplers: Combinatorial Optimization and Statistical Physics** ICLR, 2025. [paper](https://openreview.net/pdf?id=peNgxpbdxB)
+24. **⭐ML4CO-Bench-101: Benchmark Machine Learning for Classic Combinatorial Problems on Graphs** NeurIPS, 2025. [paper](https://openreview.net/forum?id=ye4ntB1Kzi), [code](https://github.com/Thinklab-SJTU/ML4CO-Bench-101)
 
-    *Sebastian Sanokowski, Wilhelm Franz Berghammer, Haoyu Peter Wang, Martin Ennemoser, Sepp Hochreiter, Sebastian Lehner*
+    *Jiale Ma, Wenzheng Pan, Yang Li, Junchi Yan*
 
 25. **⭐COExpander: Adaptive Solution Expansion for Combinatorial Optimization** ICML, 2025. [paper](https://openreview.net/forum?id=KMaBXMWsBM), [code](https://github.com/Thinklab-SJTU/COExpander)
 
-    *Jiale Ma and Wenzheng Pan and Yang Li and Junchi Yan*
+    *Jiale Ma, Wenzheng Pan, Yang Li, Junchi Yan*
 
-26. **⭐ML4CO-Bench-101: Benchmark Machine Learning for Classic Combinatorial Problems on Graphs** NeurIPS, 2025. [paper](https://openreview.net/forum?id=ye4ntB1Kzi), [code](https://github.com/Thinklab-SJTU/ML4CO-Bench-101)
+26. **Large Language Models as End-to-end Combinatorial Optimization Solvers** NeurIPS, 2025. [paper](https://neurips.cc/virtual/2025/loc/san-diego/poster/115835), [code](https://github.com/Summer142857/LLMCoSolver)
 
-    *Jiale Ma and Wenzheng Pan and Yang Li and Junchi Yan*
+    *Xia Jiang, Yaoxin Wu, Minshuo Li, Zhiguang Cao, Yingqian Zhang*
 
+27. **Scalable Discrete Diffusion Samplers: Combinatorial Optimization and Statistical Physics** ICLR, 2025. [paper](https://openreview.net/pdf?id=peNgxpbdxB)
+
+    *Sebastian Sanokowski, Wilhelm Franz Berghammer, Haoyu Peter Wang, Martin Ennemoser, Sepp Hochreiter, Sebastian Lehner*
+
+28. **Learning to Explore and Exploit with GNNs for Unsupervised Combinatorial Optimization** ICLR, 2025. [paper](https://openreview.net/forum?id=vaJ4FObpXN), [code](https://github.com/utkuumur/X2GNN)
+
+    *Utku Umur Acikalin, Aaron M. Ferber, Carla P. Gomes*
+
+29. **⭐MaskCO: Masked Generation Drives Effective Representation Learning and Exploiting for Combinatorial Optimization** ICLR, 2026. [paper](https://openreview.net/forum?id=psUjNnLhl9), [code](https://github.com/Thinklab-SJTU/MaskCO)
+
+    *Lvda Chen, Yang Li, Junchi Yan*
+
+30. **⭐ConRep4CO: Contrastive Representation Learning of Combinatorial Optimization Instances across Types** ICLR, 2026. [paper](https://openreview.net/forum?id=OXRnvOOiAf), [code](https://github.com/Thinklab-SJTU/ConRep4CO)
+
+    *Ziao Guo, Yang Li, Shiyue Wang, Junchi Yan*
+
+31. **⭐Native Adaptive Solution Expansion for Diffusion-based Combinatorial Optimization** ICLR, 2026. [paper](https://openreview.net/forum?id=084SvT55yk)
+
+    *Yu Wang, Yang Li, Jiale Ma, Junchi Yan, Yi Chang*
+
+32. **FrontierCO: Real-World and Large-Scale Evaluation of Machine Learning Solvers for Combinatorial Optimization** ICLR, 2026. [paper](https://openreview.net/forum?id=BVprkacwFY), [code](https://github.com/sunnweiwei/FrontierCO)
+
+    *Shengyu Feng, Weiwei Sun, Shanda Li, Ameet Talwalkar, Yiming Yang*
 
 ### [Generalization](#content)
 
 1. **It's Not What Machines Can Learn It's What We Cannot Teach** ICML, 2020. [paper](http://proceedings.mlr.press/v119/yehuda20a/yehuda20a.pdf)
 
-    *Gal Yehuda, Moshe Gabel and Assaf Schuster*
+    *Gal Yehuda, Moshe Gabel, Assaf Schuster*
 
 2. **Learning TSP Requires Rethinking Generalization** CP, 2021. [paper](https://arxiv.org/pdf/2006.07054.pdf), [code](https://github.com/chaitjo/learning-tsp)
 
-    *Chaitanya K. Joshi, Quentin Cappart, Louis-Martin Rousseau and Thomas Laurent*
+    *Chaitanya K. Joshi, Quentin Cappart, Louis-Martin Rousseau, Thomas Laurent*
 
 3. **Generalization of Neural Combinatorial Solvers Through the Lens of Adversarial Robustness** ICLR, 2022. [paper](https://openreview.net/forum?id=vJZ7dPIjip3)
 
-    *Simon Geisler, Johanna Sommer, Jan Schuchardt, Aleksandar Bojchevski and Stephan Günnemann*
+    *Simon Geisler, Johanna Sommer, Jan Schuchardt, Aleksandar Bojchevski, Stephan Günnemann*
 
 4. **Learning for Robust Combinatorial Optimization: Algorithm and Application** INFOCOM, 2022. [journal](https://ieeexplore.ieee.org/abstract/document/9796715/)
 
-    *Shao, Zhihui and Yang, Jianyi and Shen, Cong and Ren, Shaolei*
+    *Zhihui Shao, Jianyi Yang, Cong Shen, Shaolei Ren*
 
 5. **⭐ROCO: A General Framework for Evaluating Robustness of Combinatorial Optimization Solvers on Graphs** ICLR, 2023. [paper](https://openreview.net/forum?id=2r6YMqz4Mml), [code](https://github.com/Thinklab-SJTU/ROCO)
 
-    *Lu, Han and Li, Zenan and Wang, Runzhong and Ren, Qibing and Li, Xijun and Yuan, Mingxuan and Zeng, Jia and Yang, Xiaokang and Yan, Junchi*
+    *Han Lu, Zenan Li, Runzhong Wang, Qibing Ren, Xijun Li, Mingxuan Yuan, Jia Zeng, Xiaokang Yang, Junchi Yan*
 
 6. **Towards Omni-generalizable Neural Methods for Vehicle Routing Problems** ICML, 2023. [paper](https://icml.cc/virtual/2023/poster/25267), [code](https://github.com/RoyalSkye/Omni-VRP)
 
@@ -1127,11 +1277,11 @@ Published*
 
 2. **Meta-SAGE: Scale Meta-Learning Scheduled Adaptation with Guided Exploration for Mitigating Scale Shift on Combinatorial Optimization** ICML, 2023. [paper](https://icml.cc/virtual/2023/poster/25138)
 
-    *Son, Jiwoo and Kim, Minsu and Kim, Hyeonah and Park, Jinkyoo*
+    *Jiwoo Son, Minsu Kim, Hyeonah Kim, Jinkyoo Park*
 
 3. **DeepACO: Neural-enhanced Ant Systems for Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=cd5D1DD923), [code](https://github.com/henry-yeh/DeepACO)
 
-    *Ye, Haoran and Wang, Jiarui and Cao, Zhiguang and Liang, Helan and Li, Yong*
+    *Haoran Ye, Jiarui Wang, Zhiguang Cao, Helan Liang, Yong Li*
 
 4. **UDC: A Unified Neural Divide-and-Conquer Framework for Large-Scale Combinatorial Optimization Problems** NeurIPS, 2024. [paper](https://openreview.net/pdf?id=dCgbyvmlwL), [code](https://github.com/CIAM-Group/NCO_code/tree/main/single_objective/UDC-Large-scale-CO-master)
 
@@ -1139,39 +1289,47 @@ Published*
 
 ### [Knapsack](#content)
 
-1. **A Novel Method to Solve Neural Knapsack Problems** ICML, 2021. [paper](http://proceedings.mlr.press/v139/li21m.html), [code](and Tao Hao")
+1. **A Pointer Network Based Deep Learning Algorithm  for 0-1 Knapsack Problem** ICACI, 2018. [paper](https://ieeexplore.ieee.org/abstract/document/8377505)
 
-    *"Li Duanshun and Liu Jing and Lee Dongeun and Seyedmazloom Ali and Kaushik Giridhar and Lee Kookjin and Park Noseong,
-Knapsack,Provably Good Solutions to the Knapsack Problem via Neural Networks of Bounded Size,AAAI,2021,paper,https://pubsonline.informs.org/doi/abs/10.1287/ijoc.2021.0225,Hertrich Christoph and Martin Skutella,
-Knapsack,An Investigation into Prediction + Optimisation for the Knapsack Problem,CPAIOR,2019,paper,https://link.springer.com/chapter/10.1007/978-3-030-19212-9_16,Demirovic Emir and Stuckey Peter J and Bailey James and Chan Jeffrey and Leckie Chris and Ramamohanarao Kotagiri and Guns Tias,
-Knapsack,A Pointer Network Based Deep Learning Algorithm  for 0-1 Knapsack Problem,ICACI,2018,paper,https://ieeexplore.ieee.org/abstract/document/8377505,Gu Shenshen*
+    *Shenshen Gu, Hao Tao*
 
-2. **DeepACO: Neural-enhanced Ant Systems for Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=cd5D1DD923), [code](https://github.com/henry-yeh/DeepACO)
+2. **An Investigation into Prediction + Optimisation for the Knapsack Problem** CPAIOR, 2019. [paper](https://link.springer.com/chapter/10.1007/978-3-030-19212-9_16)
 
-    *Ye, Haoran and Wang, Jiarui and Cao, Zhiguang and Liang, Helan and Li, Yong*
+    *Emir Demirovic, Peter J. Stuckey, James Bailey, Jeffrey Chan, Chris Leckie, Kotagiri Ramamohanarao, Tias Guns*
 
-3. **Winner Takes It All: Training Performant RL Populations for Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=v6VpqGcGAR)
+3. **A Novel Method to Solve Neural Knapsack Problems** ICML, 2021. [paper](http://proceedings.mlr.press/v139/li21m.html)
 
-    *Grinsztajn, Nathan and Furelos-Blanco, Daniel and Surana, Shikha and Bonnet, Cl{\'e}ment and Barrett, Thomas D*
+    *Duanshun Li, Jing Liu, Dongeun Lee, Ali Seyedmazloom, Giridhar Kaushik, Kookjin Lee, Noseong Park*
 
-4. **Efficient Meta Neural Heuristic for Multi-Objective Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=593fc38lhN), [code](https://github.com/bill-cjb/EMNH)
+4. **Provably Good Solutions to the Knapsack Problem via Neural Networks of Bounded Size** AAAI, 2021. [paper](https://pubsonline.informs.org/doi/abs/10.1287/ijoc.2021.0225)
 
-    *Chen, Jinbiao and Wang, Jiahai and Zhang, Zizhen and Cao, Zhiguang and Ye, Te and Chen, Siyuan*
+    *Christoph Hertrich, Martin Skutella*
 
-5. **BQ-NCO: Bisimulation Quotienting for Efficient Neural Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=BRqlkTDvvm), [code](https://github.com/naver/bq-nco)
+5. **DeepACO: Neural-enhanced Ant Systems for Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=cd5D1DD923), [code](https://github.com/henry-yeh/DeepACO)
 
-    *Drakulic, Darko and Michel, Sofia and Mai, Florian and Sors, Arnaud and Andreoli, Jean-Marc*
+    *Haoran Ye, Jiarui Wang, Zhiguang Cao, Helan Liang, Yong Li*
 
-6. **Neural Multi-Objective Combinatorial Optimization with Diversity Enhancement** NeurIPS, 2023. [paper](https://openreview.net/forum?id=N4JkStI1fe), [code](https://github.com/bill-cjb/NHDE)
+6. **Winner Takes It All: Training Performant RL Populations for Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=v6VpqGcGAR)
 
-    *Chen, Jinbiao and Zhang, Zizhen and Cao, Zhiguang and Wu, Yaoxin and Ma, Yining and Ye, Te and Wang, Jiahai*
+    *Nathan Grinsztajn, Daniel Furelos-Blanco, Shikha Surana, Cl{\'e}ment Bonnet, Thomas D Barrett*
 
-7. **Rethinking Neural Multi-Objective Combinatorial Optimization via Neat Weight Embedding** ICLR, 2025. [paper](https://openreview.net/forum?id=GM7cmQfk2F)
+7. **Efficient Meta Neural Heuristic for Multi-Objective Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=593fc38lhN), [code](https://github.com/bill-cjb/EMNH)
 
-    *Jinbiao Chen, Zhiguang Cao, Jiahai Wang, Yaoxin Wu, Hanzhang Qin, Zizhen Zhang, Yue-Jiao Gong
-Published*
+    *Jinbiao Chen, Jiahai Wang, Zizhen Zhang, Zhiguang Cao, Te Ye, Siyuan Chen*
 
-8. **Approximation algorithms for combinatorial optimization with predictions** ICLR, 2025. [paper](https://openreview.net/forum?id=AEFVa6VMu1)
+8. **BQ-NCO: Bisimulation Quotienting for Efficient Neural Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=BRqlkTDvvm), [code](https://github.com/naver/bq-nco)
+
+    *Darko Drakulic, Sofia Michel, Florian Mai, Arnaud Sors, Jean-Marc Andreoli*
+
+9. **Neural Multi-Objective Combinatorial Optimization with Diversity Enhancement** NeurIPS, 2023. [paper](https://openreview.net/forum?id=N4JkStI1fe), [code](https://github.com/bill-cjb/NHDE)
+
+    *Jinbiao Chen, Zizhen Zhang, Zhiguang Cao, Yaoxin Wu, Yining Ma, Te Ye, Jiahai Wang*
+
+10. **Rethinking Neural Multi-Objective Combinatorial Optimization via Neat Weight Embedding** ICLR, 2025. [paper](https://openreview.net/forum?id=GM7cmQfk2F)
+
+    *Jinbiao Chen, Zhiguang Cao, Jiahai Wang, Yaoxin Wu, Hanzhang Qin, Zizhen Zhang, Yue-Jiao Gong*
+
+11. **Approximation algorithms for combinatorial optimization with predictions** ICLR, 2025. [paper](https://openreview.net/forum?id=AEFVa6VMu1)
 
     *Antonios Antoniadis, Marek Elias, Adam Polak, Moritz Venzin*
 
@@ -1179,103 +1337,103 @@ Published*
 
 1. **Graph neural networks and boolean satisfiability.** Arxiv, 2017. [paper](https://arxiv.org/pdf/1702.03592)
 
-    *Bünz, Benedikt, and Matthew Lamm.*
+    *Benedikt Bünz, Matthew Lamm.*
 
 2. **Learning a SAT solver from single-bit supervision.** Arxiv, 2018. [paper](https://arxiv.org/pdf/1903.04671), [code](https://github.com/dselsam/neurosat)
 
-    *Selsam, Daniel, Matthew Lamm, Benedikt Bünz, Percy Liang, Leonardo de Moura, and David L. Dill.*
+    *Daniel Selsam, Benedikt Bünz Matthew Lamm, Leonardo de Moura Percy Liang, David L. Dill.*
 
 3. **Machine learning-based restart policy for CDCL SAT solvers.** SAT, 2018. [paper](http://www.t-news.cn/Floc2018/FLoC2018-pages/proceedings_paper_477.pdf)
 
-    *Liang, Jia Hui, Chanseok Oh, Minu Mathew, Ciza Thomas, Chunxiao Li, and Vijay Ganesh.*
+    *Jia Hui Liang, Minu Mathew Chanseok Oh, Chunxiao Li Ciza Thomas, Vijay Ganesh.*
 
 4. **Learning to solve circuit-SAT: An unsupervised differentiable approach.** ICLR, 2019. [paper](https://openreview.net/pdf?id=BJxgz2R9t7), [code](https://github.com/johannaSommer/generalization-neural-co-solvers)
 
-    *Amizadeh, Saeed, Sergiy Matusevych, and Markus Weimer.*
+    *Saeed, Sergiy Matusevych Amizadeh, Markus Weimer.*
 
 5. **Learning Local Search Heuristics for Boolean Satisfiability.** NeurIPS, 2019. [paper](https://www.cs.cmu.edu/~eyolcu/papers/learning-local-search-heuristics-sat.pdf), [code](https://github.com/emreyolcu/sat)
 
-    *Yolcu, Emre and Poczos, Barnabas*
+    *Emre Yolcu, Barnabas Poczos*
 
 6. **Improving SAT solver heuristics with graph networks and reinforcement learning.** Arxiv, 2019. [paper](https://arxiv.org/pdf/1909.11830)
 
-    *Kurin, Vitaly, Saad Godil, Shimon Whiteson, and Bryan Catanzaro.*
+    *Vitaly Kurin, Shimon Whiteson Saad Godil, Bryan Catanzaro.*
 
 7. **Graph neural reasoning may fail in certifying boolean unsatisfiability.** Arxiv, 2019. [paper](https://arxiv.org/pdf/1909.11588)
 
-    *Chen, Ziliang, and Zhanfu Yang.*
+    *Ziliang Chen, Zhanfu Yang.*
 
 8. **Guiding high-performance SAT solvers with unsat-core predictions.** SAT, 2019. [paper](https://arxiv.org/pdf/1903.04671)
 
-    *Selsam, Daniel, and Nikolaj Bjørner.*
+    *Daniel Selsam, Nikolaj Bjørner.*
 
 9. **G2SAT: Learning to Generate SAT Formulas.** NeurIPS, 2019. [paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7138247/), [code](https://github.com/JiaxuanYou/G2SAT)
 
-    *You, Jiaxuan, Haoze Wu, Clark Barrett, Raghuram Ramanujan, and Jure Leskovec.*
+    *Jiaxuan, Haoze Wu, Clark Barrett, Raghuram Ramanujan You, Jure Leskovec.*
 
 10. **Learning Heuristics for Quantified Boolean Formulas through Reinforcement Learning.** Arxiv, 2019. [paper](https://arxiv.org/pdf/1807.08058), [code](https://github.com/lederg/learningqbf)
 
-    *Lederman, Gil, Markus N. Rabe, Edward A. Lee, and Sanjit A. Seshia.*
+    *Gil Lederman, Edward A. Lee Markus N. Rabe, Sanjit A. Seshia.*
 
 11. **Enhancing SAT solvers with glue variable predictions.** Arxiv, 2020. [paper](https://arxiv.org/pdf/2007.02559)
 
-    *Han, Jesse Michael.*
+    *Jesse Michael. Han*
 
 12. **Can Q-Learning with Graph Networks Learn a Generalizable Branching Heuristic for a SAT Solver?** NeurIPS, 2020. [paper](http://www.cs.ox.ac.uk/people/shimon.whiteson/pubs/kurinnips20.pdf)
 
-    *Whiteson, Shimon.*
+    *Shimon Whiteson*
 
 13. **Online Bayesian Moment Matching based SAT Solver Heuristics.** ICML, 2020. [paper](http://proceedings.mlr.press/v119/duan20c/duan20c.pdf), [code](https://github.com/saeednj/BMMSAT)
 
-    *Duan, Haonan, Saeed Nejati, George Trimponias, Pascal Poupart, and Vijay Ganesh.*
+    *Haonan, Saeed Nejati, George Trimponias, Pascal Poupart Duan, Vijay Ganesh.*
 
 14. **Learning Clause Deletion Heuristics with Reinforcement Learning.** AITP, 2020. [paper](http://aitp-conference.org/2020/abstract/paper_25.pdf)
 
-    *Vaezipoor, Pashootan, Gil Lederman, Yuhuai Wu, Roger Grosse, and Fahiem Bacchus.*
+    *Pashootan, Gil Lederman, Yuhuai Wu, Roger Grosse Vaezipoor, Fahiem Bacchus.*
 
 15. **Classification of SAT problem instances by machine learning methods.** CEUR, 2020. [paper](http://ceur-ws.org/Vol-2650/paper11.pdf)
 
-    *Danisovszky, Márk, Zijian Győző Yang, and Gábor Kusper.*
+    *Márk, Zijian Győző Yang Danisovszky, Gábor Kusper.*
 
 16. **Predicting Propositional Satisfiability via End-to-End Learning.** AAAI, 2020. [paper](https://ojs.aaai.org/index.php/AAAI/article/download/5733/5589)
 
-    *Cameron, Chris, Rex Chen, Jason Hartford, and Kevin Leyton-Brown.*
+    *Chris Cameron, Jason Hartford Rex Chen, Kevin Leyton-Brown.*
 
 17. **Neural heuristics for SAT solving.** Arxiv, 2020. [paper](https://arxiv.org/pdf/2005.13406)
 
-    *Jaszczur, Sebastian, Michał Łuszczyk, and Henryk Michalewski.*
+    *Sebastian, Michał Łuszczyk Jaszczur, Henryk Michalewski.*
 
 18. **NLocalSAT: Boosting Local Search with Solution Prediction.** Arxiv, 2020. [paper](https://arxiv.org/pdf/2001.09398), [code](https://github.com/myxxxsquared/NLocalSAT)
 
-    *Zhang, Wenjie, Zeyu Sun, Qihao Zhu, Ge Li, Shaowei Cai, Yingfei Xiong, and Lu Zhang.*
+    *Wenjie, Zeyu Sun, Qihao Zhu, Ge Li, Shaowei Cai, Yingfei Xiong Zhang, Lu Zhang.*
 
-19. **Optimistic tree search strategies for black-box combinatorial optimization** NeurIPS, 2022. [paper](https://openreview.net/forum?id=JGLW4DvX11F)
+19. **Optimistic tree search strategies for black-box combinatorial optimization** NeurlPS, 2022. [paper](https://openreview.net/forum?id=JGLW4DvX11F)
 
-    *Malherbe, Cedric and Grosnit, Antoine and Tutunov, Rasul and Ammar, Haitham Bou and Wang, Jun*
+    *Cedric Malherbe, Antoine Grosnit, Rasul Tutunov, Haitham Bou Ammar, Jun Wang*
 
 20. **Goal-Aware Neural SAT Solver.** IJCNN, 2022. [paper](https://ieeexplore.ieee.org/document/9892733)
 
-    *Ozolins, Emils, Karlis Freivalds, Andis Draguns, Eliza Gaile, Ronalds Zakovskis, and Sergejs Kozlovics.*
+    *Emils Ozolins, Andis Draguns Karlis Freivalds, Ronalds Zakovskis Eliza Gaile, Sergejs Kozlovics.*
 
 21. **NeuroComb: Improving SAT Solving with Graph Neural Networks.** Arxiv, 2022. [paper](https://arxiv.org/abs/2110.14053)
 
-    *Wang, Wenxi, Yang Hu, Mohit Tiwari, Sarfraz Khurshid, Kenneth McMillan, and Risto Miikkulainen.*
+    *Wenxi Wang, Mohit Tiwari Yang Hu, Kenneth McMillan Sarfraz Khurshid, Risto Miikkulainen.*
 
 22. **On the Performance of Deep Generative Models of Realistic SAT Instances.** SAT, 2022. [paper](https://drops.dagstuhl.de/opus/volltexte/2022/16677/pdf/LIPIcs-SAT-2022-3.pdf)
 
-    *Garzón, Iván, Pablo Mesejo, and Jesús Giráldez-Cru.*
+    *Iván, Pablo Mesejo Garzón, Jesús Giráldez-Cru.*
 
 23. **DeepSAT: An EDA-Driven Learning Framework for SAT.** Arxiv, 2022. [paper](http://arxiv.org/abs/2205.13745)
 
-    *Li, Min, Zhengyuan Shi, Qiuxia Lai, Sadaf Khan, and Qiang Xu.*
+    *Min, Zhengyuan Shi, Qiuxia Lai, Sadaf Khan Li, Qiang Xu.*
 
 24. **SATformer: Transformers for SAT Solving.** Arxiv, 2022. [paper](https://arxiv.org/abs/2209.00953)
 
-    *Shi, Zhengyuan, Min Li, Sadaf Khan, Hui-Ling Zhen, Mingxuan Yuan, and Qiang Xu.*
+    *Zhengyuan Shi, Sadaf Khan Min Li, Mingxuan Yuan Hui-Ling Zhen, Qiang Xu.*
 
 25. **Augment with Care: Contrastive Learning for Combinatorial Problems.** ICML, 2022. [paper](https://proceedings.mlr.press/v162/duan22b.html), [code](https://github.com/h4duan/contrastive-sat)
 
-    *Duan, Haonan, Pashootan Vaezipoor, Max B. Paulus, Yangjun Ruan and Chris J. Maddison*
+    *Haonan, Pashootan Vaezipoor, Max B. Paulus, Yangjun Ruan Duan, Chris J. Maddison*
 
 26. **NSNet: A General Neural Probabilistic Framework for Satisfiability Problems** NeurIPS, 2022. [paper](https://arxiv.org/abs/2211.03880)
 
@@ -1287,9 +1445,9 @@ Published*
 
 28. **Generalization of Neural Combinatorial Solvers Through the Lens of Adversarial Robustness** ICLR, 2022. [paper](https://openreview.net/forum?id=vJZ7dPIjip3)
 
-    *Simon Geisler, Johanna Sommer, Jan Schuchardt, Aleksandar Bojchevski and Stephan Günnemann*
+    *Simon Geisler, Johanna Sommer, Jan Schuchardt, Aleksandar Bojchevski, Stephan Günnemann*
 
-29. **Let the Flows Tell: Solving Graph Combinatorial Optimization Problems with GFlowNets** NeurIPS, 2023. [paper](https://arxiv.org/abs/2305.17010), [code](https://github.com/zdhNarsil/GFlowNet-CombOpt)
+29. **Let the Flows Tell: Solving Graph Combinatorial Optimization Problems with GFlowNets** NeurlPS, 2023. [paper](https://arxiv.org/abs/2305.17010), [code](https://github.com/zdhNarsil/GFlowNet-CombOpt)
 
     *Dinghuai Zhang, Hanjun Dai, Nikolay Malkin, Aaron Courville, Yoshua Bengio, Ling Pan*
 
@@ -1301,7 +1459,7 @@ Published*
 
     *Nasimeh Heydaribeni, Xinrui Zhan, Ruisi Zhang, Tina Eliassi-Rad, Farinaz Koushanfar*
 
-32. **Efficient Combinatorial Optimization via Heat Diffusion** NeurIPS, 2024. [paper](https://openreview.net/pdf?id=psDrko9v1D)
+32. **Efficient Combinatorial Optimization via Heat Diffusion** NeurlPS, 2024. [paper](https://openreview.net/pdf?id=psDrko9v1D)
 
     *Hengyuan Ma, Wenlian Lu, Jianfeng Feng*
 
@@ -1317,195 +1475,215 @@ Published*
 
 1. **Resource Management with Deep Reinforcement Learning.** HotNets, 2016. [paper](https://dl.acm.org/doi/abs/10.1145/3005745.3005750)
 
-    *Mao, Hongzi and Alizadeh, Mohammad and Menache, Ishai and Kandula, Srikanth.*
+    *Hongzi Mao, Mohammad Alizadeh, Ishai Menache, Srikanth Kandula*
 
 2. **Learning to Perform Local Rewriting for Combinatorial Optimization.** NeurIPS, 2019. [paper](https://arxiv.org/abs/1810.00337), [code](https://github.com/facebookresearch/neural-rewriter)
 
-    *Chen, Xinyun and Tian, Yuandong.*
+    *Xinyun Chen, Yuandong Tian*
 
 3. **Learning Scheduling Algorithms for Data Processing Clusters** SIGCOMM, 2019. [paper](https://static.aminer.cn/storage/pdf/arxiv/18/1810/1810.01963.pdf), [code](https://github.com/hongzimao/decima-sim)
 
-    *Mao, Hongzi and Schwarzkopf, Malte and Venkatakrishnan, Bojja Shaileshh and Meng, Zili and Alizadeh, Mohammad.*
+    *Hongzi Mao, Malte Schwarzkopf, Bojja Shaileshh Venkatakrishnan, Zili Meng, Mohammad Alizadeh*
 
 4. **Smart Resource Allocation for Mobile Edge Computing: A Deep Reinforcement Learning Approach** IEEE Transactions on Emerging Topics in Computing, 2019. [Paper](https://ieeexplore.ieee.org/abstract/document/8657791)
 
-    *Jiadai; Lei Zhao; Jiajia Liu; Nei Kato*
+    *Lei Zhao Jiadai, Nei Kato Jiajia Liu*
 
 5. **A Two-stage Framework and Reinforcement Learning-based Optimization Algorithms for Complex Scheduling Problems** Arxiv, 2021. [paper](https://arxiv.org/abs/2103.05847)
 
-    *He, Yongming and Wu, Guohua and Chen, Yingwu and Pedrycz, Witold*
+    *Yongming He, Guohua Wu, Yingwu Chen, Witold Pedrycz*
 
 6. **⭐A Bi-Level Framework for Learning to Solve Combinatorial Optimization on Graphs** NeurIPS, 2021. [paper](https://arxiv.org/abs/2106.04927), [code](https://github.com/Thinklab-SJTU/PPO-BiHyb)
 
-    *Wang, Runzhong and Hua, Zhigang and Liu, Gan and Zhang, Jiayi and Yan, Junchi and Qi, Feng and Yang, Shuang and Zhou, Jun and Yang, Xiaokang*
+    *Runzhong Wang, Zhigang Hua, Gan Liu, Jiayi Zhang, Junchi Yan, Feng Qi, Shuang Yang, Jun Zhou, Xiaokang Yang*
 
 ### [Bin Packing Problem](#content)
 
 1. **Small Boxes Big Data: A Deep Learning Approach to Optimize Variable Sized Bin Packing** BigDataService, 2017. [paper](https://ieeexplore.ieee.org/abstract/document/7944923/?casa_token=mRzI_XBy3ycAAAAA:yD9Le2KBNq1TMpW_1etb0RF-oFVcLJj9Up0Z2qI6XJmA-UffxxSZRIx7RklaQED-yXwuwBC4M_w)
 
-    *Mao, Feng and Blanco, Edgar and Fu, Mingang and Jain, Rohit and Gupta, Anurag and Mancel, Sebastien and Yuan, Rong and Guo, Stephen and Kumar, Sai and Tian, Yayang*
+    *Feng Mao, Edgar Blanco, Mingang Fu, Rohit Jain, Anurag Gupta, Sebastien Mancel, Rong Yuan, Stephen Guo, Sai Kumar, Yayang Tian*
 
 2. **Solving a New 3D Bin Packing Problem with Deep Reinforcement Learning Method** Arxiv, 2017. [paper](https://arxiv.org/abs/1708.05930)
 
-    *Hu, Haoyuan and Zhang, Xiaodong and Yan, Xiaowei and Wang, Longfei and Xu, Yinghui*
+    *Haoyuan Hu, Xiaodong Zhang, Xiaowei Yan, Longfei Wang, Yinghui Xu*
 
 3. **Best Arm Identification in Multi-armed Bandits with Delayed Feedback** PMLR, 2018. [paper](http://proceedings.mlr.press/v84/grover18b.html)
 
-    *Grover, Aditya and Markov, Todor and Attia, Peter and Jin, Norman and Perkins, Nicolas and Cheong, Bryan and Chen, Michael and Yang, Zi and Harris, Stephen and Chueh, William and others*
+    *Aditya Grover, Todor Markov, Peter Attia, Norman Jin, Nicolas Perkins, Bryan Cheong, Michael Chen, Zi Yang, Stephen Harris, William Chueh, others*
 
 4. **Ranked Reward: Enabling Self-Play Reinforcement Learning for Combinatorial Optimization Alexandre** Arxiv, 2018. [paper](https://arxiv.org/abs/1807.01672)
 
-    *Laterre, Alexandre and Fu, Yunguan and Jabri, Mohamed Khalil and Cohen, Alain-Sam and Kas, David and Hajjar, Karl and Dahl, Torbjorn S and Kerkeni, Amine and Beguir, Karim*
+    *Alexandre Laterre, Yunguan Fu, Mohamed Khalil Jabri, Alain-Sam Cohen, David Kas, Karl Hajjar, Torbjorn S Dahl, Amine Kerkeni, Karim Beguir*
 
 5. **A Multi-task Selected Learning Approach for Solving 3D Bin Packing Problem.** AAMAS, 2019. [paper](https://arxiv.org/abs/1804.06896)
 
-    *Duan, Lu and Hu, Haoyuan and Qian, Yu and Gong, Yu and Zhang, Xiaodong and Xu, Yinghui and Wei, Jiangwen.*
+    *Lu Duan, Haoyuan Hu, Yu Qian, Yu Gong, Xiaodong Zhang, Yinghui Xu, Jiangwen Wei*
 
 6. **A Data-Driven Approach for Multi-level Packing Problems in Manufacturing Industry** KDD, 2019. [paper](https://dl.acm.org/doi/abs/10.1145/3292500.3330708)
 
-    *Chen, Lei and Tong, Xialiang and Yuan, Mingxuan and Zeng, Jia and Chen, Lei*
+    *Lei Chen, Xialiang Tong, Mingxuan Yuan, Jia Zeng, Lei Chen*
 
 7. **Solving Packing Problems by Conditional Query Learning** OpenReview, 2019. [paper](https://openreview.net/forum?id=BkgTwRNtPB)
 
-    *Li, Dongda and Ren, Changwei and Gu, Zhaoquan and Wang, Yuexuan and Lau, Francis*
+    *Dongda Li, Changwei Ren, Zhaoquan Gu, Yuexuan Wang, Francis Lau*
 
 8. **RePack: Dense Object Packing Using Deep CNN with Reinforcement Learning** CACS, 2019. [paper](https://ieeexplore.ieee.org/abstract/document/9024360/?casa_token=ScXezdDDiwMAAAAA:fglP_vbiQUJgLZcM7YZyqnDh_qA8jOjIh-zbH7ru0XSVBghh8OAxpThOU3BqhBeet4NlSrdHPcU)
 
-    *Chu, Yu-Cheng and Lin, Horng-Horng*
+    *Yu-Cheng Chu, Horng-Horng Lin*
 
 9. **Reinforcement learning driven heuristic optimization** Arxiv, 2019. [paper](https://arxiv.org/pdf/1906.06639.pdf)
 
-    *Cai, Qingpeng and Hang, Will and Mirhoseini, Azalia and Tucker, George and Wang, Jingtao and Wei, Wei*
+    *Qingpeng Cai, Will Hang, Azalia Mirhoseini, George Tucker, Jingtao Wang, Wei Wei*
 
 10. **A Generalized Reinforcement Learning Algorithm for Online 3D Bin-Packing.** AAAI Workshop, 2020. [paper](https://arxiv.org/abs/2007.00463)
 
-    *Verma, Richa and Singhal, Aniruddha and Khadilkar, Harshad and Basumatary, Ansuma and Nayak, Siddharth and Singh, Harsh Vardhan and Kumar, Swagat and Sinha, Rajesh.*
+    *Richa Verma, Aniruddha Singhal, Harshad Khadilkar, Ansuma Basumatary, Siddharth Nayak, Harsh Vardhan Singh, Swagat Kumar, Rajesh Sinha*
 
 11. **Robot Packing with Known Items and Nondeterministic Arrival Order.** TASAE, 2020. [paper](https://ieeexplore.ieee.org/abstract/document/9205914/)
 
-    *Wang, Fan and Hauser, Kris.*
+    *Fan Wang, Kris Hauser*
 
 12. **TAP-Net: Transport-and-Pack using Reinforcement Learning.** TOG, 2020. [paper](https://dl.acm.org/doi/abs/10.1145/3414685.3417796), [code](https://github.com/Juzhan/TAP-Net)
 
-    *Hu, Ruizhen and Xu, Juzhan and Chen, Bin and Gong, Minglun and Zhang, Hao and Huang, Hui.*
+    *Ruizhen Hu, Juzhan Xu, Bin Chen, Minglun Gong, Hao Zhang, Hui Huang*
 
 13. **Simultaneous Planning for Item Picking and Placing by Deep Reinforcement Learning** IROS, 2020. [paper](http://ras.papercept.net/images/temp/IROS/files/0330.pdf)
 
-    *Tanaka, Tatsuya and Kaneko, Toshimitsu and Sekine, Masahiro and Tangkaratt, Voot and Sugiyama, Masashi*
+    *Tatsuya Tanaka, Toshimitsu Kaneko, Masahiro Sekine, Voot Tangkaratt, Masashi Sugiyama*
 
 14. **Monte Carlo Tree Search on Perfect Rectangle Packing Problem Instances** GECCO, 2020. [paper](https://dl.acm.org/doi/abs/10.1145/3377929.3398115)
 
-    *Pejic, Igor and van den Berg, Daan*
+    *Igor Pejic, Daan van den Berg*
 
 15. **PackIt: A Virtual Environment for Geometric Planning** ICML, 2020. [paper](http://proceedings.mlr.press/v119/goyal20b.html), [code](https://github.com/princeton-vl/PackIt)
 
-    *Goyal, Ankit and Deng, Jia*
+    *Ankit Goyal, Jia Deng*
 
 16. **Online 3D Bin Packing with Constrained Deep Reinforcement Learning.** AAAI, 2021. [paper](https://arxiv.org/abs/2006.14978), [code](https://github.com/alexfrom0815/Online-3D-BPP-DRL)
 
-    *Zhao, Hang and She, Qijin and Zhu, Chenyang and Yang, Yin and Xu, Kai.*
+    *Hang Zhao, Qijin She, Chenyang Zhu, Yin Yang, Kai Xu*
 
 17. **Learning Practically Feasible Policies for Online 3D Bin Packing** Arxiv, 2021. [paper](https://arxiv.org/abs/2108.13680)
 
-    *Hang Zhao and Chenyang Zhu and Xin Xu and Hui Huang and Kai Xu*
+    *Hang Zhao, Chenyang Zhu, Xin Xu, Hui Huang, Kai Xu*
 
 18. **Attend2Pack: Bin Packing through Deep Reinforcement Learning with Attention** ICML Workshop, 2021. [paper](https://arxiv.org/abs/2107.04333)
 
-    *Jingwei Zhang and Bin Zi and Xiaoyu Ge*
+    *Jingwei Zhang, Bin Zi, Xiaoyu Ge*
 
 19. **Solving 3D bin packing problem via multimodal deep reinforcement learning** AAMAS, 2021. [paper](https://www.ifaamas.org/Proceedings/aamas2021/pdfs/p1548.pdf)
 
-    *Jiang, Yuan, Zhiguang Cao, and Jie Zhang*
+    *Yuan, Zhiguang Cao Jiang, Jie Zhang*
 
 20. **Learning to Solve 3-D Bin Packing Problem via Deep Reinforcement Learning and Constraint Programming** IEEE transactions on cybernetics, 2021. [paper](https://ieeexplore.ieee.org/document/9606618/)
 
-    *Jiang, Yuan and Cao, Zhiguang and Zhang, Jie*
+    *Yuan Jiang, Zhiguang Cao, Jie Zhang*
 
 21. **Learning to Pack: A Data-Driven Tree Search Algorithm for Large-Scale 3D Bin Packing Problem** CIKM, 2021. [paper](https://dl.acm.org/doi/abs/10.1145/3459637.3481933)
 
-    *Zhu, Qianwen and Li, Xihan and Zhang, Zihan and Luo, Zhixing and Tong, Xialiang and Yuan, Mingxuan and Zeng, Jia*
+    *Qianwen Zhu, Xihan Li, Zihan Zhang, Zhixing Luo, Xialiang Tong, Mingxuan Yuan, Jia Zeng*
 
 22. **Learning Efficient Online 3D Bin Packing on Packing Configuration Trees.** ICLR, 2022. [paper](https://openreview.net/forum?id=bfuGjlCwAq)
 
-    *Hang Zhao and Kai Xu*
+    *Hang Zhao, Kai Xu*
 
 23. **Improved Algorithms for Multi-period Multi-class Packing Problemswith Bandit Feedback** ICML, 2023. [paper](https://icml.cc/virtual/2023/poster/24252)
 
-    *Kim, Wonyoung and Iyengar, Garud and Zeevi, Assaf*
+    *Wonyoung Kim, Garud Iyengar, Assaf Zeevi*
 
 24. **Adjustable Robust Reinforcement Learning for Online 3D Bin Packing** NeurIPS, 2023. [paper](https://openreview.net/forum?id=1mdTYi1jAW)
 
-    *Pan, Yuxin and Chen, Yize and Lin, Fangzhen*
+    *Yuxin Pan, Yize Chen, Fangzhen Lin*
 
 25. **A Neural Column Generation Approach to the Vehicle Routing Problem with Two-Dimensional Loading and Last-In-First-Out Constraints** IJCAI, 2024. [paper](https://www.ijcai.org/proceedings/2024/0218.pdf), [code](https://github.com/xyfffff/NCG-for-2L-CVRP)
 
     *Yifan Xia, Xiangyi Zhang*
 
+26. **Generalizable Heuristic Generation Through LLMs with Meta-Optimization** ICLR, 2026. [paper](https://arxiv.org/abs/2505.20881), [code](https://github.com/yiding-s/MoH)
+
+    *Yiding Shi, Jianan Zhou, Wen Song, Jieyi Bi, Yaoxin Wu, Zhiguang Cao, Jie Zhang*
+
+27. **DRAGON: LLM-Driven Decomposition and Reconstruction Agents for Large-Scale Combinatorial Optimization** AAMAS, 2026. [paper](https://arxiv.org/abs/2601.06502)
+
+    *Shengkai Chen, Zhiguang Cao, Jianan Zhou, Yaoxin Wu, Senthilnath Jayavelu, Zhuoyi Lin, Xiaoli Li, Shili Xiang*
+
+28. **EoH-S: Evolution of Heuristic Set using LLMs for Automated Heuristic Design** AAAI, 2026. [paper](https://arxiv.org/abs/2508.03082), [code](https://github.com/FeiLiu36/EoH-S)
+
+    *Fei Liu, Yilu Liu, Qingfu Zhang, Xialiang Tong, Mingxuan Yuan*
+
 ### [Graph Edit Distance](#content)
 
 1. **SimGNN - A Neural Network Approach to Fast Graph Similarity Computation** WSDM, 2019. [paper](https://arxiv.org/abs/1808.05689), [code](https://github.com/yunshengb/SimGNN)
 
-    *Bai, Yunsheng and Ding, Hao and Bian, Song and Chen, Ting and Sun, Yizhou and Wang, Wei*
+    *Yunsheng Bai, Hao Ding, Song Bian, Ting Chen, Yizhou Sun, Wei Wang*
 
 2. **Graph Matching Networks for Learning the Similarity of Graph Structured Objects** ICML, 2019. [paper](https://arxiv.org/abs/1904.12787), [code](https://github.com/Lin-Yijie/Graph-Matching-Networks)
 
-    *Li, Yujia and Gu, Chenjie and Dullien, Thomas and Vinyals, Oriol and Kohli, Pushmeet*
+    *Yujia Li, Chenjie Gu, Thomas Dullien, Oriol Vinyals, Pushmeet Kohli*
 
 3. **Convolutional Embedding for Edit Distance** SIGIR, 2020. [paper](https://dl.acm.org/doi/abs/10.1145/3397271.3401045), [code](https://github.com/xinyandai/string-embed)
 
-    *Dai, Xinyan and Yan, Xiao and Zhou, Kaiwen and Wang, Yuxuan and Yang, Han and Cheng, James*
+    *Xinyan Dai, Xiao Yan, Kaiwen Zhou, Yuxuan Wang, Han Yang, James Cheng*
 
 4. **Learning-Based Efficient Graph Similarity Computation via Multi-Scale Convolutional Set Matching** AAAI, 2020. [paper](https://ojs.aaai.org/index.php/AAAI/article/view/5720), [code](https://github.com/yunshengb/GraphSim)
 
-    *Bai, Yunsheng and Ding, Hao and Gu, Ken and Sun, Yizhou and Wang, Wei*
+    *Yunsheng Bai, Hao Ding, Ken Gu, Yizhou Sun, Wei Wang*
 
 5. **⭐A Bi-Level Framework for Learning to Solve Combinatorial Optimization on Graphs** NeurIPS, 2021. [paper](https://arxiv.org/abs/2106.04927), [code](https://github.com/Thinklab-SJTU/PPO-BiHyb)
 
-    *Wang, Runzhong and Hua, Zhigang and Liu, Gan and Zhang, Jiayi and Yan, Junchi and Qi, Feng and Yang, Shuang and Zhou, Jun and Yang, Xiaokang*
+    *Runzhong Wang, Zhigang Hua, Gan Liu, Jiayi Zhang, Junchi Yan, Feng Qi, Shuang Yang, Jun Zhou, Xiaokang Yang*
 
 6. **⭐Combinatorial Learning of Graph Edit Distance via Dynamic Embedding.** CVPR, 2021. [paper](https://arxiv.org/abs/2011.15039), [code](https://github.com/Thinklab-SJTU/GENN-Astar)
 
-    *Wang, Runzhong and Zhang, Tianqi and Yu, Tianshu and Yan, Junchi and Yang, Xiaokang.*
+    *Runzhong Wang, Tianqi Zhang, Tianshu Yu, Junchi Yan, Xiaokang Yang*
+
+7. **Gelato: Graph Edit Distance via Autoregressive Neural Combinatorial Optimization** ICLR, 2026. [paper](https://openreview.net/forum?id=6ZTcLNmguc), [code](https://github.com/BorgwardtLab/Gelato)
+
+    *Paolo Pellizzoni, Till Hendrik Schulz, Karsten Borgwardt*
 
 ### [Hamiltonian Cycle Problem](#content)
 
 1. **⭐A Bi-Level Framework for Learning to Solve Combinatorial Optimization on Graphs** NeurIPS, 2021. [paper](https://arxiv.org/abs/2106.04927), [code](https://github.com/Thinklab-SJTU/PPO-BiHyb)
 
-    *Wang, Runzhong and Hua, Zhigang and Liu, Gan and Zhang, Jiayi and Yan, Junchi and Qi, Feng and Yang, Shuang and Zhou, Jun and Yang, Xiaokang*
+    *Runzhong Wang, Zhigang Hua, Gan Liu, Jiayi Zhang, Junchi Yan, Feng Qi, Shuang Yang, Jun Zhou, Xiaokang Yang*
 
 2. **⭐UniCO: On Unified Combinatorial Optimization via Problem Reduction to Matrix-Encoded General TSP** ICLR, 2025. [paper](https://openreview.net/forum?id=yEwakMNIex), [code](https://github.com/Thinklab-SJTU/UniCO)
 
     *Wenzheng Pan, Hao Xiong, Jiale Ma, Wentao Zhao, Yang Li, Junchi Yan*
 
+3. **VSAL: A Vision Solver with Adaptive Layouts for Graph Property Detection** WWW, 2026. [paper](https://arxiv.org/abs/2602.13880), [code](https://github.com/Jiahao-Xie-86/VSAL)
+
+    *Jiahao Xie, Guangmo Tong*
+
 ### [Graph Coloring](#content)
 
 1. **Deep Learning-based Hybrid Graph-Coloring Algorithm for Register Allocation.** Arxiv, 2019. [paper](https://arxiv.org/abs/1912.03700)
 
-    *Das, Dibyendu and Ahmad, Shahid Asghar and Venkataramanan, Kumar.*
+    *Dibyendu Das, Shahid Asghar Ahmad, Kumar Venkataramanan*
 
 2. **Neural Models for Output-Space Invariance in Combinatorial Problems** ICLR, 2022. [paper](https://openreview.net/forum?id=ibrUkC-pbis)
 
-    *Nandwani, Yatin and Jain, Vidit and Singla, Parag and others*
+    *Yatin Nandwani, Vidit Jain, Parag Singla, others*
 
 3. **Enhancing Column Generation by a Machine-Learning-Based Pricing Heuristic for Graph Coloring** AAAI, 2022. [paper](https://www.aaai.org/AAAI22Papers/AAAI-4026.ShenY.pdf), [code](https://github.com/Joey-Shen/MLPH.git)
 
-    *Shen, Yunzhuang, Yuan Sun, Xiaodong Li, Andrew Craig Eberhard and Andreas T. Ernst.*
+    *Yunzhuang, Yuan Sun, Xiaodong Li, Andrew Craig Eberhard Shen, Andreas T. Ernst.*
 
 4. **Learning to Generate Columns with Application to Vertex Coloring** ICLR, 2023. [paper](https://openreview.net/forum?id=JHW30A4DXtO), [code](https://github.com/yuansuny/mlcg)
 
-    *Sun, Yuan and Ernst, Andreas T and Li, Xiaodong and Weiner, Jake*
+    *Yuan Sun, Andreas T Ernst, Xiaodong Li, Jake Weiner*
 
 ### [Maximal Common Subgraph](#content)
 
 1. **Fast Detection of Maximum Common Subgraph via Deep Q-Learning.** Arxiv, 2020. [paper](https://arxiv.org/abs/2002.03129)
 
-    *Bai, Yunsheng and Xu, Derek and Wang, Alex and Gu, Ken and Wu, Xueqing and Marinovic, Agustin and Ro, Christopher and Sun, Yizhou and Wang, Wei.*
+    *Yunsheng Bai, Derek Xu, Alex Wang, Ken Gu, Xueqing Wu, Agustin Marinovic, Christopher Ro, Yizhou Sun, Wei Wang*
 
 ### [Influence Maximization](#content)
 
 1. **Learning Heuristics over Large Graphs via Deep Reinforcement Learning.** NeurIPS, 2020. [paper](https://arxiv.org/abs/1903.03332)
 
-    *Mittal, Akash and Dhawan, Anuj and Manchanda, Sahil and Medya, Sourav and Ranu, Sayan and Singh, Ambuj.*
+    *Akash Mittal, Anuj Dhawan, Sahil Manchanda, Sourav Medya, Sayan Ranu, Ambuj Singh*
 
 2. **Controlling Graph Dynamics with Reinforcement Learning and Graph Neural Networks.** ICML, 2021. [paper](https://arxiv.org/abs/2010.05313)
 
@@ -1513,15 +1691,15 @@ Published*
 
 3. **LeNSE: Learning To Navigate Subgraph Embeddings for Large-Scale Combinatorial Optimisation** ICML, 2022. [paper](https://proceedings.mlr.press/v162/ireland22a.html), [code](https://github.com/davidireland3/LeNSE)
 
-    *Ireland, David and G. Montana*
+    *David Ireland, G. Montana*
 
 4. **⭐Towards One-shot Neural Combinatorial Solvers: Theoretical and Empirical Notes on the Cardinality-Constrained Case** ICLR, 2023. [paper](https://openreview.net/forum?id=h21yJhdzbwz), [code](https://github.com/Thinklab-SJTU/One-Shot-Cardinality-NN-Solver)
 
-    *Wang, Runzhong and Shen, Li and Chen, Yiting and Yan, Junchi and Yang, Xiaokang and Tao, Dacheng*
+    *Runzhong Wang, Li Shen, Yiting Chen, Junchi Yan, Xiaokang Yang, Dacheng Tao*
 
 5. **Deep Graph Representation Learning and Optimization for Influence Maximization** ICML, 2023. [paper](https://icml.cc/virtual/2023/poster/24512)
 
-    *Chen Ling and Junji Jiang and Junxiang Wang and My T. Thai and Lukas Xue and James Song and Meikang Qiu and Liang Zhao*
+    *Chen Ling, Junji Jiang, Junxiang Wang, My T. Thai, Lukas Xue, James Song, Meikang Qiu, Liang Zhao*
 
 ### [Max Clique](#content)
 
@@ -1529,11 +1707,11 @@ Published*
 
     *Yimeng Min, Frederik Wenkel, Michael Perlmutter, Guy Wolf*
 
-2. **Variational Annealing on Graphs for Combinatorial Optimization** NeurIPS, 2023. [paper](https://openreview.net/forum?id=SLx7paoaTU), [code](https://github.com/ml-jku/VAG-CO)
+2. **Variational Annealing on Graphs for Combinatorial Optimization** NeurlPS, 2023. [paper](https://openreview.net/forum?id=SLx7paoaTU), [code](https://github.com/ml-jku/VAG-CO)
 
-    *Sanokowski, Sebastian and Berghammer, Wilhelm Franz and Hochreiter, Sepp and Lehner, Sebastian*
+    *Sebastian Sanokowski, Wilhelm Franz Berghammer, Sepp Hochreiter, Sebastian Lehner*
 
-3. **DISCS: A Benchmark for Discrete Sampling** NeurIPS, 2023. [paper](https://openreview.net/forum?id=oi1MUMk5NF), [code](https://github.com/google-research/discs)
+3. **DISCS: A Benchmark for Discrete Sampling** NeurlPS, 2023. [paper](https://openreview.net/forum?id=oi1MUMk5NF), [code](https://github.com/google-research/discs)
 
     *Katayoon Goshvadi, Haoran Sun, Xingchao Liu, Azade Nova, Ruqi Zhang, Will Sussman Grathwohl, Dale Schuurmans, Hanjun Dai*
 
@@ -1543,42 +1721,45 @@ Published*
 
 5. **A Diffusion Model Framework for Unsupervised Neural Combinatorial Optimization** ICML, 2024. [paper](https://arxiv.org/abs/2406.01661), [code](https://github.com/ml-jku/DIffUCO)
 
-    *Sanokowski, Sebastian and Hochreiter, Sepp and Lehner, Sebastian*
+    *Sebastian Sanokowski, Sepp Hochreiter, Sebastian Lehner*
 
-6. **Scalable Discrete Diffusion Samplers: Combinatorial Optimization and Statistical Physics** ICLR, 2025. [paper](https://openreview.net/pdf?id=peNgxpbdxB)
+6. **⭐ML4CO-Bench-101: Benchmark Machine Learning for Classic Combinatorial Problems on Graphs** NeurIPS, 2025. [paper](https://openreview.net/forum?id=ye4ntB1Kzi), [code](https://github.com/Thinklab-SJTU/ML4CO-Bench-101)
+
+    *Jiale Ma, Wenzheng Pan, Yang Li, Junchi Yan*
+
+7. **⭐COExpander: Adaptive Solution Expansion for Combinatorial Optimization** ICML, 2025. [paper](https://openreview.net/forum?id=KMaBXMWsBM), [code](https://github.com/Thinklab-SJTU/COExpander)
+
+    *Jiale Ma, Wenzheng Pan, Yang Li, Junchi Yan*
+
+8. **Scalable Discrete Diffusion Samplers: Combinatorial Optimization and Statistical Physics** ICLR, 2025. [paper](https://openreview.net/pdf?id=peNgxpbdxB)
 
     *Sebastian Sanokowski, Wilhelm Franz Berghammer, Haoyu Peter Wang, Martin Ennemoser, Sepp Hochreiter, Sebastian Lehner*
 
-7. **Approximation algorithms for combinatorial optimization with predictions** ICLR, 2025. [paper](https://openreview.net/forum?id=AEFVa6VMu1)
+9. **Approximation algorithms for combinatorial optimization with predictions** ICLR, 2025. [paper](https://openreview.net/forum?id=AEFVa6VMu1)
 
     *Antonios Antoniadis, Marek Elias, Adam Polak, Moritz Venzin*
 
-8. **⭐COExpander: Adaptive Solution Expansion for Combinatorial Optimization** ICML, 2025. [paper](https://openreview.net/forum?id=KMaBXMWsBM), [code](https://github.com/Thinklab-SJTU/COExpander)
+10. **⭐ConRep4CO: Contrastive Representation Learning of Combinatorial Optimization Instances across Types** ICLR, 2026. [paper](https://openreview.net/forum?id=OXRnvOOiAf), [code](https://github.com/Thinklab-SJTU/ConRep4CO)
 
-    *Jiale Ma and Wenzheng Pan and Yang Li and Junchi Yan*
-
-9. **⭐ML4CO-Bench-101: Benchmark Machine Learning for Classic Combinatorial Problems on Graphs** NeurIPS, 2025. [paper](https://openreview.net/forum?id=ye4ntB1Kzi), [code](https://github.com/Thinklab-SJTU/ML4CO-Bench-101)
-
-    *Jiale Ma and Wenzheng Pan and Yang Li and Junchi Yan*
-
+    *Ziao Guo, Yang Li, Shiyue Wang, Junchi Yan*
 
 ### [Mixed Integer Programming](#content)
 
 1. **Sequential model-based optimization for general algorithm configuration** International conference on learning and intelligent optimization, 2011. [journal](https://link.springer.com/chapter/10.1007/978-3-642-25566-3_40)
 
-    *Hutter, Frank and Hoos, Holger H and Leyton-Brown, Kevin*
+    *Frank Hutter, Holger H Hoos, Kevin Leyton-Brown*
 
 2. **Non-model-based Search Guidance for Set Partitioning Problems** AAAI, 2012. [paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI12/paper/view/5082)
 
-    *Kadioglu, Serdar and Malitsky, Yuri and Sellmann, Meinolf*
+    *Serdar Kadioglu, Yuri Malitsky, Meinolf Sellmann*
 
 3. **A Aupervised Machine Learning Approach to Variable Branching in Branch-and-bound** Citeseer, 2014. [journal](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=f35ba2bbc87dd31ae0a89d3ed9538fec9d15b4f0)
 
-    *Alvarez, Alejandro Marcos and Louveaux, Quentin and Wehenkel, Louis*
+    *Alejandro Marcos Alvarez, Quentin Louveaux, Louis Wehenkel*
 
-4. **Learning to Search in Branch-and-Bound Algorithms** NeurIPS, 2014. [paper](http://papers.nips.cc/paper/5495-learning-to-search-in-branch-and-bound-algorithms)
+4. **Learning to Search in Branch-and-Bound Algorithms** NeurlPS, 2014. [paper](http://papers.nips.cc/paper/5495-learning-to-search-in-branch-and-bound-algorithms)
 
-    *He, He and Daume III, Hal and Eisner, Jason M*
+    *He He, Hal Daume III, Jason M Eisner*
 
 5. **Learningto Branch in Mixed Integer Programming** AAAI, 2016. [paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/download/12514/11657)
 
@@ -1586,107 +1767,107 @@ Published*
 
 6. **Dash: Dynamic Approach for Switching Heuristics** European Journal of Operational Research, 2016. [journal](https://www.sciencedirect.com/science/article/pii/S0377221715007559)
 
-    *Di Liberto, Giovanni and Kadioglu, Serdar and Leo, Kevin and Malitsky, Yuri*
+    *Giovanni Di Liberto, Serdar Kadioglu, Kevin Leo, Yuri Malitsky*
 
 7. **Learning When to Use a Decomposition** International conference on AI and OR techniques in constraint programming for combinatorial optimization problems, 2017. [journal](https://link.springer.com/chapter/10.1007/978-3-319-59776-8_16)
 
-    *Kruber, Markus and L{\u}bbecke Marco E and Parmentier  Axel"*
+    *Markus Kruber, L{\u}bbecke Marco E, Parmentier Axel*
 
 8. **Learning to Run Heuristics in Tree Search** IJCAI, 2017. [paper](https://www.ijcai.org/proceedings/2017/0092.pdf)
 
-    *Khalil, Elias B and Dilkina, Bistra and Nemhauser, George L and Ahmed, Shabbir and Shao, Yufen*
+    *Elias B Khalil, Bistra Dilkina, George L Nemhauser, Shabbir Ahmed, Yufen Shao*
 
-9. **Exact Combinatorial Optimization with Graph Convolutional Neural Networks** NeurIPS, 2019. [paper](https://arxiv.org/abs/1906.01629), [code](https://github.com/ds4dm/learn2branch)
+9. **Exact Combinatorial Optimization with Graph Convolutional Neural Networks** NeurlPS, 2019. [paper](https://arxiv.org/abs/1906.01629), [code](https://github.com/ds4dm/learn2branch)
 
-    *Gasse, Maxime and Chetelat, Didier and Ferroni, Nicola and Charlin, Laurent and Lodi, Andrea*
+    *Maxime Gasse, Didier Chetelat, Nicola Ferroni, Laurent Charlin, Andrea Lodi*
 
 10. **Improving Learning to Branch via Reinforcement Learning** NeurIPS Workshop, 2020. [paper](https://openreview.net/forum?id=z4D7-PTxTb)
 
-    *Sun, Haoran and Chen, Wenbo and Li, Hui and Song, Le.*
+    *Haoran Sun, Wenbo Chen, Hui Li, Le Song*
 
 11. **Reinforcement learning for variable selection in a branch and bound algorithm** International Conference on Integration of Constraint Programming, 2020. [journal](https://link.springer.com/chapter/10.1007/978-3-030-58942-4_12)
 
-    *Etheve, Marc and Al{\`e}s, Zacharie and Bissuel, C{\^o}me and Juan, Olivier and Kedad-Sidhoum, Safia*
+    *Marc Etheve, Zacharie Al{\`e}s, C{\^o}me Bissuel, Olivier Juan, Safia Kedad-Sidhoum*
 
 12. **Random sampling and machine learning to understand good decompositions** Annals of Operations Research, 2020. [journal](https://link.springer.com/article/10.1007/s10479-018-3067-9)
 
-    *Basso, Saverio and Ceselli, Alberto and Tettamanzi, Andrea*
+    *Saverio Basso, Alberto Ceselli, Andrea Tettamanzi*
 
-13. **Hybrid Models for Learning to Branch** NeurIPS, 2020. [paper](https://arxiv.org/abs/2006.15212), [code](https://github.com/pg2455/Hybrid-learn2branch)
+13. **Hybrid Models for Learning to Branch** NeurlPS, 2020. [paper](https://arxiv.org/abs/2006.15212), [code](https://github.com/pg2455/Hybrid-learn2branch)
 
-    *Gupta, Prateek and Gasse, Maxime and Khalil, Elias B and Kumar, M Pawan and Lodi, Andrea and Bengio, Yoshua*
+    *Prateek Gupta, Maxime Gasse, Elias B Khalil, M Pawan Kumar, Andrea Lodi, Yoshua Bengio*
 
 14. **Reinforcement Learning for Integer Programming: Learning to Cut** ICML, 2020. [paper](http://proceedings.mlr.press/v119/tang20a.html)
 
-    *Tang, Yunhao and Agrawal, Shipra and Faenza, Yuri*
+    *Yunhao Tang, Shipra Agrawal, Yuri Faenza*
 
 15. **Solving Mixed Integer Programs Using Neural Networks** Arxiv, 2020. [paper](https://arxiv.org/abs/2012.13349)
 
-    *Nair, Vinod and Bartunov, Sergey and Gimeno, Felix and von Glehn, Ingrid and Lichocki, Pawel and Lobov, Ivan and O'Donoghue, Brendan and Sonnerat, Nicolas and Tjandraatmadja, Christian and Wang, Pengming and others*
+    *Vinod Nair, Sergey Bartunov, Felix Gimeno, Ingrid von Glehn, Pawel Lichocki, Ivan Lobov, Brendan O'Donoghue, Nicolas Sonnerat, Christian Tjandraatmadja, Pengming Wang, others*
 
 16. **Learning Efficient Search Approximation in Mixed Integer Branch and Bound** Arxiv, 2020. [paper](https://arxiv.org/abs/2007.03948)
 
-    *Yilmaz, Kaan and Yorke-Smith, Neil*
+    *Kaan Yilmaz, Neil Yorke-Smith*
 
 17. **Learning a Large Neighborhood Search Algorithm for Mixed Integer Programs** Arxiv, 2020. [paper](https://arxiv.org/abs/2107.10201)
 
-    *Sonnerat, Nicolas and Wang, Pengming and Ktena, Ira and Bartunov, Sergey and Nair, Vinod*
+    *Nicolas Sonnerat, Pengming Wang, Ira Ktena, Sergey Bartunov, Vinod Nair*
 
-18. **A General Large Neighborhood Search Framework for Solving Integer Linear Programs** NeurIPS, 2020. [paper](https://arxiv.org/abs/2004.00422)
+18. **A General Large Neighborhood Search Framework for Solving Integer Linear Programs** NeurlPS, 2020. [paper](https://arxiv.org/abs/2004.00422)
 
-    *Song, Jialin and Lanka, Ravi and Yue, Yisong and Dilkina, Bistra*
+    *Jialin Song, Ravi Lanka, Yisong Yue, Bistra Dilkina*
 
-19. **Neural Large Neighborhood Search** NeurIPS Workshop, 2020. [paper](https://openreview.net/forum?id=xEQhKANoVW)
+19. **Neural Large Neighborhood Search** NeurlPS Workshop, 2020. [paper](https://openreview.net/forum?id=xEQhKANoVW)
 
-    *Nair, Vinod and Alizadeh, Mohammad and others*
+    *Vinod Nair, Mohammad Alizadeh, others*
 
 20. **Accelerating Primal Solution Findings for Mixed Integer Programs Based on Solution Prediction** AAAI, 2020. [paper](https://arxiv.org/abs/1906.09575)
 
-    *Ding, Jian-Ya, Chao Zhang, Lei Shen, Shengyin Li, Bing Wang, Yinghui Xu, and Le Song*
+    *Jian-Ya, Chao Zhang, Lei Shen, Shengyin Li, Bing Wang, Yinghui Xu Ding, Le Song*
 
 21. **CombOptNet: Fit the Right NP-Hard Problem by Learning Integer Programming Constraints** Arxiv, 2021. [paper](https://openreview.net/forum?id=z4D7-PTxTb), [code](https://github.com/martius-lab/CombOptNet)
 
-    *Paulus, Anselm and Rolinek, Michal and Musil, Vit and Amos, Brandon and Martius, Georg*
+    *Anselm Paulus, Michal Rolinek, Vit Musil, Brandon Amos, Georg Martius*
 
 22. **Reinforcement Learning for (Mixed) Integer Programming: Smart Feasibility Pump** ICML Workshop, 2021. [paper](https://arxiv.org/abs/2102.09663)
 
-    *Qi, Meng and Wang, Mengxin and Shen, Zuo-Jun*
+    *Meng Qi, Mengxin Wang, Zuo-Jun Shen*
 
 23. **Parameterizing Branch-and-Bound Search Trees to Learn Branching Policies** AAAI, 2021. [paper](https://www.aaai.org/AAAI21Papers/AAAI-9826.ZarpellonG.pdf), [code](https://github.com/ds4dm/branch-search-trees)
 
-    *Zarpellon, Giulia and Jo, Jason and Lodi, Andrea and Bengio, Yoshua*
+    *Giulia Zarpellon, Jason Jo, Andrea Lodi, Yoshua Bengio*
 
 24. **Learning to Select Cuts for Efficient Mixed-Integer Programming** Arxiv, 2021. [journal](https://arxiv.org/abs/2105.13645)
 
-    *Huang, Zeren and Wang, Kerong and Liu, Furui and Zhen, Hui-ling and Zhang, Weinan and Yuan, Mingxuan and Hao, Jianye and Yu, Yong and Wang, Jun*
+    *Zeren Huang, Kerong Wang, Furui Liu, Hui-ling Zhen, Weinan Zhang, Mingxuan Yuan, Jianye Hao, Yong Yu, Jun Wang*
 
 25. **Confidence Threshold Neural Diving** NeurIPS ML4CO Competition Workshop, 2021. [paper](https://arxiv.org/abs/2202.07506)
 
     *Taehyun Yoon*
 
-26. **Learning large neighborhood search policy for integer programming** NeurIPS, 2021. [paper](https://proceedings.neurips.cc/paper/2021/hash/fc9e62695def29ccdb9eb3fed5b4c8c8-Abstract.html)
+26. **Learning large neighborhood search policy for integer programming** NeurlPS, 2021. [paper](https://proceedings.neurips.cc/paper/2021/hash/fc9e62695def29ccdb9eb3fed5b4c8c8-Abstract.html)
 
-    *Wu, Yaoxin and Song, Wen and Cao, Zhiguang and Zhang, Jie*
+    *Yaoxin Wu, Wen Song, Zhiguang Cao, Jie Zhang*
 
 27. **Generative Deep Learning for Decision Making in Gas Networks** Arxiv, 2021. [paper](https://arxiv.org/abs/2102.02125)
 
-    *Lovis Anderson and Mark Turner and Thorsten Koch*
+    *Lovis Anderson, Mark Turner, Thorsten Koch*
 
 28. **Offline Constraint Screening for Online Mixed-integer Optimization** Arxiv, 2021. [paper](https://arxiv.org/abs/2103.13074)
 
-    *Asunción Jiménez-Cordero and Juan Miguel Morales and Salvador Pineda*
+    *Asunción Jiménez-Cordero, Juan Miguel Morales, Salvador Pineda*
 
 29. **Mixed Integer Programming versus Evolutionary Computation for Optimizing a Hard Real-World Staff Assignment Problem** ICAPS, 2021. [paper](https://ojs.aaai.org/index.php/ICAPS/article/view/3521)
 
-    *Peters, Jannik and Stephan, Daniel and Amon, Isabel and Gawendowicz, Hans and Lischeid, Julius and Salabarria, Lennart and Umland, Jonas and Werner, Felix and Krejca, Martin S and Rothenberger, Ralf and others*
+    *Jannik Peters, Daniel Stephan, Isabel Amon, Hans Gawendowicz, Julius Lischeid, Lennart Salabarria, Jonas Umland, Felix Werner, Martin S Krejca, Ralf Rothenberger, others*
 
 30. **Learning To Scale Mixed-Integer Programs** AAAI, 2021. [paper](https://www.aaai.org/AAAI21Papers/AAAI-7940.BertholdT.pdf)
 
-    *Berthold, Timo, and Gregor Hendel*
+    *Timo Berthold, Gregor Hendel*
 
 31. **Learning Pseudo-Backdoors for Mixed Integer Programs** AAAI, 2021. [paper](https://arxiv.org/pdf/2106.05080.pdf)
 
-    *Aaron Ferber and Jialin Song and Bistra Dilkina and Yisong Yue*
+    *Aaron Ferber, Jialin Song, Bistra Dilkina, Yisong Yue*
 
 32. **Confidence Threshold Neural Diving** NeurIPS ML4CO Competition Workshop, 2021. [paper](https://arxiv.org/abs/2202.07506)
 
@@ -1694,75 +1875,75 @@ Published*
 
 33. **Learning Primal Heuristics for Mixed Integer Programs** IJCNN, 2021. [paper](https://arxiv.org/pdf/2107.00866.pdf)
 
-    *Shen, Yunzhuang and Sun, Yuan and Eberhard, Andrew and Li, Xiaodong*
+    *Yunzhuang Shen, Yuan Sun, Andrew Eberhard, Xiaodong Li*
 
 34. **Learning to Solve Large-scale Security-constrained Unit Commitment Problems** INFORMS Journal on Computing, 2021. [journal](https://pubsonline.informs.org/doi/abs/10.1287/ijoc.2020.0976)
 
-    *Xavier, {\'A}linson S and Qiu, Feng and Ahmed, Shabbir*
+    *{\'A}linson S Xavier, Feng Qiu, Shabbir Ahmed*
 
 35. **Learning to Branch with Tree MDPs** Arxiv, 2022. [paper](https://arxiv.org/abs/2205.11107), [code](https://github.com/lascavana/rl2branch)
 
-    *Scavuzzo, Lara, F. Chen, Didier Ch'etelat, Maxime Gasse, Andrea Lodi, N. Yorke-Smith and Karen Aardal.*
+    *Lara, F. Chen, Didier Ch'etelat, Maxime Gasse, Andrea Lodi, N. Yorke-Smith Scavuzzo, Karen Aardal.*
 
 36. **A Deep Reinforcement Learning Framework For Column Generation** Arxiv, 2022. [paper](https://arxiv.org/abs/2206.02568)
 
-    *Chi, Cheng, Amine Mohamed Aboussalah, Elias Boutros Khalil, Juyoung Wang and Zoha Sherkat-Masoumi.*
+    *Cheng, Amine Mohamed Aboussalah, Elias Boutros Khalil, Juyoung Wang Chi, Zoha Sherkat-Masoumi.*
 
 37. **Ranking Constraint Relaxations for Mixed Integer Programs Using a Machine Learning Approach** Arxiv, 2022. [journal](https://arxiv.org/abs/2207.00219)
 
-    *Weiner, Jake, Andreas T. Ernst, Xiaodong Li and Yuan Sun.*
+    *Jake Weiner, Xiaodong Li Andreas T. Ernst, Yuan Sun.*
 
 38. **Learning to Accelerate Approximate Methods for Solving Integer Programming via Early Fixing** Arxiv, 2022. [journal](https://arxiv.org/abs/2207.02087), [code](https://github.com/SCLBD/Accelerated-Lpbox-ADMM)
 
-    *Li, Longkang and Baoyuan Wu.*
+    *Longkang Li, Baoyuan Wu.*
 
 39. **Learning to Cut by Looking Ahead: Cutting Plane Selection via Imitation Learning** ICML, 2022. [paper](https://proceedings.mlr.press/v162/paulus22a.html)
 
-    *Paulus, Max B., Giulia Zarpellon, Andreas Krause, Laurent Charlin and Chris J. Maddison.*
+    *Max B., Giulia Zarpellon, Andreas Krause, Laurent Charlin Paulus, Chris J. Maddison.*
 
 40. **Lookback for Learning to Branch** Arxiv, 2022. [journal](https://arxiv.org/abs/2206.14987)
 
-    *Gupta, Prateek, Elias Boutros Khalil, Didier Chet'elat, Maxime Gasse, Yoshua Bengio, Andrea Lodi and M. Pawan Kumar.*
+    *Prateek, Elias Boutros Khalil, Didier Chet'elat, Maxime Gasse, Yoshua Bengio, Andrea Lodi Gupta, M. Pawan Kumar.*
 
 41. **Learning to Search in Local Branching** AAAI, 2022. [paper](https://ojs.aaai.org/index.php/AAAI/article/view/20294), [code](https://github.com/pandat8/ML4LB)
 
-    *Liu, Defeng and Fischetti, Matteo and Lodi, Andrea*
+    *Defeng Liu, Matteo Fischetti, Andrea Lodi*
 
 42. **Deep Reinforcement Learning for Exact Combinatorial Optimization: Learning to Branch** Arxiv, 2022. [paper](https://arxiv.org/abs/2206.06965)
 
-    *Zhang, Tianyu and Banitalebi-Dehkordi, Amin and Zhang, Yong*
+    *Tianyu Zhang, Amin Banitalebi-Dehkordi, Yong Zhang*
 
 43. **Learning to Branch with Tree-aware Branching Transformers** Knowledge-Based Systems, 2022. [journal](https://www.sciencedirect.com/science/article/pii/S0950705122007298?via%3Dihub), [code](https://github.com/linjc16/TBranT)
 
-    *Lin, Jiacheng and Zhu, Jialin and Wang, Huangang and Zhang, Tao*
+    *Jiacheng Lin, Jialin Zhu, Huangang Wang, Tao Zhang*
 
 44. **An Improved Reinforcement Learning Algorithm for Learning to Branch** Arxiv, 2022. [paper](https://arxiv.org/abs/2201.06213)
 
-    *Qu, Qingyu and Li, Xijun and Zhou, Yunfan and Zeng, Jia and Yuan, Mingxuan and Wang, Jie and Lv, Jinhu and Liu, Kexin and Mao, Kun*
+    *Qingyu Qu, Xijun Li, Yunfan Zhou, Jia Zeng, Mingxuan Yuan, Jie Wang, Jinhu Lv, Kexin Liu, Kun Mao*
 
 45. **Learning to Use Local Cuts** Arxiv, 2022. [paper](https://arxiv.org/abs/2206.11618)
 
-    *Berthold, Timo and Francobaldi, Matteo and Hendel, Gregor*
+    *Timo Berthold, Matteo Francobaldi, Gregor Hendel*
 
 46. **DOGE-Train: Discrete Optimization on GPU with End-to-end Training** Arxiv, 2022. [paper](https://arxiv.org/abs/2205.11638)
 
-    *Abbas, Ahmed and Swoboda, Paul*
+    *Ahmed Abbas, Paul Swoboda*
 
 47. **Structural Analysis of Branch-and-Cut and the Learnability of Gomory Mixed Integer Cuts** NeurIPS, 2022. [paper](https://openreview.net/forum?id=e2gRdexoTZf)
 
-    *Balcan, Maria-Florina and Prasad, Siddharth and Sandholm, Tuomas and Vitercik, Ellen*
+    *Maria-Florina Balcan, Siddharth Prasad, Tuomas Sandholm, Ellen Vitercik*
 
 48. **Constrained Discrete Black-Box Optimization using Mixed-Integer Programming** ICML, 2022. [paper](https://proceedings.mlr.press/v162/papalexopoulos22a.html)
 
-    *Papalexopoulos, Theodore, Christian Tjandraatmadja, Ross Anderson, Juan Pablo Vielma and Daving Belanger.*
+    *Theodore, Christian Tjandraatmadja, Ross Anderson, Juan Pablo Vielma Papalexopoulos, Daving Belanger.*
 
 49. **A GNN-Guided Predict-and-Search Framework for Mixed-Integer Linear Programming** ICLR, 2023. [paper](https://openreview.net/forum?id=pHMpgT5xWaE), [code](https://github.com/sribdcn/Predict-and-Search_MILP_method)
 
-    *Han, Qingyu and Yang, Linxin and Chen, Qian and Zhou, Xiang and Zhang, Dong and Wang, Akang and Sun, Ruoyu and Luo, Xiaodong*
+    *Qingyu Han, Linxin Yang, Qian Chen, Xiang Zhou, Dong Zhang, Akang Wang, Ruoyu Sun, Xiaodong Luo*
 
 50. **Learning Cut Selection for Mixed-Integer Linear Programming via Hierarchical Sequence Model** ICLR, 2023. [paper](https://openreview.net/forum?id=Zob4P9bRNcK), [code](https://github.com/MIRALab-USTC/L2O-HEM-Torch)
 
-    *Wang, Zhihai and Li, Xijun and Wang, Jie and Kuang, Yufei and Yuan, Mingxuan and Zeng, Jia and Zhang, Yongdong and Wu, Feng*
+    *Zhihai Wang, Xijun Li, Jie Wang, Yufei Kuang, Mingxuan Yuan, Jia Zeng, Yongdong Zhang, Feng Wu*
 
 51. **On Representing Mixed-Integer Linear Programs by Graph Neural Networks** ICLR, 2023. [paper](https://openreview.net/forum?id=4gc3MGZra1d), [code](https://github.com/liujl11git/GNN-MILP)
 
@@ -1782,67 +1963,67 @@ Published*
 
 55. **GNN&GBDT-Guided Fast Optimizing Framework for Large-scale Integer Programming** ICML, 2023. [paper](https://icml.cc/virtual/2023/poster/24107)
 
-    *Ye, Huigen, Hua-Hui Xu, Hongyan Wang, Cheng . Wang and YueYen Jiang.*
+    *Huigen, Hua-Hui Xu, Hongyan Wang, Cheng . Wang Ye, YueYen Jiang.*
 
 56. **Learning to Configure Separators in Branch-and-Cut** NeurIPS, 2023. [paper](https://openreview.net/forum?id=gf5xJVQS5p)
 
-    *Li, Sirui and Ouyang, Wenbin and Paulus, Max B and Wu, Cathy*
+    *Sirui Li, Wenbin Ouyang, Max B Paulus, Cathy Wu*
 
 57. **Learning to Dive in Branch and Bound** NeurIPS, 2023. [paper](https://openreview.net/forum?id=iPTF2hON1C)
 
-    *Paulus, Max B and Krause, Andreas*
+    *Max B Paulus, Andreas Krause*
 
 58. **A Deep Instance Generative Framework for MILP Solvers Under Limited Data Availability** NeurIPS, 2023. [paper](https://openreview.net/forum?id=AiEipk1X0c), [code](https://miralab-ustc.github.io/L2O-G2MILP)
 
-    *Geng, Zijie and Li, Xijun and Wang, Jie and Li, Xiao and Zhang, Yongdong and Wu, Feng*
+    *Zijie Geng, Xijun Li, Jie Wang, Xiao Li, Yongdong Zhang, Feng Wu*
 
 59. **Scalable Primal Heuristics Using Graph Neural Networks for Combinatorial Optimization** JAIR, 2024. [journal](https://www.jair.org/index.php/jair/article/view/14972), [code](https://github.com/furkancanturk/gnn4co)
 
-    *Canturk, Furkan and Varol, Taha and Aydogan, Reyhan and Ozener, Okan O*
+    *Furkan Canturk, Taha Varol, Reyhan Aydogan, Okan O Ozener*
 
 ### [Causal Discovery](#content)
 
 1. **DAGs with NO TEARS: Continuous Optimization for Structure Learning.** NeurIPS, 2018. [paper](https://arxiv.org/pdf/1803.01422.pdf)
 
-    *Zheng, Xun and Aragam, Bryon and Ravikumar, Pradeep and Xing, Eric.*
+    *Xun Zheng, Bryon Aragam, Pradeep Ravikumar, Eric Xing*
 
 2. **Causal Discovery with Reinforcement Learning.** ICLR, 2020. [paper](https://arxiv.org/abs/1906.04477)
 
-    *Zhu, Shengyu and Ng, Ignavier and Chen, Zhitang.*
+    *Shengyu Zhu, Ignavier Ng, Zhitang Chen*
 
 3. **Large-Scale Differentiable Causal Discovery of Factor Graphs** NeurIPS, 2022. [paper](https://openreview.net/forum?id=k713e8vXzwR), [code](https://github.com/Genentech/dcdfg)
 
-    *Lopez, Romain and H{\"u}tter, Jan-Christian and Pritchard, Jonathan K and Regev, Aviv*
+    *Romain Lopez, Jan-Christian H{\"u}tter, Jonathan K Pritchard, Aviv Regev*
 
 4. **Boosting Causal Discovery via Adaptive Sample Reweighting** ICLR, 2023. [paper](https://openreview.net/forum?id=LNpMtk15AS4), [code](https://github.com/anzhang314/ReScore)
 
-    *Zhang, An and Liu, Fangfu and Ma, Wenchang and Cai, Zhibo and Wang, Xiang and Chua, Tat-seng*
+    *An Zhang, Fangfu Liu, Wenchang Ma, Zhibo Cai, Xiang Wang, Tat-seng Chua*
 
 5. **CUTS: Neural Causal Discovery from Irregular Time-Series Data** ICLR, 2023. [paper](https://openreview.net/forum?id=UG8bQcD3Emv), [code](https://github.com/jarrycyx/unn)
 
-    *Cheng, Yuxiao and Yang, Runzhao and Xiao, Tingxiong and Li, Zongren and Suo, Jinli and He, Kunlun and Dai, Qionghai*
+    *Yuxiao Cheng, Runzhao Yang, Tingxiong Xiao, Zongren Li, Jinli Suo, Kunlun He, Qionghai Dai*
 
 6. **Diffusion Models for Causal Discovery via Topological Ordering** ICLR, 2023. [paper](https://openreview.net/forum?id=Idusfje4-Wq), [code](https://github.com/vios-s/DiffAN)
 
-    *Sanchez, Pedro and Liu, Xiao and O'Neil, Alison Q and Tsaftaris, Sotirios A*
+    *Pedro Sanchez, Xiao Liu, Alison Q O'Neil, Sotirios A Tsaftaris*
 
 7. **Nonlinear Causal Discovery with Latent Confounders** ICML, 2023. [paper](https://icml.cc/virtual/2023/poster/23789), [code](https://github.com/chunlinli/defuse)
 
-    *David Kaltenpoth and Jilles Vreeken*
+    *David Kaltenpoth, Jilles Vreeken*
 
 8. **BayesDAG: Gradient-Based Posterior Inference for Causal Discovery** NeurIPS, 2023. [paper](https://openreview.net/forum?id=woptnU6fh1)
 
-    *Annadani, Yashas and Pawlowski, Nick and Jennings, Joel and Bauer, Stefan and Zhang, Cheng and Gong, Wenbo*
+    *Yashas Annadani, Nick Pawlowski, Joel Jennings, Stefan Bauer, Cheng Zhang, Wenbo Gong*
 
 9. **Sample Complexity Bounds for Score-Matching: Causal Discovery and Generative Modeling** NeurIPS, 2023. [paper](https://openreview.net/forum?id=uNnPWR66b8)
 
-    *Zhu, Zhenyu and Locatello, Francesco and Cevher, Volkan*
+    *Zhenyu Zhu, Francesco Locatello, Volkan Cevher*
 
 ### [Game Theoretic Semantics](#content)
 
 1. **First-Order Problem Solving through Neural MCTS based Reinforcement Learning.** Arxiv, 2021. [paper](https://arxiv.org/abs/2101.04167)
 
-    *Xu, Ruiyang and Kadam, Prashank and Lieberherr, Karl.*
+    *Ruiyang Xu, Prashank Kadam, Karl Lieberherr*
 
 ### [Differentiable Optimization](#content)
 
@@ -1864,7 +2045,7 @@ Published*
 
 5. **SurCo: Learning Linear Surrogates For Combinatorial Nonlinear Optimization Problems** ICML, 2023. [paper](https://arxiv.org/abs/2210.12547), [code](https://github.com/facebookresearch/SurCo)
 
-    *Ferber, Aaron M and Huang, Taoan and Zha, Daochen and Schubert, Martin and Steiner, Benoit and Dilkina, Bistra and Tian, Yuandong*
+    *Aaron M Ferber, Taoan Huang, Daochen Zha, Martin Schubert, Benoit Steiner, Bistra Dilkina, Yuandong Tian*
 
 6. **Backpropagation through Combinatorial Algorithms: Identity with Projection Works** ICLR, 2023. [paper](https://openreview.net/forum?id=JZMR727O29), [code](https://github.com/martius-lab/solver-differentiation-identity)
 
@@ -1880,15 +2061,15 @@ Published*
 
 1. **⭐On Joint Learning for Solving Placement and Routing in Chip Design** NeurIPS, 2021. [paper](https://arxiv.org/abs/2111.00234), [code](https://github.com/Thinklab-SJTU/EDA-AI)
 
-    *Cheng, Ruoyu and Yan, Junchi*
+    *Ruoyu Cheng, Junchi Yan*
 
 2. **A graph placement methodology for fast chip design** Nature, 2021. [journal](https://www.nature.com/articles/s41586-021-03544-w.pdf)
 
-    *Azalia Mirhoseini, Anna Goldie, Mustafa Yazgan, Joe Wenjie Jiang, Ebrahim Songhori, Shen Wang, Young-Joon Lee, Eric Johnson, Omkar Pathak, Azade Nazi, Jiwoo Pak, Andy Tong, Kavya Srinivasa, William Hang, Emre Tuncer, Quoc V. Le, James Laudon, Richard Ho, Roger Carpenter & Jeff Dean*
+    *Azalia Mirhoseini, Anna Goldie, Mustafa Yazgan, Joe Wenjie Jiang, Ebrahim Songhori, Shen Wang, Young-Joon Lee, Eric Johnson, Omkar Pathak, Azade Nazi, Jiwoo Pak, Andy Tong, Kavya Srinivasa, William Hang, Emre Tuncer, Quoc V. Le, James Laudon, Richard Ho, Roger Carpenter, Jeff Dean*
 
 3. **Unsupervised Learning for Combinatorial Optimization with Principled Objective Relaxation** NeurIPS, 2022. [paper](https://openreview.net/forum?id=HjNn9oD_v47), [code](https://github.com/Graph-COM/CO_ProxyDesign)
 
-    *Wang, Haoyu Peter and Wu, Nan and Yang, Hang and Hao, Cong and Li, Pan*
+    *Haoyu Peter Wang, Nan Wu, Hang Yang, Cong Hao, Pan Li*
 
 4. **⭐The Policy-gradient Placement and Generative Routing Neural Networks for Chip Design** NeurIPS, 2022. [paper](https://proceedings.neurips.cc/paper_files/paper/2022/hash/a8b8c1ad51df1b93d9e3d1fca75debbf-Abstract-Conference.html), [code](https://github.com/Thinklab-SJTU/EDA-AI)
 
@@ -1896,67 +2077,71 @@ Published*
 
 5. **CktGNN: Circuit Graph Neural Network for Electronic Design Automation** ICLR, 2023. [paper](https://openreview.net/forum?id=NE2911Kq1sp)
 
-    *Dong, Zehao and Cao, Weidong and Zhang, Muhan and Tao, Dacheng and Chen, Yixin and Zhang, Xuan*
+    *Zehao Dong, Weidong Cao, Muhan Zhang, Dacheng Tao, Yixin Chen, Xuan Zhang*
 
 6. **⭐HubRouter: Learning Global Routing via Hub Generation and Pin-hub Connection** NeurIPS, 2023. [paper](https://openreview.net/forum?id=f0Jj3C3Pnp)
 
-    *Du, Xingbo and Wang, Chonghua and Zhong, Ruizhe and Yan, Junchi*
+    *Xingbo Du, Chonghua Wang, Ruizhe Zhong, Junchi Yan*
+
+7. **HeuriGym: An Agentic Benchmark for LLM-Crafted Heuristics in Combinatorial Optimization** ICLR, 2026. [paper](https://arxiv.org/abs/2506.07972), [code](https://github.com/cornell-zhang/heurigym)
+
+    *Hongzheng Chen, Yingheng Wang, Yaohui Cai, Hins Hu, Jiajie Li, Shirley Huang, Chenhui Deng, Rongjian Liang, Shufeng Kong, Haoxing Ren, Samitha Samaranayake, Carla P. Gomes, Zhiru Zhang*
 
 ### [Conjunctive Query Containment](#content)
 
 1. **It's Not What Machines Can Learn It's What We Cannot Teach** ICML, 2020. [paper](http://proceedings.mlr.press/v119/yehuda20a/yehuda20a.pdf)
 
-    *Gal Yehuda, Moshe Gabel and Assaf Schuster*
+    *Gal Yehuda, Moshe Gabel, Assaf Schuster*
 
 ### [Virtual Network Embedding](#content)
 
 1. **Virtual Network Embedding via Monte Carlo Tree Search** IEEE Trans. Cybern, 2017. [journal](https://ieeexplore.ieee.org/document/7859375)
 
-    *Soroush Haeri; Ljiljana Trajković*
+    *Soroush Haeri, Ljiljana Trajković*
 
 2. **A novel reinforcement learning algorithm for virtual network embedding** Neurocomputing, 2018. [journal](https://www.sciencedirect.com/science/article/abs/pii/S0925231218300420)
 
-    *Haipeng Yao,Xu Chen, Maozhen Li, Peiying Zhang, Luyao Wang*
+    *Haipeng Yao, Xu Chen, Maozhen Li, Peiying Zhang, Luyao Wang*
 
 3. **NeuroViNE: A Neural Preprocessor for Your Virtual Network Embedding Algorithm** INFOCOM, 2018. [paper](https://ieeexplore.ieee.org/document/8486263)
 
-    *Andreas Blenk; Patrick Kalmbach; Johannes Zerwas; Michael Jarschel; Stefan Schmid; Wolfgang Kellerer*
+    *Andreas Blenk, Patrick Kalmbach, Johannes Zerwas, Michael Jarschel, Stefan Schmid, Wolfgang Kellerer*
 
 4. **A Virtual Network Embedding Algorithm Based On Double-Layer Reinforcement Learning** TCJ, 2019. [journal](https://ieeexplore.ieee.org/document/9514735)
 
-    *Meng Li; MeiLian Lu*
+    *Meng Li, MeiLian Lu*
 
 5. **NFVdeep: Adaptive Online Service Function Chain Deployment with Deep Reinforcement Learning** IWQoS, 2019. [paper](https://ieeexplore.ieee.org/document/9068634)
 
-    *Yikai Xiao; Qixia Zhang; Fangming Liu; Jia Wang; Miao Zhao; Zhongxing Zhang; Jiaxing Zhang*
+    *Yikai Xiao, Qixia Zhang, Fangming Liu, Jia Wang, Miao Zhao, Zhongxing Zhang, Jiaxing Zhang*
 
 6. **A Continuous-Decision Virtual Network Embedding Scheme Relying on Reinforcement Learning** IEEE TNSM, 2020. [journal](https://ieeexplore.ieee.org/document/8982091)
 
-    *Haipeng Yao; Sihan Ma; Jingjing Wang; Peiying Zhang; Chunxiao Jiang; Song Guo*
+    *Haipeng Yao, Sihan Ma, Jingjing Wang, Peiying Zhang, Chunxiao Jiang, Song Guo*
 
 7. **Automatic Virtual Network Embedding A Deep Reinforcement Learning Approach With Graph Convolutional Networks** J-SAC, 2020. [journal](https://ieeexplore.ieee.org/document/9060910)
 
-    *Zhongxia Yan; Jingguo Ge; Yulei Wu; Liangxiong Li; Tong Li*
+    *Zhongxia Yan, Jingguo Ge, Yulei Wu, Liangxiong Li, Tong Li*
 
 8. **A Q-learning-based approach for virtual network embedding in data center** NCA, 2020. [journal](https://link.springer.com/article/10.1007/s00521-019-04376-6)
 
-    *Ying Yuan, Zejie Tian, Cong Wang, Fanghui Zheng & Yanxia Lv*
+    *Ying Yuan, Zejie Tian, Cong Wang, Fanghui Zheng, Yanxia Lv*
 
 9. **Accelerating Virtual Network Embedding with Graph Neural Networks** CNSM, 2020. [journal](https://ieeexplore.ieee.org/document/9269128)
 
-    *Farzad Habibi; Mahdi Dolati; Ahmad Khonsari; Majid Ghaderi*
+    *Farzad Habibi, Mahdi Dolati, Ahmad Khonsari, Majid Ghaderi*
 
 10. **Dynamic Virtual Network Embedding Algorithm Based on Graph Convolution Neural Network and Reinforcement Learning** IoT-J, 2021. [journal](https://ieeexplore.ieee.org/document/9475485)
 
-    *Peiying Zhang; Chao Wang; Neeraj Kumar; Weishan Zhang; Lei Liu*
+    *Peiying Zhang, Chao Wang, Neeraj Kumar, Weishan Zhang, Lei Liu*
 
 11. **Deep Reinforcement Based Optimization of Function Splitting in Virtualized Radio Access Networks** ICC, 2021. [paper](https://ieeexplore.ieee.org/document/9473703), [code](https://github.com/rubensolozabal/vnf_placement_optimization_rl)
 
-    *Fahri Wisnu Murti; Samad Ali; Matti Latva-aho*
+    *Fahri Wisnu Murti, Samad Ali, Matti Latva-aho*
 
 12. **DRL-SFCP: Adaptive Service Function Chains Placement with Deep Reinforcement Learning** ICC, 2021. [paper](https://ieeexplore.ieee.org/document/9500964)
 
-    *Tianfu Wang; Qilin Fan; Xiuhua Li; Xu Zhang; Qingyu Xiong; Shu Fu; Min Gao*
+    *Tianfu Wang, Qilin Fan, Xiuhua Li, Xu Zhang, Qingyu Xiong, Shu Fu, Min Gao*
 
 13. **⭐GAL-VNE: Solving the VNE Problem with Global Reinforcement Learning and Local One-Shot Neural Prediction** KDD, 2023. [paper](https://dl.acm.org/doi/10.1145/3580305.3599358), [code](https://github.com/Thinklab-SJTU/GAL-VNE)
 
@@ -1966,15 +2151,15 @@ Published*
 
 1. **OptNet: differentiable optimization as a layer in neural networks** ICML, 2017. [paper](https://dl.acm.org/doi/abs/10.5555/3305381.3305396), [code](https://github.com/locuslab/optnet)
 
-    *Brandon Amos and J. Zico Kolter*
+    *Brandon Amos, J. Zico Kolter*
 
 2. **Differentiable Convex Optimization Layers** NeurIPS, 2019. [paper](https://dl.acm.org/doi/abs/10.5555/3454287.3455145), [code](https://github.com/cvxgrp/cvxpylayers)
 
-    *Agrawal, Akshay and Boyd, Stephen*
+    *Akshay Agrawal, Stephen Boyd*
 
 3. **Predict+optimise with ranking objectives: exhaustively learning linear functions** IJCAI, 2019. [paper](https://dl.acm.org/doi/abs/10.5555/3367032.3367186)
 
-    *Demirovic, Emir and Stuckey, Peter J. and Bailey, James and Chan, Jeffrey and Leckie, Christopher and Ramamohanarao, Kotagiri and Guns, Tias*
+    *Emir Demirovic, Peter J. Stuckey, James Bailey, Jeffrey Chan, Christopher Leckie, Kotagiri Ramamohanarao, Tias Guns*
 
 4. **Melding the Data-Decisions Pipeline: Decision-Focused Learning for Combinatorial Optimization** AAAI, 2019. [paper](https://ojs.aaai.org//index.php/AAAI/article/view/3982)
 
@@ -1986,7 +2171,7 @@ Published*
 
 6. **Smart Predict-and-Optimize for Hard Combinatorial Optimization Problems** AAAI, 2020. [paper](https://arxiv.org/abs/1911.10092), [code](https://github.com/JayMan91/aaai_predit_then_optimize)
 
-    *Jaynta Mandi, Emir Demirovi, Peter. J Stuckey, Tias Guns*
+    *Jayanta Mandi, Emir Demirovic, Peter J. Stuckey, Tias Guns*
 
 7. **Interior Point Solving for LP-based prediction+optimization** NeurIPS, 2020. [paper](https://proceedings.neurips.cc//paper/2020/hash/51311013e51adebc3c34d2cc591fefee-Abstract.html), [code](https://github.com/JayMan91/NeurIPSIntopt)
 
@@ -1994,7 +2179,7 @@ Published*
 
 8. **Contrastive Losses and Solution Caching for Predict-and-Optimize** IJCAI, 2021. [paper](https://www.ijcai.org/proceedings/2021/0390.pdf), [code](https://github.com/jayman91/ltr-predopt)
 
-    *Maxime Mulamba, Jayanta Mandi, Michelangelo Diligenti , Michele Lombardi, Victor Bucarey, Tias Guns*
+    *Maxime Mulamba, Jayanta Mandi, Michelangelo Diligenti, Michele Lombardi, Victor Bucarey, Tias Guns*
 
 9. **A Surrogate Objective Framework for Prediction+Programming with Soft Constraints** NeurIPS, 2021. [paper](https://openreview.net/forum?id=9Sa2xh4mGR), [code](https://github.com/PredOptwithSoftConstraint/PredOptwithSoftConstraint)
 
@@ -2014,15 +2199,15 @@ Published*
 
 13. **Deep Declarative Networks** TPAMI, 2022. [paper](https://ieeexplore.ieee.org/document/9355027), [code](https://github.com/anucvml/ddn)
 
-    *Stephen Gould, Richard Hartley and Dylan Campbell*
+    *Stephen Gould, Richard Hartley, Dylan Campbell*
 
 14. **An Exact Symbolic Reduction of Linear Smart Predict+Optimize to Mixed Integer Linear Programming** ICML, 2022. [paper](https://proceedings.mlr.press/v162/jeong22a.html), [code](https://github.com/jihwan-jeong/xaddpy)
 
-    *Jeong, Jihwan, Parth Jaggi, Andrew Butler and Scott Sanner. “An Exact Symbolic Reduction of Linear Smart Predict+Optimize to Mixed Integer Linear Programming.” ICML (2022).*
+    *Jihwan Jeong, Parth Jaggi, Andrew Butler, Scott Sanner*
 
 15. **Two-Stage Predict+Optimize for Mixed Integer Linear Programs with Unknown Parameters in Constraints** NeurIPS, 2023. [paper](https://openreview.net/forum?id=0tnhFpyWjb), [code](https://github.com/elizabethxyhu/neurips_two_stage_predict-optimize)
 
-    *Hu, Xinyi and Lee, Jasper CH and Lee, Jimmy HM*
+    *Xinyi Hu, Jasper CH Lee, Jimmy HM Lee*
 
 16. **Predict+ Optimize for packing and covering LPs with unknown parameters in constraints** AAAI, 2023. [paper](https://dl.acm.org/doi/10.1609/aaai.v37i4.25513)
 
@@ -2032,7 +2217,7 @@ Published*
 
 1. **DeepOPF: A Deep Neural Network Approach for Security-Constrained DC Optimal Power Flow** SmartGridComm, 2019. [paper](https://ieeexplore.ieee.org/document/8909795)
 
-    *Xiang Pan; Tianyu Zhao; Minghua Chen*
+    *Xiang Pan, Tianyu Zhao, Minghua Chen*
 
 2. **Predicting AC Optimal Power Flows: Combining Deep Learning and Lagrangian Dual Methods** AAAI, 2020. [paper](https://ojs.aaai.org/index.php/AAAI/article/view/5403), [code](https://github.com/AIPOpt-Lab-SU/lagrangian-dual-deep-learning)
 
@@ -2042,10 +2227,9 @@ Published*
 
     *Priya Donti, Aayushya Agarwal, Neeraj Vijay Bedmutha, Larry Pileggi, J. Zico Kolter*
 
-4. **Ensuring DNN Solution Feasibility for Optimization Problems with Linear Constraints** ICLR, 2023. [paper](https://openreview.net/forum?id=QVcDQJdFTG), [code](Chenguang and Han)
+4. **Ensuring DNN Solution Feasibility for Optimization Problems with Linear Constraints** ICLR, 2023. [paper](https://openreview.net/forum?id=QVcDQJdFTG)
 
-    *Tianyu Zhao, Xiang Pan, Minghua Chen, Steven Low,
-Facility Location Problem,Solving uncapacitated P-Median problem with reinforcement learning assisted by graph attention networks,Applied Intelligence,2023,paper,https://link.springer.com/article/10.1007/s10489-022-03453-z,Wang*
+    *Tianyu Zhao, Xiang Pan, Minghua Chen, Steven Low*
 
 ### [Facility Location Problem](#content)
 
@@ -2053,39 +2237,43 @@ Facility Location Problem,Solving uncapacitated P-Median problem with reinforcem
 
     *Dena Tayebi, Saurabh Ray, Deepak Ajwani*
 
-2. **⭐Towards One-shot Neural Combinatorial Solvers: Theoretical and Empirical Notes on the Cardinality-Constrained Case** ICLR, 2023. [paper](https://openreview.net/forum?id=h21yJhdzbwz), [code](https://github.com/Thinklab-SJTU/One-Shot-Cardinality-NN-Solver)
+2. **Solving uncapacitated P-Median problem with reinforcement learning assisted by graph attention networks** Applied Intelligence, 2023. [paper](https://link.springer.com/article/10.1007/s10489-022-03453-z)
 
-    *Wang, Runzhong and Shen, Li and Chen, Yiting and Yan, Junchi and Yang, Xiaokang and Tao, Dacheng*
+    *Chenguang Wang, Congying Han, Tiande Guo, Man Ding*
+
+3. **⭐Towards One-shot Neural Combinatorial Solvers: Theoretical and Empirical Notes on the Cardinality-Constrained Case** ICLR, 2023. [paper](https://openreview.net/forum?id=h21yJhdzbwz), [code](https://github.com/Thinklab-SJTU/One-Shot-Cardinality-NN-Solver)
+
+    *Runzhong Wang, Li Shen, Yiting Chen, Junchi Yan, Xiaokang Yang, Dacheng Tao*
 
 ### [Combinatorial Drug Recommendation](#content)
 
 1. **GAMENet: Graph Augmented MEmory Networks for Recommending Medication Combination** AAAI, 2019. [paper](https://ojs.aaai.org/index.php/AAAI/article/view/3905), [code](https://github.com/sjy1203/GAMENet)
 
-    *Shang, Junyuan and Xiao, Cao and Ma, Tengfei and Li, Hongyan and Sun, Jimeng*
+    *Junyuan Shang, Cao Xiao, Tengfei Ma, Hongyan Li, Jimeng Sun*
 
 2. **SafeDrug: Dual Molecular Graph Encoders for Recommending Effective and Safe Drug Combinations** IJCAI, 2021. [paper](https://www.ijcai.org/proceedings/2021/0514.pdf), [code](https://github.com/ycq091044/SafeDrug)
 
-    *Yang, Chaoqi and Xiao, Cao and Ma, Fenglong and Glass, Lucas and Sun, Jimeng*
+    *Chaoqi Yang, Cao Xiao, Fenglong Ma, Lucas Glass, Jimeng Sun*
 
 3. **Debiased, Longitudinal and Coordinated Drug Recommendation through Multi-Visit Clinic Recordss** NeurIPS, 2022. [paper](https://openreview.net/forum?id=zVglD2W0EAS), [code](https://github.com/ssshddd/DrugRec)
 
-    *Sun, Hongda and Xie, Shufang and Li, Shuqi and Chen, Yuhan and Wen, Ji-Rong and Yan, Rui*
+    *Hongda Sun, Shufang Xie, Shuqi Li, Yuhan Chen, Ji-Rong Wen, Rui Yan*
 
 4. **⭐MoleRec: Combinatorial Drug Recommendation with Substructure-Aware Molecular Representation Learning** WWW, 2023. [paper](https://dl.acm.org/doi/10.1145/3543507.3583872), [code](https://github.com/yangnianzu0515/MoleRec)
 
-    *Yang, Nianzu and Zeng, Kaipeng and Wu, Qitian and Yan, Junchi*
+    *Nianzu Yang, Kaipeng Zeng, Qitian Wu, Junchi Yan*
 
 5. **Enhancing Activity Prediction Models in Drug Discovery with the Ability to Understand Human Language** ICML, 2023. [paper](https://icml.cc/virtual/2023/poster/24953)
 
-    *Philipp Seidl and Andreu Vall and Sepp Hochreiter and Gunter Klambauer*
+    *Philipp Seidl, Andreu Vall, Sepp Hochreiter, Gunter Klambauer*
 
 6. **Learning Subpocket Prototypes for Generalizable Structure-based Drug Design** ICML, 2023. [paper](https://icml.cc/virtual/2023/poster/25062)
 
-    *Zaixin Zhang and Qi Liu*
+    *Zaixin Zhang, Qi Liu*
 
 7. **DECOMPDIFF: Diffusion Models with Decomposed Priors for Structure-Based Drug Design** ICML, 2023. [paper](https://icml.cc/virtual/2023/poster/23697)
 
-    *Jiaqi Guan and Xiangxin Zhou and Yuwei Yang and Yu Bao and Jian-wei Peng and Jianzhu Ma and Q. Liu and Liang Wang and Quanquan Gu*
+    *Jiaqi Guan, Xiangxin Zhou, Yuwei Yang, Yu Bao, Jian-wei Peng, Jianzhu Ma, Q. Liu, Liang Wang, Quanquan Gu*
 
 ### [Stochastic Combinatorial Optimization](#content)
 
@@ -2109,16 +2297,29 @@ Facility Location Problem,Solving uncapacitated P-Median problem with reinforcem
 
     *Hanjun Dai, Yuan Xue, Niao He, Yixin Wang, Na Li, Dale Schuurmans, Bo Dai*
 
+6. **From Sequential to Parallel: Reformulating Dynamic Programming as GPU Kernels for Large-Scale Stochastic Combinatorial Optimization** ICLR, 2026. [paper](https://arxiv.org/abs/2602.05179), [code](https://github.com/Jingyi-poly/2-stage-IRP-GPU/tree/CVRPSD-split-GPU)
+
+    *Jingyi Zhao, Linxin Yang, Haohua Zhang, Qile He, Tian Ding*
+
 ### [Vertex Cover](#content)
 
-1. **Approximation algorithms for combinatorial optimization with predictions** ICLR, 2025. [paper](https://openreview.net/forum?id=AEFVa6VMu1)
+1. **⭐ML4CO-Bench-101: Benchmark Machine Learning for Classic Combinatorial Problems on Graphs** NeurIPS, 2025. [paper](https://openreview.net/forum?id=ye4ntB1Kzi), [code](https://github.com/Thinklab-SJTU/ML4CO-Bench-101)
 
-    *Antonios Antoniadis, Marek Elias, Adam Polak, Moritz Venzin*
+    *Jiale Ma, Wenzheng Pan, Yang Li, Junchi Yan*
 
 2. **⭐COExpander: Adaptive Solution Expansion for Combinatorial Optimization** ICML, 2025. [paper](https://openreview.net/forum?id=KMaBXMWsBM), [code](https://github.com/Thinklab-SJTU/COExpander)
 
-    *Jiale Ma and Wenzheng Pan and Yang Li and Junchi Yan*
+    *Jiale Ma, Wenzheng Pan, Yang Li, Junchi Yan*
 
-3. **⭐ML4CO-Bench-101: Benchmark Machine Learning for Classic Combinatorial Problems on Graphs** NeurIPS, 2025. [paper](https://openreview.net/forum?id=ye4ntB1Kzi), [code](https://github.com/Thinklab-SJTU/ML4CO-Bench-101)
+3. **Large Language Models as End-to-end Combinatorial Optimization Solvers** NeurIPS, 2025. [paper](https://neurips.cc/virtual/2025/loc/san-diego/poster/115835), [code](https://github.com/Summer142857/LLMCoSolver)
 
-    *Jiale Ma and Wenzheng Pan and Yang Li and Junchi Yan*
+    *Xia Jiang, Yaoxin Wu, Minshuo Li, Zhiguang Cao, Yingqian Zhang*
+
+4. **Approximation algorithms for combinatorial optimization with predictions** ICLR, 2025. [paper](https://openreview.net/forum?id=AEFVa6VMu1)
+
+    *Antonios Antoniadis, Marek Elias, Adam Polak, Moritz Venzin*
+
+5. **⭐ConRep4CO: Contrastive Representation Learning of Combinatorial Optimization Instances across Types** ICLR, 2026. [paper](https://openreview.net/forum?id=OXRnvOOiAf), [code](https://github.com/Thinklab-SJTU/ConRep4CO)
+
+    *Ziao Guo, Yang Li, Shiyue Wang, Junchi Yan*
+

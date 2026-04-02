@@ -1,9 +1,9 @@
 import csv
-import os
 import copy
+import shutil
 
 abbr = {'Graph Matching': 'GM', 'Travelling Salesman Problem': 'TSP', 'Vehicle Routing Problem': 'VRP',
-        'Job Shop Scheduling Problem': 'JSSP', 'Bin Packing Problem': 'BPP', 'Graph Edit Distance': 'GED',
+        'Job Shop Scheduling Problem': 'JSSP', 'Flow Shop Problem': 'FSP', 'Bin Packing Problem': 'BPP', 'Graph Edit Distance': 'GED',
         'Maximal Common Subgraph': 'MCS', 'Maximal Independent Set': 'MIS', 'Boolean Satisfiability': 'SAT',
         'Quadratic Assignment Problem': 'QAP',
         'Hamiltonian Cycle Problem': 'HCP',
@@ -17,6 +17,46 @@ abbr = {'Graph Matching': 'GM', 'Travelling Salesman Problem': 'TSP', 'Vehicle R
         'Portfolio Optimization': 'PortOpt',
         'Mixed Integer Programming': 'MIP',
         }
+
+# Canonical problem order for the Content table and ### sections (Thinklab awesome-ml4co).
+PROBLEM_CATEGORY_ORDER = (
+    'Job Shop Scheduling Problem',
+    'Flow Shop Problem',
+    'Sorting & Ranking',
+    'Graph Matching',
+    'Quadratic Assignment Problem',
+    'Travelling Salesman Problem',
+    'Portfolio Optimization',
+    'Maximal Cut',
+    'Vehicle Routing Problem',
+    'Maximum Independent Set',
+    'Generalization',
+    'Orienteering Problem',
+    'Knapsack',
+    'Boolean Satisfiability',
+    'Computing Resource Allocation',
+    'Bin Packing Problem',
+    'Graph Edit Distance',
+    'Hamiltonian Cycle Problem',
+    'Graph Coloring',
+    'Maximal Common Subgraph',
+    'Influence Maximization',
+    'Max Clique',
+    'Mixed Integer Programming',
+    'Causal Discovery',
+    'Game Theoretic Semantics',
+    'Differentiable Optimization',
+    'Car Dispatch',
+    'Electronic Design Automation',
+    'Conjunctive Query Containment',
+    'Virtual Network Embedding',
+    'Predict+Optimize',
+    'Optimal Power Flow',
+    'Facility Location Problem',
+    'Combinatorial Drug Recommendation',
+    'Stochastic Combinatorial Optimization',
+    'Vertex Cover',
+)
 
 
 def md2csv(mdFile, csvFile):  # From the md file to generate a csv file that contains the paper list.
@@ -90,18 +130,25 @@ def csv2md(csvFile, mdFile, header):
         raw_papers.append(item)
     csvFile.close()
 
-    classes = []
+    discovered = set()
     for paper in raw_papers:
         if ";" in paper[0]:
-            paper_classes = paper[0].split(";")
-            paper_classes = [cls.strip() for cls in paper_classes]
+            for cls in paper[0].split(";"):
+                discovered.add(cls.strip())
         else:
-            paper_classes = [paper[0].strip()]
-        for cls in paper_classes:
-            if cls not in classes:
-                classes.append(cls)
+            discovered.add(paper[0].strip())
 
-    for c in classes:
+    problem_classes = [c for c in PROBLEM_CATEGORY_ORDER if c in discovered]
+    unknown = discovered - {'Survey Papers'} - set(PROBLEM_CATEGORY_ORDER)
+    for c in sorted(unknown):
+        problem_classes.append(c)
+
+    content_order = []
+    if 'Survey Papers' in discovered:
+        content_order.append('Survey Papers')
+    content_order.extend(problem_classes)
+
+    for c in content_order:
         p = []
         for paper in raw_papers:
             if c in paper[0]:
@@ -111,28 +158,32 @@ def csv2md(csvFile, mdFile, header):
         p.sort(key=sort_by_time)
         papers = papers + p
 
-    command = "cp " + header + " " + mdFile
-    os.system(command)
+    shutil.copy(header, mdFile)
     with open(mdFile, "a", encoding='utf-8') as file:
-        # write category
-        for i in range(len(classes) // 2):
-            name1 = classes[2 * i + 1]
-            name_index1 = classes[2 * i + 1].replace(" ", "-").lower()
+        # Problems index in the Content table (pairs per row)
+        for i in range((len(problem_classes) + 1) // 2):
+            name1 = problem_classes[2 * i]
+            num1 = 2 * i + 1
+            name_index1 = name1.replace(" ", "-").lower()
             file.writelines('<tr>\n')
             if name1 in abbr:
-                file.writelines('\t<td>&emsp;<a href=#{}>2.{} {} ({})</a></td>\n'.format(name_index1, 2 * i + 1, name1,
-                                                                                         abbr[name1]))
+                file.writelines(
+                    '\t<td>&emsp;<a href=#{}>2.{} {} ({})</a></td>\n'.format(
+                        name_index1, num1, name1, abbr[name1]))
             else:
-                file.writelines('\t<td>&emsp;<a href=#{}>2.{} {}</a></td>\n'.format(name_index1, 2 * i + 1, name1))
-            if 2 * i + 1 < len(classes) - 1:
-                name2 = classes[2 * i + 2]
-                name_index2 = classes[2 * i + 2].replace(" ", "-").lower()
+                file.writelines(
+                    '\t<td>&emsp;<a href=#{}>2.{} {}</a></td>\n'.format(name_index1, num1, name1))
+            if 2 * i + 1 < len(problem_classes):
+                name2 = problem_classes[2 * i + 1]
+                num2 = 2 * i + 2
+                name_index2 = name2.replace(" ", "-").lower()
                 if name2 in abbr:
                     file.writelines(
-                        '\t<td>&emsp;<a href=#{}>2.{} {} ({})</a></td>\n'.format(name_index2, 2 * i + 2, name2,
-                                                                                 abbr[name2]))
+                        '\t<td>&emsp;<a href=#{}>2.{} {} ({})</a></td>\n'.format(
+                            name_index2, num2, name2, abbr[name2]))
                 else:
-                    file.writelines('\t<td>&emsp;<a href=#{}>2.{} {}</a></td>\n'.format(name_index2, 2 * i + 2, name2))
+                    file.writelines(
+                        '\t<td>&emsp;<a href=#{}>2.{} {}</a></td>\n'.format(name_index2, num2, name2))
             else:
                 file.writelines('<td>&ensp;</td>\n')
             file.writelines('</tr>\n')
