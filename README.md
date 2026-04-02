@@ -1981,6 +1981,10 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 
     *Furkan Canturk, Taha Varol, Reyhan Aydogan, Okan O Ozener*
 
+60. **OptimAI: Optimization from Natural Language Using LLM-Powered AI Agents** arXiv, 2025. [paper](https://arxiv.org/abs/2504.16918)
+
+    *Thind, Raghav and Sun, Youran and Liang, Ling and Yang, Haizhao*
+
 ### [Causal Discovery](#content)
 
 1. **DAGs with NO TEARS: Continuous Optimization for Structure Learning.** NeurIPS, 2018. [paper](https://arxiv.org/pdf/1803.01422.pdf)
