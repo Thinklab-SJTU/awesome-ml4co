@@ -649,7 +649,7 @@ def write_benchmark_section(file, mdFile, category, benchmark_results, chartDir)
 
     file.writelines("#### Benchmark Results (Beta)")
     file.write("\n\n")
-    file.writelines("*Beta feature: benchmark charts are generated from `data/benchmark_results.csv`. Runtime is normalized to 1000 instances by instance count only; hardware is not normalized. Gap charts show main-experiment points within benchmark-specific gap bounds (3.5% for TSP-500, 5% otherwise); within each baseline, slower points are shown only when they improve gap.*")
+    file.writelines("*Beta feature: benchmark charts are generated from `data/benchmark_results.csv`. The results, sourced directly from original papers using common benchmarks, are presented to directly illustrate the evolution of performance. Runtime is normalized to 1000 instances by instance count only; hardware is not normalized. Gap charts show main-experiment points within benchmark-specific gap bounds (3.5% for TSP-500, 5% otherwise); within each baseline, slower points are shown only when they improve gap.*")
     file.write("\n\n")
 
     md_dir = os.path.dirname(os.path.abspath(mdFile))
