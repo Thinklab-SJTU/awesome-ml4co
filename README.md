@@ -587,19 +587,19 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 
 100. **FrontierCO: Real-World and Large-Scale Evaluation of Machine Learning Solvers for Combinatorial Optimization** ICLR, 2026. [paper](https://openreview.net/forum?id=BVprkacwFY), [code](https://github.com/sunnweiwei/FrontierCO)
 
-    *Shengyu Feng, Weiwei Sun, Shanda Li, Ameet Talwalkar, Yiming Yang*
+     *Shengyu Feng, Weiwei Sun, Shanda Li, Ameet Talwalkar, Yiming Yang*
 
 101. **Beyond the Heatmap: A Rigorous Evaluation of Component Impact in MCTS-Based TSP Solvers** ICLR, 2026. [paper](https://openreview.net/forum?id=H6PLJnnK6e), [code](https://github.com/LOGO-CUHKSZ/beyond-heatmap-mcts-tsp)
 
-    *Xuanhao Pan, Chenguang Wang, Chaolong Ying, Ye XUE, Tianshu Yu*
+     *Xuanhao Pan, Chenguang Wang, Chaolong Ying, Ye XUE, Tianshu Yu*
 
 102. **LINC: Decoupling Local Consequence Scoring from Hidden Matching in Constructive Neural Routing** NeurIPS, 2026. [paper](https://arxiv.org/abs/2605.06332), [code](https://github.com/Elaina10172004/LINC)
 
-    *Shaofeng Qin, Li Wang*
+     *Shaofeng Qin, Li Wang*
 
 103. **⭐Problem Distributions as Tasks: Repurposing Meta Learning for Generative Combinatorial Optimization towards Multi-task Pretraining and Adaptation** ICML, 2026. [paper](https://openreview.net/forum?id=OfxgzjqzeA), [code](https://github.com/Thinklab-SJTU/M2GenCO)
 
-    *Wenzheng Pan, Jiale Ma, Nuoyan Chen, Yang Li, Junchi Yan*
+     *Wenzheng Pan, Jiale Ma, Nuoyan Chen, Yang Li, Junchi Yan*
 
 ### [Job Shop Scheduling Problem](#content)
 
