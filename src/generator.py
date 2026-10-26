@@ -774,7 +774,10 @@ def csv2md(csvFile, mdFile, header, benchmarkFile="../data/benchmark_results.csv
                                                                      paper[5], paper[7]))
             file.write('\n')
             file.write('\n')
-            file.writelines("    *{}*".format(paper[6]))
+            # Keep author lines inside the ordered-list item. Three-digit
+            # markers need one more continuation-space than two-digit ones.
+            author_indent = " " * max(4, len(str(num)) + 2)
+            file.writelines("{}*{}*".format(author_indent, paper[6]))
             file.write('\n')
             file.write('\n')
 
