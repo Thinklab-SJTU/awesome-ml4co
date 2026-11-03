@@ -609,6 +609,10 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 
      *Wenzheng Pan, Nuoyan Chen, Jiaxi Liu, Jiale Ma, Junchi Yan*
 
+106. **⭐NLD4CO: Neural Langevin Dynamics for Combinatorial Optimization** NeurIPS (Spotlight), 2026. [paper](https://openreview.net/forum?id=mshiN8rReo), [code](https://github.com/Thinklab-SJTU/NLD4CO)
+
+    *Jiale Ma, Wenzheng Pan, Binghao Cai, Xihe Zhang, Junchi Yan*
+
 ### [Job Shop Scheduling Problem](#content)
 
 1. **Smart Manufacturing Scheduling With Edge Computing Using Multiclass Deep Q Network** Transactions on Industrial Informatics, 2019. [journal](https://ieeexplore.ieee.org/document/8676376)
@@ -1229,113 +1233,129 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 
     *Han Li, Fei Liu, Zhi Zheng, Yu Zhang, Zhenkun Wang*
 
-55. **Rethinking Neural Combinatorial Optimization for Vehicle Routing Problems with Different Constraint Tightness Degrees** NeurIPS, 2025. [paper](https://openreview.net/forum?id=Lwn1rLB8t7), [code](https://github.com/CIAM-Group/Rethinking_Constraint_Tightness)
+55. **RouteFinder: Towards Foundation Models for Vehicle Routing Problems** TMLR, 2025. [paper](https://openreview.net/forum?id=QzGLoaOPiY), [code](https://github.com/ai4co/routefinder)
+
+    *Federico Berto, Chuanbo Hua, Nayeli Gast Zepeda, André Hottung, Niels Wouda, Leon Lan, Junyoung Park, Kevin Tierney, Jinkyoo Park*
+
+56. **Rethinking Neural Combinatorial Optimization for Vehicle Routing Problems with Different Constraint Tightness Degrees** NeurIPS, 2025. [paper](https://openreview.net/forum?id=Lwn1rLB8t7), [code](https://github.com/CIAM-Group/Rethinking_Constraint_Tightness)
 
     *Fu Luo, Yaoxin Wu, Zhi Zheng, Zhenkun Wang*
 
-56. **Improving Generalization of Neural Combinatorial Optimization for Vehicle Routing Problems via Test-Time Projection Learning** NeurIPS, 2025. [paper](https://openreview.net/forum?id=QPJjiNCRq1), [code](https://github.com/CIAM-Group/TTPL)
+57. **Improving Generalization of Neural Combinatorial Optimization for Vehicle Routing Problems via Test-Time Projection Learning** NeurIPS, 2025. [paper](https://openreview.net/forum?id=QPJjiNCRq1), [code](https://github.com/CIAM-Group/TTPL)
 
     *Yuanyao Chen, Rongsheng Chen, Fu Luo, Zhenkun Wang*
 
-57. **Learning to Insert for Constructive Neural Vehicle Routing Solver** NeurIPS, 2025. [paper](https://openreview.net/forum?id=SXr3Dynctm), [code](https://github.com/CIAM-Group/L2C_Insert)
+58. **Learning to Insert for Constructive Neural Vehicle Routing Solver** NeurIPS, 2025. [paper](https://openreview.net/forum?id=SXr3Dynctm), [code](https://github.com/CIAM-Group/L2C_Insert)
 
     *Fu Luo, Xi Lin, Mengyuan Zhong, Fei Liu, Zhenkun Wang, Jianyong Sun, Qingfu Zhang*
 
-58. **MTL-KD: Multi-Task Learning Via Knowledge Distillation for Generalizable Neural Vehicle Routing Solver** NeurIPS, 2025. [paper](https://openreview.net/forum?id=rlH3e7VlY8)
+59. **MTL-KD: Multi-Task Learning Via Knowledge Distillation for Generalizable Neural Vehicle Routing Solver** NeurIPS, 2025. [paper](https://openreview.net/forum?id=rlH3e7VlY8)
 
     *Yuepeng Zheng, Fu Luo, Zhenkun Wang, Yaoxin Wu, Yu Zhou*
 
-59. **Rethinking Light Decoder-based Solvers for Vehicle Routing Problems** ICLR, 2025. [paper](https://openreview.net/forum?id=4pRwkYpa2u), [code](https://github.com/ziweileonhuang/reld-nco)
+60. **Multi-Task Vehicle Routing Solver via Mixture of Specialized Experts under State-Decomposable MDP** NeurIPS, 2025. [paper](https://openreview.net/forum?id=ezSyZM6Lp7), [code](https://github.com/panyxy/moses_vrp)
+
+    *Yuxin Pan, Zhiguang Cao, Chengyang GU, Liu Liu, Peilin Zhao, Yize Chen, Fangzhen Lin*
+
+61. **Rethinking Light Decoder-based Solvers for Vehicle Routing Problems** ICLR, 2025. [paper](https://openreview.net/forum?id=4pRwkYpa2u), [code](https://github.com/ziweileonhuang/reld-nco)
 
     *Ziwei Huang, Jianan Zhou, Zhiguang Cao, Yixin Xu*
 
-60. **Adversarial Generative Flow Network for Solving Vehicle Routing Problems** ICLR, 2025. [paper](https://openreview.net/forum?id=tBom4xOW1H), [code](https://github.com/ZHANG-NI/AGFN)
+62. **Adversarial Generative Flow Network for Solving Vehicle Routing Problems** ICLR, 2025. [paper](https://openreview.net/forum?id=tBom4xOW1H), [code](https://github.com/ZHANG-NI/AGFN)
 
     *Ni Zhang, Jingfeng Yang, Zhiguang Cao, Xu Chi*
 
-61. **Generalizable Heuristic Generation Through LLMs with Meta-Optimization** ICLR, 2026. [paper](https://arxiv.org/abs/2505.20881), [code](https://github.com/yiding-s/MoH)
+63. **Generalizable Heuristic Generation Through LLMs with Meta-Optimization** ICLR, 2026. [paper](https://arxiv.org/abs/2505.20881), [code](https://github.com/yiding-s/MoH)
 
     *Yiding Shi, Jianan Zhou, Wen Song, Jieyi Bi, Yaoxin Wu, Zhiguang Cao, Jie Zhang*
 
-62. **DRAGON: LLM-Driven Decomposition and Reconstruction Agents for Large-Scale Combinatorial Optimization** AAMAS, 2026. [paper](https://arxiv.org/abs/2601.06502)
+64. **DRAGON: LLM-Driven Decomposition and Reconstruction Agents for Large-Scale Combinatorial Optimization** AAMAS, 2026. [paper](https://arxiv.org/abs/2601.06502)
 
     *Shengkai Chen, Zhiguang Cao, Jianan Zhou, Yaoxin Wu, Senthilnath Jayavelu, Zhuoyi Lin, Xiaoli Li, Shili Xiang*
 
-63. **Bridging Synthetic and Real Routing Problems via LLM-Guided Instance Generation and Progressive Adaptation** AAAI, 2026. [paper](https://arxiv.org/abs/2511.10233), [code](https://github.com/HenryZhu1029/EvoReal)
+65. **Bridging Synthetic and Real Routing Problems via LLM-Guided Instance Generation and Progressive Adaptation** AAAI, 2026. [paper](https://arxiv.org/abs/2511.10233), [code](https://github.com/HenryZhu1029/EvoReal)
 
     *Jianghan Zhu, Yaoxin Wu, Zhuoyi Lin, Zhengyuan Zhang, Haiyan Yin, Zhiguang Cao, Senthilnath Jayavelu, Xiaoli Li*
 
-64. **EoH-S: Evolution of Heuristic Set using LLMs for Automated Heuristic Design** AAAI, 2026. [paper](https://arxiv.org/abs/2508.03082), [code](https://github.com/FeiLiu36/EoH-S)
+66. **EoH-S: Evolution of Heuristic Set using LLMs for Automated Heuristic Design** AAAI, 2026. [paper](https://arxiv.org/abs/2508.03082), [code](https://github.com/FeiLiu36/EoH-S)
 
     *Fei Liu, Yilu Liu, Qingfu Zhang, Xialiang Tong, Mingxuan Yuan*
 
-65. **Refining Hybrid Genetic Search for CVRP via Reinforcement Learning-Finetuned LLM** ICLR, 2026. [paper](https://arxiv.org/abs/2510.11121), [code](https://github.com/zaodushi/RFTHGS)
+67. **Refining Hybrid Genetic Search for CVRP via Reinforcement Learning-Finetuned LLM** ICLR, 2026. [paper](https://arxiv.org/abs/2510.11121), [code](https://github.com/zaodushi/RFTHGS)
 
     *Rongjie Zhu, Cong Zhang, Zhiguang Cao*
 
-66. **RRNCO: Towards Real-World Routing with Neural Combinatorial Optimization** ICLR, 2026. [paper](https://arxiv.org/abs/2503.16159), [code](https://github.com/ai4co/real-routing-nco)
+68. **RRNCO: Towards Real-World Routing with Neural Combinatorial Optimization** ICLR, 2026. [paper](https://arxiv.org/abs/2503.16159), [code](https://github.com/ai4co/real-routing-nco)
 
     *Jiwoo Son, Zhikai Zhao, Federico Berto, Chuanbo Hua, Zhiguang Cao, Changhyun Kwon, Jinkyoo Park*
 
-67. **Chain-of-Context Learning: Dynamic Constraint Understanding for Multi-Task VRPs** ICLR, 2026. [paper](https://openreview.net/forum?id=AhE6aSlz5g), [code](https://github.com/gshuangchun/CCL-MTLVRP)
+69. **Chain-of-Context Learning: Dynamic Constraint Understanding for Multi-Task VRPs** ICLR, 2026. [paper](https://openreview.net/forum?id=AhE6aSlz5g), [code](https://github.com/gshuangchun/CCL-MTLVRP)
 
     *Shuangchun Gui, Suyu Liu, Xuehe Wang, Zhiguang Cao*
 
-68. **RADAR: Learning to Route with Asymmetry-aware Distance Representations** ICLR, 2026. [paper](https://openreview.net/forum?id=lWdxX5s9T1), [code](https://github.com/yihang0410/RADAR)
+70. **RADAR: Learning to Route with Asymmetry-aware Distance Representations** ICLR, 2026. [paper](https://openreview.net/forum?id=lWdxX5s9T1), [code](https://github.com/yihang0410/RADAR)
 
     *Hang Yi, Ziwei Huang, Yining Ma, Zhiguang Cao*
 
-69. **Combination-of-Experts with Knowledge Sharing for Cross-Task Vehicle Routing Problems** ICLR, 2026. [paper](https://openreview.net/forum?id=lHBs9mbgwp), [code](https://github.com/yuzikang0/CoEKS)
+71. **Combination-of-Experts with Knowledge Sharing for Cross-Task Vehicle Routing Problems** ICLR, 2026. [paper](https://openreview.net/forum?id=lHBs9mbgwp), [code](https://github.com/yuzikang0/CoEKS)
 
     *Zikang Yu, Jinbiao Chen, Jiahai Wang*
 
-70. **An Agentic Framework with LLMs for Solving Complex Vehicle Routing Problems** ICLR, 2026. [paper](https://openreview.net/forum?id=BMOgYw4EhQ), [code](https://github.com/ZHANG-NI/AFL)
+72. **An Agentic Framework with LLMs for Solving Complex Vehicle Routing Problems** ICLR, 2026. [paper](https://openreview.net/forum?id=BMOgYw4EhQ), [code](https://github.com/ZHANG-NI/AFL)
 
     *Ni Zhang, Zhiguang Cao, Jianan Zhou, Cong Zhang, Yew-Soon Ong*
 
-71. **Learning to Segment for Vehicle Routing Problems** ICLR, 2026. [paper](https://arxiv.org/abs/2507.01037), [code](https://github.com/mit-wu-lab/learning-to-segment)
+73. **Learning to Segment for Vehicle Routing Problems** ICLR, 2026. [paper](https://arxiv.org/abs/2507.01037), [code](https://github.com/mit-wu-lab/learning-to-segment)
 
     *Wenbin Ouyang, Sirui Li, Yining Ma, Cathy Wu*
 
-72. **G-LNS: Generative Large Neighborhood Search for LLM-Based Automatic Heuristic Design** Arxiv, 2026. [paper](https://arxiv.org/abs/2602.08253), [code](https://github.com/ZBoyn/G-LNS)
+74. **G-LNS: Generative Large Neighborhood Search for LLM-Based Automatic Heuristic Design** Arxiv, 2026. [paper](https://arxiv.org/abs/2602.08253), [code](https://github.com/ZBoyn/G-LNS)
 
     *Baoyun Zhao, He Wang, Liang Zeng*
 
-73. **Beyond Simple Graphs: Neural Multi-Objective Routing on Multigraphs** ICLR, 2026. [paper](https://arxiv.org/abs/2506.22095), [code](https://github.com/filiprydin/GMS)
+75. **Beyond Simple Graphs: Neural Multi-Objective Routing on Multigraphs** ICLR, 2026. [paper](https://arxiv.org/abs/2506.22095), [code](https://github.com/filiprydin/GMS)
 
     *Filip Rydin, Attila Lischka, Jiaming Wu, Morteza Haghir Chehreghani, Balazs Kulcsar*
 
-74. **⭐MaskCO: Masked Generation Drives Effective Representation Learning and Exploiting for Combinatorial Optimization** ICLR, 2026. [paper](https://openreview.net/forum?id=psUjNnLhl9), [code](https://github.com/Thinklab-SJTU/MaskCO)
+76. **⭐MaskCO: Masked Generation Drives Effective Representation Learning and Exploiting for Combinatorial Optimization** ICLR, 2026. [paper](https://openreview.net/forum?id=psUjNnLhl9), [code](https://github.com/Thinklab-SJTU/MaskCO)
 
     *Lvda Chen, Yang Li, Junchi Yan*
 
-75. **Towards Efficient Constraint Handling in Neural Solvers for Routing Problems** ICLR, 2026. [paper](https://openreview.net/forum?id=raDFGuQxvD), [code](https://github.com/jieyibi/CaR-constraint)
+77. **Towards Efficient Constraint Handling in Neural Solvers for Routing Problems** ICLR, 2026. [paper](https://openreview.net/forum?id=raDFGuQxvD), [code](https://github.com/jieyibi/CaR-constraint)
 
     *Jieyi Bi, Zhiguang Cao, Jianan Zhou, Wen Song, Yaoxin Wu, Jie Zhang, Yining Ma, Cathy Wu*
 
-76. **⭐Native Adaptive Solution Expansion for Diffusion-based Combinatorial Optimization** ICLR, 2026. [paper](https://openreview.net/forum?id=084SvT55yk)
+78. **⭐Native Adaptive Solution Expansion for Diffusion-based Combinatorial Optimization** ICLR, 2026. [paper](https://openreview.net/forum?id=084SvT55yk)
 
     *Yu Wang, Yang Li, Jiale Ma, Junchi Yan, Yi Chang*
 
-77. **Multi-Action Self-Improvement for Neural Combinatorial Optimization** ICLR, 2026. [paper](https://arxiv.org/abs/2510.12273), [code](https://github.com/LTluttmann/macsim)
+79. **Multi-Action Self-Improvement for Neural Combinatorial Optimization** ICLR, 2026. [paper](https://arxiv.org/abs/2510.12273), [code](https://github.com/LTluttmann/macsim)
 
     *Laurin Luttmann, Lin Xie*
 
-78. **Multiagent Environments for Vehicle Routing Problems** INFORMS Journal on Computing, 2026. [paper](https://pubsonline.informs.org/doi/10.1287/ijoc.2025.1211), [code](https://github.com/MAEnvs4VRP/maenvs4vrp)
+80. **Multiagent Environments for Vehicle Routing Problems** INFORMS Journal on Computing, 2026. [paper](https://pubsonline.informs.org/doi/10.1287/ijoc.2025.1211), [code](https://github.com/MAEnvs4VRP/maenvs4vrp)
 
     *Ricardo Gama, Ricardo Cunha, Daniel Fuertes, Carlos R. del-Blanco, Hugo L. Fernandes*
 
-79. **LINC: Decoupling Local Consequence Scoring from Hidden Matching in Constructive Neural Routing** NeurIPS, 2026. [paper](https://arxiv.org/abs/2605.06332), [code](https://github.com/Elaina10172004/LINC)
+81. **PoMtVRS: Preference-Optimized Multi-Task Vehicle Routing Solver with Preference Gating** ICML, 2026. [paper](https://openreview.net/forum?id=vJsJPNRFIJ), [code](https://github.com/Regina921/PoMtVRS)
+
+    *Dian Meng, Yaoxin Wu, Yaqing Hou, Zhiguang Cao*
+
+82. **LINC: Decoupling Local Consequence Scoring from Hidden Matching in Constructive Neural Routing** NeurIPS, 2026. [paper](https://arxiv.org/abs/2605.06332), [code](https://github.com/Elaina10172004/LINC)
 
     *Shaofeng Qin, Li Wang*
 
-80. **⭐UECO: A Unified Encoder for Neural Combinatorial Optimization with Iterative Edge-Node Reasoning** NeurIPS (Oral), 2026. [paper](https://openreview.net/forum?id=M2lqt23VO7), [code](https://github.com/Thinklab-SJTU/UECO)
+83. **⭐UECO: A Unified Encoder for Neural Combinatorial Optimization with Iterative Edge-Node Reasoning** NeurIPS (Oral), 2026. [paper](https://openreview.net/forum?id=M2lqt23VO7), [code](https://github.com/Thinklab-SJTU/UECO)
 
     *Wenzheng Pan, Shuyi Yan, Nuoyan Chen, Yiyang Qu, Jiale Ma, Junchi Yan*
 
-81. **⭐CORectifier: Hierarchically Rectifying Policy Rollouts for Reinforcement Learning in Combinatorial Solvers** NeurIPS, 2026. [paper](https://openreview.net/forum?id=bpt10w03zk), [code](https://github.com/Thinklab-SJTU/CORectifier)
+84. **⭐CORectifier: Hierarchically Rectifying Policy Rollouts for Reinforcement Learning in Combinatorial Solvers** NeurIPS, 2026. [paper](https://openreview.net/forum?id=bpt10w03zk), [code](https://github.com/Thinklab-SJTU/CORectifier)
 
     *Wenzheng Pan, Nuoyan Chen, Jiaxi Liu, Jiale Ma, Junchi Yan*
+
+85. **⭐NLD4CO: Neural Langevin Dynamics for Combinatorial Optimization** NeurIPS (Spotlight), 2026. [paper](https://openreview.net/forum?id=mshiN8rReo), [code](https://github.com/Thinklab-SJTU/NLD4CO)
+
+    *Jiale Ma, Wenzheng Pan, Binghao Cai, Xihe Zhang, Junchi Yan*
 
 ### [Maximum Independent Set](#content)
 
@@ -1498,6 +1518,10 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 40. **⭐UECO: A Unified Encoder for Neural Combinatorial Optimization with Iterative Edge-Node Reasoning** NeurIPS (Oral), 2026. [paper](https://openreview.net/forum?id=M2lqt23VO7), [code](https://github.com/Thinklab-SJTU/UECO)
 
     *Wenzheng Pan, Shuyi Yan, Nuoyan Chen, Yiyang Qu, Jiale Ma, Junchi Yan*
+
+41. **⭐NLD4CO: Neural Langevin Dynamics for Combinatorial Optimization** NeurIPS (Spotlight), 2026. [paper](https://openreview.net/forum?id=mshiN8rReo), [code](https://github.com/Thinklab-SJTU/NLD4CO)
+
+    *Jiale Ma, Wenzheng Pan, Binghao Cai, Xihe Zhang, Junchi Yan*
 
 ### [Generalization](#content)
 
