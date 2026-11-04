@@ -611,7 +611,7 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 
 106. **⭐NLD4CO: Neural Langevin Dynamics for Combinatorial Optimization** NeurIPS (Spotlight), 2026. [paper](https://openreview.net/forum?id=mshiN8rReo), [code](https://github.com/Thinklab-SJTU/NLD4CO)
 
-    *Jiale Ma, Wenzheng Pan, Binghao Cai, Xihe Zhang, Junchi Yan*
+     *Jiale Ma, Wenzheng Pan, Binghao Cai, Xihe Zhang, Junchi Yan*
 
 ### [Job Shop Scheduling Problem](#content)
 
