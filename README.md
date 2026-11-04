@@ -1003,15 +1003,19 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 
     *Shengyu Feng, Yiming Yang*
 
-24. **Projecting Latent RL Actions: Towards Generalizable and Scalable Graph Combinatorial Optimization** Arxiv, 2026. [paper](https://arxiv.org/abs/2605.19721), [code](https://github.com/terranovafr/LaGCO-RL)
+24. **⭐Fractional Langevin Dynamics for Combinatorial Optimization via Polynomial-Time Escape** NeurIPS, 2025. [paper](https://openreview.net/forum?id=BZ0igCEeoU), [code](https://github.com/Thinklab-SJTU/FLD4CO)
+
+    *Shiyue Wang, Ziao Guo, Changhong Lu, Junchi Yan*
+
+25. **Projecting Latent RL Actions: Towards Generalizable and Scalable Graph Combinatorial Optimization** Arxiv, 2026. [paper](https://arxiv.org/abs/2605.19721), [code](https://github.com/terranovafr/LaGCO-RL)
 
     *Franco Terranova, Guillermo Bernardez, Albert Cabellos-Aparicio, Nina Miolane, Abdelkader Lahmadi*
 
-25. **⭐Problem Distributions as Tasks: Repurposing Meta Learning for Generative Combinatorial Optimization towards Multi-task Pretraining and Adaptation** ICML, 2026. [paper](https://openreview.net/forum?id=OfxgzjqzeA), [code](https://github.com/Thinklab-SJTU/M2GenCO)
+26. **⭐Problem Distributions as Tasks: Repurposing Meta Learning for Generative Combinatorial Optimization towards Multi-task Pretraining and Adaptation** ICML, 2026. [paper](https://openreview.net/forum?id=OfxgzjqzeA), [code](https://github.com/Thinklab-SJTU/M2GenCO)
 
     *Wenzheng Pan, Jiale Ma, Nuoyan Chen, Yang Li, Junchi Yan*
 
-26. **⭐UECO: A Unified Encoder for Neural Combinatorial Optimization with Iterative Edge-Node Reasoning** NeurIPS (Oral), 2026. [paper](https://openreview.net/forum?id=M2lqt23VO7), [code](https://github.com/Thinklab-SJTU/UECO)
+27. **⭐UECO: A Unified Encoder for Neural Combinatorial Optimization with Iterative Edge-Node Reasoning** NeurIPS (Oral), 2026. [paper](https://openreview.net/forum?id=M2lqt23VO7), [code](https://github.com/Thinklab-SJTU/UECO)
 
     *Wenzheng Pan, Shuyi Yan, Nuoyan Chen, Yiyang Qu, Jiale Ma, Junchi Yan*
 
@@ -1495,31 +1499,35 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 
     *Nikolaos Karalias, Akbar Rafiey, Yifei Xu, Zhishang Luo, Behrooz Tahmasebi, Connie Jiang, Stefanie Jegelka*
 
-35. **⭐MaskCO: Masked Generation Drives Effective Representation Learning and Exploiting for Combinatorial Optimization** ICLR, 2026. [paper](https://openreview.net/forum?id=psUjNnLhl9), [code](https://github.com/Thinklab-SJTU/MaskCO)
+35. **⭐Fractional Langevin Dynamics for Combinatorial Optimization via Polynomial-Time Escape** NeurIPS, 2025. [paper](https://openreview.net/forum?id=BZ0igCEeoU), [code](https://github.com/Thinklab-SJTU/FLD4CO)
+
+    *Shiyue Wang, Ziao Guo, Changhong Lu, Junchi Yan*
+
+36. **⭐MaskCO: Masked Generation Drives Effective Representation Learning and Exploiting for Combinatorial Optimization** ICLR, 2026. [paper](https://openreview.net/forum?id=psUjNnLhl9), [code](https://github.com/Thinklab-SJTU/MaskCO)
 
     *Lvda Chen, Yang Li, Junchi Yan*
 
-36. **⭐ConRep4CO: Contrastive Representation Learning of Combinatorial Optimization Instances across Types** ICLR, 2026. [paper](https://openreview.net/forum?id=OXRnvOOiAf), [code](https://github.com/Thinklab-SJTU/ConRep4CO)
+37. **⭐ConRep4CO: Contrastive Representation Learning of Combinatorial Optimization Instances across Types** ICLR, 2026. [paper](https://openreview.net/forum?id=OXRnvOOiAf), [code](https://github.com/Thinklab-SJTU/ConRep4CO)
 
     *Ziao Guo, Yang Li, Shiyue Wang, Junchi Yan*
 
-37. **⭐Native Adaptive Solution Expansion for Diffusion-based Combinatorial Optimization** ICLR, 2026. [paper](https://openreview.net/forum?id=084SvT55yk)
+38. **⭐Native Adaptive Solution Expansion for Diffusion-based Combinatorial Optimization** ICLR, 2026. [paper](https://openreview.net/forum?id=084SvT55yk)
 
     *Yu Wang, Yang Li, Jiale Ma, Junchi Yan, Yi Chang*
 
-38. **FrontierCO: Real-World and Large-Scale Evaluation of Machine Learning Solvers for Combinatorial Optimization** ICLR, 2026. [paper](https://openreview.net/forum?id=BVprkacwFY), [code](https://github.com/sunnweiwei/FrontierCO)
+39. **FrontierCO: Real-World and Large-Scale Evaluation of Machine Learning Solvers for Combinatorial Optimization** ICLR, 2026. [paper](https://openreview.net/forum?id=BVprkacwFY), [code](https://github.com/sunnweiwei/FrontierCO)
 
     *Shengyu Feng, Weiwei Sun, Shanda Li, Ameet Talwalkar, Yiming Yang*
 
-39. **⭐Problem Distributions as Tasks: Repurposing Meta Learning for Generative Combinatorial Optimization towards Multi-task Pretraining and Adaptation** ICML, 2026. [paper](https://openreview.net/forum?id=OfxgzjqzeA), [code](https://github.com/Thinklab-SJTU/M2GenCO)
+40. **⭐Problem Distributions as Tasks: Repurposing Meta Learning for Generative Combinatorial Optimization towards Multi-task Pretraining and Adaptation** ICML, 2026. [paper](https://openreview.net/forum?id=OfxgzjqzeA), [code](https://github.com/Thinklab-SJTU/M2GenCO)
 
     *Wenzheng Pan, Jiale Ma, Nuoyan Chen, Yang Li, Junchi Yan*
 
-40. **⭐UECO: A Unified Encoder for Neural Combinatorial Optimization with Iterative Edge-Node Reasoning** NeurIPS (Oral), 2026. [paper](https://openreview.net/forum?id=M2lqt23VO7), [code](https://github.com/Thinklab-SJTU/UECO)
+41. **⭐UECO: A Unified Encoder for Neural Combinatorial Optimization with Iterative Edge-Node Reasoning** NeurIPS (Oral), 2026. [paper](https://openreview.net/forum?id=M2lqt23VO7), [code](https://github.com/Thinklab-SJTU/UECO)
 
     *Wenzheng Pan, Shuyi Yan, Nuoyan Chen, Yiyang Qu, Jiale Ma, Junchi Yan*
 
-41. **⭐NLD4CO: Neural Langevin Dynamics for Combinatorial Optimization** NeurIPS (Spotlight), 2026. [paper](https://openreview.net/forum?id=mshiN8rReo), [code](https://github.com/Thinklab-SJTU/NLD4CO)
+42. **⭐NLD4CO: Neural Langevin Dynamics for Combinatorial Optimization** NeurIPS (Spotlight), 2026. [paper](https://openreview.net/forum?id=mshiN8rReo), [code](https://github.com/Thinklab-SJTU/NLD4CO)
 
     *Jiale Ma, Wenzheng Pan, Binghao Cai, Xihe Zhang, Junchi Yan*
 
@@ -2071,15 +2079,19 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 
     *Shengyu Feng, Yiming Yang*
 
-11. **⭐ConRep4CO: Contrastive Representation Learning of Combinatorial Optimization Instances across Types** ICLR, 2026. [paper](https://openreview.net/forum?id=OXRnvOOiAf), [code](https://github.com/Thinklab-SJTU/ConRep4CO)
+11. **⭐Fractional Langevin Dynamics for Combinatorial Optimization via Polynomial-Time Escape** NeurIPS, 2025. [paper](https://openreview.net/forum?id=BZ0igCEeoU), [code](https://github.com/Thinklab-SJTU/FLD4CO)
+
+    *Shiyue Wang, Ziao Guo, Changhong Lu, Junchi Yan*
+
+12. **⭐ConRep4CO: Contrastive Representation Learning of Combinatorial Optimization Instances across Types** ICLR, 2026. [paper](https://openreview.net/forum?id=OXRnvOOiAf), [code](https://github.com/Thinklab-SJTU/ConRep4CO)
 
     *Ziao Guo, Yang Li, Shiyue Wang, Junchi Yan*
 
-12. **⭐Problem Distributions as Tasks: Repurposing Meta Learning for Generative Combinatorial Optimization towards Multi-task Pretraining and Adaptation** ICML, 2026. [paper](https://openreview.net/forum?id=OfxgzjqzeA), [code](https://github.com/Thinklab-SJTU/M2GenCO)
+13. **⭐Problem Distributions as Tasks: Repurposing Meta Learning for Generative Combinatorial Optimization towards Multi-task Pretraining and Adaptation** ICML, 2026. [paper](https://openreview.net/forum?id=OfxgzjqzeA), [code](https://github.com/Thinklab-SJTU/M2GenCO)
 
     *Wenzheng Pan, Jiale Ma, Nuoyan Chen, Yang Li, Junchi Yan*
 
-13. **⭐UECO: A Unified Encoder for Neural Combinatorial Optimization with Iterative Edge-Node Reasoning** NeurIPS (Oral), 2026. [paper](https://openreview.net/forum?id=M2lqt23VO7), [code](https://github.com/Thinklab-SJTU/UECO)
+14. **⭐UECO: A Unified Encoder for Neural Combinatorial Optimization with Iterative Edge-Node Reasoning** NeurIPS (Oral), 2026. [paper](https://openreview.net/forum?id=M2lqt23VO7), [code](https://github.com/Thinklab-SJTU/UECO)
 
     *Wenzheng Pan, Shuyi Yan, Nuoyan Chen, Yiyang Qu, Jiale Ma, Junchi Yan*
 
