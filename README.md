@@ -1817,6 +1817,10 @@ We mark work contributed by [Thinklab](http://thinklab.sjtu.edu.cn) with ⭐.
 
     *Franco Terranova, Guillermo Bernardez, Albert Cabellos-Aparicio, Nina Miolane, Abdelkader Lahmadi*
 
+8. **GraphAllocBench: A Flexible Benchmark for Preference-Conditioned Multi-Objective Policy Learning** Arxiv, 2026. [paper](https://arxiv.org/abs/2601.20753), [code](https://github.com/jzh001/GraphAllocBench)
+
+    *Zhiheng Jiang, Yunzhe Wang, Ryan Marr, Ellen Novoseller, Benjamin T. Files, Volkan Ustun*
+
 ### [Bin Packing Problem](#content)
 
 1. **Small Boxes Big Data: A Deep Learning Approach to Optimize Variable Sized Bin Packing** BigDataService, 2017. [paper](https://ieeexplore.ieee.org/abstract/document/7944923/?casa_token=mRzI_XBy3ycAAAAA:yD9Le2KBNq1TMpW_1etb0RF-oFVcLJj9Up0Z2qI6XJmA-UffxxSZRIx7RklaQED-yXwuwBC4M_w)
